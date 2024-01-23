@@ -37,6 +37,7 @@ def execute_to_df(name: str, **vars) -> DataFrame:
     """ Builds the sparql and executes, returning the result as a dataframe.
     """
     sparql = generate_sparql(name, **vars)
+    print(sparql)
     result: QueryResult = KGSOURCE.query(sparql)
     return result.to_dataframe()
 
@@ -116,7 +117,7 @@ def make_pykg2tbl_files(collections, begin_date, end_date):
                 os.system(f"python -m pysubyt \
                         -v this_fragment_delta \"{str(this_delta_quoted)}\" \
                         -v next_fragment_delta \"{str(next_delta_quoted)}\" \
-                        -v retention_period \"{str(retention_period)}\" \
+                        -v collection \"{str(collection)}\" \
                         -t ./pysubyt \
                         -s qres " + str(json_file_loc) +" \
                         -n ldes_fragment.ttl \
@@ -125,7 +126,7 @@ def make_pykg2tbl_files(collections, begin_date, end_date):
             else:
                 os.system(f"python -m pysubyt \
                         -v this_fragment_delta \"{str(this_delta_quoted)}\" \
-                        -v retention_period \"{str(retention_period)}\" \
+                        -v collection \"{str(collection)}\" \
                         -t ./pysubyt \
                         -s qres " + str(json_file_loc) +" \
                         -n ldes_fragment.ttl \

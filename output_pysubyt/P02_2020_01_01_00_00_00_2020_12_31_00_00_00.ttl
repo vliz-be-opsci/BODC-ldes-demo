@@ -1,0 +1,73 @@
+
+@prefix tree: <https://w3id.org/tree#> .
+@prefix ldes: <https://w3id.org/ldes#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+
+<http://vocab.nerc.ac.uk/ldes/P02/2020-01-01%2000%3A00%3A00_2020-12-31%2000%3A00%3A00>
+    a tree:Node ;
+    
+    tree:relation [ tree:node <http://vocab.nerc.ac.uk/ldes/P02/2019-12-31%2000%3A00%3A00_2020-01-01%2000%3A00%3A00> ] ;
+    
+    ldes:retentionPolicy [
+        a ldes:LatestVersionSubset ;
+        ldes:amount 1 ;
+        ldes:versionKey ( dc:isVersionOf )
+    ] .
+
+<http://vocab.nerc.ac.uk/ldes/P02>
+  a ldes:EventStream ;
+  tree:shape [
+    a sh:NodeShape ;
+    sh:nodeKind sh:IRI ;
+    sh:property [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path dc:isVersionOf
+    ],
+    [
+      sh:datatype xsd:dateTime ;
+      sh:minCount 1 ;
+      sh:path dc:modified
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:altLabel
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:definition
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:notation
+    ];
+    sh:targetClass skos:Concept
+  ] ;
+  tree:view <http://vocab.nerc.ac.uk/ldes/P02/2020-01-01%2000%3A00%3A00_2020-12-31%2000%3A00%3A00> ;
+  .
+
+<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/MTSD/3/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/MTSD/3/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/MTSD/".
+<http://vocab.nerc.ac.uk/collection/P02/current/MTSD/>
+    dcat:modified "2020-10-20 15:00:08.0"^^xsd:dateTime ;
+    skos:altLabel "Met_Sed" ;
+    skos:definition "Concentrations of metal elements per unit weight of sediment.  Sediment is understood to be the solid phase of the bed, including the recently settled material sometimes known as fluff collected from the bed surface." ;
+    skos:notation "SDN:P02::MTSD" .
+<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/GP013/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/GP013/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/GP013/".
+<http://vocab.nerc.ac.uk/collection/P02/current/GP013/>
+    dcat:modified "2020-10-17 20:07:47.0"^^xsd:dateTime ;
+    skos:altLabel "CoralHealth" ;
+    skos:definition "Parameters related to the health and conservation status of coral species and coralligenous habitats." ;
+    skos:notation "SDN:P02::GP013" .

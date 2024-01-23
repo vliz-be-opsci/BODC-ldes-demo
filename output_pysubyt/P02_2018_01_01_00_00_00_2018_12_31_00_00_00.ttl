@@ -1,0 +1,154 @@
+
+@prefix tree: <https://w3id.org/tree#> .
+@prefix ldes: <https://w3id.org/ldes#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+
+<http://vocab.nerc.ac.uk/ldes/P02/2018-01-01%2000%3A00%3A00_2018-12-31%2000%3A00%3A00>
+    a tree:Node ;
+    
+    tree:relation [ tree:node <http://vocab.nerc.ac.uk/ldes/P02/2017-12-31%2000%3A00%3A00_2018-01-01%2000%3A00%3A00> ] ;
+    
+    ldes:retentionPolicy [
+        a ldes:LatestVersionSubset ;
+        ldes:amount 1 ;
+        ldes:versionKey ( dc:isVersionOf )
+    ] .
+
+<http://vocab.nerc.ac.uk/ldes/P02>
+  a ldes:EventStream ;
+  tree:shape [
+    a sh:NodeShape ;
+    sh:nodeKind sh:IRI ;
+    sh:property [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path dc:isVersionOf
+    ],
+    [
+      sh:datatype xsd:dateTime ;
+      sh:minCount 1 ;
+      sh:path dc:modified
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:altLabel
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:definition
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:notation
+    ];
+    sh:targetClass skos:Concept
+  ] ;
+  tree:view <http://vocab.nerc.ac.uk/ldes/P02/2018-01-01%2000%3A00%3A00_2018-12-31%2000%3A00%3A00> ;
+  .
+
+<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SAMP/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/SAMP/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/SAMP/".
+<http://vocab.nerc.ac.uk/collection/P02/current/SAMP/>
+    dcat:modified "2018-12-11 13:04:28.0"^^xsd:dateTime ;
+    skos:altLabel "SamplingParams" ;
+    skos:definition "Qualitative and quantitative parameters related to the sampling activity; includes terms related to sampling effort, sampling gears, sample processing." ;
+    skos:notation "SDN:P02::SAMP" .
+<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/LITT/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/LITT/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/LITT/".
+<http://vocab.nerc.ac.uk/collection/P02/current/LITT/>
+    dcat:modified "2018-09-06 11:49:23.0"^^xsd:dateTime ;
+    skos:altLabel "Litter" ;
+    skos:definition "Parameters describing the abundance and nature of material classed as refuse introduced to the environment by activities of man that are not covered by the more specific P02 terms for micro-litter (UMLS and UMLW), beach litter (BLIT) or seafloor litter (SLIT)." ;
+    skos:notation "SDN:P02::LITT" .
+<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SLIT/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/SLIT/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/SLIT/".
+<http://vocab.nerc.ac.uk/collection/P02/current/SLIT/>
+    dcat:modified "2018-09-06 11:48:34.0"^^xsd:dateTime ;
+    skos:altLabel "SeaFloorLitter" ;
+    skos:definition "Parameters describing the abundance and nature of litter data collected on the seabed." ;
+    skos:notation "SDN:P02::SLIT" .
+<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/BLIT/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/BLIT/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/BLIT/".
+<http://vocab.nerc.ac.uk/collection/P02/current/BLIT/>
+    dcat:modified "2018-09-06 11:45:25.0"^^xsd:dateTime ;
+    skos:altLabel "BeachLitter" ;
+    skos:definition "Parameters describing the abundance and nature of debris released on coastlines." ;
+    skos:notation "SDN:P02::BLIT" .
+<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/D001/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/D001/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/D001/".
+<http://vocab.nerc.ac.uk/collection/P02/current/D001/>
+    dcat:modified "2018-04-04 11:42:45.0"^^xsd:dateTime ;
+    skos:altLabel "Sed_MicroPhytoBiomass" ;
+    skos:definition "Any quantification of the mass (e.g. carbon, nitrogen, weight) of microalgae present on hard substrate or soft sediment at the bottom of any body of fresh or salt water." ;
+    skos:notation "SDN:P02::D001" .
+<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/FATM/6/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/FATM/6/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/FATM/".
+<http://vocab.nerc.ac.uk/collection/P02/current/FATM/>
+    dcat:modified "2018-02-12 14:04:58.0"^^xsd:dateTime ;
+    skos:altLabel "Fish_MorphAgePhys" ;
+    skos:definition "Parameters that quantify the size, shape, age and life processes (including mortality) of fish (Osteichthyes, Agnatha and Chrondrichthyes)." ;
+    skos:notation "SDN:P02::FATM" .
+<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/FATX/5/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/FATX/5/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/FATX/".
+<http://vocab.nerc.ac.uk/collection/P02/current/FATX/>
+    dcat:modified "2018-02-12 14:04:58.0"^^xsd:dateTime ;
+    skos:altLabel "Fish_abund" ;
+    skos:definition "Parameters that quantify the numbers of fish (Osteichthyes, Agnatha and Chrondrichthyes) at a given location in any body of salt or fresh water." ;
+    skos:notation "SDN:P02::FATX" .
+<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SABB/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/SABB/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/SABB/".
+<http://vocab.nerc.ac.uk/collection/P02/current/SABB/>
+    dcat:modified "2018-02-12 14:04:58.0"^^xsd:dateTime ;
+    skos:altLabel "Sfish_AbundBiom" ;
+    skos:definition "Parameters that quantify the numbers or amount of living material of shellfish (molluscs - including cephalopods - and crustaceans of interest to fisheries research and commercial fisheries) in any body of fresh or salt water." ;
+    skos:notation "SDN:P02::SABB" .
+<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SATM/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/SATM/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/SATM/".
+<http://vocab.nerc.ac.uk/collection/P02/current/SATM/>
+    dcat:modified "2018-02-12 14:04:58.0"^^xsd:dateTime ;
+    skos:altLabel "Sfish_MorphAgePhys" ;
+    skos:definition "Parameters that quantify the size, shape, age and life processes (including mortality) of shellfish (molluscs - including cephalopods - and crustaceans of interest to fisheries research and commercial fisheries)." ;
+    skos:notation "SDN:P02::SATM" .
+<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SREP/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/SREP/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/SREP/".
+<http://vocab.nerc.ac.uk/collection/P02/current/SREP/>
+    dcat:modified "2018-02-12 14:04:58.0"^^xsd:dateTime ;
+    skos:altLabel "Sfish_Rep" ;
+    skos:definition "Parameters that quantify the fecundity, reproductive rates or nature of reproduction in shellfish (molluscs - including cephalopods - and crustaceans of interest to fisheries research and commercial fisheries)." ;
+    skos:notation "SDN:P02::SREP" .
+<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/FCMW/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/FCMW/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/FCMW/".
+<http://vocab.nerc.ac.uk/collection/P02/current/FCMW/>
+    dcat:modified "2018-01-11 12:13:10.0"^^xsd:dateTime ;
+    skos:altLabel "FCM_water" ;
+    skos:definition "Parameters derived from flow cytometry data analysis of water samples using in situ or bench-top flow cytometers." ;
+    skos:notation "SDN:P02::FCMW" .
