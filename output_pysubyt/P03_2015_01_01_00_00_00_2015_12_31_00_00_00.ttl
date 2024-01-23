@@ -14,7 +14,7 @@
     
     ldes:retentionPolicy [
         a ldes:LatestVersionSubset ;
-        ldes:amount 1 ;
+        ldes:amount 15 ;
         ldes:versionKey ( dc:isVersionOf )
     ] .
 
@@ -62,3 +62,4 @@
     skos:altLabel "" ;
     skos:definition "Parameters related to autotrophic organisms smaller than 200 microns that are free-floating in water bodies, live in sediment or on the seabed." ;
     skos:notation "SDN:P03::B030" .
+    

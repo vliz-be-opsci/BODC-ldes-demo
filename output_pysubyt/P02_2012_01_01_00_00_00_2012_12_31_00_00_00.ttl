@@ -12,7 +12,7 @@
     
     ldes:retentionPolicy [
         a ldes:LatestVersionSubset ;
-        ldes:amount 1 ;
+        ldes:amount 15 ;
         ldes:versionKey ( dc:isVersionOf )
     ] .
 
@@ -60,6 +60,7 @@
     skos:altLabel "AdminUnit" ;
     skos:definition "Parameters (including geometries, labels and categorizations) relating to areas where authorities have and-or excercise specific rights or obligations." ;
     skos:notation "SDN:P02::ADUN" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/AASD/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/AASD/2/>
     a skos:Concept ;
@@ -69,6 +70,7 @@
     skos:altLabel "SedAlkenoneAlkenoate" ;
     skos:definition "Parameters quantifying the amount of alkenones (unsaturated aliphatic ketones) and alkenoates (carboxylic acid esters) in any unconsolidated sediment including fluff." ;
     skos:notation "SDN:P02::AASD" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SALK/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/SALK/2/>
     a skos:Concept ;
@@ -78,6 +80,7 @@
     skos:altLabel "Sed_AliphaticHC" ;
     skos:definition "Aliphatic hydrocarbon (alkane, alkene, alkyne, polycyclic aliphatics like hopane, terpenes etc.)  concentrations in sediment, which is considered to be anything from the bed sampled by a grab or corer, including 'fluff'" ;
     skos:notation "SDN:P02::SALK" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/TOCH/3/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/TOCH/3/>
     a skos:Concept ;
@@ -87,6 +90,7 @@
     skos:altLabel "CarbPhenolAlkanolAldKetWater" ;
     skos:definition "Concentrations of carbohydrates, phenols, alkanols (alcohols), aldehydes and simple (non-alkenone) ketones in all phases of any body of fresh or salt water" ;
     skos:notation "SDN:P02::TOCH" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/CASD/5/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/CASD/5/>
     a skos:Concept ;
@@ -96,6 +100,7 @@
     skos:altLabel "CarbPhenolAlkanolEtherAldKetSed" ;
     skos:definition "Concentrations of carbohydrates, phenols, alkanols (alcohols), ethers,aldehydes and simple (non-alkenone) ketones in unlithified sediment (material collected by a corer including fluff)." ;
     skos:notation "SDN:P02::CASD" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/A01X/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/A01X/2/>
     a skos:Concept ;
@@ -105,6 +110,7 @@
     skos:altLabel "WC_SedFluxAlkeno" ;
     skos:definition "Parameters quantifying the rate of alkenones (unsaturated aliphatic ketones) and alkenoates (carboxylic acid esters) sinking as particles through any body of water." ;
     skos:notation "SDN:P02::A01X" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/CAKN/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/CAKN/2/>
     a skos:Concept ;
@@ -114,6 +120,7 @@
     skos:altLabel "Akenone+alkenoate_WC" ;
     skos:definition "Concentrations of alkenones (unsaturated aliphatic ketones) and alkenoates (carboxylic acid esters) in all phases of the water column." ;
     skos:notation "SDN:P02::CAKN" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/LIBI/3/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/LIBI/3/>
     a skos:Concept ;
@@ -123,6 +130,7 @@
     skos:altLabel "Lipid_Biota" ;
     skos:definition "Lipids are defined as small water-insoluble biomolecules including fats, fatty acids, esters, sterols, isoprenoid compounds, etc..  Biota includes any type of sample originating from a living organism." ;
     skos:notation "SDN:P02::LIBI" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/CD10/4/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/CD10/4/>
     a skos:Concept ;
@@ -132,6 +140,7 @@
     skos:altLabel "Sed_Lipids" ;
     skos:definition "Lipids are defined as small water-insoluble biomolecules including fats, fatty acids, esters, sterols, isoprenoid compounds, etc..  Sediment is defined as material collected by a corer (including fluff)." ;
     skos:notation "SDN:P02::CD10" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/F001/4/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/F001/4/>
     a skos:Concept ;
@@ -141,6 +150,7 @@
     skos:altLabel "WC_Lipids" ;
     skos:definition "Lipids are defined as small water-insoluble biomolecules including fats, fatty acids, esters, sterols, isoprenoid compounds, etc..  Water body includes any body of fresh or salt water. As lipids are insoluble in water the concencentrations are associated with the particulate phase." ;
     skos:notation "SDN:P02::F001" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/WBRX/1/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/WBRX/1/>
     a skos:Concept ;
@@ -150,3 +160,4 @@
     skos:altLabel "RC_redox" ;
     skos:definition "A measure of the tendency of any body of fresh or salt water to either gain or lose electrons when it is subject to change by introduction of a new species." ;
     skos:notation "SDN:P02::WBRX" .
+    

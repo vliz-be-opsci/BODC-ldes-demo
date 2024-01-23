@@ -14,7 +14,7 @@
     
     ldes:retentionPolicy [
         a ldes:LatestVersionSubset ;
-        ldes:amount 1 ;
+        ldes:amount 15 ;
         ldes:versionKey ( dc:isVersionOf )
     ] .
 
@@ -62,6 +62,7 @@
     skos:altLabel "SamplingParams" ;
     skos:definition "Qualitative and quantitative parameters related to the sampling activity; includes terms related to sampling effort, sampling gears, sample processing." ;
     skos:notation "SDN:P02::SAMP" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/LITT/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/LITT/2/>
     a skos:Concept ;
@@ -71,6 +72,7 @@
     skos:altLabel "Litter" ;
     skos:definition "Parameters describing the abundance and nature of material classed as refuse introduced to the environment by activities of man that are not covered by the more specific P02 terms for micro-litter (UMLS and UMLW), beach litter (BLIT) or seafloor litter (SLIT)." ;
     skos:notation "SDN:P02::LITT" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SLIT/1/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/SLIT/1/>
     a skos:Concept ;
@@ -80,6 +82,7 @@
     skos:altLabel "SeaFloorLitter" ;
     skos:definition "Parameters describing the abundance and nature of litter data collected on the seabed." ;
     skos:notation "SDN:P02::SLIT" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/BLIT/1/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/BLIT/1/>
     a skos:Concept ;
@@ -89,6 +92,7 @@
     skos:altLabel "BeachLitter" ;
     skos:definition "Parameters describing the abundance and nature of debris released on coastlines." ;
     skos:notation "SDN:P02::BLIT" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/D001/1/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/D001/1/>
     a skos:Concept ;
@@ -98,6 +102,7 @@
     skos:altLabel "Sed_MicroPhytoBiomass" ;
     skos:definition "Any quantification of the mass (e.g. carbon, nitrogen, weight) of microalgae present on hard substrate or soft sediment at the bottom of any body of fresh or salt water." ;
     skos:notation "SDN:P02::D001" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/FATM/6/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/FATM/6/>
     a skos:Concept ;
@@ -107,6 +112,7 @@
     skos:altLabel "Fish_MorphAgePhys" ;
     skos:definition "Parameters that quantify the size, shape, age and life processes (including mortality) of fish (Osteichthyes, Agnatha and Chrondrichthyes)." ;
     skos:notation "SDN:P02::FATM" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/FATX/5/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/FATX/5/>
     a skos:Concept ;
@@ -116,6 +122,7 @@
     skos:altLabel "Fish_abund" ;
     skos:definition "Parameters that quantify the numbers of fish (Osteichthyes, Agnatha and Chrondrichthyes) at a given location in any body of salt or fresh water." ;
     skos:notation "SDN:P02::FATX" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SABB/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/SABB/2/>
     a skos:Concept ;
@@ -125,6 +132,7 @@
     skos:altLabel "Sfish_AbundBiom" ;
     skos:definition "Parameters that quantify the numbers or amount of living material of shellfish (molluscs - including cephalopods - and crustaceans of interest to fisheries research and commercial fisheries) in any body of fresh or salt water." ;
     skos:notation "SDN:P02::SABB" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SATM/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/SATM/2/>
     a skos:Concept ;
@@ -134,6 +142,7 @@
     skos:altLabel "Sfish_MorphAgePhys" ;
     skos:definition "Parameters that quantify the size, shape, age and life processes (including mortality) of shellfish (molluscs - including cephalopods - and crustaceans of interest to fisheries research and commercial fisheries)." ;
     skos:notation "SDN:P02::SATM" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SREP/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/SREP/2/>
     a skos:Concept ;
@@ -143,6 +152,7 @@
     skos:altLabel "Sfish_Rep" ;
     skos:definition "Parameters that quantify the fecundity, reproductive rates or nature of reproduction in shellfish (molluscs - including cephalopods - and crustaceans of interest to fisheries research and commercial fisheries)." ;
     skos:notation "SDN:P02::SREP" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/FCMW/1/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/FCMW/1/>
     a skos:Concept ;
@@ -152,3 +162,4 @@
     skos:altLabel "FCM_water" ;
     skos:definition "Parameters derived from flow cytometry data analysis of water samples using in situ or bench-top flow cytometers." ;
     skos:notation "SDN:P02::FCMW" .
+    

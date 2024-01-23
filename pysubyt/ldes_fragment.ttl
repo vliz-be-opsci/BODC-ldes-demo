@@ -21,7 +21,7 @@ ldes fragment template
     {% endif %}
     ldes:retentionPolicy [
         a ldes:LatestVersionSubset ;
-        ldes:amount 1 ;
+        ldes:amount 15 ;
         ldes:versionKey ( dc:isVersionOf )
     ] .
 
@@ -70,4 +70,5 @@ ldes fragment template
     skos:altLabel "{{result.altlabel}}" ;
     skos:definition "{{result.definition}}" ;
     skos:notation "{{result.notation}}" .
+    
 {% endfor %}

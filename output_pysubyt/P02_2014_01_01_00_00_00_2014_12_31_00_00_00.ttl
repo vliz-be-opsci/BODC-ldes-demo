@@ -14,7 +14,7 @@
     
     ldes:retentionPolicy [
         a ldes:LatestVersionSubset ;
-        ldes:amount 1 ;
+        ldes:amount 15 ;
         ldes:versionKey ( dc:isVersionOf )
     ] .
 
@@ -62,6 +62,7 @@
     skos:altLabel "ExpStateVar" ;
     skos:definition "Measurements made at a given time of any state variable in a sample that is the subject of an experiment that will change the composition over time, such as the water sample in an incubation experiment." ;
     skos:notation "SDN:P02::EXSV" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ZFIT/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/ZFIT/2/>
     a skos:Concept ;
@@ -71,6 +72,7 @@
     skos:altLabel "ZooPhysioCondition" ;
     skos:definition "Parameters indicating the health of zooplankton and zoobenthos taxa, such as fecundity, egg condition, presence of parasites/diseases etc." ;
     skos:notation "SDN:P02::ZFIT" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/EWSB/3/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/EWSB/3/>
     a skos:Concept ;
@@ -80,6 +82,7 @@
     skos:altLabel "WindStrenDir" ;
     skos:definition "Parameters quantifying the extent or direction of atmospheric movement. Obvious examples are wind velocity, windspeed and wind direction, but can also include derived parameters such as force, energy, power and power density." ;
     skos:notation "SDN:P02::EWSB" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/FEFF/1/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/FEFF/1/>
     a skos:Concept ;
@@ -89,6 +92,7 @@
     skos:altLabel "FishEffort" ;
     skos:definition "Parameters that quantify or classify the physical or financial resources used in fishing activities" ;
     skos:notation "SDN:P02::FEFF" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/BRDA/4/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/BRDA/4/>
     a skos:Concept ;
@@ -98,6 +102,7 @@
     skos:altLabel "Bird_count" ;
     skos:definition "Parameters quantifying the number of birds (Class Aves) in a survey but not expressed per unit area. Includes presence/absence indicators." ;
     skos:notation "SDN:P02::BRDA" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SDNA/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/SDNA/2/>
     a skos:Concept ;
@@ -107,6 +112,7 @@
     skos:altLabel "Biolpoly_sed" ;
     skos:definition "Parameters quantifying the amount of naturally-produced organic (molecules containing carbon) compounds that are built from multiple instances of structural units (monomers) that are covalently-bonded to produce larger structures in any sediment (material collected by a corer including fluff). Includes polynucleotides (RNA and DNA), polypeptides and polysaccharides (e.g. cellulose)." ;
     skos:notation "SDN:P02::SDNA" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/WDNA/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/WDNA/2/>
     a skos:Concept ;
@@ -116,6 +122,7 @@
     skos:altLabel "Biolpoly_water" ;
     skos:definition "Parameters quantifying the amount of naturally-produced organic (molecules containing carbon) compounds that are built from multiple instances of structural units (monomers) that are covalently-bonded to produce larger structures in any body of salt or fresh water. Includes polynucleotides (RNA and DNA), polypeptides and polysaccharides (e.g. cellulose)." ;
     skos:notation "SDN:P02::WDNA" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/TVLT/4/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/TVLT/4/>
     a skos:Concept ;
@@ -125,3 +132,4 @@
     skos:altLabel "Raw_SPM_optics" ;
     skos:definition "Raw parameters (voltages and counts) from in-situ suspended particulate material sensors including transmissometers, nephelometers,in-situ particle sizers and ABS (including ADCP echo intensity)." ;
     skos:notation "SDN:P02::TVLT" .
+    

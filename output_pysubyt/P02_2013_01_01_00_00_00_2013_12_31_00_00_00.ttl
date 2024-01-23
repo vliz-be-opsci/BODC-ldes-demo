@@ -14,7 +14,7 @@
     
     ldes:retentionPolicy [
         a ldes:LatestVersionSubset ;
-        ldes:amount 1 ;
+        ldes:amount 15 ;
         ldes:versionKey ( dc:isVersionOf )
     ] .
 
@@ -62,6 +62,7 @@
     skos:altLabel "SeaLvl_Press" ;
     skos:definition "Measurements of the displacement of the water column surface from a fixed, stable reference expressed as either total pressure or sea pressure" ;
     skos:notation "SDN:P02::PREX" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ZADX/5/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/ZADX/5/>
     a skos:Concept ;
@@ -71,3 +72,4 @@
     skos:altLabel "ZoobenthDryBiomass" ;
     skos:definition "Any quantification of the dry mass of zoobenthos (animals living on, in or near the bed of any water body). Includes animals normally considered planktonic if collected in sediment and data expressed ash-free and in terms of carbon, nitrogen etc.." ;
     skos:notation "SDN:P02::ZADX" .
+    

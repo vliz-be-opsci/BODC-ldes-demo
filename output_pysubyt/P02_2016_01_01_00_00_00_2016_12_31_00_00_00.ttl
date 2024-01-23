@@ -14,7 +14,7 @@
     
     ldes:retentionPolicy [
         a ldes:LatestVersionSubset ;
-        ldes:amount 1 ;
+        ldes:amount 15 ;
         ldes:versionKey ( dc:isVersionOf )
     ] .
 
@@ -62,6 +62,7 @@
     skos:altLabel "Met_Biota" ;
     skos:definition "Metal concentrations in either whole organisms or their constituent parts." ;
     skos:notation "SDN:P02::BCMT" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/CCPW/3/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/CCPW/3/>
     a skos:Concept ;
@@ -71,6 +72,7 @@
     skos:altLabel "SedPoreWat_CarbChem" ;
     skos:definition "Carbonate system parameters (DIC/TCO2, pH, alkalinity, pCO2) in sediment pore waters" ;
     skos:notation "SDN:P02::CCPW" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/INVD/1/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/INVD/1/>
     a skos:Concept ;
@@ -80,6 +82,7 @@
     skos:altLabel "InvasiveSpecies" ;
     skos:definition "Parameters used to characterize and monitor biological invasion by non-native organisms." ;
     skos:notation "SDN:P02::INVD" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/GPIG/3/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/GPIG/3/>
     a skos:Concept ;
@@ -89,6 +92,7 @@
     skos:altLabel "GutPig" ;
     skos:definition "Parameters identifying or quantifying zooplankton gut pigments" ;
     skos:notation "SDN:P02::GPIG" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/STGC/1/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/STGC/1/>
     a skos:Concept ;
@@ -98,3 +102,4 @@
     skos:altLabel "StomachGutContents" ;
     skos:definition "Parameters that characterize or quantify the contents of the stomach and gut of an animal or group of animals." ;
     skos:notation "SDN:P02::STGC" .
+    

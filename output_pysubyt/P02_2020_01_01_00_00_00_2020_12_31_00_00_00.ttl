@@ -14,7 +14,7 @@
     
     ldes:retentionPolicy [
         a ldes:LatestVersionSubset ;
-        ldes:amount 1 ;
+        ldes:amount 15 ;
         ldes:versionKey ( dc:isVersionOf )
     ] .
 
@@ -62,6 +62,7 @@
     skos:altLabel "Met_Sed" ;
     skos:definition "Concentrations of metal elements per unit weight of sediment.  Sediment is understood to be the solid phase of the bed, including the recently settled material sometimes known as fluff collected from the bed surface." ;
     skos:notation "SDN:P02::MTSD" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/GP013/1/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/GP013/1/>
     a skos:Concept ;
@@ -71,3 +72,4 @@
     skos:altLabel "CoralHealth" ;
     skos:definition "Parameters related to the health and conservation status of coral species and coralligenous habitats." ;
     skos:notation "SDN:P02::GP013" .
+    

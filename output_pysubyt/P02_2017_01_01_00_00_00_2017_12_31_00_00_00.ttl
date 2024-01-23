@@ -14,7 +14,7 @@
     
     ldes:retentionPolicy [
         a ldes:LatestVersionSubset ;
-        ldes:amount 1 ;
+        ldes:amount 15 ;
         ldes:versionKey ( dc:isVersionOf )
     ] .
 
@@ -62,6 +62,7 @@
     skos:altLabel "Sed_Microlitter" ;
     skos:definition "Parameters describing the abundance and nature of microscopic particles of man-made materials and in particular microplastics present in the sediment." ;
     skos:notation "SDN:P02::UMLS" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/UMLW/1/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/UMLW/1/>
     a skos:Concept ;
@@ -71,6 +72,7 @@
     skos:altLabel "WC_Microlitter" ;
     skos:definition "Parameters describing the abundance and nature of microscopic particles of man-made materials and in particular microplastics present in any body of fresh or salt water." ;
     skos:notation "SDN:P02::UMLW" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/D000/3/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/D000/3/>
     a skos:Concept ;
@@ -80,6 +82,7 @@
     skos:altLabel "Sed_MicroPhytoAbund" ;
     skos:definition "Any quantification of the number (e.g. count, abundance) of microalgae present on hard substrate or soft sediment at the bottom of any body of fresh or salt water." ;
     skos:notation "SDN:P02::D000" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/HMSB/4/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/HMSB/4/>
     a skos:Concept ;
@@ -89,6 +92,7 @@
     skos:altLabel "Org_Mat_Water" ;
     skos:definition "Concentration (not 380nm light absorption) parameters for dissolved or total organic matter (includes humics, yellow matter, Gelbstoff) in any body of salt or fresh water." ;
     skos:notation "SDN:P02::HMSB" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/BPRP/4/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/BPRP/4/>
     a skos:Concept ;
@@ -98,6 +102,7 @@
     skos:altLabel "SDN_BioFormatCodes" ;
     skos:definition "Parameters that quantify any attribute of a biological entity specified elsewhere in the data model and therefore do not map to the existing biologically classified P02 categories. This concept is used as a temporary grouping of parameter codes created for the SeaDataNet biological standard format." ;
     skos:notation "SDN:P02::BPRP" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SSTB/3/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/SSTB/3/>
     a skos:Concept ;
@@ -107,6 +112,7 @@
     skos:altLabel "Iso_Sed" ;
     skos:definition "Stable isotope parameters (concentrations, ratios and enrichments) in sediment, including biota-associated parameters such as isotope enrichment in foraminifera tests." ;
     skos:notation "SDN:P02::SSTB" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/WSTB/3/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/WSTB/3/>
     a skos:Concept ;
@@ -116,6 +122,7 @@
     skos:altLabel "Iso_WC" ;
     skos:definition "Stable isotope parameters (concentrations, ratios and enrichments) in both the dissolved and particulate phases of any body of fresh or salt water." ;
     skos:notation "SDN:P02::WSTB" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/IRSP/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/IRSP/2/>
     a skos:Concept ;
@@ -125,6 +132,7 @@
     skos:altLabel "Iso_Speleo" ;
     skos:definition "Stable isotope parameters (concentrations, ratios and enrichments) in secondary mineral deposits in caves. This includes stalactites, stalagmites, flowstone, and crystal growths." ;
     skos:notation "SDN:P02::IRSP" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SIPW/3/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/SIPW/3/>
     a skos:Concept ;
@@ -134,6 +142,7 @@
     skos:altLabel "Iso_SedPoreWater" ;
     skos:definition "Stable isotope parameters (concentrations, ratios and enrichments) in either the solute or solvent phase of sediment pore waters." ;
     skos:notation "SDN:P02::SIPW" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/IRBO/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/IRBO/2/>
     a skos:Concept ;
@@ -143,6 +152,7 @@
     skos:altLabel "Iso_Biota" ;
     skos:definition "Stable isotope parameters (concentrations, ratios and enrichments) from measurements on living (at the time of sampling) organisms or parts thereof." ;
     skos:notation "SDN:P02::IRBO" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ISAT/3/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/ISAT/3/>
     a skos:Concept ;
@@ -152,6 +162,7 @@
     skos:altLabel "Iso_Atmos" ;
     skos:definition "Stable isotope parameters (concentrations, ratios and enrichments) in both the gaseous and aerosol phases of the atmosphere." ;
     skos:notation "SDN:P02::ISAT" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/IRIC/4/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/IRIC/4/>
     a skos:Concept ;
@@ -161,6 +172,7 @@
     skos:altLabel "Iso_IceSnow" ;
     skos:definition "Stable isotope parameters (concentrations, ratios and enrichments) in frozen precipitation (snow, hail, ice and slush), its accumulations (e.g. glaciers), sea ice and frozen fresh water." ;
     skos:notation "SDN:P02::IRIC" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/WRAD/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/WRAD/2/>
     a skos:Concept ;
@@ -170,6 +182,7 @@
     skos:altLabel "WC_RadAct" ;
     skos:definition "All parameters associated with radioactivity in any body of fresh or salt water, including radiation counts, isotope activities and activity ratios. Activities per unit mass of SPM are included." ;
     skos:notation "SDN:P02::WRAD" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ARAD/1/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/ARAD/1/>
     a skos:Concept ;
@@ -179,6 +192,7 @@
     skos:altLabel "AtmosRad" ;
     skos:definition "All parameters associated with radioactivity in the atmosphere, including radiation counts, isotope activities and activity ratios." ;
     skos:notation "SDN:P02::ARAD" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/BRDD/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/BRDD/2/>
     a skos:Concept ;
@@ -188,6 +202,7 @@
     skos:altLabel "Bird_taxa_abund" ;
     skos:definition "Bird (Class Aves) abundance per unit area (of land or sea) presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS.These may be at any taxonomic level from sub-species upwards." ;
     skos:notation "SDN:P02::BRDD" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/FBAF/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/FBAF/2/>
     a skos:Concept ;
@@ -197,6 +212,7 @@
     skos:altLabel "Fish_tax_afdw_biomass" ;
     skos:definition "Fish (Osteichthyes, Agnatha and Chondrichthyes) ash-free dry weight biomass per unit area of bed (sea, river, lake etc.) parameters presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS.  Includes animals normally considered as planktonic if they have been returned from sediment samples." ;
     skos:notation "SDN:P02::FBAF" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/FBAB/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/FBAB/2/>
     a skos:Concept ;
@@ -206,6 +222,7 @@
     skos:altLabel "Fish_tax_aubund_bed" ;
     skos:definition "Fish (Osteichthyes, Agnatha and Chondrichthyes) abundance per unit area of bed (sea, river, lake etc.) parameters presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS.  Includes animals normally considered as planktonic if they have been returned from sediment samples." ;
     skos:notation "SDN:P02::FBAB" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/FCNT/5/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/FCNT/5/>
     a skos:Concept ;
@@ -215,6 +232,7 @@
     skos:altLabel "Fish_taxa_count" ;
     skos:definition "Fish (Osteichthyes, Agnatha and Chrondrichthyes) count parameters presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS.  These may be at any taxonomic level from sub-species upwards. Count includes presence/absence indicators." ;
     skos:notation "SDN:P02::FCNT" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/IWAB/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/IWAB/2/>
     a skos:Concept ;
@@ -224,6 +242,7 @@
     skos:altLabel "InsWorm_tax_abund_bed" ;
     skos:definition "Insect (Class Insecta) and earthworm (Subclass Oligochaeta) abundance per unit area of bed (sea, river, lake etc.) parameters presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS.  Includes animals normally considered as planktonic if they have been returned from sediment samples. This parameter group has been implemented to separate predominantly freshwater taxa from predominantly marine taxa." ;
     skos:notation "SDN:P02::IWAB" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/IWDX/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/IWDX/2/>
     a skos:Concept ;
@@ -233,6 +252,7 @@
     skos:altLabel "InsWorm_tax_afdw_biomass" ;
     skos:definition "Insect (Class Insecta) and earthworm (Subclass Oligochaeta) ash-free dry weight biomass per unit area of bed (sea, river, lake etc.) parameters presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS.  Includes animals normally considered as planktonic if they have been returned from sediment samples. This parameter group has been implemented to separate predominantly freshwater taxa from predominantly marine taxa." ;
     skos:notation "SDN:P02::IWDX" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/IATX/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/IATX/2/>
     a skos:Concept ;
@@ -242,6 +262,7 @@
     skos:altLabel "Insect_taxa_abund" ;
     skos:definition "Insecta abundance parameters presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS.  These may be at any taxonomic level from sub-species upwards." ;
     skos:notation "SDN:P02::IATX" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/IATC/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/IATC/2/>
     a skos:Concept ;
@@ -251,6 +272,7 @@
     skos:altLabel "Insect_txax_C_abund" ;
     skos:definition "Insecta carbon biomass parameters presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS.  These may be at any taxonomic level from sub-species upwards." ;
     skos:notation "SDN:P02::IATC" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/MATC/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/MATC/2/>
     a skos:Concept ;
@@ -260,6 +282,7 @@
     skos:altLabel "Microzoo_taxa_C_biomass" ;
     skos:definition "Microzooplankton carbon biomass parameters presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS.  These may be at any taxonomic level from sub-species upwards., but exclude morphological classifications such as 'heterotrophic flagellate'." ;
     skos:notation "SDN:P02::MATC" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/BDWC/3/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/BDWC/3/>
     a skos:Concept ;
@@ -269,6 +292,7 @@
     skos:altLabel "Sed_TaxBacteriaAFDW" ;
     skos:definition "Bacteria ash-free dry weight biomass in sediment parameters presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS.  The taxa may be at any taxonomic level from sub-species upwards.  Bacteria are defined as all taxa that fall into Kingdom Monera in the ITIS taxonomy, which includes cyanobacteria." ;
     skos:notation "SDN:P02::BDWC" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/BNTC/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/BNTC/2/>
     a skos:Concept ;
@@ -278,6 +302,7 @@
     skos:altLabel "WC_NontaxBacteriaCarbBiomass" ;
     skos:definition "Basically any bacteria carbon biomass parameters that aren't included in parameter group BATC because they cannot be mapped to specific taxa in a standard taxonomy registry such as WoRMS or ITIS.  Bacteria are defined as Kingdom Monera, which includes cyanobacteria." ;
     skos:notation "SDN:P02::BNTC" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/BATC/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/BATC/2/>
     a skos:Concept ;
@@ -287,6 +312,7 @@
     skos:altLabel "WC_TaxBacteriaCarbBiomass" ;
     skos:definition "Bacteria carbon biomass parameters presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS.  These may be at any taxonomic level from sub-species upwards.  Bacteria are defined as all taxa that fall into Kingdom Monera in the ITIS taxonomy, which includes cyanobacteria." ;
     skos:notation "SDN:P02::BATC" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/V999/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/V999/2/>
     a skos:Concept ;
@@ -296,6 +322,7 @@
     skos:altLabel "WC_TaxMicrozooBiovol" ;
     skos:definition "Microzooplankton biovolume parameters presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS. These may be at any taxonomic level from sub-species upwards." ;
     skos:notation "SDN:P02::V999" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/A999/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/A999/2/>
     a skos:Concept ;
@@ -305,6 +332,7 @@
     skos:altLabel "WC_TaxMicrozooSurfArea" ;
     skos:definition "Microzooplankton surface area per unit volume of the water column parameters presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS.  These may be at any taxonomic level from sub-species upwards." ;
     skos:notation "SDN:P02::A999" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ZCTC/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/ZCTC/2/>
     a skos:Concept ;
@@ -314,6 +342,7 @@
     skos:altLabel "Zoo_taxa_C_biomass" ;
     skos:definition "Zooplankton (mesozooplankton plus larger pelagic animals excluding fish, reptiles and mammals) carbon biomass parameters presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS.  These may be at any taxonomic level from sub-species upwards." ;
     skos:notation "SDN:P02::ZCTC" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ZCTN/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/ZCTN/2/>
     a skos:Concept ;
@@ -323,6 +352,7 @@
     skos:altLabel "Zoo_taxa_N_biomass" ;
     skos:definition "Zooplankton (mesozooplankton plus larger pelagic animals excluding fish, reptiles and mammals) nitrogen biomass parameters presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS.  These may be at any taxonomic level from sub-species upwards." ;
     skos:notation "SDN:P02::ZCTN" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ZATX/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/ZATX/2/>
     a skos:Concept ;
@@ -332,6 +362,7 @@
     skos:altLabel "Zoo_taxa_abund" ;
     skos:definition "Zooplankton (mesozooplankton plus larger pelagic animals excluding fish, reptiles and mammals) abundance parameters presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS.  These may be at any taxonomic level from sub-species upwards." ;
     skos:notation "SDN:P02::ZATX" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ZWTX/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/ZWTX/2/>
     a skos:Concept ;
@@ -341,6 +372,7 @@
     skos:altLabel "Zoobenth_tax_ww_biomass" ;
     skos:definition "Zoobenthos wet weight biomass per unit area parameters presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS.  Includes animals considered as planktonic if they have been returned from sediment samples." ;
     skos:notation "SDN:P02::ZWTX" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ZOOB/3/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/ZOOB/3/>
     a skos:Concept ;
@@ -350,6 +382,7 @@
     skos:altLabel "Zoobenth_taxa_count" ;
     skos:definition "Zoobenthos count parameters presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS.  These may be at any taxonomic level from sub-species upwards. Count includes presence/absence indicators." ;
     skos:notation "SDN:P02::ZOOB" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/INAP/1/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/INAP/1/>
     a skos:Concept ;
@@ -359,6 +392,7 @@
     skos:altLabel "Inapplicable" ;
     skos:definition "There is no appropriate value." ;
     skos:notation "SDN:P02::INAP" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/DGPW/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/DGPW/2/>
     a skos:Concept ;
@@ -368,6 +402,7 @@
     skos:altLabel "Sed_O2" ;
     skos:definition "All parameters (including concentration, saturation, turnover and fluxes) for dissolved oxygen in sediment and sediment pore waters." ;
     skos:notation "SDN:P02::DGPW" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/MDWP/4/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/MDWP/4/>
     a skos:Concept ;
@@ -377,6 +412,7 @@
     skos:altLabel "Metoid_WC_Part" ;
     skos:definition "Concentration parameters for trace metalloid elements and inorganic selenium species in the particulate phase of any body of fresh or salt water collected by fitration, centrifugation or sediment trapping. Trace metalloids are considered as B, Ge, As, Sb, Te and Po (but not Si which is classed separately because of its major role in environmental chemistry)." ;
     skos:notation "SDN:P02::MDWP" .
+    
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/MDWD/5/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/MDWD/5/>
     a skos:Concept ;
@@ -386,3 +422,4 @@
     skos:altLabel "Metoid_WC_Diss" ;
     skos:definition "Concentration parameters for trace metalloid elements and non-organic selenium species in the dissolved phase of any body of fresh or salt water. This may include a contribution from the particulate phase if this has not been totally removed by filtration and the metalloid in question is reactive (ie detected as if it were dissolved) to the analytical technique used. Trace metalloids are considered as B, Ge, As, Sb, Te, and Po (but not Si which is classed separately because of its major role in environmental chemistry)." ;
     skos:notation "SDN:P02::MDWD" .
+    
