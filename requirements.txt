@@ -1,2 +1,3 @@
 pysubyt
 pykg2tbl
+pandas

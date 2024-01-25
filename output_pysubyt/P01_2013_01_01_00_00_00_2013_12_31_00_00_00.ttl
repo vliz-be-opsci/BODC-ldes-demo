@@ -14,7 +14,7 @@
     
     ldes:retentionPolicy [
         a ldes:LatestVersionSubset ;
-        ldes:amount 15 ;
+        ldes:amount 100 ;
         ldes:versionKey ( dc:isVersionOf )
     ] .
 

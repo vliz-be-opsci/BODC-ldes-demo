@@ -4,6 +4,7 @@ ldes fragment template
 | @param this_fragment_delta: The delta of this fragment
 | @param next_fragment_delta: The delta of the next fragment
 | @param collection: The collection name
+| @param retention_period: The retention period of the fragment
 | @param set['qres']: The query results
 #}
 @prefix tree: <https://w3id.org/tree#> .
@@ -21,7 +22,7 @@ ldes fragment template
     {% endif %}
     ldes:retentionPolicy [
         a ldes:LatestVersionSubset ;
-        ldes:amount 15 ;
+        ldes:amount {{retention_period}} ;
         ldes:versionKey ( dc:isVersionOf )
     ] .
 

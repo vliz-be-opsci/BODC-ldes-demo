@@ -9,12 +9,16 @@ import os
 import datetime
 import pykg2tbl
 from pandas import DataFrame
+from pysubyt.api import Generator, Settings, Sink, Source
+from pysubyt.j2.generator import JinjaBasedGenerator
+from pysubyt.sinks import SinkFactory
+from pysubyt.sources import SourceFactory
 
 # define variables
 collections = ["P01", "P02", "P03"]
 begin_date = "2012-01-01 00:00:00"
 end_date = "2021-01-02 00:00:00"
-retention_period = 1
+retention_period = 100
 
 # define constants
 ENDPOINT = "http://vocab.nerc.ac.uk/sparql/sparql"
@@ -135,33 +139,22 @@ def make_pykg2tbl_files(collections, begin_date, end_date):
             formatted_name = collection + "_" + formatted_name + ".ttl"
             output_file = os.path.join(PYSUBYT_OUTPUT_FOLDER, formatted_name)
 
-            if not first:
-                os.system(
-                    f'python -m pysubyt \
-                        -v this_fragment_delta "{str(this_delta_quoted)}" \
-                        -v next_fragment_delta "{str(next_delta_quoted)}" \
-                        -v collection "{str(collection)}" \
-                        -t ./pysubyt \
-                        -s qres '
-                    + str(json_file_loc)
-                    + " \
-                        -n ldes_fragment.ttl \
-                        -o "
-                    + str(output_file)
-                )
-            else:
-                os.system(
-                    f'python -m pysubyt \
-                        -v this_fragment_delta "{str(this_delta_quoted)}" \
-                        -v collection "{str(collection)}" \
-                        -t ./pysubyt \
-                        -s qres '
-                    + str(json_file_loc)
-                    + " \
-                        -n ldes_fragment.ttl \
-                        -o "
-                    + str(output_file)
-                )
+            # make vars dict
+            vars_dict = {
+                "this_fragment_delta": this_delta_quoted,
+                "next_fragment_delta": next_delta_quoted,
+                "retention_period": retention_period,
+                "collection": collection,
+            }
+
+            # make service and sink
+            service = JinjaBasedGenerator(TEMPLATES_FOLDER_PYSUBYT)
+            sink = SinkFactory.make_sink(
+                os.path.join(PYSUBYT_OUTPUT_FOLDER, output_file), False
+            )
+            inputs = {"qres": SourceFactory.make_source(json_file_loc)}
+            settings = Settings()
+            service.process("ldes_fragment.ttl", inputs, settings, sink, vars_dict)
             time.sleep(1)
 
 
