@@ -9,7 +9,7 @@ import os
 import datetime
 import pykg2tbl
 from pandas import DataFrame
-from pysubyt.api import Generator, Settings, Sink, Source
+from pysubyt.api import Generator, GeneratorSettings, Sink, Source
 from pysubyt.j2.generator import JinjaBasedGenerator
 from pysubyt.sinks import SinkFactory
 from pysubyt.sources import SourceFactory
@@ -153,7 +153,7 @@ def make_pykg2tbl_files(collections, begin_date, end_date):
                 os.path.join(PYSUBYT_OUTPUT_FOLDER, output_file), False
             )
             inputs = {"qres": SourceFactory.make_source(json_file_loc)}
-            settings = Settings()
+            settings = GeneratorSettings()
             service.process("ldes_fragment.ttl", inputs, settings, sink, vars_dict)
             time.sleep(1)
 

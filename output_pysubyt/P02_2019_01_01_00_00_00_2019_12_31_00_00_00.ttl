@@ -1,0 +1,115 @@
+
+@prefix tree: <https://w3id.org/tree#> .
+@prefix ldes: <https://w3id.org/ldes#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+
+<http://vocab.nerc.ac.uk/ldes/P02/2019-01-01%2000%3A00%3A00_2019-12-31%2000%3A00%3A00>
+    a tree:Node ;
+    
+    tree:relation [ tree:node <http://vocab.nerc.ac.uk/ldes/P02/2018-12-31%2000%3A00%3A00_2019-01-01%2000%3A00%3A00> ] ;
+    
+    ldes:retentionPolicy [
+        a ldes:LatestVersionSubset ;
+        ldes:amount 100 ;
+        ldes:versionKey ( dc:isVersionOf )
+    ] .
+
+<http://vocab.nerc.ac.uk/ldes/P02>
+  a ldes:EventStream ;
+  tree:shape [
+    a sh:NodeShape ;
+    sh:nodeKind sh:IRI ;
+    sh:property [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path dc:isVersionOf
+    ],
+    [
+      sh:datatype xsd:dateTime ;
+      sh:minCount 1 ;
+      sh:path dc:modified
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:altLabel
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:definition
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:notation
+    ];
+    sh:targetClass skos:Concept
+  ] ;
+  tree:view <http://vocab.nerc.ac.uk/ldes/P02/2019-01-01%2000%3A00%3A00_2019-12-31%2000%3A00%3A00> ;
+  .
+
+<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/FADS/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/FADS/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/FADS/".
+<http://vocab.nerc.ac.uk/collection/P02/current/FADS/>
+    dc:modified '2019-07-26T11:05:38'^^xsd:dateTime ;
+    skos:altLabel 'FAD usage statistics'^^xsd:string ;
+    skos:definition 'Parameters describing usage of Fish Aggregating Devices (FAD) in fisheries (particularly purse seine tuna fisheries).'^^xsd:string ;
+    skos:notation 'SDN:P02::FADS'^^xsd:string .
+    
+<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ATPX/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/ATPX/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/ATPX/".
+<http://vocab.nerc.ac.uk/collection/P02/current/ATPX/>
+    dc:modified '2019-06-13T08:54:58'^^xsd:dateTime ;
+    skos:altLabel 'Aden_WC'^^xsd:string ;
+    skos:definition 'Concentrations of adenylates (ADP, ATP etc) in all phases of the water column'^^xsd:string ;
+    skos:notation 'SDN:P02::ATPX'^^xsd:string .
+    
+<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/GP025/3/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/GP025/3/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/GP025/".
+<http://vocab.nerc.ac.uk/collection/P02/current/GP025/>
+    dc:modified '2019-05-31T19:13:30'^^xsd:dateTime ;
+    skos:altLabel 'SealRepr'^^xsd:string ;
+    skos:definition 'Parameters related to the reproduction of true seals (Phocidae), eared seals (Otariidae) and walruses (Odobenidae).'^^xsd:string ;
+    skos:notation 'SDN:P02::GP025'^^xsd:string .
+    
+<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SEBH/3/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/SEBH/3/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/SEBH/".
+<http://vocab.nerc.ac.uk/collection/P02/current/SEBH/>
+    dc:modified '2019-05-31T19:13:30'^^xsd:dateTime ;
+    skos:altLabel 'Seal_Behav'^^xsd:string ;
+    skos:definition 'Parameters describing the actions or reactions, usually in response to the environment, of true seals (Phocidae), eared seals (Otariidae) and walruses (Odobenidae).'^^xsd:string ;
+    skos:notation 'SDN:P02::SEBH'^^xsd:string .
+    
+<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SEMP/3/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/SEMP/3/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/SEMP/".
+<http://vocab.nerc.ac.uk/collection/P02/current/SEMP/>
+    dc:modified '2019-05-31T19:13:30'^^xsd:dateTime ;
+    skos:altLabel 'Seal_Morph_Phys'^^xsd:string ;
+    skos:definition 'Parameters describing the size, shape or physiological activity including disease and parasite infection status of true seals (Phocidae), eared seals (Otariidae) and walruses (Odobenidae).'^^xsd:string ;
+    skos:notation 'SDN:P02::SEMP'^^xsd:string .
+    
+<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SEMO/4/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/SEMO/4/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/SEMO/".
+<http://vocab.nerc.ac.uk/collection/P02/current/SEMO/>
+    dc:modified '2019-05-31T19:13:30'^^xsd:dateTime ;
+    skos:altLabel 'Seal_Mort'^^xsd:string ;
+    skos:definition 'Parameters describing the causes and rate of mortality of true seals (Phocidae), eared seals (Otariidae) and walruses (Odobenidae).'^^xsd:string ;
+    skos:notation 'SDN:P02::SEMO'^^xsd:string .
+    

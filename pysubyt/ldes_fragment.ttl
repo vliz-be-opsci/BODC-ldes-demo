@@ -67,9 +67,9 @@ ldes fragment template
     a skos:Concept ;
     dc:isVersionOf "{{result.conceptid}}".
 <{{result.conceptid}}>
-    dcat:modified "{{result.modified}}"^^xsd:dateTime ;
-    skos:altLabel "{{result.altlabel}}" ;
-    skos:definition "{{result.definition}}" ;
-    skos:notation "{{result.notation}}" .
+    dc:modified {{result.modified | xsd("datetime")}} ;
+    skos:altLabel {{result.altlabel | xsd("string")}} ;
+    skos:definition {{result.definition | xsd("string")}} ;
+    skos:notation {{result.notation | xsd("string")}} .
     
 {% endfor %}

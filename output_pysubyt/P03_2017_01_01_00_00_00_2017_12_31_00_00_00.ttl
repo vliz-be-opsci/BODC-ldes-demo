@@ -1,0 +1,195 @@
+
+@prefix tree: <https://w3id.org/tree#> .
+@prefix ldes: <https://w3id.org/ldes#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+
+<http://vocab.nerc.ac.uk/ldes/P03/2017-01-01%2000%3A00%3A00_2017-12-31%2000%3A00%3A00>
+    a tree:Node ;
+    
+    tree:relation [ tree:node <http://vocab.nerc.ac.uk/ldes/P03/2016-12-31%2000%3A00%3A00_2017-01-01%2000%3A00%3A00> ] ;
+    
+    ldes:retentionPolicy [
+        a ldes:LatestVersionSubset ;
+        ldes:amount 100 ;
+        ldes:versionKey ( dc:isVersionOf )
+    ] .
+
+<http://vocab.nerc.ac.uk/ldes/P03>
+  a ldes:EventStream ;
+  tree:shape [
+    a sh:NodeShape ;
+    sh:nodeKind sh:IRI ;
+    sh:property [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path dc:isVersionOf
+    ],
+    [
+      sh:datatype xsd:dateTime ;
+      sh:minCount 1 ;
+      sh:path dc:modified
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:altLabel
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:definition
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:notation
+    ];
+    sh:targetClass skos:Concept
+  ] ;
+  tree:view <http://vocab.nerc.ac.uk/ldes/P03/2017-01-01%2000%3A00%3A00_2017-12-31%2000%3A00%3A00> ;
+  .
+
+<http://vocab.nerc.ac.uk/ldes/P03> tree:member <http://vocab.nerc.ac.uk/collection/P03/current/INAZ/1/> .
+<http://vocab.nerc.ac.uk/collection/P03/current/INAZ/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P03/current/INAZ/".
+<http://vocab.nerc.ac.uk/collection/P03/current/INAZ/>
+    dc:modified '2017-05-02T13:13:32'^^xsd:dateTime ;
+    skos:altLabel 'Inapplicable'^^xsd:string ;
+    skos:definition 'There is no appropriate value.'^^xsd:string ;
+    skos:notation 'SDN:P03::INAZ'^^xsd:string .
+    
+<http://vocab.nerc.ac.uk/ldes/P03> tree:member <http://vocab.nerc.ac.uk/collection/P03/current/H001/2/> .
+<http://vocab.nerc.ac.uk/collection/P03/current/H001/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P03/current/H001/".
+<http://vocab.nerc.ac.uk/collection/P03/current/H001/>
+    dc:modified '2017-02-02T14:38:40'^^xsd:dateTime ;
+    skos:altLabel ''^^xsd:string ;
+    skos:definition 'Parameters describing the abundance, nature and impact of material added to the environment by the activities of man.'^^xsd:string ;
+    skos:notation 'SDN:P03::H001'^^xsd:string .
+    
+<http://vocab.nerc.ac.uk/ldes/P03> tree:member <http://vocab.nerc.ac.uk/collection/P03/current/H005/2/> .
+<http://vocab.nerc.ac.uk/collection/P03/current/H005/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P03/current/H005/".
+<http://vocab.nerc.ac.uk/collection/P03/current/H005/>
+    dc:modified '2017-02-02T14:38:40'^^xsd:dateTime ;
+    skos:altLabel ''^^xsd:string ;
+    skos:definition 'Parameters quantifying the level of any type of human activity, generally in the context of environmental considerations'^^xsd:string ;
+    skos:notation 'SDN:P03::H005'^^xsd:string .
+    
+<http://vocab.nerc.ac.uk/ldes/P03> tree:member <http://vocab.nerc.ac.uk/collection/P03/current/H006/1/> .
+<http://vocab.nerc.ac.uk/collection/P03/current/H006/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P03/current/H006/".
+<http://vocab.nerc.ac.uk/collection/P03/current/H006/>
+    dc:modified '2017-02-02T14:38:40'^^xsd:dateTime ;
+    skos:altLabel ''^^xsd:string ;
+    skos:definition 'Datasets related to the process or industry of farming aquatic animal and plants.'^^xsd:string ;
+    skos:notation 'SDN:P03::H006'^^xsd:string .
+    
+<http://vocab.nerc.ac.uk/ldes/P03> tree:member <http://vocab.nerc.ac.uk/collection/P03/current/H007/1/> .
+<http://vocab.nerc.ac.uk/collection/P03/current/H007/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P03/current/H007/".
+<http://vocab.nerc.ac.uk/collection/P03/current/H007/>
+    dc:modified '2017-02-02T14:38:40'^^xsd:dateTime ;
+    skos:altLabel ''^^xsd:string ;
+    skos:definition 'Datasets related to the process of managing aquatic and coastal environments.'^^xsd:string ;
+    skos:notation 'SDN:P03::H007'^^xsd:string .
+    
+<http://vocab.nerc.ac.uk/ldes/P03> tree:member <http://vocab.nerc.ac.uk/collection/P03/current/H008/1/> .
+<http://vocab.nerc.ac.uk/collection/P03/current/H008/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P03/current/H008/".
+<http://vocab.nerc.ac.uk/collection/P03/current/H008/>
+    dc:modified '2017-02-02T14:38:40'^^xsd:dateTime ;
+    skos:altLabel ''^^xsd:string ;
+    skos:definition 'Datasets related to the process or industry of deploying and maintaining communication and power cables.'^^xsd:string ;
+    skos:notation 'SDN:P03::H008'^^xsd:string .
+    
+<http://vocab.nerc.ac.uk/ldes/P03> tree:member <http://vocab.nerc.ac.uk/collection/P03/current/H009/1/> .
+<http://vocab.nerc.ac.uk/collection/P03/current/H009/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P03/current/H009/".
+<http://vocab.nerc.ac.uk/collection/P03/current/H009/>
+    dc:modified '2017-02-02T14:38:40'^^xsd:dateTime ;
+    skos:altLabel ''^^xsd:string ;
+    skos:definition 'Datasets related to the process of managing cultural and historical artifacts.'^^xsd:string ;
+    skos:notation 'SDN:P03::H009'^^xsd:string .
+    
+<http://vocab.nerc.ac.uk/ldes/P03> tree:member <http://vocab.nerc.ac.uk/collection/P03/current/H010/1/> .
+<http://vocab.nerc.ac.uk/collection/P03/current/H010/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P03/current/H010/".
+<http://vocab.nerc.ac.uk/collection/P03/current/H010/>
+    dc:modified '2017-02-02T14:38:40'^^xsd:dateTime ;
+    skos:altLabel ''^^xsd:string ;
+    skos:definition 'Datasets related to the process or industry of electrical power generation.'^^xsd:string ;
+    skos:notation 'SDN:P03::H010'^^xsd:string .
+    
+<http://vocab.nerc.ac.uk/ldes/P03> tree:member <http://vocab.nerc.ac.uk/collection/P03/current/H011/1/> .
+<http://vocab.nerc.ac.uk/collection/P03/current/H011/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P03/current/H011/".
+<http://vocab.nerc.ac.uk/collection/P03/current/H011/>
+    dc:modified '2017-02-02T14:38:40'^^xsd:dateTime ;
+    skos:altLabel ''^^xsd:string ;
+    skos:definition 'Datasets related to the process or industry of locating and extracting hydrocarbon compounds from underground sources.'^^xsd:string ;
+    skos:notation 'SDN:P03::H011'^^xsd:string .
+    
+<http://vocab.nerc.ac.uk/ldes/P03> tree:member <http://vocab.nerc.ac.uk/collection/P03/current/H012/1/> .
+<http://vocab.nerc.ac.uk/collection/P03/current/H012/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P03/current/H012/".
+<http://vocab.nerc.ac.uk/collection/P03/current/H012/>
+    dc:modified '2017-02-02T14:38:40'^^xsd:dateTime ;
+    skos:altLabel ''^^xsd:string ;
+    skos:definition 'Datasets related to the process or industry of locating and extracting coal or other minerals.'^^xsd:string ;
+    skos:notation 'SDN:P03::H012'^^xsd:string .
+    
+<http://vocab.nerc.ac.uk/ldes/P03> tree:member <http://vocab.nerc.ac.uk/collection/P03/current/H013/1/> .
+<http://vocab.nerc.ac.uk/collection/P03/current/H013/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P03/current/H013/".
+<http://vocab.nerc.ac.uk/collection/P03/current/H013/>
+    dc:modified '2017-02-02T14:38:40'^^xsd:dateTime ;
+    skos:altLabel ''^^xsd:string ;
+    skos:definition 'Datasets related to the process or industry of deploying and maintaining pipelines.'^^xsd:string ;
+    skos:notation 'SDN:P03::H013'^^xsd:string .
+    
+<http://vocab.nerc.ac.uk/ldes/P03> tree:member <http://vocab.nerc.ac.uk/collection/P03/current/H014/1/> .
+<http://vocab.nerc.ac.uk/collection/P03/current/H014/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P03/current/H014/".
+<http://vocab.nerc.ac.uk/collection/P03/current/H014/>
+    dc:modified '2017-02-02T14:38:40'^^xsd:dateTime ;
+    skos:altLabel ''^^xsd:string ;
+    skos:definition 'Datasets related to the process or industry of extracting salt from saltwater.'^^xsd:string ;
+    skos:notation 'SDN:P03::H014'^^xsd:string .
+    
+<http://vocab.nerc.ac.uk/ldes/P03> tree:member <http://vocab.nerc.ac.uk/collection/P03/current/H015/1/> .
+<http://vocab.nerc.ac.uk/collection/P03/current/H015/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P03/current/H015/".
+<http://vocab.nerc.ac.uk/collection/P03/current/H015/>
+    dc:modified '2017-02-02T14:38:40'^^xsd:dateTime ;
+    skos:altLabel ''^^xsd:string ;
+    skos:definition 'Datasets related to the process or industry of tourism including activities and facilities or installations.'^^xsd:string ;
+    skos:notation 'SDN:P03::H015'^^xsd:string .
+    
+<http://vocab.nerc.ac.uk/ldes/P03> tree:member <http://vocab.nerc.ac.uk/collection/P03/current/H016/1/> .
+<http://vocab.nerc.ac.uk/collection/P03/current/H016/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P03/current/H016/".
+<http://vocab.nerc.ac.uk/collection/P03/current/H016/>
+    dc:modified '2017-02-02T14:38:40'^^xsd:dateTime ;
+    skos:altLabel ''^^xsd:string ;
+    skos:definition 'Datasets related to the process or industry of transport including activities and facilities or installations.'^^xsd:string ;
+    skos:notation 'SDN:P03::H016'^^xsd:string .
+    
