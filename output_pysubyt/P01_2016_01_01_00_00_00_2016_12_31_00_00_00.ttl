@@ -5,7 +5,6 @@
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
 
 <http://vocab.nerc.ac.uk/ldes/P01/2016-01-01%2000%3A00%3A00_2016-12-31%2000%3A00%3A00>
     a tree:Node ;
@@ -20,6 +19,8 @@
 
 <http://vocab.nerc.ac.uk/ldes/P01>
   a ldes:EventStream ;
+  ldes:timestampPath dc:modified ;
+  ldes:versionOfPath dc:isVersionOf ;
   tree:shape [
     a sh:NodeShape ;
     sh:nodeKind sh:IRI ;
@@ -132,16 +133,6 @@
     skos:altLabel 'Part_V>0.4/0.45_ICPMS/kg'^^xsd:string ;
     skos:definition 'The amount (mass or mole) in a unit of mass of any body of fresh or salt water of the specified element extracted by total strong acid dissolution from suspended particles retained by a 0.4-0.45um filter, and analysed by ICP-MS.'^^xsd:string ;
     skos:notation 'SDN:P01::CVA11040'^^xsd:string .
-    
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/TEMPHU02/1/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/TEMPHU02/1/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/TEMPHU02/".
-<http://vocab.nerc.ac.uk/collection/P01/current/TEMPHU02/>
-    dc:modified '2016-11-30T17:48:57'^^xsd:dateTime ;
-    skos:altLabel 'UncalTSGHullTmp2'^^xsd:string ;
-    skos:definition 'Unavailable'^^xsd:string ;
-    skos:notation 'SDN:P01::TEMPHU02'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CDTAZZ02/1/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/CDTAZZ02/1/>
@@ -4373,16 +4364,6 @@
     skos:definition 'Unavailable'^^xsd:string ;
     skos:notation 'SDN:P01::CAPHZZ02'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CREL1002/2/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/CREL1002/2/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/CREL1002/".
-<http://vocab.nerc.ac.uk/collection/P01/current/CREL1002/>
-    dc:modified '2016-05-01T17:31:46'^^xsd:dateTime ;
-    skos:altLabel 'Atm_rh_(10_min)_unkn2'^^xsd:string ;
-    skos:definition 'Unavailable'^^xsd:string ;
-    skos:notation 'SDN:P01::CREL1002'^^xsd:string .
-    
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/OXYSBB02/5/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/OXYSBB02/5/>
     a skos:Concept ;
@@ -4513,16 +4494,6 @@
     skos:definition 'CTD measurement of salinity that is known to have been calibrated against independent salinity measurements such as salinometer determinations on bottle samples. This is the alternative term for this definition.  Only use to cover cases where there are two sensors of the same type contributing to the data set and referential integrity considerations prevent a usage of a single code.'^^xsd:string ;
     skos:notation 'SDN:P01::PSALCC02'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/PSALCU02/3/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/PSALCU02/3/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/PSALCU02/".
-<http://vocab.nerc.ac.uk/collection/P01/current/PSALCU02/>
-    dc:modified '2016-05-01T17:31:46'^^xsd:dateTime ;
-    skos:altLabel 'P_sal_CTD_uncalib2'^^xsd:string ;
-    skos:definition 'This is the alternative term for this definition.  Only use to cover cases where there are two sensors of the same type contributing to the data set and referential integrity considerations prevent a usage of a single code.'^^xsd:string ;
-    skos:notation 'SDN:P01::PSALCU02'^^xsd:string .
-    
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/PSALTC02/3/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/PSALTC02/3/>
     a skos:Concept ;
@@ -4602,16 +4573,6 @@
     skos:altLabel 'TSPMO_ii'^^xsd:string ;
     skos:definition 'Concentration of suspended particulates per unit volume of water, determined by a second in situ optical backscatter sensor'^^xsd:string ;
     skos:notation 'SDN:P01::TSEDBS02'^^xsd:string .
-    
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/TEMPCU02/3/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/TEMPCU02/3/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/TEMPCU02/".
-<http://vocab.nerc.ac.uk/collection/P01/current/TEMPCU02/>
-    dc:modified '2016-05-01T17:31:46'^^xsd:dateTime ;
-    skos:altLabel 'Uncal_CTD_Temp2'^^xsd:string ;
-    skos:definition 'This is the alternative term for this definition.  Only use to cover cases where there are two sensors of the same type contributing to the data set and referential integrity considerations prevent a usage of a single code.'^^xsd:string ;
-    skos:notation 'SDN:P01::TEMPCU02'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/VDFCCV02/3/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/VDFCCV02/3/>

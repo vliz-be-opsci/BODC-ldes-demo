@@ -5,7 +5,6 @@
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
 
 <http://vocab.nerc.ac.uk/ldes/P01/2019-01-01%2000%3A00%3A00_2019-12-31%2000%3A00%3A00>
     a tree:Node ;
@@ -20,6 +19,8 @@
 
 <http://vocab.nerc.ac.uk/ldes/P01>
   a ldes:EventStream ;
+  ldes:timestampPath dc:modified ;
+  ldes:versionOfPath dc:isVersionOf ;
   tree:shape [
     a sh:NodeShape ;
     sh:nodeKind sh:IRI ;
@@ -10693,26 +10694,6 @@
     skos:definition 'The square root of the average of the squares of deviations about the mean of a set of values of the specified measurement.'^^xsd:string ;
     skos:notation 'SDN:P01::PSALSD01'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/PSSDCU01/3/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/PSSDCU01/3/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/PSSDCU01/".
-<http://vocab.nerc.ac.uk/collection/P01/current/PSSDCU01/>
-    dc:modified '2019-06-04T17:32:45'^^xsd:dateTime ;
-    skos:altLabel 'SD_P_sal_CTD_uncalib'^^xsd:string ;
-    skos:definition 'The square root of the average of the squares of deviations about the mean of a set of values of the specified measurement.'^^xsd:string ;
-    skos:notation 'SDN:P01::PSSDCU01'^^xsd:string .
-    
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/PSSDCU02/6/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/PSSDCU02/6/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/PSSDCU02/".
-<http://vocab.nerc.ac.uk/collection/P01/current/PSSDCU02/>
-    dc:modified '2019-06-04T17:32:45'^^xsd:dateTime ;
-    skos:altLabel 'SD_P_sal_CTD_uncalib2'^^xsd:string ;
-    skos:definition 'The square root of the average of the squares of deviations about the mean of a set of values of the specified measurement.'^^xsd:string ;
-    skos:notation 'SDN:P01::PSSDCU02'^^xsd:string .
-    
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/PSSDBSTX/3/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/PSSDBSTX/3/>
     a skos:Concept ;
@@ -10802,16 +10783,6 @@
     skos:altLabel 'SD_UW_Par'^^xsd:string ;
     skos:definition 'The square root of the average of the squares of deviations about the mean of a set of values of the specified measurement.'^^xsd:string ;
     skos:notation 'SDN:P01::UWPARSTD'^^xsd:string .
-    
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/TEMPHUSD/3/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/TEMPHUSD/3/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/TEMPHUSD/".
-<http://vocab.nerc.ac.uk/collection/P01/current/TEMPHUSD/>
-    dc:modified '2019-06-04T17:32:45'^^xsd:dateTime ;
-    skos:altLabel 'SD_UncalTSGHullTmp'^^xsd:string ;
-    skos:definition 'The square root of the average of the squares of deviations about the mean of a set of values of the specified measurement.'^^xsd:string ;
-    skos:notation 'SDN:P01::TEMPHUSD'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/IRRUPPSD/4/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/IRRUPPSD/4/>
@@ -11072,26 +11043,6 @@
     skos:altLabel 'UcurrSD_STek'^^xsd:string ;
     skos:definition 'The square root of the average of the squares of deviations about the mean of a set of values of the specified measurement.'^^xsd:string ;
     skos:notation 'SDN:P01::SDZASTEK'^^xsd:string .
-    
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/STSDCU01/3/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/STSDCU01/3/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/STSDCU01/".
-<http://vocab.nerc.ac.uk/collection/P01/current/STSDCU01/>
-    dc:modified '2019-06-04T17:32:45'^^xsd:dateTime ;
-    skos:altLabel 'Uncal_CTD_Temp_SD'^^xsd:string ;
-    skos:definition 'The square root of the average of the squares of deviations about the mean of a set of values of the specified measurement.'^^xsd:string ;
-    skos:notation 'SDN:P01::STSDCU01'^^xsd:string .
-    
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/STSDCU02/6/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/STSDCU02/6/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/STSDCU02/".
-<http://vocab.nerc.ac.uk/collection/P01/current/STSDCU02/>
-    dc:modified '2019-06-04T17:32:45'^^xsd:dateTime ;
-    skos:altLabel 'Uncal_CTD_Temp_SD2'^^xsd:string ;
-    skos:definition 'The square root of the average of the squares of deviations about the mean of a set of values of the specified measurement.'^^xsd:string ;
-    skos:notation 'SDN:P01::STSDCU02'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/PU00A0SD/4/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/PU00A0SD/4/>

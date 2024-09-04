@@ -5,7 +5,6 @@
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
 
 <http://vocab.nerc.ac.uk/ldes/P01/2015-01-01%2000%3A00%3A00_2015-12-31%2000%3A00%3A00>
     a tree:Node ;
@@ -20,6 +19,8 @@
 
 <http://vocab.nerc.ac.uk/ldes/P01>
   a ldes:EventStream ;
+  ldes:timestampPath dc:modified ;
+  ldes:versionOfPath dc:isVersionOf ;
   tree:shape [
     a sh:NodeShape ;
     sh:nodeKind sh:IRI ;
@@ -6133,26 +6134,6 @@
     skos:definition 'Concentration (mass or moles) of the analyte contained in a unit volume of a sample of any body of fresh or salt water.'^^xsd:string ;
     skos:notation 'SDN:P01::DT24EBF1'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/TDEOPBF1/5/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/TDEOPBF1/5/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/TDEOPBF1/".
-<http://vocab.nerc.ac.uk/collection/P01/current/TDEOPBF1/>
-    dc:modified '2015-09-03T11:23:06'^^xsd:dateTime ;
-    skos:altLabel 'Diss_oDDD_Filt'^^xsd:string ;
-    skos:definition 'Concentration (mass or moles) of the analyte contained in a unit volume of a sample of any body of fresh or salt water that has been filtered using an unspecified type of filter.'^^xsd:string ;
-    skos:notation 'SDN:P01::TDEOPBF1'^^xsd:string .
-    
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/DDEOPBF1/4/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/DDEOPBF1/4/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/DDEOPBF1/".
-<http://vocab.nerc.ac.uk/collection/P01/current/DDEOPBF1/>
-    dc:modified '2015-09-03T11:23:06'^^xsd:dateTime ;
-    skos:altLabel 'Diss_oDDE_filt'^^xsd:string ;
-    skos:definition 'Concentration (mass or moles) of the analyte contained in a unit volume of a sample of any body of fresh or salt water that has been filtered using an unspecified type of filter.'^^xsd:string ;
-    skos:notation 'SDN:P01::DDEOPBF1'^^xsd:string .
-    
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/ODDTAF01/4/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/ODDTAF01/4/>
     a skos:Concept ;
@@ -6242,16 +6223,6 @@
     skos:altLabel 'Diss_pDDT_unfilt_GC'^^xsd:string ;
     skos:definition 'Unavailable'^^xsd:string ;
     skos:notation 'SDN:P01::DDTDISUF'^^xsd:string .
-    
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/XRFCSXWC/2/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/XRFCSXWC/2/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/XRFCSXWC/".
-<http://vocab.nerc.ac.uk/collection/P01/current/XRFCSXWC/>
-    dc:modified '2015-09-03T11:23:06'^^xsd:dateTime ;
-    skos:altLabel 'SXRFCnt'^^xsd:string ;
-    skos:definition 'XRF scanner on whole core or split core sections'^^xsd:string ;
-    skos:notation 'SDN:P01::XRFCSXWC'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/ODDDDTSD/4/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/ODDDDTSD/4/>
@@ -14103,16 +14074,6 @@
     skos:definition 'ICP analysis of acid digested trap material'^^xsd:string ;
     skos:notation 'SDN:P01::FEFXICXX'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/XRFCFEWC/4/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/XRFCFEWC/4/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/XRFCFEWC/".
-<http://vocab.nerc.ac.uk/collection/P01/current/XRFCFEWC/>
-    dc:modified '2015-09-01T09:04:43'^^xsd:dateTime ;
-    skos:altLabel 'FeXRFCnt'^^xsd:string ;
-    skos:definition 'XRF scanner on whole core or split core sections'^^xsd:string ;
-    skos:notation 'SDN:P01::XRFCFEWC'^^xsd:string .
-    
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/MNFXAAXX/4/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/MNFXAAXX/4/>
     a skos:Concept ;
@@ -14172,16 +14133,6 @@
     skos:altLabel 'MnRelUp'^^xsd:string ;
     skos:definition 'Tracer doped incubation in the dark (0.45 pore filtered)'^^xsd:string ;
     skos:notation 'SDN:P01::MNRURDP2'^^xsd:string .
-    
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/XRFCMNWC/4/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/XRFCMNWC/4/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/XRFCMNWC/".
-<http://vocab.nerc.ac.uk/collection/P01/current/XRFCMNWC/>
-    dc:modified '2015-09-01T09:04:43'^^xsd:dateTime ;
-    skos:altLabel 'MnXRFCnt'^^xsd:string ;
-    skos:definition 'XRF scanner on whole core or split core sections'^^xsd:string ;
-    skos:notation 'SDN:P01::XRFCMNWC'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/SFXFEZZZ/4/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/SFXFEZZZ/4/>
@@ -15762,16 +15713,6 @@
     skos:altLabel 'TiContBulkSed'^^xsd:string ;
     skos:definition 'Unavailable'^^xsd:string ;
     skos:notation 'SDN:P01::TICNICXT'^^xsd:string .
-    
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/XRFCTIWC/2/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/XRFCTIWC/2/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/XRFCTIWC/".
-<http://vocab.nerc.ac.uk/collection/P01/current/XRFCTIWC/>
-    dc:modified '2015-08-26T15:08:03'^^xsd:dateTime ;
-    skos:altLabel 'TiXRFCnt'^^xsd:string ;
-    skos:definition 'XRF scanner on whole core or split core sections'^^xsd:string ;
-    skos:notation 'SDN:P01::XRFCTIWC'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/GEOLSATI/2/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/GEOLSATI/2/>
@@ -25983,16 +25924,6 @@
     skos:definition 'ICP analysis of acid digested trap material'^^xsd:string ;
     skos:notation 'SDN:P01::SIFXICXX'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/XRFCSIWC/2/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/XRFCSIWC/2/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/XRFCSIWC/".
-<http://vocab.nerc.ac.uk/collection/P01/current/XRFCSIWC/>
-    dc:modified '2015-07-23T15:42:32'^^xsd:dateTime ;
-    skos:altLabel 'SiXRFCnt'^^xsd:string ;
-    skos:definition 'XRF scanner on whole core or split core sections'^^xsd:string ;
-    skos:notation 'SDN:P01::XRFCSIWC'^^xsd:string .
-    
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/GEOLST26/2/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/GEOLST26/2/>
     a skos:Concept ;
@@ -26092,16 +26023,6 @@
     skos:altLabel 'conc_Na_aerosol_>1um'^^xsd:string ;
     skos:definition 'Unavailable'^^xsd:string ;
     skos:notation 'SDN:P01::ACNAAE02'^^xsd:string .
-    
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/XRFCKXWC/2/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/XRFCKXWC/2/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/XRFCKXWC/".
-<http://vocab.nerc.ac.uk/collection/P01/current/XRFCKXWC/>
-    dc:modified '2015-07-23T15:16:19'^^xsd:dateTime ;
-    skos:altLabel 'KXRFCnt'^^xsd:string ;
-    skos:definition 'XRF scanner on whole core or split core sections'^^xsd:string ;
-    skos:notation 'SDN:P01::XRFCKXWC'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/ACKXXX01/2/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/ACKXXX01/2/>
@@ -27032,16 +26953,6 @@
     skos:altLabel 'CaFlux'^^xsd:string ;
     skos:definition 'ICP analysis of acid digested trap material'^^xsd:string ;
     skos:notation 'SDN:P01::CAFXICXX'^^xsd:string .
-    
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/XRFCCAWC/2/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/XRFCCAWC/2/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/XRFCCAWC/".
-<http://vocab.nerc.ac.uk/collection/P01/current/XRFCCAWC/>
-    dc:modified '2015-07-22T12:32:28'^^xsd:dateTime ;
-    skos:altLabel 'CaXRFCnt'^^xsd:string ;
-    skos:definition 'XRF scanner on whole core or split core sections'^^xsd:string ;
-    skos:notation 'SDN:P01::XRFCCAWC'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/GEOLST08/2/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/GEOLST08/2/>
@@ -32325,16 +32236,6 @@
     skos:altLabel 'SrFlux'^^xsd:string ;
     skos:definition 'ICP analysis of acid digested trap material'^^xsd:string ;
     skos:notation 'SDN:P01::SRFXICXX'^^xsd:string .
-    
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/XRFCSRWC/2/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/XRFCSRWC/2/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/XRFCSRWC/".
-<http://vocab.nerc.ac.uk/collection/P01/current/XRFCSRWC/>
-    dc:modified '2015-07-08T11:09:34'^^xsd:dateTime ;
-    skos:altLabel 'SrXRFCnt'^^xsd:string ;
-    skos:definition 'XRF scanner on whole core or split core sections'^^xsd:string ;
-    skos:notation 'SDN:P01::XRFCSRWC'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/GEOLSASR/2/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/GEOLSASR/2/>

@@ -5,7 +5,6 @@
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
 
 <http://vocab.nerc.ac.uk/ldes/P01/2014-01-01%2000%3A00%3A00_2014-12-31%2000%3A00%3A00>
     a tree:Node ;
@@ -20,6 +19,8 @@
 
 <http://vocab.nerc.ac.uk/ldes/P01>
   a ldes:EventStream ;
+  ldes:timestampPath dc:modified ;
+  ldes:versionOfPath dc:isVersionOf ;
   tree:shape [
     a sh:NodeShape ;
     sh:nodeKind sh:IRI ;
@@ -15533,16 +15534,6 @@
     skos:definition 'Unavailable'^^xsd:string ;
     skos:notation 'SDN:P01::H4B62281'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/H840A456/2/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/H840A456/2/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/H840A456/".
-<http://vocab.nerc.ac.uk/collection/P01/current/H840A456/>
-    dc:modified '2014-09-02T14:45:35'^^xsd:dateTime ;
-    skos:altLabel 'H840A456'^^xsd:string ;
-    skos:definition 'Unavailable'^^xsd:string ;
-    skos:notation 'SDN:P01::H840A456'^^xsd:string .
-    
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/HAA52B9A/2/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/HAA52B9A/2/>
     a skos:Concept ;
@@ -15573,16 +15564,6 @@
     skos:definition 'Unavailable'^^xsd:string ;
     skos:notation 'SDN:P01::J8905276'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/K9543981/2/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/K9543981/2/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/K9543981/".
-<http://vocab.nerc.ac.uk/collection/P01/current/K9543981/>
-    dc:modified '2014-09-02T14:45:35'^^xsd:dateTime ;
-    skos:altLabel 'K9543981'^^xsd:string ;
-    skos:definition 'Unavailable'^^xsd:string ;
-    skos:notation 'SDN:P01::K9543981'^^xsd:string .
-    
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/KAB593A2/2/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/KAB593A2/2/>
     a skos:Concept ;
@@ -15592,16 +15573,6 @@
     skos:altLabel 'KAB593A2'^^xsd:string ;
     skos:definition 'Unavailable'^^xsd:string ;
     skos:notation 'SDN:P01::KAB593A2'^^xsd:string .
-    
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/L2718005/2/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/L2718005/2/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/L2718005/".
-<http://vocab.nerc.ac.uk/collection/P01/current/L2718005/>
-    dc:modified '2014-09-02T14:45:35'^^xsd:dateTime ;
-    skos:altLabel 'L2718005'^^xsd:string ;
-    skos:definition 'Unavailable'^^xsd:string ;
-    skos:notation 'SDN:P01::L2718005'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/L9452179/2/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/L9452179/2/>
@@ -15853,36 +15824,6 @@
     skos:definition 'Unavailable'^^xsd:string ;
     skos:notation 'SDN:P01::S93A4585'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/S9B49122/2/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/S9B49122/2/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/S9B49122/".
-<http://vocab.nerc.ac.uk/collection/P01/current/S9B49122/>
-    dc:modified '2014-09-02T14:45:35'^^xsd:dateTime ;
-    skos:altLabel 'S9B49122'^^xsd:string ;
-    skos:definition 'Unavailable'^^xsd:string ;
-    skos:notation 'SDN:P01::S9B49122'^^xsd:string .
-    
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/U50B6677/2/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/U50B6677/2/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/U50B6677/".
-<http://vocab.nerc.ac.uk/collection/P01/current/U50B6677/>
-    dc:modified '2014-09-02T14:45:35'^^xsd:dateTime ;
-    skos:altLabel 'U50B6677'^^xsd:string ;
-    skos:definition 'Unavailable'^^xsd:string ;
-    skos:notation 'SDN:P01::U50B6677'^^xsd:string .
-    
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/U9884512/2/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/U9884512/2/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/U9884512/".
-<http://vocab.nerc.ac.uk/collection/P01/current/U9884512/>
-    dc:modified '2014-09-02T14:45:35'^^xsd:dateTime ;
-    skos:altLabel 'U9884512'^^xsd:string ;
-    skos:definition 'Unavailable'^^xsd:string ;
-    skos:notation 'SDN:P01::U9884512'^^xsd:string .
-    
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/V51234B4/2/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/V51234B4/2/>
     a skos:Concept ;
@@ -15932,16 +15873,6 @@
     skos:altLabel 'X45AB1A1'^^xsd:string ;
     skos:definition 'Unavailable'^^xsd:string ;
     skos:notation 'SDN:P01::X45AB1A1'^^xsd:string .
-    
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/X620AA51/2/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/X620AA51/2/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/X620AA51/".
-<http://vocab.nerc.ac.uk/collection/P01/current/X620AA51/>
-    dc:modified '2014-09-02T14:45:35'^^xsd:dateTime ;
-    skos:altLabel 'X620AA51'^^xsd:string ;
-    skos:definition 'Unavailable'^^xsd:string ;
-    skos:notation 'SDN:P01::X620AA51'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/X8279AB0/2/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/X8279AB0/2/>
@@ -17133,16 +17064,6 @@
     skos:definition 'Unavailable'^^xsd:string ;
     skos:notation 'SDN:P01::Q6ABA582'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/I657994A/2/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/I657994A/2/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/I657994A/".
-<http://vocab.nerc.ac.uk/collection/P01/current/I657994A/>
-    dc:modified '2014-06-03T10:29:57'^^xsd:dateTime ;
-    skos:altLabel 'Abund(inc)_BE001028'^^xsd:string ;
-    skos:definition 'Unavailable'^^xsd:string ;
-    skos:notation 'SDN:P01::I657994A'^^xsd:string .
-    
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/A4A16097/2/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/A4A16097/2/>
     a skos:Concept ;
@@ -17583,16 +17504,6 @@
     skos:definition 'Unavailable'^^xsd:string ;
     skos:notation 'SDN:P01::I0868802'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/H8AB0432/2/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/H8AB0432/2/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/H8AB0432/".
-<http://vocab.nerc.ac.uk/collection/P01/current/H8AB0432/>
-    dc:modified '2014-06-03T10:29:57'^^xsd:dateTime ;
-    skos:altLabel 'Abund(inc)_BE002629'^^xsd:string ;
-    skos:definition 'Unavailable'^^xsd:string ;
-    skos:notation 'SDN:P01::H8AB0432'^^xsd:string .
-    
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/Y4981388/2/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/Y4981388/2/>
     a skos:Concept ;
@@ -17923,16 +17834,6 @@
     skos:definition 'Unavailable'^^xsd:string ;
     skos:notation 'SDN:P01::BA249A06'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/GA48898A/2/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/GA48898A/2/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/GA48898A/".
-<http://vocab.nerc.ac.uk/collection/P01/current/GA48898A/>
-    dc:modified '2014-06-03T10:29:57'^^xsd:dateTime ;
-    skos:altLabel 'Abund(inc)_BE004624'^^xsd:string ;
-    skos:definition 'Unavailable'^^xsd:string ;
-    skos:notation 'SDN:P01::GA48898A'^^xsd:string .
-    
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/X80774B3/2/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/X80774B3/2/>
     a skos:Concept ;
@@ -18013,16 +17914,6 @@
     skos:definition 'Unavailable'^^xsd:string ;
     skos:notation 'SDN:P01::Y79506B1'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/H97B8253/2/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/H97B8253/2/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/H97B8253/".
-<http://vocab.nerc.ac.uk/collection/P01/current/H97B8253/>
-    dc:modified '2014-06-03T10:29:57'^^xsd:dateTime ;
-    skos:altLabel 'Abund(inc)_BE004898'^^xsd:string ;
-    skos:definition 'Unavailable'^^xsd:string ;
-    skos:notation 'SDN:P01::H97B8253'^^xsd:string .
-    
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/IA915517/2/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/IA915517/2/>
     a skos:Concept ;
@@ -18072,16 +17963,6 @@
     skos:altLabel 'Abund(inc)_BE005168'^^xsd:string ;
     skos:definition 'Unavailable'^^xsd:string ;
     skos:notation 'SDN:P01::Q3709929'^^xsd:string .
-    
-<http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/R517A304/2/> .
-<http://vocab.nerc.ac.uk/collection/P01/current/R517A304/2/>
-    a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/R517A304/".
-<http://vocab.nerc.ac.uk/collection/P01/current/R517A304/>
-    dc:modified '2014-06-03T10:29:57'^^xsd:dateTime ;
-    skos:altLabel 'Abund(inc)_BE005518'^^xsd:string ;
-    skos:definition 'Unavailable'^^xsd:string ;
-    skos:notation 'SDN:P01::R517A304'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/U6A12612/2/> .
 <http://vocab.nerc.ac.uk/collection/P01/current/U6A12612/2/>

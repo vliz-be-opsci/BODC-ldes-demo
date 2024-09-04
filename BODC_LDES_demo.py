@@ -9,10 +9,15 @@ import os
 import datetime
 import pykg2tbl
 from pandas import DataFrame
-from pysubyt.api import Generator, GeneratorSettings, Sink, Source
-from pysubyt.j2.generator import JinjaBasedGenerator
-from pysubyt.sinks import SinkFactory
-from pysubyt.sources import SourceFactory
+from sema.subyt import (
+    Generator,
+    GeneratorSettings,
+    Sink,
+    Source,
+    SinkFactory,
+    SourceFactory,
+    JinjaBasedGenerator,
+)
 
 # define variables
 collections = ["P01", "P02", "P03"]
