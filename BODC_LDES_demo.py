@@ -7,7 +7,7 @@ import time
 import sys
 import os
 import datetime
-import pykg2tbl
+from sema.query import QueryResult, DefaultSparqlBuilder, GraphSource as KGSource
 from pandas import DataFrame
 from sema.subyt import (
     Generator,
@@ -33,14 +33,14 @@ PYKG2TBL_OUTPUT_FOLDER = os.path.join(
 PYSUBYT_OUTPUT_FOLDER = os.path.join(
     os.path.dirname(os.path.realpath(__file__)), "output_pysubyt"
 )
-KGSOURCE = pykg2tbl.KGSource.build(ENDPOINT)
+KGSOURCE = KGSource.build(ENDPOINT)
 TEMPLATES_FOLDER_PYKG2TBL = os.path.join(
     os.path.dirname(os.path.realpath(__file__)), "pykg2tbl"
 )
 TEMPLATES_FOLDER_PYSUBYT = os.path.join(
     os.path.dirname(os.path.realpath(__file__)), "pysubyt"
 )
-GENERATOR = pykg2tbl.DefaultSparqlBuilder(templates_folder=TEMPLATES_FOLDER_PYKG2TBL)
+GENERATOR = DefaultSparqlBuilder(templates_folder=TEMPLATES_FOLDER_PYKG2TBL)
 
 # demo url http://vocab.nerc.ac.uk/sparql/sparql?query={YOUR_QUERY_URL_ENCODED}
 
