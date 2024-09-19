@@ -111,7 +111,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/UKMH9706/>
     dc:modified '2019-11-26T11:53:44'^^xsd:dateTime ;
     skos:altLabel 'UKMarHabClass97.06'^^xsd:string ;
-    skos:definition '''A text term plus URI describing the seabed habitat of marine, coastal or estuarine waters using the JNCC's Marine Habitat Classification for Britain and Ireland Version 97.06.'''^^xsd:string ;
+    skos:definition '''A text term plus URI describing the seabed habitat of marine, coastal or estuarine waters using the JNCC\'s Marine Habitat Classification for Britain and Ireland Version 97.06.'''^^xsd:string ;
     skos:notation 'SDN:P01::UKMH9706'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/GEBCOTID/1/> .
@@ -2341,7 +2341,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/FLUOCDOM/>
     dc:modified '2019-07-30T16:12:09'^^xsd:dateTime ;
     skos:altLabel 'Fluor_CDOM'^^xsd:string ;
-    skos:definition '''This code is under review due to its ambiguity. It is likely to be deprecated at the end of the review period. Please use terms stating 'Concentration of%' for calibrated CDOM fluorometer output or 'Raw signal% of%' for the raw fluorescence signal [updated 30/07/2019]. Definition was: The amount of violet to low ultra-violet radiation generated in the water column in response to high ultra-violet radiation transmission expressed relative to an unspecified baseline using fluorometer designed to detect CDOM, crude oil or UV-fluorescent dyes.'''^^xsd:string ;
+    skos:definition '''This code is under review due to its ambiguity. It is likely to be deprecated at the end of the review period. Please use terms stating \'Concentration of%\' for calibrated CDOM fluorometer output or \'Raw signal% of%\' for the raw fluorescence signal [updated 30/07/2019]. Definition was: The amount of violet to low ultra-violet radiation generated in the water column in response to high ultra-violet radiation transmission expressed relative to an unspecified baseline using fluorometer designed to detect CDOM, crude oil or UV-fluorescent dyes.'''^^xsd:string ;
     skos:notation 'SDN:P01::FLUOCDOM'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/FCNTCDOM/1/> .
@@ -3571,7 +3571,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/ARPBXX04/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel '206Pb/204Pb_total_U'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::ARPBXX04'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/ARPBXX02/5/> .
@@ -3581,7 +3581,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/ARPBXX02/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel '206Pb/207Pb_total_U'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::ARPBXX02'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/ARPBXX08/5/> .
@@ -3591,7 +3591,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/ARPBXX08/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel '207Pb/204Pb_total_U'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::ARPBXX08'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/ARPBXX10/5/> .
@@ -3601,7 +3601,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/ARPBXX10/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel '208Pb/204Pb_total_U'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::ARPBXX10'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/ARPBXX12/5/> .
@@ -3611,7 +3611,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/ARPBXX12/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel '208Pb/206Pb_total_U'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::ARPBXX12'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/ARPBXX06/5/> .
@@ -3621,7 +3621,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/ARPBXX06/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel '208Pb/207Pb_total_U'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::ARPBXX06'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/SAGEPAMT/2/> .
@@ -3631,7 +3631,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/SAGEPAMT/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'AMSSedAge_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::SAGEPAMT'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/U236238U/2/> .
@@ -3641,7 +3641,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/U236238U/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'At_U236/U238_diss_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::U236238U'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CAR77002/2/> .
@@ -3651,7 +3651,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CAR77002/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Conc_Ar_water/kg_U'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CAR77002'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/I129KG02/2/> .
@@ -3661,7 +3661,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/I129KG02/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Conc_I129_diss_perkg_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::I129KG02'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CKR77004/2/> .
@@ -3671,7 +3671,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CKR77004/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Conc_Kr_water/kg_U'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CKR77004'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/U236KG02/2/> .
@@ -3681,7 +3681,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/U236KG02/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Conc_U236_diss_perkg_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::U236KG02'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CUR17075/3/> .
@@ -3691,7 +3691,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CUR17075/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Conc_U238_diss_perkg_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CUR17075'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CXE77006/2/> .
@@ -3701,7 +3701,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CXE77006/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Conc_Xe_water/kg_U'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CXE77006'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/A238MS02/2/> .
@@ -3711,7 +3711,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/A238MS02/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Diss238U<0.2um_ICPMS_Error'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::A238MS02'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/A238UCER/2/> .
@@ -3721,7 +3721,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/A238UCER/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Diss238U_calc_Error'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::A238UCER'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/ABE77008/3/> .
@@ -3731,7 +3731,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/ABE77008/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'DissBe7_water_U'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::ABE77008'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/HEERMASS/5/> .
@@ -3741,7 +3741,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/HEERMASS/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'DissHeErr'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::HEERMASS'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CTH87007/2/> .
@@ -3751,7 +3751,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CTH87007/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Diss_230Th<0.4/0.45um_/kg_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CTH87007'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CTH87006/2/> .
@@ -3761,7 +3761,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CTH87006/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Diss_230Th_/kg_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CTH87006'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CPR87008/2/> .
@@ -3771,7 +3771,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CPR87008/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Diss_231Pa<0.4/0.45um_/kg_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CPR87008'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/EZI87004/3/> .
@@ -3781,7 +3781,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/EZI87004/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Diss_d66/64Zn_IRMM3702_<0.2um_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::EZI87004'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CDESDIDP/3/> .
@@ -3791,7 +3791,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CDESDIDP/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Eps_114/110Cd_NIST_WC<0.4/0.45um_error'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CDESDIDP'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/ENE87002/3/> .
@@ -3801,7 +3801,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/ENE87002/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Epsilon_Nd>0.8um_TIMS_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::ENE87002'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/NEERMASS/5/> .
@@ -3811,7 +3811,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/NEERMASS/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'ErrDissNe'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::NEERMASS'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/MDMAPER1/5/> .
@@ -3821,7 +3821,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/MDMAPER1/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Fr-11/kg_error'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::MDMAPER1'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/MDMAPER3/4/> .
@@ -3831,7 +3831,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/MDMAPER3/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Fr-113/kg'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::MDMAPER3'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/MDMAPER2/4/> .
@@ -3841,7 +3841,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/MDMAPER2/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Fr-12/kg'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::MDMAPER2'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/TH234BC2/4/> .
@@ -3851,7 +3851,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/TH234BC2/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'PartTh234_1-51um_Err'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::TH234BC2'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/TH234BC8/3/> .
@@ -3861,7 +3861,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/TH234BC8/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'PartTh234_>51um_Err'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::TH234BC8'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLA17015/2/> .
@@ -3871,7 +3871,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA17015/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Part_labile_Al_0.8-51um_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA17015'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLA17087/2/> .
@@ -3881,7 +3881,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA17087/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Part_labile_Ba_0.8-51um_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA17087'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLA17089/2/> .
@@ -3891,7 +3891,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA17089/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Part_labile_Cd_0.8-51um_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA17089'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLA17027/2/> .
@@ -3901,7 +3901,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA17027/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Part_labile_Ce_0.8-51um_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA17027'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLA17019/2/> .
@@ -3911,7 +3911,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA17019/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Part_labile_Co_0.8-51um_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA17019'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLA17023/2/> .
@@ -3921,7 +3921,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA17023/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Part_labile_Cu_0.8-51um_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA17023'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLA17029/2/> .
@@ -3931,7 +3931,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA17029/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Part_labile_La_0.8-51um_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA17029'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLA17017/2/> .
@@ -3941,7 +3941,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA17017/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Part_labile_Mn_0.8-51um_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA17017'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLA17021/2/> .
@@ -3951,7 +3951,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA17021/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Part_labile_Ni_0.8-51um_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA17021'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLA17088/2/> .
@@ -3961,7 +3961,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA17088/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Part_labile_P_0.8-51um_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA17088'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLA17033/2/> .
@@ -3971,7 +3971,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA17033/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Part_labile_Pb_0.8-51um_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA17033'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLA17031/2/> .
@@ -3981,7 +3981,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA17031/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Part_labile_V_0.8-51um_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA17031'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLA17025/2/> .
@@ -3991,7 +3991,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA17025/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Part_labile_Zn_0.8-51um_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA17025'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/TTPBKG02/2/> .
@@ -4001,7 +4001,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/TTPBKG02/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'Pb_Unfilt/kg_U'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::TTPBKG02'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/D66ZNL04/3/> .
@@ -4011,7 +4011,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/D66ZNL04/>
     dc:modified '2019-06-04T17:35:04'^^xsd:dateTime ;
     skos:altLabel 'd66Zn_Lyon_WC<0.4/0.45um_error'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::D66ZNL04'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/FASEEE01/5/> .
@@ -13781,7 +13781,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/LTM02828/>
     dc:modified '2019-04-10T22:41:51'^^xsd:dateTime ;
     skos:altLabel 'logK_CuL_pH7.2'^^xsd:string ;
-    skos:definition '''The logarithmic conditional stability constant of the Cu-binding ligands (log K' CuL) expressed with respect to Cu.'''^^xsd:string ;
+    skos:definition '''The logarithmic conditional stability constant of the Cu-binding ligands (log K\' CuL) expressed with respect to Cu.'''^^xsd:string ;
     skos:notation 'SDN:P01::LTM02828'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/LTM02929/1/> .
@@ -13811,7 +13811,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/LTM02323/>
     dc:modified '2019-04-10T22:41:51'^^xsd:dateTime ;
     skos:altLabel 'logK_CuL_pH7.6'^^xsd:string ;
-    skos:definition '''The logarithmic conditional stability constant of the Cu-binding ligands (log K' CuL) expressed with respect to Cu.'''^^xsd:string ;
+    skos:definition '''The logarithmic conditional stability constant of the Cu-binding ligands (log K\' CuL) expressed with respect to Cu.'''^^xsd:string ;
     skos:notation 'SDN:P01::LTM02323'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/LTM02424/1/> .
@@ -13841,7 +13841,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/LTM01818/>
     dc:modified '2019-04-10T22:41:51'^^xsd:dateTime ;
     skos:altLabel 'logK_CuL_pH8.05'^^xsd:string ;
-    skos:definition '''The logarithmic conditional stability constant of the Cu-binding ligands (log K' CuL) expressed with respect to Cu.'''^^xsd:string ;
+    skos:definition '''The logarithmic conditional stability constant of the Cu-binding ligands (log K\' CuL) expressed with respect to Cu.'''^^xsd:string ;
     skos:notation 'SDN:P01::LTM01818'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/LTM01919/1/> .
@@ -13871,7 +13871,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/LTM01313/>
     dc:modified '2019-04-10T22:41:51'^^xsd:dateTime ;
     skos:altLabel 'logK_FeL_pH7.2'^^xsd:string ;
-    skos:definition '''The logarithmic conditional stability constant of the Fe-binding ligands (log K' FeL) expressed with respect to Fe3+.'''^^xsd:string ;
+    skos:definition '''The logarithmic conditional stability constant of the Fe-binding ligands (log K\' FeL) expressed with respect to Fe3+.'''^^xsd:string ;
     skos:notation 'SDN:P01::LTM01313'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/LTM01414/1/> .
@@ -13901,7 +13901,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/LTM00880/>
     dc:modified '2019-04-10T22:41:51'^^xsd:dateTime ;
     skos:altLabel 'logK_FeL_pH7.6'^^xsd:string ;
-    skos:definition '''The logarithmic conditional stability constant of the Fe-binding ligands (log K' FeL) expressed with respect to Fe3+.'''^^xsd:string ;
+    skos:definition '''The logarithmic conditional stability constant of the Fe-binding ligands (log K\' FeL) expressed with respect to Fe3+.'''^^xsd:string ;
     skos:notation 'SDN:P01::LTM00880'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/LTM00990/1/> .
@@ -13931,7 +13931,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/LTM00330/>
     dc:modified '2019-04-10T22:41:51'^^xsd:dateTime ;
     skos:altLabel 'logK_FeL_pH8.05'^^xsd:string ;
-    skos:definition '''The logarithmic conditional stability constant of the Fe-binding ligands (log K' FeL) expressed with respect to Fe3+.'''^^xsd:string ;
+    skos:definition '''The logarithmic conditional stability constant of the Fe-binding ligands (log K\' FeL) expressed with respect to Fe3+.'''^^xsd:string ;
     skos:notation 'SDN:P01::LTM00330'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/LTM00440/1/> .
@@ -15821,7 +15821,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/FVLTPELS/>
     dc:modified '2019-03-03T19:04:33'^^xsd:dateTime ;
     skos:altLabel 'PhyE_Count_IS'^^xsd:string ;
-    skos:definition '''The output from an analogue to digital converter translating the output voltage from a linear-response phycoerythrin fluorometer (output voltage linearly proportional to the intensity of the fluorescent signal) deployed in a water body ('natural fluorescence').'''^^xsd:string ;
+    skos:definition '''The output from an analogue to digital converter translating the output voltage from a linear-response phycoerythrin fluorometer (output voltage linearly proportional to the intensity of the fluorescent signal) deployed in a water body (\'natural fluorescence\').'''^^xsd:string ;
     skos:notation 'SDN:P01::FVLTPELS'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/MBANXX01/1/> .
@@ -17720,8 +17720,8 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/LOGCUCL1/".
 <http://vocab.nerc.ac.uk/collection/P01/current/LOGCUCL1/>
     dc:modified '2019-02-07T18:29:42'^^xsd:dateTime ;
-    skos:altLabel '''logK'CuL1_<0.2um'''^^xsd:string ;
-    skos:definition '''The logarithmic conditional stability constant of the stronger dissolved copper-binding ligand (logK'FeL1) present in a water sample filtered through a 0.2 micron filter expressed with respect to Fe.'''^^xsd:string ;
+    skos:altLabel '''logK\'CuL1_<0.2um'''^^xsd:string ;
+    skos:definition '''The logarithmic conditional stability constant of the stronger dissolved copper-binding ligand (logK\'FeL1) present in a water sample filtered through a 0.2 micron filter expressed with respect to Fe.'''^^xsd:string ;
     skos:notation 'SDN:P01::LOGCUCL1'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/PB67MSD2/3/> .

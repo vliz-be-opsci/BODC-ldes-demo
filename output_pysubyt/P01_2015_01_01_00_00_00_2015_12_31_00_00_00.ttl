@@ -61,7 +61,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL16/>
     dc:modified '2015-11-27T10:08:09'^^xsd:dateTime ;
     skos:altLabel 'PEG_BVOL_year_HELCOM_COMBINE'^^xsd:string ;
-    skos:definition '''Code used to indicate to which version of the annex 'Biovolumes and Size-classes of Phytoplankton in the Baltic Sea' was used. Recommended use is a SIZRF code from the ICES vocabulary server at http://ices.dk/marine-data/vocabularies/Pages/default.aspx.'''^^xsd:string ;
+    skos:definition '''Code used to indicate to which version of the annex \'Biovolumes and Size-classes of Phytoplankton in the Baltic Sea\' was used. Recommended use is a SIZRF code from the ICES vocabulary server at http://ices.dk/marine-data/vocabularies/Pages/default.aspx.'''^^xsd:string ;
     skos:notation 'SDN:P01::SDBIOL16'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/PPOXZZ01/1/> .
@@ -17410,7 +17410,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/HEXOHPP5/".
 <http://vocab.nerc.ac.uk/collection/P01/current/HEXOHPP5/>
     dc:modified '2015-08-26T12:04:46'^^xsd:dateTime ;
-    skos:altLabel '''19'-hexanoyloxyfucoxanthin_water>0.2um_HPLC'''^^xsd:string ;
+    skos:altLabel '''19\'-hexanoyloxyfucoxanthin_water>0.2um_HPLC'''^^xsd:string ;
     skos:definition 'HPLC assay of acetone extraction (GF/F filtered)'^^xsd:string ;
     skos:notation 'SDN:P01::HEXOHPP5'^^xsd:string .
     
@@ -17420,7 +17420,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/HEXOINTC/".
 <http://vocab.nerc.ac.uk/collection/P01/current/HEXOINTC/>
     dc:modified '2015-08-26T12:04:46'^^xsd:dateTime ;
-    skos:altLabel '''19'-hexanoyloxyfucoxanthin_water>0.2um_HPLC_int'''^^xsd:string ;
+    skos:altLabel '''19\'-hexanoyloxyfucoxanthin_water>0.2um_HPLC_int'''^^xsd:string ;
     skos:definition 'Unavailable'^^xsd:string ;
     skos:notation 'SDN:P01::HEXOINTC'^^xsd:string .
     
@@ -17430,7 +17430,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/HEXOHPP1/".
 <http://vocab.nerc.ac.uk/collection/P01/current/HEXOHPP1/>
     dc:modified '2015-08-26T12:04:46'^^xsd:dateTime ;
-    skos:altLabel '''19'-hexanoyloxyfucoxanthin_water>GF/F_HPLC'''^^xsd:string ;
+    skos:altLabel '''19\'-hexanoyloxyfucoxanthin_water>GF/F_HPLC'''^^xsd:string ;
     skos:definition 'The amount (mass or moles) of the specified pigment determined by HPLC assay of a sample collected by dissolution in acetone of the residue collected by GF/F filtration of a known volume of any water body. The quoted value either results from a single determination or the average of replicate determinations.'^^xsd:string ;
     skos:notation 'SDN:P01::HEXOHPP1'^^xsd:string .
     
@@ -17460,8 +17460,8 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/HEXAXXXX/".
 <http://vocab.nerc.ac.uk/collection/P01/current/HEXAXXXX/>
     dc:modified '2015-08-26T12:04:45'^^xsd:dateTime ;
-    skos:altLabel '''19'-hexanoyloxyfucox'''^^xsd:string ;
-    skos:definition '''Concentration of the carotenoid pigment 19'-hexanoyloxyfucoxanthin per unit volume of a water body.  The pigment is contained in suspended particles of unspecified size.'''^^xsd:string ;
+    skos:altLabel '''19\'-hexanoyloxyfucox'''^^xsd:string ;
+    skos:definition '''Concentration of the carotenoid pigment 19\'-hexanoyloxyfucoxanthin per unit volume of a water body.  The pigment is contained in suspended particles of unspecified size.'''^^xsd:string ;
     skos:notation 'SDN:P01::HEXAXXXX'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/HEXAMHP1/4/> .
@@ -17470,7 +17470,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/HEXAMHP1/".
 <http://vocab.nerc.ac.uk/collection/P01/current/HEXAMHP1/>
     dc:modified '2015-08-26T12:04:45'^^xsd:dateTime ;
-    skos:altLabel '''19'-hexanoyloxyfucoxanthin_water>GF/F_HPLCmeth'''^^xsd:string ;
+    skos:altLabel '''19\'-hexanoyloxyfucoxanthin_water>GF/F_HPLCmeth'''^^xsd:string ;
     skos:definition 'The amount (mass or moles) of the specified pigment determined by HPLC assay of a sample collected by dissolution in methanol of the residue collected by GF/F filtration of a known volume of any water body.'^^xsd:string ;
     skos:notation 'SDN:P01::HEXAMHP1'^^xsd:string .
     
@@ -31372,7 +31372,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/ZNPSUS01/>
     dc:modified '2015-07-08T11:09:34'^^xsd:dateTime ;
     skos:altLabel 'PartZn_0.8-51um_ICPMS'^^xsd:string ;
-    skos:definition '''Concentration of zinc in suspended particles 0.8-51 um (defined as 'suspended') determined by Inductively-coupled plasma mass spectrometry (ICP-MS).
+    skos:definition '''Concentration of zinc in suspended particles 0.8-51 um (defined as \'suspended\') determined by Inductively-coupled plasma mass spectrometry (ICP-MS).
 '''^^xsd:string ;
     skos:notation 'SDN:P01::ZNPSUS01'^^xsd:string .
     
@@ -31393,7 +31393,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/ZNPSIN01/>
     dc:modified '2015-07-08T11:09:34'^^xsd:dateTime ;
     skos:altLabel 'PartZn_>51um_ICPMS'^^xsd:string ;
-    skos:definition '''Concentration of zinc in suspended particles >51 um (defined as 'sinking') determined by Inductively-coupled plasma mass spectrometry (ICP-MS).
+    skos:definition '''Concentration of zinc in suspended particles >51 um (defined as \'sinking\') determined by Inductively-coupled plasma mass spectrometry (ICP-MS).
 '''^^xsd:string ;
     skos:notation 'SDN:P01::ZNPSIN01'^^xsd:string .
     

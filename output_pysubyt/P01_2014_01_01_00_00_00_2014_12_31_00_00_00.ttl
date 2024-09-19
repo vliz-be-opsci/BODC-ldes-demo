@@ -21780,7 +21780,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/HEXSHPP5/".
 <http://vocab.nerc.ac.uk/collection/P01/current/HEXSHPP5/>
     dc:modified '2014-03-12T13:48:57'^^xsd:dateTime ;
-    skos:altLabel '''cis-19'-hexanoyloxyfucoxanthin_water>0.2um_HPLC'''^^xsd:string ;
+    skos:altLabel '''cis-19\'-hexanoyloxyfucoxanthin_water>0.2um_HPLC'''^^xsd:string ;
     skos:definition 'HPLC assay of acetone extraction (GF/F filtered)'^^xsd:string ;
     skos:notation 'SDN:P01::HEXSHPP5'^^xsd:string .
     
@@ -21790,7 +21790,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/HEXSHPP1/".
 <http://vocab.nerc.ac.uk/collection/P01/current/HEXSHPP1/>
     dc:modified '2014-03-12T13:48:57'^^xsd:dateTime ;
-    skos:altLabel '''cis-19'-hexanoyloxyfucoxanthin_water>GF/F_HPLC'''^^xsd:string ;
+    skos:altLabel '''cis-19\'-hexanoyloxyfucoxanthin_water>GF/F_HPLC'''^^xsd:string ;
     skos:definition 'The amount (mass or moles) of the specified pigment determined by HPLC assay of a sample collected by dissolution in acetone of the residue collected by GF/F filtration of a known volume of any water body. The quoted value either results from a single determination or the average of replicate determinations.'^^xsd:string ;
     skos:notation 'SDN:P01::HEXSHPP1'^^xsd:string .
     
@@ -21800,7 +21800,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/HEXSSDP1/".
 <http://vocab.nerc.ac.uk/collection/P01/current/HEXSSDP1/>
     dc:modified '2014-03-12T13:48:57'^^xsd:dateTime ;
-    skos:altLabel '''cis-19'-hexanoyloxyfucoxanthin_water>GF/F_SD_HPLC'''^^xsd:string ;
+    skos:altLabel '''cis-19\'-hexanoyloxyfucoxanthin_water>GF/F_SD_HPLC'''^^xsd:string ;
     skos:definition 'The standard deviation of a set of measurements of the amount (mass or moles) of the specified pigment determined by HPLC assay of a sample collected by dissolution in acetone of the residue collected by GF/F filtration of a known volume of any water body.'^^xsd:string ;
     skos:notation 'SDN:P01::HEXSSDP1'^^xsd:string .
     

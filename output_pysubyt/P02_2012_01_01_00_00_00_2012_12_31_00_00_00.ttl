@@ -79,7 +79,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/SALK/>
     dc:modified '2012-03-01T16:27:53'^^xsd:dateTime ;
     skos:altLabel 'Sed_AliphaticHC'^^xsd:string ;
-    skos:definition '''Aliphatic hydrocarbon (alkane, alkene, alkyne, polycyclic aliphatics like hopane, terpenes etc.)  concentrations in sediment, which is considered to be anything from the bed sampled by a grab or corer, including 'fluff''''^^xsd:string ;
+    skos:definition '''Aliphatic hydrocarbon (alkane, alkene, alkyne, polycyclic aliphatics like hopane, terpenes etc.)  concentrations in sediment, which is considered to be anything from the bed sampled by a grab or corer, including \'fluff\''''^^xsd:string ;
     skos:notation 'SDN:P02::SALK'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/TOCH/3/> .

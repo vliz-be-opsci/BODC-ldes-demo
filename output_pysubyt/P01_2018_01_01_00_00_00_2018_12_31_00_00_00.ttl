@@ -4061,7 +4061,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL14/>
     dc:modified '2018-11-13T18:28:19'^^xsd:dateTime ;
     skos:altLabel 'Biovolume_HELCOM_COMBINE'^^xsd:string ;
-    skos:definition '''Biovolume of an identified biological object of phytoplankton specified elsewhere in the metadata. The Biovolume is calculated according to Olenina, I., Hajdu, S., Edler, L., Andersson, A., Wasmund, N., Busch, S., Göbel, J., Gromisz, S., Huseby, S., Huttunen, M., Jaanus, A., Kokkonen, P., Ledaine, I. and Niemkiewicz, E. 2006 Biovolumes and size-classes of phytoplankton in the Baltic Sea HELCOM Balt.Sea Environ. Proc. No. 106, 144pp. http://helcom.fi/Lists/Publications/BSEP106.pdf. The annex 'Biovolumes and size-classes of phytoplankton species in the Baltic Sea' is revised each year by the HELCOM Phytoplankton Expert Group. The latest version is available at http://ices.dk/marine-data/vocabularies/Pages/default.aspx.'''^^xsd:string ;
+    skos:definition '''Biovolume of an identified biological object of phytoplankton specified elsewhere in the metadata. The Biovolume is calculated according to Olenina, I., Hajdu, S., Edler, L., Andersson, A., Wasmund, N., Busch, S., Göbel, J., Gromisz, S., Huseby, S., Huttunen, M., Jaanus, A., Kokkonen, P., Ledaine, I. and Niemkiewicz, E. 2006 Biovolumes and size-classes of phytoplankton in the Baltic Sea HELCOM Balt.Sea Environ. Proc. No. 106, 144pp. http://helcom.fi/Lists/Publications/BSEP106.pdf. The annex \'Biovolumes and size-classes of phytoplankton species in the Baltic Sea\' is revised each year by the HELCOM Phytoplankton Expert Group. The latest version is available at http://ices.dk/marine-data/vocabularies/Pages/default.aspx.'''^^xsd:string ;
     skos:notation 'SDN:P01::SDBIOL14'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CELLVOLM/3/> .
@@ -4171,7 +4171,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL15/>
     dc:modified '2018-11-13T18:28:19'^^xsd:dateTime ;
     skos:altLabel 'Sizeclass_HELCOM_COMBINE'^^xsd:string ;
-    skos:definition '''Size class of an identified biological object of phytoplankton specified elsewhere in the metadata. The size class is calculated according to Olenina, I., Hajdu, S., Edler, L., Andersson, A., Wasmund, N., Busch, S., Göbel, J., Gromisz, S., Huseby, S., Huttunen, M., Jaanus, A., Kokkonen, P., Ledaine, I. and Niemkiewicz, E. 2006 Biovolumes and size-classes of phytoplankton in the Baltic Sea HELCOM Balt.Sea Environ. Proc. No. 106, 144pp. http://helcom.fi/Lists/Publications/BSEP106.pdf. The annex 'Biovolumes and size-classes of phytoplankton species in the Baltic Sea' is revised each year by the HELCOM Phytoplankton Expert Group. The latest version is available at http://ices.dk/marine-data/vocabularies/Pages/default.aspx.'''^^xsd:string ;
+    skos:definition '''Size class of an identified biological object of phytoplankton specified elsewhere in the metadata. The size class is calculated according to Olenina, I., Hajdu, S., Edler, L., Andersson, A., Wasmund, N., Busch, S., Göbel, J., Gromisz, S., Huseby, S., Huttunen, M., Jaanus, A., Kokkonen, P., Ledaine, I. and Niemkiewicz, E. 2006 Biovolumes and size-classes of phytoplankton in the Baltic Sea HELCOM Balt.Sea Environ. Proc. No. 106, 144pp. http://helcom.fi/Lists/Publications/BSEP106.pdf. The annex \'Biovolumes and size-classes of phytoplankton species in the Baltic Sea\' is revised each year by the HELCOM Phytoplankton Expert Group. The latest version is available at http://ices.dk/marine-data/vocabularies/Pages/default.aspx.'''^^xsd:string ;
     skos:notation 'SDN:P01::SDBIOL15'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/OWETBM01/3/> .
@@ -4310,7 +4310,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/HEXOSDP1/".
 <http://vocab.nerc.ac.uk/collection/P01/current/HEXOSDP1/>
     dc:modified '2018-10-15T17:05:31'^^xsd:dateTime ;
-    skos:altLabel '''19'-hexanoyloxyfucoxanthin_water>GF/F_SD_HPLC'''^^xsd:string ;
+    skos:altLabel '''19\'-hexanoyloxyfucoxanthin_water>GF/F_SD_HPLC'''^^xsd:string ;
     skos:definition 'The square root of the average of the squares of deviations about the mean of a set of values of the specified measurement.'^^xsd:string ;
     skos:notation 'SDN:P01::HEXOSDP1'^^xsd:string .
     
@@ -8440,7 +8440,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/SDNTOTP1/".
 <http://vocab.nerc.ac.uk/collection/P01/current/SDNTOTP1/>
     dc:modified '2018-10-15T17:05:31'^^xsd:dateTime ;
-    skos:altLabel '''SD_'PON'>GFF'''^^xsd:string ;
+    skos:altLabel '''SD_\'PON\'>GFF'''^^xsd:string ;
     skos:definition 'The square root of the average of the squares of deviations about the mean of a set of values of the specified measurement.'^^xsd:string ;
     skos:notation 'SDN:P01::SDNTOTP1'^^xsd:string .
     
@@ -8450,7 +8450,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/SDNTEXP1/".
 <http://vocab.nerc.ac.uk/collection/P01/current/SDNTEXP1/>
     dc:modified '2018-10-15T17:05:31'^^xsd:dateTime ;
-    skos:altLabel '''SD_'PON'>GFF_bioassay'''^^xsd:string ;
+    skos:altLabel '''SD_\'PON\'>GFF_bioassay'''^^xsd:string ;
     skos:definition 'The square root of the average of the squares of deviations about the mean of a set of values of the specified measurement.'^^xsd:string ;
     skos:notation 'SDN:P01::SDNTEXP1'^^xsd:string .
     
@@ -10600,7 +10600,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/SDCOCVZZ/".
 <http://vocab.nerc.ac.uk/collection/P01/current/SDCOCVZZ/>
     dc:modified '2018-10-15T17:05:31'^^xsd:dateTime ;
-    skos:altLabel '''SD_logK'CoL_0.2umFilt'''^^xsd:string ;
+    skos:altLabel '''SD_logK\'CoL_0.2umFilt'''^^xsd:string ;
     skos:definition 'The square root of the average of the squares of deviations about the mean of a set of values of the specified measurement.'^^xsd:string ;
     skos:notation 'SDN:P01::SDCOCVZZ'^^xsd:string .
     
@@ -10610,7 +10610,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/SDLOGCU7/".
 <http://vocab.nerc.ac.uk/collection/P01/current/SDLOGCU7/>
     dc:modified '2018-10-15T17:05:31'^^xsd:dateTime ;
-    skos:altLabel '''SD_logK'Cu'''^^xsd:string ;
+    skos:altLabel '''SD_logK\'Cu'''^^xsd:string ;
     skos:definition 'The square root of the average of the squares of deviations about the mean of a set of values of the specified measurement.'^^xsd:string ;
     skos:notation 'SDN:P01::SDLOGCU7'^^xsd:string .
     
@@ -10620,7 +10620,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/SDFLCVD5/".
 <http://vocab.nerc.ac.uk/collection/P01/current/SDFLCVD5/>
     dc:modified '2018-10-15T17:05:31'^^xsd:dateTime ;
-    skos:altLabel '''SD_logK'FeL_0.2umFilt'''^^xsd:string ;
+    skos:altLabel '''SD_logK\'FeL_0.2umFilt'''^^xsd:string ;
     skos:definition 'The square root of the average of the squares of deviations about the mean of a set of values of the specified measurement.'^^xsd:string ;
     skos:notation 'SDN:P01::SDFLCVD5'^^xsd:string .
     
@@ -10630,7 +10630,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/SDFLCVDN/".
 <http://vocab.nerc.ac.uk/collection/P01/current/SDFLCVDN/>
     dc:modified '2018-10-15T17:05:31'^^xsd:dateTime ;
-    skos:altLabel '''SD_logK'FeL_<1000kDa_Filt'''^^xsd:string ;
+    skos:altLabel '''SD_logK\'FeL_<1000kDa_Filt'''^^xsd:string ;
     skos:definition 'The square root of the average of the squares of deviations about the mean of a set of values of the specified measurement.'^^xsd:string ;
     skos:notation 'SDN:P01::SDFLCVDN'^^xsd:string .
     
@@ -10650,7 +10650,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/SDFLCVZZ/".
 <http://vocab.nerc.ac.uk/collection/P01/current/SDFLCVZZ/>
     dc:modified '2018-10-15T17:05:31'^^xsd:dateTime ;
-    skos:altLabel '''SDlogK'Fe'''^^xsd:string ;
+    skos:altLabel '''SDlogK\'Fe'''^^xsd:string ;
     skos:definition 'The square root of the average of the squares of deviations about the mean of a set of values of the specified measurement.'^^xsd:string ;
     skos:notation 'SDN:P01::SDFLCVZZ'^^xsd:string .
     
@@ -10660,7 +10660,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/SDZLCVZZ/".
 <http://vocab.nerc.ac.uk/collection/P01/current/SDZLCVZZ/>
     dc:modified '2018-10-15T17:05:31'^^xsd:dateTime ;
-    skos:altLabel '''SDlogK'Zn'''^^xsd:string ;
+    skos:altLabel '''SDlogK\'Zn'''^^xsd:string ;
     skos:definition 'The square root of the average of the squares of deviations about the mean of a set of values of the specified measurement.'^^xsd:string ;
     skos:notation 'SDN:P01::SDZLCVZZ'^^xsd:string .
     
@@ -16891,7 +16891,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/DTENRICQ/>
     dc:modified '2018-08-09T14:16:33'^^xsd:dateTime ;
     skos:altLabel 'Delta_114/110Cd_NIST-3108_WC<0.2um_ICPMS_Err'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::DTENRICQ'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/DTEFFICP/1/> .
@@ -16921,7 +16921,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/DTESDIDP/>
     dc:modified '2018-08-09T14:16:33'^^xsd:dateTime ;
     skos:altLabel 'Delta_114/110Cd_NIST-3108_WC<0.4/0.45um_Err'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::DTESDIDP'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/C127M00Z/2/> .
@@ -17491,7 +17491,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/UKMH1503/>
     dc:modified '2018-07-19T11:24:42'^^xsd:dateTime ;
     skos:altLabel 'UKMarHabClass15.03'^^xsd:string ;
-    skos:definition '''A text term plus URI describing the seabed habitat of marine, coastal or estuarine waters using the JNCC's Marine Habitat Classification for Britain and Ireland Version 15.03.'''^^xsd:string ;
+    skos:definition '''A text term plus URI describing the seabed habitat of marine, coastal or estuarine waters using the JNCC\'s Marine Habitat Classification for Britain and Ireland Version 15.03.'''^^xsd:string ;
     skos:notation 'SDN:P01::UKMH1503'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/GMNLZZ01/3/> .
@@ -17751,7 +17751,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/GDDDSD01/>
     dc:modified '2018-07-17T17:55:18'^^xsd:dateTime ;
     skos:altLabel 'WaveDirSpecDens_ADWA'^^xsd:string ;
-    skos:definition '''Fourier Analysis on directional sea level elevation, also named 'Directional Spectral density' or 'Directional Power spectral density'.'''^^xsd:string ;
+    skos:definition '''Fourier Analysis on directional sea level elevation, also named \'Directional Spectral density\' or \'Directional Power spectral density\'.'''^^xsd:string ;
     skos:notation 'SDN:P01::GDDDSD01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/GDSDFS01/5/> .
@@ -17761,7 +17761,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/GDSDFS01/>
     dc:modified '2018-07-17T17:55:18'^^xsd:dateTime ;
     skos:altLabel 'WaveDirSpecDens_S4'^^xsd:string ;
-    skos:definition '''Fourier Analysis on directional sea level elevation, also named 'Directional Spectral density' or 'Directional Power spectral density'.'''^^xsd:string ;
+    skos:definition '''Fourier Analysis on directional sea level elevation, also named \'Directional Spectral density\' or \'Directional Power spectral density\'.'''^^xsd:string ;
     skos:notation 'SDN:P01::GDSDFS01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/GDSDFA01/5/> .
@@ -17771,7 +17771,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/GDSDFA01/>
     dc:modified '2018-07-17T17:55:18'^^xsd:dateTime ;
     skos:altLabel 'WaveDirSpecDens_WR'^^xsd:string ;
-    skos:definition '''Fourier Analysis on directional sea level elevation, also named 'Directional Spectral density' or 'Directional Power spectral density'.'''^^xsd:string ;
+    skos:definition '''Fourier Analysis on directional sea level elevation, also named \'Directional Spectral density\' or \'Directional Power spectral density\'.'''^^xsd:string ;
     skos:notation 'SDN:P01::GDSDFA01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/GWSZVS01/4/> .
@@ -18411,7 +18411,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/UKMH0405/>
     dc:modified '2018-06-14T16:10:29'^^xsd:dateTime ;
     skos:altLabel 'UKMarHabClass04.05'^^xsd:string ;
-    skos:definition '''A text term plus URI describing the seabed habitat of marine, coastal or estuarine waters using the JNCC's Marine Habitat Classification for Britain and Ireland Version 04.05.'''^^xsd:string ;
+    skos:definition '''A text term plus URI describing the seabed habitat of marine, coastal or estuarine waters using the JNCC\'s Marine Habitat Classification for Britain and Ireland Version 04.05.'''^^xsd:string ;
     skos:notation 'SDN:P01::UKMH0405'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/TARRES01/1/> .
@@ -51942,7 +51942,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CDENRICQ/>
     dc:modified '2018-04-25T17:31:38'^^xsd:dateTime ;
     skos:altLabel 'Epsilon_114/110Cd_NIST_Err'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CDENRICQ'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/ND143CHU/5/> .
@@ -53758,7 +53758,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/D66ZNL0U/>
     dc:modified '2018-04-25T17:31:38'^^xsd:dateTime ;
     skos:altLabel 'd66Zn_Lyon_WC<0.2um_Err'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::D66ZNL0U'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/D66ZNL03/2/> .
@@ -53810,7 +53810,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/PCACX215/>
     dc:modified '2018-04-25T17:26:46'^^xsd:dateTime ;
     skos:altLabel 'CaCO3_drysed_3.9-63um'^^xsd:string ;
-    skos:definition '''The proportion by weight of calcium carbonate to the total weight of a dried sample of disaggregated minerals or mineraloids of size range between 3.9 and 63 microns or identified as 'Silt' on the Wentworth scale.'''^^xsd:string ;
+    skos:definition '''The proportion by weight of calcium carbonate to the total weight of a dried sample of disaggregated minerals or mineraloids of size range between 3.9 and 63 microns or identified as \'Silt\' on the Wentworth scale.'''^^xsd:string ;
     skos:notation 'SDN:P01::PCACX215'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/PCACX515/1/> .
@@ -53820,7 +53820,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/PCACX515/>
     dc:modified '2018-04-25T17:26:46'^^xsd:dateTime ;
     skos:altLabel 'CaCO3_drysed_4-256mm'^^xsd:string ;
-    skos:definition '''The proportion by weight of calcium carbonate to the total weight of a dried sample of disaggregated minerals or mineraloids of size range between 4 and 256 millimeters or identified as the combination of 'Pebble' + 'Cobble' classes on the Wentworth scale.'''^^xsd:string ;
+    skos:definition '''The proportion by weight of calcium carbonate to the total weight of a dried sample of disaggregated minerals or mineraloids of size range between 4 and 256 millimeters or identified as the combination of \'Pebble\' + \'Cobble\' classes on the Wentworth scale.'''^^xsd:string ;
     skos:notation 'SDN:P01::PCACX515'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/PCACX415/1/> .
@@ -53830,7 +53830,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/PCACX415/>
     dc:modified '2018-04-25T17:26:46'^^xsd:dateTime ;
     skos:altLabel 'CaCO3_drysed_63-256000um'^^xsd:string ;
-    skos:definition '''The proportion by weight of calcium carbonate to the total weight of a dried sample of disaggregated minerals or mineraloids of size range between 63 microns and 256 millimeters or identified as the combination of 'Sand' + 'Granule' + 'Pebble' + 'Cobble' classes on the Wentworth scale.'''^^xsd:string ;
+    skos:definition '''The proportion by weight of calcium carbonate to the total weight of a dried sample of disaggregated minerals or mineraloids of size range between 63 microns and 256 millimeters or identified as the combination of \'Sand\' + \'Granule\' + \'Pebble\' + \'Cobble\' classes on the Wentworth scale.'''^^xsd:string ;
     skos:notation 'SDN:P01::PCACX415'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/PCACX315/1/> .
@@ -53840,7 +53840,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/PCACX315/>
     dc:modified '2018-04-25T17:26:46'^^xsd:dateTime ;
     skos:altLabel 'CaCO3_drysed_63-4000um'^^xsd:string ;
-    skos:definition '''The proportion by weight of calcium carbonate to the total weight of a dried sample of disaggregated minerals or mineraloids of size range between 63 microns and 4 millimeters or identified as the combination of 'Sand' + 'Granule' classes on the Wentworth scale.'''^^xsd:string ;
+    skos:definition '''The proportion by weight of calcium carbonate to the total weight of a dried sample of disaggregated minerals or mineraloids of size range between 63 microns and 4 millimeters or identified as the combination of \'Sand\' + \'Granule\' classes on the Wentworth scale.'''^^xsd:string ;
     skos:notation 'SDN:P01::PCACX315'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/D15NMTBS/2/> .
@@ -54540,7 +54540,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/PPO08263/>
     dc:modified '2018-03-27T15:19:51'^^xsd:dateTime ;
     skos:altLabel 'PercentNecrosis_BE008261'^^xsd:string ;
-    skos:definition '''The average proportion of the surface area of Posidonia oceanica's leaves affected by necrosis (i.e. proportion of dead tissue).'''^^xsd:string ;
+    skos:definition '''The average proportion of the surface area of Posidonia oceanica\'s leaves affected by necrosis (i.e. proportion of dead tissue).'''^^xsd:string ;
     skos:notation 'SDN:P01::PPO08263'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/ALFXIC9D/1/> .
@@ -55750,7 +55750,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/ENDX8601/>
     dc:modified '2018-01-23T11:51:31'^^xsd:dateTime ;
     skos:altLabel 'End_UT_ISO8601'^^xsd:string ;
-    skos:definition '''String corresponding to format 'YYYY-MM-DDThh:mm:ss.sssZ' or other valid ISO8601 string specifying the timestamp of the end of an activity.'''^^xsd:string ;
+    skos:definition '''String corresponding to format \'YYYY-MM-DDThh:mm:ss.sssZ\' or other valid ISO8601 string specifying the timestamp of the end of an activity.'''^^xsd:string ;
     skos:notation 'SDN:P01::ENDX8601'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/STRT8601/2/> .
@@ -55760,7 +55760,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/STRT8601/>
     dc:modified '2018-01-23T11:51:31'^^xsd:dateTime ;
     skos:altLabel 'Start_UT_ISO8601'^^xsd:string ;
-    skos:definition '''String corresponding to format 'YYYY-MM-DDThh:mm:ss.sssZ' or other valid ISO8601 string specifying the timestamp of the start of an activity.'''^^xsd:string ;
+    skos:definition '''String corresponding to format \'YYYY-MM-DDThh:mm:ss.sssZ\' or other valid ISO8601 string specifying the timestamp of the start of an activity.'''^^xsd:string ;
     skos:notation 'SDN:P01::STRT8601'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/DTUT8601/5/> .
@@ -55770,7 +55770,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/DTUT8601/>
     dc:modified '2018-01-23T11:51:31'^^xsd:dateTime ;
     skos:altLabel 'UT_ISO8601'^^xsd:string ;
-    skos:definition '''String corresponding to format 'YYYY-MM-DDThh:mm:ss.sssZ' or other valid ISO8601 string'''^^xsd:string ;
+    skos:definition '''String corresponding to format \'YYYY-MM-DDThh:mm:ss.sssZ\' or other valid ISO8601 string'''^^xsd:string ;
     skos:notation 'SDN:P01::DTUT8601'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/PHYTEXPF/2/> .
@@ -55940,7 +55940,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/ANA07969/>
     dc:modified '2018-01-16T15:51:28'^^xsd:dateTime ;
     skos:altLabel 'Abund_BE007969_WC_FC'^^xsd:string ;
-    skos:definition '''Number of particles in a unit volume of any body of fresh or salt water resolved by flow cytometry as undifferentiated eukaryotic phytoplankton in a size range operationally defined as nanoplankton; this code can be used for counts labelled 'eukaryotic nanophytoplankton'; 'photosynthetic or phototrophic nanoflagellates'; 'plastidic nanoeukaryotes'; etc.; or when it is known that the counts were obtained using natural fluorescence (i.e. no stain was used) and the cells were referred to as 'nanoeukaryotes' or 'nanoflagellates'.'''^^xsd:string ;
+    skos:definition '''Number of particles in a unit volume of any body of fresh or salt water resolved by flow cytometry as undifferentiated eukaryotic phytoplankton in a size range operationally defined as nanoplankton; this code can be used for counts labelled \'eukaryotic nanophytoplankton\'; \'photosynthetic or phototrophic nanoflagellates\'; \'plastidic nanoeukaryotes\'; etc.; or when it is known that the counts were obtained using natural fluorescence (i.e. no stain was used) and the cells were referred to as \'nanoeukaryotes\' or \'nanoflagellates\'.'''^^xsd:string ;
     skos:notation 'SDN:P01::ANA07969'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/ANAXX01X/3/> .

@@ -151,7 +151,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/PTCHCF01/>
     dc:modified '2016-11-10T16:04:34'^^xsd:dateTime ;
     skos:altLabel 'Glider_Pitch_Config'^^xsd:string ;
-    skos:definition '''The distance of a glider's internal pitch mass from the position that would maintain neutral pitch (Positive nose up).'''^^xsd:string ;
+    skos:definition '''The distance of a glider\'s internal pitch mass from the position that would maintain neutral pitch (Positive nose up).'''^^xsd:string ;
     skos:notation 'SDN:P01::PTCHCF01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/PTCHCT01/1/> .
@@ -171,7 +171,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/ROLLCF01/>
     dc:modified '2016-11-10T16:04:34'^^xsd:dateTime ;
     skos:altLabel 'Glider_Roll_Config'^^xsd:string ;
-    skos:definition '''The angle of a glider's internal roll mass from the position that would maintain neutral roll (Positive starboard wing down).'''^^xsd:string ;
+    skos:definition '''The angle of a glider\'s internal roll mass from the position that would maintain neutral roll (Positive starboard wing down).'''^^xsd:string ;
     skos:notation 'SDN:P01::ROLLCF01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/ROLLCT01/1/> .
@@ -1691,7 +1691,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CTMSED01/>
     dc:modified '2016-10-07T13:32:12'^^xsd:dateTime ;
     skos:altLabel 'DryWt_IMS_PAHs_sed'^^xsd:string ;
-    skos:definition '''Quantity or mass of the sum of polycyclic aromatic hydrocarbons whose concentrations are summed to produce an overall 'PAH concentration' by the Institute of Marine Sciences, Middle East Technical University, Turkey. The mixture comprises naphthalene, 1-methylnaphthalene, 1-ethylnaphtahalene, acenaphthylene, acenapthane, fluorene, phenanthrene, anthracene, 2-methylphenanthrene, 1-methylphenanthrene, fluoranthene, 3-6 dimethyl, pyrene, 1-methylpyrene, chrysene and perylene per unit weight of dried unsieved sediment.'''^^xsd:string ;
+    skos:definition '''Quantity or mass of the sum of polycyclic aromatic hydrocarbons whose concentrations are summed to produce an overall \'PAH concentration\' by the Institute of Marine Sciences, Middle East Technical University, Turkey. The mixture comprises naphthalene, 1-methylnaphthalene, 1-ethylnaphtahalene, acenaphthylene, acenapthane, fluorene, phenanthrene, anthracene, 2-methylphenanthrene, 1-methylphenanthrene, fluoranthene, 3-6 dimethyl, pyrene, 1-methylpyrene, chrysene and perylene per unit weight of dried unsieved sediment.'''^^xsd:string ;
     skos:notation 'SDN:P01::CTMSED01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/SCCKGIC1/1/> .
@@ -1741,7 +1741,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/GDSNRD01/>
     dc:modified '2016-09-07T14:44:07'^^xsd:dateTime ;
     skos:altLabel 'VarSpecDens_RD'^^xsd:string ;
-    skos:definition '''Fourier Analysis on directional sea level elevation, also named 'Directional Spectral density' or 'Directional Power spectral density'.'''^^xsd:string ;
+    skos:definition '''Fourier Analysis on directional sea level elevation, also named \'Directional Spectral density\' or \'Directional Power spectral density\'.'''^^xsd:string ;
     skos:notation 'SDN:P01::GDSNRD01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/GDSNFB01/2/> .
@@ -1751,7 +1751,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/GDSNFB01/>
     dc:modified '2016-09-07T14:44:07'^^xsd:dateTime ;
     skos:altLabel 'VarSpecDens_SBWR'^^xsd:string ;
-    skos:definition '''Fourier Analysis on directional sea level elevation, also named 'Directional Spectral density' or 'Directional Power spectral density'.'''^^xsd:string ;
+    skos:definition '''Fourier Analysis on directional sea level elevation, also named \'Directional Spectral density\' or \'Directional Power spectral density\'.'''^^xsd:string ;
     skos:notation 'SDN:P01::GDSNFB01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/GDSNFP01/2/> .
@@ -1761,7 +1761,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/GDSNFP01/>
     dc:modified '2016-09-07T14:44:07'^^xsd:dateTime ;
     skos:altLabel 'VarSpecDens_SFPG'^^xsd:string ;
-    skos:definition '''Fourier Analysis on directional sea level elevation, also named 'Directional Spectral density' or 'Directional Power spectral density'.'''^^xsd:string ;
+    skos:definition '''Fourier Analysis on directional sea level elevation, also named \'Directional Spectral density\' or \'Directional Power spectral density\'.'''^^xsd:string ;
     skos:notation 'SDN:P01::GDSNFP01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/GDSNFA01/2/> .
@@ -1771,7 +1771,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/GDSNFA01/>
     dc:modified '2016-09-07T14:44:07'^^xsd:dateTime ;
     skos:altLabel 'VarSpecDens_WR'^^xsd:string ;
-    skos:definition '''Fourier Analysis on directional sea level elevation, also named 'Directional Spectral density' or 'Directional Power spectral density'.'''^^xsd:string ;
+    skos:definition '''Fourier Analysis on directional sea level elevation, also named \'Directional Spectral density\' or \'Directional Power spectral density\'.'''^^xsd:string ;
     skos:notation 'SDN:P01::GDSNFA01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/DN02XX01/1/> .
@@ -1811,7 +1811,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/GNAOLC01/>
     dc:modified '2016-08-05T08:37:36'^^xsd:dateTime ;
     skos:altLabel 'Azimuth'^^xsd:string ;
-    skos:definition '''May form spherical coordinate set with angular altitude or it's complement.'''^^xsd:string ;
+    skos:definition '''May form spherical coordinate set with angular altitude or it\'s complement.'''^^xsd:string ;
     skos:notation 'SDN:P01::GNAOLC01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/RIFNAX01/1/> .
@@ -4441,7 +4441,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/MAGNFL02/>
     dc:modified '2016-05-01T17:31:46'^^xsd:dateTime ;
     skos:altLabel 'Mag_Field_2'^^xsd:string ;
-    skos:definition '''The strength of the the magnetic field at a given point on or above the Earth's surface.'''^^xsd:string ;
+    skos:definition '''The strength of the the magnetic field at a given point on or above the Earth\'s surface.'''^^xsd:string ;
     skos:notation 'SDN:P01::MAGNFL02'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/NTRZNS02/2/> .

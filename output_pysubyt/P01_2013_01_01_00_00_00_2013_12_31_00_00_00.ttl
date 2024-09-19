@@ -11291,7 +11291,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/ARAYELID/>
     dc:modified '2013-08-28T12:52:44'^^xsd:dateTime ;
     skos:altLabel 'CellID'^^xsd:string ;
-    skos:definition '''An identifier given to an individual element of a 2, 3 or 4-dimensional array that is possibly, but not necessarily, related to the element's position in the array.'''^^xsd:string ;
+    skos:definition '''An identifier given to an individual element of a 2, 3 or 4-dimensional array that is possibly, but not necessarily, related to the element\'s position in the array.'''^^xsd:string ;
     skos:notation 'SDN:P01::ARAYELID'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/F113GCKG/2/> .

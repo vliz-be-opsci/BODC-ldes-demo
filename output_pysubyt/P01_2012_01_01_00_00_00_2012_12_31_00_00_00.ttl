@@ -19799,7 +19799,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/BATHHGHT/>
     dc:modified '2012-07-25T13:19:54'^^xsd:dateTime ;
     skos:altLabel 'BathyHeight_MSL'^^xsd:string ;
-    skos:definition '''The vertical separation of a point above sea surface elevation averaged over a long period of time which approximates to the Earth's geoid.'''^^xsd:string ;
+    skos:definition '''The vertical separation of a point above sea surface elevation averaged over a long period of time which approximates to the Earth\'s geoid.'''^^xsd:string ;
     skos:notation 'SDN:P01::BATHHGHT'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/BATHDPTH/2/> .
@@ -19809,7 +19809,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/BATHDPTH/>
     dc:modified '2012-07-25T13:19:33'^^xsd:dateTime ;
     skos:altLabel 'BathyDepth_MSL'^^xsd:string ;
-    skos:definition '''The vertical separation of a point below sea surface elevation averaged over a long period of time which approximates to the Earth's geoid.'''^^xsd:string ;
+    skos:definition '''The vertical separation of a point below sea surface elevation averaged over a long period of time which approximates to the Earth\'s geoid.'''^^xsd:string ;
     skos:notation 'SDN:P01::BATHDPTH'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/AXZ6GCTX/3/> .

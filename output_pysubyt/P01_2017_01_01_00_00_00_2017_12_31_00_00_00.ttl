@@ -10581,7 +10581,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/GM2CFA01/>
     dc:modified '2017-08-23T13:17:14'^^xsd:dateTime ;
     skos:altLabel 'Cent_A2'^^xsd:string ;
-    skos:definition '''Coeff. of 2nd harmonic of directional dist'n from co-spectra of horiz translation (Kuik et al 1988)'''^^xsd:string ;
+    skos:definition '''Coeff. of 2nd harmonic of directional dist\'n from co-spectra of horiz translation (Kuik et al 1988)'''^^xsd:string ;
     skos:notation 'SDN:P01::GM2CFA01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/GA2CFSV2/2/> .
@@ -10591,7 +10591,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/GA2CFSV2/>
     dc:modified '2017-08-23T13:16:49'^^xsd:dateTime ;
     skos:altLabel 'A2_WR'^^xsd:string ;
-    skos:definition '''Coeff. of 2nd harmonic of directional dist'n from co-spectra of horiz translation'''^^xsd:string ;
+    skos:definition '''Coeff. of 2nd harmonic of directional dist\'n from co-spectra of horiz translation'''^^xsd:string ;
     skos:notation 'SDN:P01::GA2CFSV2'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/GSPKFB01/3/> .
@@ -22581,7 +22581,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CMO17068/>
     dc:modified '2017-07-29T16:20:05'^^xsd:dateTime ;
     skos:altLabel 'Part_Mo_0.8-51um'^^xsd:string ;
-    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::CMO17068'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CMO17066/2/> .
@@ -22591,7 +22591,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CMO17066/>
     dc:modified '2017-07-29T16:20:05'^^xsd:dateTime ;
     skos:altLabel 'Part_Mo_>51um'^^xsd:string ;
-    skos:definition '''Concentration of the specified substance in the particulate fraction >51um and defined as 'sinking''''^^xsd:string ;
+    skos:definition '''Concentration of the specified substance in the particulate fraction >51um and defined as \'sinking\''''^^xsd:string ;
     skos:notation 'SDN:P01::CMO17066'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSC17072/2/> .
@@ -22601,7 +22601,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSC17072/>
     dc:modified '2017-07-29T16:20:05'^^xsd:dateTime ;
     skos:altLabel 'Part_Sc_0.8-51um'^^xsd:string ;
-    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::CSC17072'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSC17070/2/> .
@@ -22611,7 +22611,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSC17070/>
     dc:modified '2017-07-29T16:20:05'^^xsd:dateTime ;
     skos:altLabel 'Part_Sc_>51um'^^xsd:string ;
-    skos:definition '''Concentration of the specified substance in the particulate fraction >51um and defined as 'sinking''''^^xsd:string ;
+    skos:definition '''Concentration of the specified substance in the particulate fraction >51um and defined as \'sinking\''''^^xsd:string ;
     skos:notation 'SDN:P01::CSC17070'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/AGPSUS01/4/> .
@@ -22621,7 +22621,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/AGPSUS01/>
     dc:modified '2017-07-29T15:39:12'^^xsd:dateTime ;
     skos:altLabel 'PartAg_0.8-51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::AGPSUS01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/ALPSUS01/4/> .
@@ -22631,7 +22631,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/ALPSUS01/>
     dc:modified '2017-07-29T15:39:12'^^xsd:dateTime ;
     skos:altLabel 'PartAl_0.8-51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::ALPSUS01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/BAPSUS01/4/> .
@@ -22641,7 +22641,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/BAPSUS01/>
     dc:modified '2017-07-29T15:39:12'^^xsd:dateTime ;
     skos:altLabel 'PartBa_0.8-51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::BAPSUS01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CDPSUS01/4/> .
@@ -22651,7 +22651,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CDPSUS01/>
     dc:modified '2017-07-29T15:39:12'^^xsd:dateTime ;
     skos:altLabel 'PartCd_0.8-51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::CDPSUS01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/COPSUS01/4/> .
@@ -22661,7 +22661,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/COPSUS01/>
     dc:modified '2017-07-29T15:39:12'^^xsd:dateTime ;
     skos:altLabel 'PartCo_0.8-51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::COPSUS01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CUPSUS01/4/> .
@@ -22671,7 +22671,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CUPSUS01/>
     dc:modified '2017-07-29T15:39:12'^^xsd:dateTime ;
     skos:altLabel 'PartCu_0.8-51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::CUPSUS01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/FEPSUS01/8/> .
@@ -22681,7 +22681,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/FEPSUS01/>
     dc:modified '2017-07-29T15:39:12'^^xsd:dateTime ;
     skos:altLabel 'PartFe_0.8-51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::FEPSUS01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/MNPSUS01/8/> .
@@ -22691,7 +22691,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/MNPSUS01/>
     dc:modified '2017-07-29T15:39:12'^^xsd:dateTime ;
     skos:altLabel 'PartMn_0.8-51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::MNPSUS01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/NDPSUS01/4/> .
@@ -22701,7 +22701,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/NDPSUS01/>
     dc:modified '2017-07-29T15:39:12'^^xsd:dateTime ;
     skos:altLabel 'PartNd_0.8-51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::NDPSUS01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/NIPSUS01/4/> .
@@ -22711,7 +22711,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/NIPSUS01/>
     dc:modified '2017-07-29T15:39:12'^^xsd:dateTime ;
     skos:altLabel 'PartNi_0.8-51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::NIPSUS01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/PHPSUS01/5/> .
@@ -22721,7 +22721,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/PHPSUS01/>
     dc:modified '2017-07-29T15:39:12'^^xsd:dateTime ;
     skos:altLabel 'PartP_0.8-51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::PHPSUS01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/PBPSUS01/4/> .
@@ -22731,7 +22731,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/PBPSUS01/>
     dc:modified '2017-07-29T15:39:12'^^xsd:dateTime ;
     skos:altLabel 'PartPb_0.8-51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::PBPSUS01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/THPSUS01/4/> .
@@ -22741,7 +22741,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/THPSUS01/>
     dc:modified '2017-07-29T15:39:12'^^xsd:dateTime ;
     skos:altLabel 'PartTh_0.8-51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::THPSUS01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/TIPSUS01/4/> .
@@ -22751,7 +22751,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/TIPSUS01/>
     dc:modified '2017-07-29T15:39:12'^^xsd:dateTime ;
     skos:altLabel 'PartTi_0.8-51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::TIPSUS01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/VAPSUS01/4/> .
@@ -22761,7 +22761,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/VAPSUS01/>
     dc:modified '2017-07-29T15:39:12'^^xsd:dateTime ;
     skos:altLabel 'PartV_0.8-51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::VAPSUS01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/YTPSUS01/4/> .
@@ -22771,7 +22771,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/YTPSUS01/>
     dc:modified '2017-07-29T15:39:12'^^xsd:dateTime ;
     skos:altLabel 'PartY_0.8-51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from suspended particles passing through a 51 micron mesh but retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::YTPSUS01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/AGPSIN01/4/> .
@@ -22781,7 +22781,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/AGPSIN01/>
     dc:modified '2017-07-29T15:39:05'^^xsd:dateTime ;
     skos:altLabel 'PartAg_>51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as 'sinking').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as \'sinking\').'''^^xsd:string ;
     skos:notation 'SDN:P01::AGPSIN01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/ALPSIN01/4/> .
@@ -22791,7 +22791,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/ALPSIN01/>
     dc:modified '2017-07-29T15:39:05'^^xsd:dateTime ;
     skos:altLabel 'PartAl_>51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as 'sinking').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as \'sinking\').'''^^xsd:string ;
     skos:notation 'SDN:P01::ALPSIN01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/BAPSIN01/4/> .
@@ -22801,7 +22801,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/BAPSIN01/>
     dc:modified '2017-07-29T15:39:05'^^xsd:dateTime ;
     skos:altLabel 'PartBa_>51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as 'sinking').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as \'sinking\').'''^^xsd:string ;
     skos:notation 'SDN:P01::BAPSIN01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CDPSIN01/4/> .
@@ -22811,7 +22811,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CDPSIN01/>
     dc:modified '2017-07-29T15:39:05'^^xsd:dateTime ;
     skos:altLabel 'PartCd_>51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as 'sinking').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as \'sinking\').'''^^xsd:string ;
     skos:notation 'SDN:P01::CDPSIN01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/COPSIN01/4/> .
@@ -22821,7 +22821,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/COPSIN01/>
     dc:modified '2017-07-29T15:39:05'^^xsd:dateTime ;
     skos:altLabel 'PartCo_>51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as 'sinking').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as \'sinking\').'''^^xsd:string ;
     skos:notation 'SDN:P01::COPSIN01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CUPSIN01/4/> .
@@ -22831,7 +22831,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CUPSIN01/>
     dc:modified '2017-07-29T15:39:05'^^xsd:dateTime ;
     skos:altLabel 'PartCu_>51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as 'sinking').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as \'sinking\').'''^^xsd:string ;
     skos:notation 'SDN:P01::CUPSIN01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/FEPSIN01/8/> .
@@ -22841,7 +22841,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/FEPSIN01/>
     dc:modified '2017-07-29T15:39:05'^^xsd:dateTime ;
     skos:altLabel 'PartFe_>51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as 'sinking').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as \'sinking\').'''^^xsd:string ;
     skos:notation 'SDN:P01::FEPSIN01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/MNPSIN01/8/> .
@@ -22851,7 +22851,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/MNPSIN01/>
     dc:modified '2017-07-29T15:39:05'^^xsd:dateTime ;
     skos:altLabel 'PartMn_>51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as 'sinking').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as \'sinking\').'''^^xsd:string ;
     skos:notation 'SDN:P01::MNPSIN01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/NDPSIN01/4/> .
@@ -22861,7 +22861,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/NDPSIN01/>
     dc:modified '2017-07-29T15:39:05'^^xsd:dateTime ;
     skos:altLabel 'PartNd_>51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as 'sinking').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as \'sinking\').'''^^xsd:string ;
     skos:notation 'SDN:P01::NDPSIN01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/NIPSIN01/4/> .
@@ -22871,7 +22871,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/NIPSIN01/>
     dc:modified '2017-07-29T15:39:05'^^xsd:dateTime ;
     skos:altLabel 'PartNi_>51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as 'sinking').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as \'sinking\').'''^^xsd:string ;
     skos:notation 'SDN:P01::NIPSIN01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/PHPSIN01/5/> .
@@ -22881,7 +22881,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/PHPSIN01/>
     dc:modified '2017-07-29T15:39:05'^^xsd:dateTime ;
     skos:altLabel 'PartP_>51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as 'sinking').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as \'sinking\').'''^^xsd:string ;
     skos:notation 'SDN:P01::PHPSIN01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/PBPSIN01/4/> .
@@ -22891,7 +22891,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/PBPSIN01/>
     dc:modified '2017-07-29T15:39:05'^^xsd:dateTime ;
     skos:altLabel 'PartPb_>51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as 'sinking').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as \'sinking\').'''^^xsd:string ;
     skos:notation 'SDN:P01::PBPSIN01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/THPSIN01/4/> .
@@ -22901,7 +22901,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/THPSIN01/>
     dc:modified '2017-07-29T15:39:05'^^xsd:dateTime ;
     skos:altLabel 'PartTh_>51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as 'sinking').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as \'sinking\').'''^^xsd:string ;
     skos:notation 'SDN:P01::THPSIN01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/TIPSIN01/4/> .
@@ -22911,7 +22911,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/TIPSIN01/>
     dc:modified '2017-07-29T15:39:05'^^xsd:dateTime ;
     skos:altLabel 'PartTi_>51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as 'sinking').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as \'sinking\').'''^^xsd:string ;
     skos:notation 'SDN:P01::TIPSIN01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/VAPSIN01/4/> .
@@ -22921,7 +22921,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/VAPSIN01/>
     dc:modified '2017-07-29T15:39:05'^^xsd:dateTime ;
     skos:altLabel 'PartV_>51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as 'sinking').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as \'sinking\').'''^^xsd:string ;
     skos:notation 'SDN:P01::VAPSIN01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/YTPSIN01/4/> .
@@ -22931,7 +22931,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/YTPSIN01/>
     dc:modified '2017-07-29T15:39:05'^^xsd:dateTime ;
     skos:altLabel 'PartY_>51um'^^xsd:string ;
-    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as 'sinking').'''^^xsd:string ;
+    skos:definition '''The amount (mass or moles) of the specified analyte in a unit volume of any kind of water body and extracted from particles retained by a 51 micron mesh screen (defined as \'sinking\').'''^^xsd:string ;
     skos:notation 'SDN:P01::YTPSIN01'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/LG4ECSL1/1/> .
@@ -23000,8 +23000,8 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/LOG4ECL1/".
 <http://vocab.nerc.ac.uk/collection/P01/current/LOG4ECL1/>
     dc:modified '2017-07-27T16:57:16'^^xsd:dateTime ;
-    skos:altLabel '''logK'FeL1_<0.4/0.45um'''^^xsd:string ;
-    skos:definition '''The logarithmic conditional stability constant of the stronger dissolved iron-binding ligand (logK'FeL1) present in a water sample filtered through a 0.4 or 0.45 micron filter expressed with respect to Fe.'''^^xsd:string ;
+    skos:altLabel '''logK\'FeL1_<0.4/0.45um'''^^xsd:string ;
+    skos:definition '''The logarithmic conditional stability constant of the stronger dissolved iron-binding ligand (logK\'FeL1) present in a water sample filtered through a 0.4 or 0.45 micron filter expressed with respect to Fe.'''^^xsd:string ;
     skos:notation 'SDN:P01::LOG4ECL1'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/LOG4SDL1/1/> .
@@ -23010,7 +23010,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/LOG4SDL1/".
 <http://vocab.nerc.ac.uk/collection/P01/current/LOG4SDL1/>
     dc:modified '2017-07-27T16:57:16'^^xsd:dateTime ;
-    skos:altLabel '''logK'FeL1_<0.4/0.45um_SD'''^^xsd:string ;
+    skos:altLabel '''logK\'FeL1_<0.4/0.45um_SD'''^^xsd:string ;
     skos:definition 'The standard deviation of multiple determinations of the specified phenomenon.'^^xsd:string ;
     skos:notation 'SDN:P01::LOG4SDL1'^^xsd:string .
     
@@ -23020,8 +23020,8 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/LOG4ECL2/".
 <http://vocab.nerc.ac.uk/collection/P01/current/LOG4ECL2/>
     dc:modified '2017-07-27T16:57:16'^^xsd:dateTime ;
-    skos:altLabel '''logK'FeL2_<0.4/0.45um'''^^xsd:string ;
-    skos:definition '''The logarithmic conditional stability constant of the stronger dissolved iron-binding ligand (logK'FeL2) present in a water sample filtered through a 0.4 or 0.45 micron filter expressed with respect to Fe.'''^^xsd:string ;
+    skos:altLabel '''logK\'FeL2_<0.4/0.45um'''^^xsd:string ;
+    skos:definition '''The logarithmic conditional stability constant of the stronger dissolved iron-binding ligand (logK\'FeL2) present in a water sample filtered through a 0.4 or 0.45 micron filter expressed with respect to Fe.'''^^xsd:string ;
     skos:notation 'SDN:P01::LOG4ECL2'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/SDLO4EL2/1/> .
@@ -23030,7 +23030,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/SDLO4EL2/".
 <http://vocab.nerc.ac.uk/collection/P01/current/SDLO4EL2/>
     dc:modified '2017-07-27T16:57:16'^^xsd:dateTime ;
-    skos:altLabel '''logK'FeL2_<0.4/0.45um_SD'''^^xsd:string ;
+    skos:altLabel '''logK\'FeL2_<0.4/0.45um_SD'''^^xsd:string ;
     skos:definition 'The standard deviation of multiple determinations of the specified phenomenon.'^^xsd:string ;
     skos:notation 'SDN:P01::SDLO4EL2'^^xsd:string .
     
@@ -23040,8 +23040,8 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/LOG4ECL3/".
 <http://vocab.nerc.ac.uk/collection/P01/current/LOG4ECL3/>
     dc:modified '2017-07-27T16:57:16'^^xsd:dateTime ;
-    skos:altLabel '''logK'FeL3_<0.4/0.45um'''^^xsd:string ;
-    skos:definition '''The logarithmic conditional stability constant of the stronger dissolved iron-binding ligand (logK'FeL3) present in a water sample filtered through a 0.4 or 0.45 micron filter expressed with respect to Fe.'''^^xsd:string ;
+    skos:altLabel '''logK\'FeL3_<0.4/0.45um'''^^xsd:string ;
+    skos:definition '''The logarithmic conditional stability constant of the stronger dissolved iron-binding ligand (logK\'FeL3) present in a water sample filtered through a 0.4 or 0.45 micron filter expressed with respect to Fe.'''^^xsd:string ;
     skos:notation 'SDN:P01::LOG4ECL3'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/SDLO4EL3/1/> .
@@ -23050,7 +23050,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/SDLO4EL3/".
 <http://vocab.nerc.ac.uk/collection/P01/current/SDLO4EL3/>
     dc:modified '2017-07-27T16:57:16'^^xsd:dateTime ;
-    skos:altLabel '''logK'FeL3_<0.4/0.45um_SD'''^^xsd:string ;
+    skos:altLabel '''logK\'FeL3_<0.4/0.45um_SD'''^^xsd:string ;
     skos:definition 'The standard deviation of multiple determinations of the specified phenomenon.'^^xsd:string ;
     skos:notation 'SDN:P01::SDLO4EL3'^^xsd:string .
     
@@ -23070,8 +23070,8 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/LOGFECL3/".
 <http://vocab.nerc.ac.uk/collection/P01/current/LOGFECL3/>
     dc:modified '2017-07-26T13:05:22'^^xsd:dateTime ;
-    skos:altLabel '''logK'FeL3_<0.2um'''^^xsd:string ;
-    skos:definition '''The logarithmic conditional stability constant of the stronger dissolved iron-binding ligand (logK'FeL3) present in a water sample filtered through a 0.2 micron filter expressed with respect to Fe.'''^^xsd:string ;
+    skos:altLabel '''logK\'FeL3_<0.2um'''^^xsd:string ;
+    skos:definition '''The logarithmic conditional stability constant of the stronger dissolved iron-binding ligand (logK\'FeL3) present in a water sample filtered through a 0.2 micron filter expressed with respect to Fe.'''^^xsd:string ;
     skos:notation 'SDN:P01::LOGFECL3'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/LOGFECL2/3/> .
@@ -23080,8 +23080,8 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/LOGFECL2/".
 <http://vocab.nerc.ac.uk/collection/P01/current/LOGFECL2/>
     dc:modified '2017-07-26T13:05:12'^^xsd:dateTime ;
-    skos:altLabel '''logK'FeL2_<0.2um'''^^xsd:string ;
-    skos:definition '''The logarithmic conditional stability constant of the stronger dissolved iron-binding ligand (logK'FeL2) present in a water sample filtered through a 0.2 micron filter expressed with respect to Fe.'''^^xsd:string ;
+    skos:altLabel '''logK\'FeL2_<0.2um'''^^xsd:string ;
+    skos:definition '''The logarithmic conditional stability constant of the stronger dissolved iron-binding ligand (logK\'FeL2) present in a water sample filtered through a 0.2 micron filter expressed with respect to Fe.'''^^xsd:string ;
     skos:notation 'SDN:P01::LOGFECL2'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/LOGFECL1/3/> .
@@ -23090,8 +23090,8 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/LOGFECL1/".
 <http://vocab.nerc.ac.uk/collection/P01/current/LOGFECL1/>
     dc:modified '2017-07-26T13:04:42'^^xsd:dateTime ;
-    skos:altLabel '''logK'FeL1_<0.2um'''^^xsd:string ;
-    skos:definition '''The logarithmic conditional stability constant of the stronger dissolved iron-binding ligand (logK'FeL1) present in a water sample filtered through a 0.2 micron filter expressed with respect to Fe.'''^^xsd:string ;
+    skos:altLabel '''logK\'FeL1_<0.2um'''^^xsd:string ;
+    skos:definition '''The logarithmic conditional stability constant of the stronger dissolved iron-binding ligand (logK\'FeL1) present in a water sample filtered through a 0.2 micron filter expressed with respect to Fe.'''^^xsd:string ;
     skos:notation 'SDN:P01::LOGFECL1'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/LOGFSDL1/2/> .
@@ -23100,7 +23100,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/LOGFSDL1/".
 <http://vocab.nerc.ac.uk/collection/P01/current/LOGFSDL1/>
     dc:modified '2017-07-26T13:01:27'^^xsd:dateTime ;
-    skos:altLabel '''logK'FeL1_<0.2um_SD'''^^xsd:string ;
+    skos:altLabel '''logK\'FeL1_<0.2um_SD'''^^xsd:string ;
     skos:definition 'The standard deviation of multiple determinations of the specified phenomenon.'^^xsd:string ;
     skos:notation 'SDN:P01::LOGFSDL1'^^xsd:string .
     
@@ -23110,7 +23110,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/SDLOFEL3/".
 <http://vocab.nerc.ac.uk/collection/P01/current/SDLOFEL3/>
     dc:modified '2017-07-26T12:44:11'^^xsd:dateTime ;
-    skos:altLabel '''logK'FeL3_<0.2um_SD'''^^xsd:string ;
+    skos:altLabel '''logK\'FeL3_<0.2um_SD'''^^xsd:string ;
     skos:definition 'The standard deviation of multiple determinations of the specified phenomenon.'^^xsd:string ;
     skos:notation 'SDN:P01::SDLOFEL3'^^xsd:string .
     
@@ -23120,7 +23120,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/SDLOFEL2/".
 <http://vocab.nerc.ac.uk/collection/P01/current/SDLOFEL2/>
     dc:modified '2017-07-26T12:43:43'^^xsd:dateTime ;
-    skos:altLabel '''logK'FeL2_<0.2um_SD'''^^xsd:string ;
+    skos:altLabel '''logK\'FeL2_<0.2um_SD'''^^xsd:string ;
     skos:definition 'The standard deviation of multiple determinations of the specified phenomenon.'^^xsd:string ;
     skos:notation 'SDN:P01::SDLOFEL2'^^xsd:string .
     
@@ -23191,7 +23191,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CMO87031/>
     dc:modified '2017-07-25T10:58:41'^^xsd:dateTime ;
     skos:altLabel 'Conc_Mo_water_>0.2um_Err'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CMO87031'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/C0202031/1/> .
@@ -23201,7 +23201,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/C0202031/>
     dc:modified '2017-07-25T10:58:41'^^xsd:dateTime ;
     skos:altLabel 'Part_labile_Mo>0.2_ICPMS_Err'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::C0202031'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CAL02007/1/> .
@@ -23671,7 +23671,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/ABEAT009/>
     dc:modified '2017-07-18T09:24:19'^^xsd:dateTime ;
     skos:altLabel 'Be7_aerosol_Err'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::ABEAT009'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/NDCHAT01/1/> .
@@ -23721,7 +23721,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCA17078/>
     dc:modified '2017-07-13T10:51:26'^^xsd:dateTime ;
     skos:altLabel 'PIC_0.8-51um'^^xsd:string ;
-    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::CCA17078'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CCA17035/1/> .
@@ -23731,7 +23731,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCA17035/>
     dc:modified '2017-07-13T10:51:26'^^xsd:dateTime ;
     skos:altLabel 'PIC_>0.8um'^^xsd:string ;
-    skos:definition '''Concentration of the specified substance in the particulate fraction >0.8um and defined as 'suspended''''^^xsd:string ;
+    skos:definition '''Concentration of the specified substance in the particulate fraction >0.8um and defined as \'suspended\''''^^xsd:string ;
     skos:notation 'SDN:P01::CCA17035'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CCA17036/1/> .
@@ -23741,7 +23741,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCA17036/>
     dc:modified '2017-07-13T10:51:26'^^xsd:dateTime ;
     skos:altLabel 'PIC_>51um'^^xsd:string ;
-    skos:definition '''Concentration of the specified substance in the particulate fraction >51um and defined as 'sinking''''^^xsd:string ;
+    skos:definition '''Concentration of the specified substance in the particulate fraction >51um and defined as \'sinking\''''^^xsd:string ;
     skos:notation 'SDN:P01::CCA17036'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CNI17006/1/> .
@@ -23751,7 +23751,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CNI17006/>
     dc:modified '2017-07-13T10:51:26'^^xsd:dateTime ;
     skos:altLabel 'PN_0.8-51um'^^xsd:string ;
-    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::CNI17006'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CNI17007/1/> .
@@ -23761,7 +23761,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CNI17007/>
     dc:modified '2017-07-13T10:51:26'^^xsd:dateTime ;
     skos:altLabel 'PN_>51um'^^xsd:string ;
-    skos:definition '''Concentration of the specified substance in the particulate fraction >51um and defined as 'sinking''''^^xsd:string ;
+    skos:definition '''Concentration of the specified substance in the particulate fraction >51um and defined as \'sinking\''''^^xsd:string ;
     skos:notation 'SDN:P01::CNI17007'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CCA17081/1/> .
@@ -23771,7 +23771,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCA17081/>
     dc:modified '2017-07-13T10:51:26'^^xsd:dateTime ;
     skos:altLabel 'POC_0.8-51um'^^xsd:string ;
-    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::CCA17081'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CCA17082/1/> .
@@ -23781,7 +23781,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCA17082/>
     dc:modified '2017-07-13T10:51:26'^^xsd:dateTime ;
     skos:altLabel 'POC_>51um'^^xsd:string ;
-    skos:definition '''Concentration of the specified substance in the particulate fraction >51um and defined as 'sinking''''^^xsd:string ;
+    skos:definition '''Concentration of the specified substance in the particulate fraction >51um and defined as \'sinking\''''^^xsd:string ;
     skos:notation 'SDN:P01::CCA17082'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CCA17034/1/> .
@@ -23791,7 +23791,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCA17034/>
     dc:modified '2017-07-13T10:51:26'^^xsd:dateTime ;
     skos:altLabel 'Part_CaCO3_0.8-51um'^^xsd:string ;
-    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::CCA17034'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CCA17083/1/> .
@@ -23801,7 +23801,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCA17083/>
     dc:modified '2017-07-13T10:51:26'^^xsd:dateTime ;
     skos:altLabel 'Part_CaCO3_>51um'^^xsd:string ;
-    skos:definition '''Concentration of the specified substance in the particulate fraction >51um and defined as 'sinking''''^^xsd:string ;
+    skos:definition '''Concentration of the specified substance in the particulate fraction >51um and defined as \'sinking\''''^^xsd:string ;
     skos:notation 'SDN:P01::CCA17083'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLA17076/1/> .
@@ -23811,7 +23811,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA17076/>
     dc:modified '2017-07-13T10:51:26'^^xsd:dateTime ;
     skos:altLabel 'Part_labile_Al_0.8-51um'^^xsd:string ;
-    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA17076'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLA17026/1/> .
@@ -23821,7 +23821,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA17026/>
     dc:modified '2017-07-13T10:51:26'^^xsd:dateTime ;
     skos:altLabel 'Part_labile_Ce_0.8-51um'^^xsd:string ;
-    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA17026'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLA17018/1/> .
@@ -23831,7 +23831,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA17018/>
     dc:modified '2017-07-13T10:51:26'^^xsd:dateTime ;
     skos:altLabel 'Part_labile_Co_0.8-51um'^^xsd:string ;
-    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA17018'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLA17022/1/> .
@@ -23841,7 +23841,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA17022/>
     dc:modified '2017-07-13T10:51:26'^^xsd:dateTime ;
     skos:altLabel 'Part_labile_Cu_0.8-51um'^^xsd:string ;
-    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA17022'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLA17028/1/> .
@@ -23851,7 +23851,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA17028/>
     dc:modified '2017-07-13T10:51:26'^^xsd:dateTime ;
     skos:altLabel 'Part_labile_La_0.8-51um'^^xsd:string ;
-    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA17028'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLA17016/1/> .
@@ -23861,7 +23861,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA17016/>
     dc:modified '2017-07-13T10:51:26'^^xsd:dateTime ;
     skos:altLabel 'Part_labile_Mn_0.8-51um'^^xsd:string ;
-    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA17016'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLA17020/1/> .
@@ -23871,7 +23871,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA17020/>
     dc:modified '2017-07-13T10:51:26'^^xsd:dateTime ;
     skos:altLabel 'Part_labile_Ni_0.8-51um'^^xsd:string ;
-    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA17020'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLA17032/1/> .
@@ -23881,7 +23881,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA17032/>
     dc:modified '2017-07-13T10:51:26'^^xsd:dateTime ;
     skos:altLabel 'Part_labile_Pb_0.8-51um'^^xsd:string ;
-    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA17032'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLA17030/1/> .
@@ -23891,7 +23891,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA17030/>
     dc:modified '2017-07-13T10:51:26'^^xsd:dateTime ;
     skos:altLabel 'Part_labile_V_0.8-51um'^^xsd:string ;
-    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA17030'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLA17024/1/> .
@@ -23901,7 +23901,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA17024/>
     dc:modified '2017-07-13T10:51:26'^^xsd:dateTime ;
     skos:altLabel 'Part_labile_Zn_0.8-51um'^^xsd:string ;
-    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA17024'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CBI17080/1/> .
@@ -23911,7 +23911,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CBI17080/>
     dc:modified '2017-07-13T10:51:26'^^xsd:dateTime ;
     skos:altLabel 'Part_opal_0.8-51um'^^xsd:string ;
-    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as 'suspended').'''^^xsd:string ;
+    skos:definition '''Quantity or mass of the specified chemical substance in particulate material from a unit volume of any kind of water body that passed through a 51 micron screen and retained by a 0.8 micron filter (defined as \'suspended\').'''^^xsd:string ;
     skos:notation 'SDN:P01::CBI17080'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CBI17079/1/> .
@@ -23921,7 +23921,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CBI17079/>
     dc:modified '2017-07-13T10:51:26'^^xsd:dateTime ;
     skos:altLabel 'Part_opal_>51um'^^xsd:string ;
-    skos:definition '''Concentration of the specified substance in the particulate fraction >51um and defined as 'sinking''''^^xsd:string ;
+    skos:definition '''Concentration of the specified substance in the particulate fraction >51um and defined as \'sinking\''''^^xsd:string ;
     skos:notation 'SDN:P01::CBI17079'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/OPALW8XX/1/> .
@@ -52220,7 +52220,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/LCIFECL1/".
 <http://vocab.nerc.ac.uk/collection/P01/current/LCIFECL1/>
     dc:modified '2017-07-10T15:12:50'^^xsd:dateTime ;
-    skos:altLabel '''logK'FeL1_95pcntCI'''^^xsd:string ;
+    skos:altLabel '''logK\'FeL1_95pcntCI'''^^xsd:string ;
     skos:definition 'The 95 percent confidence limit of the specified parameter.'^^xsd:string ;
     skos:notation 'SDN:P01::LCIFECL1'^^xsd:string .
     
@@ -52230,7 +52230,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/LCIFECL2/".
 <http://vocab.nerc.ac.uk/collection/P01/current/LCIFECL2/>
     dc:modified '2017-07-10T15:12:50'^^xsd:dateTime ;
-    skos:altLabel '''logK'FeL2_95pcntCI'''^^xsd:string ;
+    skos:altLabel '''logK\'FeL2_95pcntCI'''^^xsd:string ;
     skos:definition 'The 95 percent confidence limit of the specified parameter.'^^xsd:string ;
     skos:notation 'SDN:P01::LCIFECL2'^^xsd:string .
     
@@ -52240,7 +52240,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/LCIFECL3/".
 <http://vocab.nerc.ac.uk/collection/P01/current/LCIFECL3/>
     dc:modified '2017-07-10T15:12:50'^^xsd:dateTime ;
-    skos:altLabel '''logK'FeL3_95pcntCI'''^^xsd:string ;
+    skos:altLabel '''logK\'FeL3_95pcntCI'''^^xsd:string ;
     skos:definition 'The 95 percent confidence limit of the specified parameter.'^^xsd:string ;
     skos:notation 'SDN:P01::LCIFECL3'^^xsd:string .
     
@@ -58341,7 +58341,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/N76A27B8/>
     dc:modified '2017-06-19T18:05:38'^^xsd:dateTime ;
     skos:altLabel 'Count_BE006197'^^xsd:string ;
-    skos:definition '''Originator description of the biological entity was 'Indeterminate orange errant polychaete''''^^xsd:string ;
+    skos:definition '''Originator description of the biological entity was \'Indeterminate orange errant polychaete\''''^^xsd:string ;
     skos:notation 'SDN:P01::N76A27B8'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/B9991B88/2/> .
@@ -59201,7 +59201,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/IMGXN76A/>
     dc:modified '2017-06-14T12:56:56'^^xsd:dateTime ;
     skos:altLabel 'Abund_BE006197'^^xsd:string ;
-    skos:definition '''Originator description of the biological entity was 'Indeterminate orange errant polychaete''''^^xsd:string ;
+    skos:definition '''Originator description of the biological entity was \'Indeterminate orange errant polychaete\''''^^xsd:string ;
     skos:notation 'SDN:P01::IMGXN76A'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/IMGXB999/2/> .
@@ -59441,7 +59441,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CBA88373/>
     dc:modified '2017-04-28T11:36:48'^^xsd:dateTime ;
     skos:altLabel 'Ba_rainwater<0.4/0.45_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CBA88373'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CCH88377/2/> .
@@ -59451,7 +59451,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCH88377/>
     dc:modified '2017-04-28T11:36:48'^^xsd:dateTime ;
     skos:altLabel 'Cr_rainwater<0.4/0.45_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CCH88377'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CCA88279/2/> .
@@ -59461,7 +59461,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCA88279/>
     dc:modified '2017-04-28T11:36:48'^^xsd:dateTime ;
     skos:altLabel 'Cs_rainwater<0.4/0.45_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CCA88279'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLA88283/2/> .
@@ -59471,7 +59471,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA88283/>
     dc:modified '2017-04-28T11:36:48'^^xsd:dateTime ;
     skos:altLabel 'La_rainwater<0.4/0.45_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA88283'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CMA88285/2/> .
@@ -59481,7 +59481,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CMA88285/>
     dc:modified '2017-04-28T11:36:48'^^xsd:dateTime ;
     skos:altLabel 'Mg_rainwater<0.4/0.45_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CMA88285'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88287/2/> .
@@ -59491,7 +59491,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88287/>
     dc:modified '2017-04-28T11:36:48'^^xsd:dateTime ;
     skos:altLabel 'Na_rainwater<0.4/0.45_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88287'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CNE88288/2/> .
@@ -59501,7 +59501,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CNE88288/>
     dc:modified '2017-04-28T11:36:48'^^xsd:dateTime ;
     skos:altLabel 'Nd_rainwater<0.4/0.45_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CNE88288'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CRU88292/2/> .
@@ -59511,7 +59511,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CRU88292/>
     dc:modified '2017-04-28T11:36:48'^^xsd:dateTime ;
     skos:altLabel 'Rb_rainwater<0.4/0.45_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CRU88292'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CAN88293/2/> .
@@ -59521,7 +59521,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CAN88293/>
     dc:modified '2017-04-28T11:36:48'^^xsd:dateTime ;
     skos:altLabel 'Sb_rainwater<0.4/0.45_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CAN88293'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSE88294/2/> .
@@ -59531,7 +59531,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSE88294/>
     dc:modified '2017-04-28T11:36:48'^^xsd:dateTime ;
     skos:altLabel 'Se_rainwater<0.4/0.45_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSE88294'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CTI88295/2/> .
@@ -59541,7 +59541,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CTI88295/>
     dc:modified '2017-04-28T11:36:48'^^xsd:dateTime ;
     skos:altLabel 'Sn_rainwater<0.4/0.45_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CTI88295'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CTH88297/2/> .
@@ -59551,7 +59551,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CTH88297/>
     dc:modified '2017-04-28T11:36:48'^^xsd:dateTime ;
     skos:altLabel 'Th_rainwater<0.4/0.45_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CTH88297'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CTI88298/2/> .
@@ -59561,7 +59561,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CTI88298/>
     dc:modified '2017-04-28T11:36:48'^^xsd:dateTime ;
     skos:altLabel 'Ti_rainwater<0.4/0.45_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CTI88298'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CVA88300/2/> .
@@ -59571,7 +59571,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CVA88300/>
     dc:modified '2017-04-28T11:36:48'^^xsd:dateTime ;
     skos:altLabel 'V_rainwater<0.4/0.45_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CVA88300'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CZI88301/2/> .
@@ -59581,7 +59581,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CZI88301/>
     dc:modified '2017-04-28T11:36:48'^^xsd:dateTime ;
     skos:altLabel 'Zn_rainwater<0.4/0.45_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CZI88301'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CZI88302/2/> .
@@ -59591,7 +59591,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CZI88302/>
     dc:modified '2017-04-28T11:36:48'^^xsd:dateTime ;
     skos:altLabel 'Zr_rainwater<0.4/0.45_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CZI88302'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CTO88281/2/> .
@@ -59601,7 +59601,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CTO88281/>
     dc:modified '2017-04-28T11:36:48'^^xsd:dateTime ;
     skos:altLabel 'total_Fe_rainwater<0.4/0.45_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CTO88281'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CTO88290/2/> .
@@ -59611,7 +59611,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CTO88290/>
     dc:modified '2017-04-28T11:36:48'^^xsd:dateTime ;
     skos:altLabel 'total_P_rainwater<0.4/0.45_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CTO88290'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CAL88340/2/> .
@@ -59921,7 +59921,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLI88284/>
     dc:modified '2017-04-28T11:29:05'^^xsd:dateTime ;
     skos:altLabel 'Li_rainwater<0.4/0.45_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CLI88284'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLE88291/2/> .
@@ -59931,7 +59931,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLE88291/>
     dc:modified '2017-04-28T11:28:10'^^xsd:dateTime ;
     skos:altLabel 'Pb_rainwater<0.4/0.45_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CLE88291'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CCA88374/2/> .
@@ -59941,7 +59941,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCA88374/>
     dc:modified '2017-04-28T11:26:58'^^xsd:dateTime ;
     skos:altLabel 'Cd_rainwater<0.4/0.45_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CCA88374'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CAR88372/2/> .
@@ -59951,7 +59951,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CAR88372/>
     dc:modified '2017-04-28T11:22:14'^^xsd:dateTime ;
     skos:altLabel 'As_rainwater<0.4/0.45_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CAR88372'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CUR88299/2/> .
@@ -59961,7 +59961,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CUR88299/>
     dc:modified '2017-04-28T11:21:30'^^xsd:dateTime ;
     skos:altLabel 'U_rainwater<0.4/0.45_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CUR88299'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/XMETAL05/4/> .
@@ -59981,7 +59981,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CTO88286/>
     dc:modified '2017-04-28T11:15:19'^^xsd:dateTime ;
     skos:altLabel 'total_Mn_rainwater<0.4/0.45um_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CTO88286'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CST88364/2/> .
@@ -60001,7 +60001,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CST88296/>
     dc:modified '2017-04-28T11:11:31'^^xsd:dateTime ;
     skos:altLabel 'Sr_rainwater<0.4/0.45um_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CST88296'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CNI88289/2/> .
@@ -60011,7 +60011,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CNI88289/>
     dc:modified '2017-04-28T11:10:42'^^xsd:dateTime ;
     skos:altLabel 'Ni_rainwater<0.4/0.45um_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CNI88289'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CGA88282/2/> .
@@ -60021,7 +60021,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CGA88282/>
     dc:modified '2017-04-28T11:09:54'^^xsd:dateTime ;
     skos:altLabel 'Ga_rainwater<0.4/0.45um_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CGA88282'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CCO88376/2/> .
@@ -60031,7 +60031,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCO88376/>
     dc:modified '2017-04-28T11:09:10'^^xsd:dateTime ;
     skos:altLabel 'Co_rainwater<0.4/0.45um_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CCO88376'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CCO88280/2/> .
@@ -60041,7 +60041,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCO88280/>
     dc:modified '2017-04-28T11:08:28'^^xsd:dateTime ;
     skos:altLabel 'Cu_rainwater<0.4/0.45um_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CCO88280'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CAL88371/2/> .
@@ -60051,7 +60051,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CAL88371/>
     dc:modified '2017-04-28T11:07:48'^^xsd:dateTime ;
     skos:altLabel 'Al_rainwater<0.4/0.45um_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CAL88371'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CCE88375/2/> .
@@ -60061,7 +60061,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCE88375/>
     dc:modified '2017-04-28T11:06:35'^^xsd:dateTime ;
     skos:altLabel 'Ce_rainwater<0.4/0.45um_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CCE88375'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/ACIDXX01/3/> .
@@ -60341,7 +60341,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CAL88277/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Al_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CAL88277'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CAR88163/1/> .
@@ -60361,7 +60361,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CAR88278/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'As_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CAR88278'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CBA88164/1/> .
@@ -60381,7 +60381,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CBA88304/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Ba_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CBA88304'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CBR88047/1/> .
@@ -60411,7 +60411,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCA88305/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Cd_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CCA88305'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CCE88166/1/> .
@@ -60431,7 +60431,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCE88306/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Ce_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CCE88306'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CCH88051/1/> .
@@ -60471,7 +60471,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCH88052/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Cl-_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CCH88052'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CCH88167/1/> .
@@ -60491,7 +60491,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCH88307/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Cl-_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CCH88307'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CCO88168/1/> .
@@ -60511,7 +60511,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCO88308/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Co_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CCO88308'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CCH88169/1/> .
@@ -60531,7 +60531,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCH88309/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Cr_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CCH88309'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CCA88170/1/> .
@@ -60551,7 +60551,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCA88310/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Cs_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CCA88310'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CCO88171/1/> .
@@ -60571,7 +60571,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCO88311/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Cu_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CCO88311'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CFL88060/1/> .
@@ -60601,7 +60601,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CGA88313/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Ga_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CGA88313'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLA88174/1/> .
@@ -60621,7 +60621,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA88314/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'La_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA88314'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLI88175/1/> .
@@ -60641,7 +60641,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLI88315/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Li_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CLI88315'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CMA88176/1/> .
@@ -60661,7 +60661,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CMA88316/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Mg_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CMA88316'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CAM88119/1/> .
@@ -60721,7 +60721,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CNI88077/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'NO3-_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CNI88077'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CNI88262/1/> .
@@ -60741,7 +60741,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CNI88321/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'NO3-_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CNI88321'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88259/1/> .
@@ -60761,7 +60761,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88318/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Na_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88318'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CNE88260/1/> .
@@ -60781,7 +60781,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CNE88319/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Nd_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CNE88319'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CNI88320/1/> .
@@ -60791,7 +60791,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CNI88320/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Ni_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CNI88320'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLE88265/1/> .
@@ -60811,7 +60811,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLE88324/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Pb_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CLE88324'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CRU88266/1/> .
@@ -60831,7 +60831,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CRU88325/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Rb_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CRU88325'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CAN88267/1/> .
@@ -60851,7 +60851,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CAN88326/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Sb_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CAN88326'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSE88268/1/> .
@@ -60871,7 +60871,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSE88327/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Se_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSE88327'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CTI88269/1/> .
@@ -60891,7 +60891,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CTI88328/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Sn_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CTI88328'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CST88270/1/> .
@@ -60911,7 +60911,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CST88329/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Sr_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CST88329'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CTH88271/1/> .
@@ -60931,7 +60931,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CTH88330/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Th_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CTH88330'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CTI88272/1/> .
@@ -60951,7 +60951,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CTI88331/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Ti_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CTI88331'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CUR88273/1/> .
@@ -60971,7 +60971,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CUR88332/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'U_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CUR88332'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CVA88274/1/> .
@@ -60991,7 +60991,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CVA88333/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'V_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CVA88333'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CZI88275/1/> .
@@ -61011,7 +61011,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CZI88334/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Zn_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CZI88334'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CZI88276/1/> .
@@ -61031,7 +61031,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CZI88335/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'Zr_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CZI88335'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88108/1/> .
@@ -61061,7 +61061,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88042/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Al_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88042'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88145/1/> .
@@ -61091,7 +61091,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88044/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_As_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88044'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88045/1/> .
@@ -61111,7 +61111,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88046/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Ba_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88046'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88146/1/> .
@@ -61171,7 +61171,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88048/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Cd_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88048'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88147/1/> .
@@ -61201,7 +61201,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88050/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Ce_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88050'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88112/1/> .
@@ -61231,7 +61231,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88054/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Co_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88054'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88148/1/> .
@@ -61261,7 +61261,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88055/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Cr_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88055'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88149/1/> .
@@ -61291,7 +61291,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88057/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Cs_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88057'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88113/1/> .
@@ -61321,7 +61321,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88058/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Cu_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88058'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88150/1/> .
@@ -61361,7 +61361,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88059/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Fe_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88059'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88151/1/> .
@@ -61411,7 +61411,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88062/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_La_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88062'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88063/1/> .
@@ -61431,7 +61431,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88064/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Li_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88064'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88116/1/> .
@@ -61461,7 +61461,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88066/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Mg_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88066'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88067/1/> .
@@ -61501,7 +61501,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88069/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Mn_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88069'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88152/1/> .
@@ -61571,7 +61571,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88072/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Na_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88072'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88073/1/> .
@@ -61591,7 +61591,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88074/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Nd_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88074'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88120/1/> .
@@ -61621,7 +61621,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88075/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Ni_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88075'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88154/1/> .
@@ -61651,7 +61651,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88081/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_P_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88081'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88155/1/> .
@@ -61691,7 +61691,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88082/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Pb_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88082'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88156/1/> .
@@ -61721,7 +61721,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88084/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Rb_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88084'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88085/1/> .
@@ -61741,7 +61741,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88086/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Sb_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88086'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88087/1/> .
@@ -61761,7 +61761,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88088/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Sc_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88088'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88089/1/> .
@@ -61781,7 +61781,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88090/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Se_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88090'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88091/1/> .
@@ -61801,7 +61801,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88092/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Sn_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88092'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88093/1/> .
@@ -61821,7 +61821,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88094/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Sr_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88094'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88124/1/> .
@@ -61851,7 +61851,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88095/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Th_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88095'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88125/1/> .
@@ -61881,7 +61881,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88096/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Ti_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88096'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88157/1/> .
@@ -61911,7 +61911,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88001/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_U_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88001'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88126/1/> .
@@ -61941,7 +61941,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88002/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_V_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88002'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88158/1/> .
@@ -62001,7 +62001,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88004/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Zn_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88004'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88160/1/> .
@@ -62031,7 +62031,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88006/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'soluble_Zr_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88006'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSO88161/1/> .
@@ -62071,7 +62071,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CAL88237/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Al_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CAL88237'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CAR88009/1/> .
@@ -62091,7 +62091,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CAR88238/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_As_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CAR88238'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CBA88010/1/> .
@@ -62111,7 +62111,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CBA88239/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Ba_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CBA88239'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CCA88011/1/> .
@@ -62141,7 +62141,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCA88240/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Cd_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CCA88240'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CCE88013/1/> .
@@ -62161,7 +62161,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCE88241/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Ce_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CCE88241'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CCO88014/1/> .
@@ -62181,7 +62181,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCO88242/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Co_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CCO88242'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CCH88015/1/> .
@@ -62201,7 +62201,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCH88243/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Cr_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CCH88243'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CCA88016/1/> .
@@ -62221,7 +62221,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCA88244/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Cs_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CCA88244'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CCO88017/1/> .
@@ -62241,7 +62241,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CCO88245/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Cu_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CCO88245'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CTO88172/1/> .
@@ -62261,7 +62261,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CTO88312/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Fe_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CTO88312'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CGA88019/1/> .
@@ -62281,7 +62281,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CGA88247/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Ga_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CGA88247'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CPO88020/1/> .
@@ -62311,7 +62311,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLA88248/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_La_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CLA88248'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLI88022/1/> .
@@ -62331,7 +62331,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLI88249/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Li_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CLI88249'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CMA88023/1/> .
@@ -62351,7 +62351,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CMA88250/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Mg_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CMA88250'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CTO88177/1/> .
@@ -62371,7 +62371,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CTO88317/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Mn_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CTO88317'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CMO88025/1/> .
@@ -62401,7 +62401,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSO88252/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Na_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSO88252'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CNE88027/1/> .
@@ -62421,7 +62421,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CNE88253/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Nd_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CNE88253'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CNI88028/1/> .
@@ -62441,7 +62441,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CNI88254/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Ni_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CNI88254'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CTO88264/1/> .
@@ -62461,7 +62461,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CTO88323/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_P_rainwater_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CTO88323'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CLE88030/1/> .
@@ -62481,7 +62481,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CLE88256/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Pb_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CLE88256'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CRU88031/1/> .
@@ -62501,7 +62501,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CRU88257/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Rb_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CRU88257'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CAN88032/1/> .
@@ -62521,7 +62521,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CAN88258/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Sb_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CAN88258'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSC88033/1/> .
@@ -62541,7 +62541,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSC88098/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Sc_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSC88098'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CSE88034/1/> .
@@ -62561,7 +62561,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CSE88099/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Se_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CSE88099'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CTI88035/1/> .
@@ -62581,7 +62581,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CTI88100/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Sn_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CTI88100'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CST88036/1/> .
@@ -62601,7 +62601,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CST88101/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Sr_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CST88101'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CTH88037/1/> .
@@ -62621,7 +62621,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CTH88102/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Th_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CTH88102'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CTI88038/1/> .
@@ -62641,7 +62641,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CTI88103/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Ti_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CTI88103'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CUR88039/1/> .
@@ -62661,7 +62661,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CUR88104/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_U_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CUR88104'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CVA88040/1/> .
@@ -62681,7 +62681,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CVA88105/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_V_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CVA88105'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CYT88041/1/> .
@@ -62711,7 +62711,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CZI88106/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Zn_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CZI88106'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CZI88221/1/> .
@@ -62731,7 +62731,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CZI88107/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_Zr_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CZI88107'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CTO88018/1/> .
@@ -62751,7 +62751,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CTO88246/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_total_Fe_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CTO88246'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CTO88024/1/> .
@@ -62771,7 +62771,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CTO88251/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_total_Mn_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CTO88251'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/CTO88029/1/> .
@@ -62791,7 +62791,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CTO88255/>
     dc:modified '2017-04-21T13:25:56'^^xsd:dateTime ;
     skos:altLabel 'total_total_P_aerosol_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CTO88255'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/AFLGM007/5/> .
@@ -64271,7 +64271,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/CDCONIC3/>
     dc:modified '2017-04-03T14:08:41'^^xsd:dateTime ;
     skos:altLabel 'Cd_filt0.2um_ICPMS_perkg_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::CDCONIC3'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/FEICPMS4/1/> .
@@ -64281,7 +64281,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/FEICPMS4/>
     dc:modified '2017-04-03T14:08:41'^^xsd:dateTime ;
     skos:altLabel 'Con_DissFe<0.2um_ICPMS_perkg_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::FEICPMS4'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/ZNICPMS3/1/> .
@@ -64291,7 +64291,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/ZNICPMS3/>
     dc:modified '2017-04-03T14:08:41'^^xsd:dateTime ;
     skos:altLabel 'Conc_DissZn<0.2_ICPMS/Kg_ERR'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::ZNICPMS3'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/STRVIO01/2/> .
@@ -64671,7 +64671,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/P431M01Z/>
     dc:modified '2017-04-03T11:19:02'^^xsd:dateTime ;
     skos:altLabel 'P43101'^^xsd:string ;
-    skos:definition '''Spelling mediterranea standardised with ITIS, but I'm pretty sure it should be mediterranea'''^^xsd:string ;
+    skos:definition '''Spelling mediterranea standardised with ITIS, but I\'m pretty sure it should be mediterranea'''^^xsd:string ;
     skos:notation 'SDN:P01::P431M01Z'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/H9232020/2/> .
@@ -65970,7 +65970,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/SDFLCVLL/".
 <http://vocab.nerc.ac.uk/collection/P01/current/SDFLCVLL/>
     dc:modified '2017-02-27T16:10:29'^^xsd:dateTime ;
-    skos:altLabel '''SD_logK'FeL_lower_limit'''^^xsd:string ;
+    skos:altLabel '''SD_logK\'FeL_lower_limit'''^^xsd:string ;
     skos:definition 'Unavailable'^^xsd:string ;
     skos:notation 'SDN:P01::SDFLCVLL'^^xsd:string .
     
@@ -65980,7 +65980,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/SDFLCVUL/".
 <http://vocab.nerc.ac.uk/collection/P01/current/SDFLCVUL/>
     dc:modified '2017-02-27T16:10:29'^^xsd:dateTime ;
-    skos:altLabel '''SD_logK'FeL_upper_limit'''^^xsd:string ;
+    skos:altLabel '''SD_logK\'FeL_upper_limit'''^^xsd:string ;
     skos:definition 'Unavailable'^^xsd:string ;
     skos:notation 'SDN:P01::SDFLCVUL'^^xsd:string .
     
@@ -65990,7 +65990,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/LLBSEDL1/".
 <http://vocab.nerc.ac.uk/collection/P01/current/LLBSEDL1/>
     dc:modified '2017-02-27T16:10:29'^^xsd:dateTime ;
-    skos:altLabel '''logK'FeL1_lowerERR'''^^xsd:string ;
+    skos:altLabel '''logK\'FeL1_lowerERR'''^^xsd:string ;
     skos:definition 'The lower uncertainty value of multiple determinations of the specified phenomenon.'^^xsd:string ;
     skos:notation 'SDN:P01::LLBSEDL1'^^xsd:string .
     
@@ -66000,7 +66000,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/LLBSERL1/".
 <http://vocab.nerc.ac.uk/collection/P01/current/LLBSERL1/>
     dc:modified '2017-02-27T16:10:29'^^xsd:dateTime ;
-    skos:altLabel '''logK'FeL1_upperERR'''^^xsd:string ;
+    skos:altLabel '''logK\'FeL1_upperERR'''^^xsd:string ;
     skos:definition 'The upper uncertainty value of multiple determinations of the specified phenomenon.'^^xsd:string ;
     skos:notation 'SDN:P01::LLBSERL1'^^xsd:string .
     
@@ -66010,7 +66010,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/LLBSEDL2/".
 <http://vocab.nerc.ac.uk/collection/P01/current/LLBSEDL2/>
     dc:modified '2017-02-27T16:10:29'^^xsd:dateTime ;
-    skos:altLabel '''logK'FeL2_lowerERR'''^^xsd:string ;
+    skos:altLabel '''logK\'FeL2_lowerERR'''^^xsd:string ;
     skos:definition 'The lower uncertainty value of multiple determinations of the specified phenomenon.'^^xsd:string ;
     skos:notation 'SDN:P01::LLBSEDL2'^^xsd:string .
     
@@ -66020,7 +66020,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/LLBSERL2/".
 <http://vocab.nerc.ac.uk/collection/P01/current/LLBSERL2/>
     dc:modified '2017-02-27T16:10:29'^^xsd:dateTime ;
-    skos:altLabel '''logK'FeL2_upperERR'''^^xsd:string ;
+    skos:altLabel '''logK\'FeL2_upperERR'''^^xsd:string ;
     skos:definition 'The upper uncertainty value of multiple determinations of the specified phenomenon.'^^xsd:string ;
     skos:notation 'SDN:P01::LLBSERL2'^^xsd:string .
     
@@ -66030,7 +66030,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/FELSCVLL/".
 <http://vocab.nerc.ac.uk/collection/P01/current/FELSCVLL/>
     dc:modified '2017-02-27T16:10:29'^^xsd:dateTime ;
-    skos:altLabel '''logK'FeL_lower_limit'''^^xsd:string ;
+    skos:altLabel '''logK\'FeL_lower_limit'''^^xsd:string ;
     skos:definition 'Unavailable'^^xsd:string ;
     skos:notation 'SDN:P01::FELSCVLL'^^xsd:string .
     
@@ -66040,7 +66040,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/FELSCVUL/".
 <http://vocab.nerc.ac.uk/collection/P01/current/FELSCVUL/>
     dc:modified '2017-02-27T16:10:29'^^xsd:dateTime ;
-    skos:altLabel '''logK'FeL_upper_limit'''^^xsd:string ;
+    skos:altLabel '''logK\'FeL_upper_limit'''^^xsd:string ;
     skos:definition 'Unavailable'^^xsd:string ;
     skos:notation 'SDN:P01::FELSCVUL'^^xsd:string .
     
@@ -66152,8 +66152,8 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/COLGCVZZ/".
 <http://vocab.nerc.ac.uk/collection/P01/current/COLGCVZZ/>
     dc:modified '2017-02-23T14:06:13'^^xsd:dateTime ;
-    skos:altLabel '''logK'CoL_0.2umFilt'''^^xsd:string ;
-    skos:definition '''The logarithmic conditional stability constant of the Co-binding ligands (log K' CoL) expressed with respect to Co.
+    skos:altLabel '''logK\'CoL_0.2umFilt'''^^xsd:string ;
+    skos:definition '''The logarithmic conditional stability constant of the Co-binding ligands (log K\' CoL) expressed with respect to Co.
 '''^^xsd:string ;
     skos:notation 'SDN:P01::COLGCVZZ'^^xsd:string .
     
@@ -66163,8 +66163,8 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/LOGCUCS5/".
 <http://vocab.nerc.ac.uk/collection/P01/current/LOGCUCS5/>
     dc:modified '2017-02-23T14:06:13'^^xsd:dateTime ;
-    skos:altLabel '''logK'Cu'''^^xsd:string ;
-    skos:definition '''The logarithmic conditional stability constant of the Cu-binding ligands (log K' CuL) expressed with respect to Cu.'''^^xsd:string ;
+    skos:altLabel '''logK\'Cu'''^^xsd:string ;
+    skos:definition '''The logarithmic conditional stability constant of the Cu-binding ligands (log K\' CuL) expressed with respect to Cu.'''^^xsd:string ;
     skos:notation 'SDN:P01::LOGCUCS5'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/FELSCVZZ/3/> .
@@ -66173,8 +66173,8 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/FELSCVZZ/".
 <http://vocab.nerc.ac.uk/collection/P01/current/FELSCVZZ/>
     dc:modified '2017-02-23T14:06:13'^^xsd:dateTime ;
-    skos:altLabel '''logK'Fe'''^^xsd:string ;
-    skos:definition '''The logarithmic conditional stability constant of the Fe-binding ligands (log K' FeL) expressed with respect to Fe3+'''^^xsd:string ;
+    skos:altLabel '''logK\'Fe'''^^xsd:string ;
+    skos:definition '''The logarithmic conditional stability constant of the Fe-binding ligands (log K\' FeL) expressed with respect to Fe3+'''^^xsd:string ;
     skos:notation 'SDN:P01::FELSCVZZ'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/FELSCVD5/3/> .
@@ -66183,7 +66183,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/FELSCVD5/".
 <http://vocab.nerc.ac.uk/collection/P01/current/FELSCVD5/>
     dc:modified '2017-02-23T14:06:13'^^xsd:dateTime ;
-    skos:altLabel '''logK'FeL_0.2umFilt'''^^xsd:string ;
+    skos:altLabel '''logK\'FeL_0.2umFilt'''^^xsd:string ;
     skos:definition 'Unavailable'^^xsd:string ;
     skos:notation 'SDN:P01::FELSCVD5'^^xsd:string .
     
@@ -66193,7 +66193,7 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/FELSCVDN/".
 <http://vocab.nerc.ac.uk/collection/P01/current/FELSCVDN/>
     dc:modified '2017-02-23T14:06:13'^^xsd:dateTime ;
-    skos:altLabel '''logK'FeL_<1000kDa_Filt'''^^xsd:string ;
+    skos:altLabel '''logK\'FeL_<1000kDa_Filt'''^^xsd:string ;
     skos:definition 'Unavailable'^^xsd:string ;
     skos:notation 'SDN:P01::FELSCVDN'^^xsd:string .
     
@@ -66203,8 +66203,8 @@
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P01/current/ZNLSCVZZ/".
 <http://vocab.nerc.ac.uk/collection/P01/current/ZNLSCVZZ/>
     dc:modified '2017-02-23T14:06:13'^^xsd:dateTime ;
-    skos:altLabel '''logK'Zn'''^^xsd:string ;
-    skos:definition '''The logarithmic conditional stability constant of the Zn-binding ligands (log K' ZnL)'''^^xsd:string ;
+    skos:altLabel '''logK\'Zn'''^^xsd:string ;
+    skos:definition '''The logarithmic conditional stability constant of the Zn-binding ligands (log K\' ZnL)'''^^xsd:string ;
     skos:notation 'SDN:P01::ZNLSCVZZ'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/DCOPCVDX/3/> .
@@ -67434,7 +67434,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/ACRA226V/>
     dc:modified '2017-01-25T14:38:36'^^xsd:dateTime ;
     skos:altLabel '226Ra_unfilt_U'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::ACRA226V'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/ACRA228V/1/> .
@@ -67444,7 +67444,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/ACRA228V/>
     dc:modified '2017-01-25T14:38:36'^^xsd:dateTime ;
     skos:altLabel '228Ra_unfilt_U'^^xsd:string ;
-    skos:definition '''The estimated uncertainty or 'error' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
+    skos:definition '''The estimated uncertainty or \'error\' associated with the specified measurement. The method used to estimate uncertainty should be described in the usage metadata.'''^^xsd:string ;
     skos:notation 'SDN:P01::ACRA228V'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/AS3DWC01/1/> .

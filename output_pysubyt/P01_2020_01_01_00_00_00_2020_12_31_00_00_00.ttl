@@ -1541,7 +1541,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/MSPGLHA1/>
     dc:modified '2020-10-21T09:53:17'^^xsd:dateTime ;
     skos:altLabel 'Location_HA2'^^xsd:string ;
-    skos:definition '''Geographic coordinates indicating the location of human activities identified using terms defined in the SeaDataNet controlled vocabulary 'EMODnet human activity categories' (vocab.nerc.ac.uk/collection/HA2).'''^^xsd:string ;
+    skos:definition '''Geographic coordinates indicating the location of human activities identified using terms defined in the SeaDataNet controlled vocabulary \'EMODnet human activity categories\' (vocab.nerc.ac.uk/collection/HA2).'''^^xsd:string ;
     skos:notation 'SDN:P01::MSPGLHA1'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/PCRCNC10/1/> .
@@ -4761,7 +4761,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/TEMPHG02/>
     dc:modified '2020-07-23T10:44:23'^^xsd:dateTime ;
     skos:altLabel 'CalTSGHullTmp2'^^xsd:string ;
-    skos:definition '''Underwater temperature reading from a sensor mounted near or at a vessel's exterior that has been corrected for bias using co-collected samples or readings.'''^^xsd:string ;
+    skos:definition '''Underwater temperature reading from a sensor mounted near or at a vessel\'s exterior that has been corrected for bias using co-collected samples or readings.'''^^xsd:string ;
     skos:notation 'SDN:P01::TEMPHG02'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/VLZJ7594/1/> .
@@ -9051,7 +9051,7 @@
 <http://vocab.nerc.ac.uk/collection/P01/current/RVCTIRG2/>
     dc:modified '2020-06-29T18:45:49'^^xsd:dateTime ;
     skos:altLabel 'Conc_SPM_1-500um_NRT'^^xsd:string ;
-    skos:definition '''Estimate of the total particle volume concentration in the particle sizer's size range of 1 to 500 micron, using near real-time processing methods. These are approximate quantities, not as accurate as values derived from the fully-processed particle size distribution. They are useful for a quick characterization of the water conditions.'''^^xsd:string ;
+    skos:definition '''Estimate of the total particle volume concentration in the particle sizer\'s size range of 1 to 500 micron, using near real-time processing methods. These are approximate quantities, not as accurate as values derived from the fully-processed particle size distribution. They are useful for a quick characterization of the water conditions.'''^^xsd:string ;
     skos:notation 'SDN:P01::RVCTIRG2'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P01> tree:member <http://vocab.nerc.ac.uk/collection/P01/current/TNIHCE05/1/> .
