@@ -40,6 +40,11 @@
     [
       sh:datatype xsd:string ;
       sh:minCount 1 ;
+      sh:path skos:prefLabel
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
       sh:path skos:definition
     ],
     [
@@ -59,6 +64,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/ADUN/>
     dc:modified '2012-07-17T07:51:20'^^xsd:dateTime ;
     skos:altLabel 'AdminUnit'^^xsd:string ;
+    skos:prefLabel 'Administrative units'^^xsd:string ;
     skos:definition 'Parameters (including geometries, labels and categorizations) relating to areas where authorities have and-or excercise specific rights or obligations.'^^xsd:string ;
     skos:notation 'SDN:P02::ADUN'^^xsd:string .
     
@@ -69,6 +75,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/AASD/>
     dc:modified '2012-03-02T16:22:50'^^xsd:dateTime ;
     skos:altLabel 'SedAlkenoneAlkenoate'^^xsd:string ;
+    skos:prefLabel 'Concentration of alkenones and alkenoates in sediment'^^xsd:string ;
     skos:definition 'Parameters quantifying the amount of alkenones (unsaturated aliphatic ketones) and alkenoates (carboxylic acid esters) in any unconsolidated sediment including fluff.'^^xsd:string ;
     skos:notation 'SDN:P02::AASD'^^xsd:string .
     
@@ -79,7 +86,8 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/SALK/>
     dc:modified '2012-03-01T16:27:53'^^xsd:dateTime ;
     skos:altLabel 'Sed_AliphaticHC'^^xsd:string ;
-    skos:definition '''Aliphatic hydrocarbon (alkane, alkene, alkyne, polycyclic aliphatics like hopane, terpenes etc.)  concentrations in sediment, which is considered to be anything from the bed sampled by a grab or corer, including \'fluff\''''^^xsd:string ;
+    skos:prefLabel 'Concentration of aliphatic hydrocarbons in sediment samples'^^xsd:string ;
+    skos:definition '''Aliphatic hydrocarbon (alkane, alkene, alkyne, polycyclic aliphatics like hopane, terpenes etc.)  concentrations in sediment, which is considered to be anything from the bed sampled by a grab or corer, including 'fluff''''^^xsd:string ;
     skos:notation 'SDN:P02::SALK'^^xsd:string .
     
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/TOCH/3/> .
@@ -89,6 +97,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/TOCH/>
     dc:modified '2012-03-01T16:21:17'^^xsd:dateTime ;
     skos:altLabel 'CarbPhenolAlkanolAldKetWater'^^xsd:string ;
+    skos:prefLabel 'Concentration of carbohydrates, phenols, alkanols (alcohols), aldehydes and ketones in water bodies'^^xsd:string ;
     skos:definition 'Concentrations of carbohydrates, phenols, alkanols (alcohols), aldehydes and simple (non-alkenone) ketones in all phases of any body of fresh or salt water'^^xsd:string ;
     skos:notation 'SDN:P02::TOCH'^^xsd:string .
     
@@ -99,6 +108,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/CASD/>
     dc:modified '2012-03-01T16:21:17'^^xsd:dateTime ;
     skos:altLabel 'CarbPhenolAlkanolEtherAldKetSed'^^xsd:string ;
+    skos:prefLabel 'Concentration of carbohydrates, phenols, alkanols (alcohols), ethers, aldehydes and ketones in sediment'^^xsd:string ;
     skos:definition 'Concentrations of carbohydrates, phenols, alkanols (alcohols), ethers,aldehydes and simple (non-alkenone) ketones in unlithified sediment (material collected by a corer including fluff).'^^xsd:string ;
     skos:notation 'SDN:P02::CASD'^^xsd:string .
     
@@ -109,6 +119,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/A01X/>
     dc:modified '2012-03-01T16:14:45'^^xsd:dateTime ;
     skos:altLabel 'WC_SedFluxAlkeno'^^xsd:string ;
+    skos:prefLabel 'Sedimentation flux of alkenones and alkenoates in the water column'^^xsd:string ;
     skos:definition 'Parameters quantifying the rate of alkenones (unsaturated aliphatic ketones) and alkenoates (carboxylic acid esters) sinking as particles through any body of water.'^^xsd:string ;
     skos:notation 'SDN:P02::A01X'^^xsd:string .
     
@@ -119,6 +130,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/CAKN/>
     dc:modified '2012-03-01T16:12:48'^^xsd:dateTime ;
     skos:altLabel 'Akenone+alkenoate_WC'^^xsd:string ;
+    skos:prefLabel 'Concentration of alkenones and alkenoates in the water column'^^xsd:string ;
     skos:definition 'Concentrations of alkenones (unsaturated aliphatic ketones) and alkenoates (carboxylic acid esters) in all phases of the water column.'^^xsd:string ;
     skos:notation 'SDN:P02::CAKN'^^xsd:string .
     
@@ -129,6 +141,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/LIBI/>
     dc:modified '2012-03-01T16:10:50'^^xsd:dateTime ;
     skos:altLabel 'Lipid_Biota'^^xsd:string ;
+    skos:prefLabel 'Biota lipid concentrations'^^xsd:string ;
     skos:definition 'Lipids are defined as small water-insoluble biomolecules including fats, fatty acids, esters, sterols, isoprenoid compounds, etc..  Biota includes any type of sample originating from a living organism.'^^xsd:string ;
     skos:notation 'SDN:P02::LIBI'^^xsd:string .
     
@@ -139,6 +152,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/CD10/>
     dc:modified '2012-03-01T16:10:50'^^xsd:dateTime ;
     skos:altLabel 'Sed_Lipids'^^xsd:string ;
+    skos:prefLabel 'Sediment lipid concentrations'^^xsd:string ;
     skos:definition 'Lipids are defined as small water-insoluble biomolecules including fats, fatty acids, esters, sterols, isoprenoid compounds, etc..  Sediment is defined as material collected by a corer (including fluff).'^^xsd:string ;
     skos:notation 'SDN:P02::CD10'^^xsd:string .
     
@@ -149,6 +163,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/F001/>
     dc:modified '2012-03-01T16:10:50'^^xsd:dateTime ;
     skos:altLabel 'WC_Lipids'^^xsd:string ;
+    skos:prefLabel 'Water body lipid concentrations'^^xsd:string ;
     skos:definition 'Lipids are defined as small water-insoluble biomolecules including fats, fatty acids, esters, sterols, isoprenoid compounds, etc..  Water body includes any body of fresh or salt water. As lipids are insoluble in water the concencentrations are associated with the particulate phase.'^^xsd:string ;
     skos:notation 'SDN:P02::F001'^^xsd:string .
     
@@ -159,6 +174,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/WBRX/>
     dc:modified '2012-02-16T09:27:29'^^xsd:dateTime ;
     skos:altLabel 'RC_redox'^^xsd:string ;
+    skos:prefLabel 'Water body redox potential'^^xsd:string ;
     skos:definition 'A measure of the tendency of any body of fresh or salt water to either gain or lose electrons when it is subject to change by introduction of a new species.'^^xsd:string ;
     skos:notation 'SDN:P02::WBRX'^^xsd:string .
     

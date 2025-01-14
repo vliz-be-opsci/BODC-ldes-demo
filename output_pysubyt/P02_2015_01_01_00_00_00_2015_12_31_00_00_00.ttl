@@ -42,6 +42,11 @@
     [
       sh:datatype xsd:string ;
       sh:minCount 1 ;
+      sh:path skos:prefLabel
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
       sh:path skos:definition
     ],
     [
@@ -61,6 +66,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/PHLT/>
     dc:modified '2015-11-16T13:22:28'^^xsd:dateTime ;
     skos:altLabel 'Raw_pH_output'^^xsd:string ;
+    skos:prefLabel 'Raw pH sensor output'^^xsd:string ;
     skos:definition 'Raw pH parameter output from any type of pH sensor.'^^xsd:string ;
     skos:notation 'SDN:P02::PHLT'^^xsd:string .
     
@@ -71,6 +77,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/CARO/>
     dc:modified '2015-09-08T09:02:34'^^xsd:dateTime ;
     skos:altLabel 'WC_CarotFlavPig'^^xsd:string ;
+    skos:prefLabel 'Carotenoid and flavenoid pigment concentrations in water bodies'^^xsd:string ;
     skos:definition ''^^xsd:string ;
     skos:notation 'SDN:P02::CARO'^^xsd:string .
     
@@ -81,6 +88,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/IALZ/>
     dc:modified '2015-04-08T15:27:34'^^xsd:dateTime ;
     skos:altLabel 'Littoral_TaxInsectWormAFDW'^^xsd:string ;
+    skos:prefLabel 'Insect and earthworm taxonomy-related ash-free dry weight biomass per unit area of the littoral zone'^^xsd:string ;
     skos:definition 'Insect (Class Insecta) and earthworm (Subclass Oligochaeta) ash-free dry weight biomass per unit area of the littoral zone (between spring tide high and low water) parameters.'^^xsd:string ;
     skos:notation 'SDN:P02::IALZ'^^xsd:string .
     
@@ -91,6 +99,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/INLZ/>
     dc:modified '2015-04-08T15:26:45'^^xsd:dateTime ;
     skos:altLabel 'InsWorm_Tax_Litabund'^^xsd:string ;
+    skos:prefLabel 'Insect and earthworm taxonomy-related abundance per unit area of the littoral zone'^^xsd:string ;
     skos:definition 'Insect (Class Insecta) and earthworm (Subclass Oligochaeta) abundance per unit area of the littoral zone (between spring tide high and low water) parameters.'^^xsd:string ;
     skos:notation 'SDN:P02::INLZ'^^xsd:string .
     
@@ -101,6 +110,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/MFAZ/>
     dc:modified '2015-04-08T15:23:44'^^xsd:dateTime ;
     skos:altLabel 'Littoral_TaxZoobenthAFDW'^^xsd:string ;
+    skos:prefLabel 'Zoobenthos taxonomy-related ash-free dry weight biomass per unit area of the littoral zone'^^xsd:string ;
     skos:definition 'Any zoobenthos ash-free dry weight biomass per unit area of the littoral zone (between spring tide high and low water) parameters that are not fish or terrestrial animals (insecta/oligochaeta)'^^xsd:string ;
     skos:notation 'SDN:P02::MFAZ'^^xsd:string .
     
@@ -111,6 +121,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/MFLZ/>
     dc:modified '2015-04-08T15:22:45'^^xsd:dateTime ;
     skos:altLabel 'Zoobenth_Tax_Litabund'^^xsd:string ;
+    skos:prefLabel 'Zoobenthos taxonomy-related abundance per unit area of the littoral zone'^^xsd:string ;
     skos:definition 'Any zoobenthos abundance per unit area of the littoral zone (between spring tide high and low water) parameters that are not fish or terrestrial animals (insecta/oligochaeta)'^^xsd:string ;
     skos:notation 'SDN:P02::MFLZ'^^xsd:string .
     
@@ -121,6 +132,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/BEPP/>
     dc:modified '2015-02-03T10:19:46'^^xsd:dateTime ;
     skos:altLabel 'Ben_PrimaryProd'^^xsd:string ;
+    skos:prefLabel 'Benthic primary production'^^xsd:string ;
     skos:definition 'Parameters associated with the quantification of primary production by plants living on (e.g. corals, seaweed and seagrass) or in (e.g. benthic diatoms) the seabed.  Primary production is defined as the fixation of carbon dioxide into either organic or inorganic carbon by living entities and so includes photosynthesis and calcification.'^^xsd:string ;
     skos:notation 'SDN:P02::BEPP'^^xsd:string .
     

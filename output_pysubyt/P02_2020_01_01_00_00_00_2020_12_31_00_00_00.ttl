@@ -42,6 +42,11 @@
     [
       sh:datatype xsd:string ;
       sh:minCount 1 ;
+      sh:path skos:prefLabel
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
       sh:path skos:definition
     ],
     [
@@ -61,6 +66,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/MTSD/>
     dc:modified '2020-10-20T15:00:08'^^xsd:dateTime ;
     skos:altLabel 'Met_Sed'^^xsd:string ;
+    skos:prefLabel 'Metal concentrations in sediment'^^xsd:string ;
     skos:definition 'Concentrations of metal elements per unit weight of sediment.  Sediment is understood to be the solid phase of the bed, including the recently settled material sometimes known as fluff collected from the bed surface.'^^xsd:string ;
     skos:notation 'SDN:P02::MTSD'^^xsd:string .
     
@@ -71,6 +77,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/GP013/>
     dc:modified '2020-10-17T20:07:47'^^xsd:dateTime ;
     skos:altLabel 'CoralHealth'^^xsd:string ;
+    skos:prefLabel 'Coral infection and damage'^^xsd:string ;
     skos:definition 'Parameters related to the health and conservation status of coral species and coralligenous habitats.'^^xsd:string ;
     skos:notation 'SDN:P02::GP013'^^xsd:string .
     

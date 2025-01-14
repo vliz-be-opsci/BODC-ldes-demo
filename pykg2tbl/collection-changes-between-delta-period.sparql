@@ -10,13 +10,14 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX skosc: <http://www.w3.org/2004/02/skos/core#>
-SELECT ?vid ?sdnid ?version ?modified ?altlabel ?definition ?notation ?conceptid WHERE {
+SELECT ?vid ?sdnid ?version ?modified ?altlabel ?preflabel ?definition ?notation ?conceptid WHERE {
   BIND( <http://vocab.nerc.ac.uk/collection/{{collection}}/current/> as ?collection ).
   ?collection skosc:member ?conceptid .
   ?conceptid rdf:type skosc:Concept .
   ?vid dcterms:identifier ?sdnid .
   ?vid dcterms:date ?modified .
   ?vid skosc:altLabel ?altlabel .
+  ?vid skosc:prefLabel ?preflabel .
   ?vid skosc:definition ?definition .
   ?vid skosc:notation ?notation .
   ?vid dcterms:isVersionOf ?conceptid .

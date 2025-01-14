@@ -42,6 +42,11 @@
     [
       sh:datatype xsd:string ;
       sh:minCount 1 ;
+      sh:path skos:prefLabel
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
       sh:path skos:definition
     ],
     [
@@ -61,6 +66,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/SAMP/>
     dc:modified '2018-12-11T13:04:28'^^xsd:dateTime ;
     skos:altLabel 'SamplingParams'^^xsd:string ;
+    skos:prefLabel 'Sampling parameters'^^xsd:string ;
     skos:definition 'Qualitative and quantitative parameters related to the sampling activity; includes terms related to sampling effort, sampling gears, sample processing.'^^xsd:string ;
     skos:notation 'SDN:P02::SAMP'^^xsd:string .
     
@@ -71,6 +77,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/LITT/>
     dc:modified '2018-09-06T11:49:23'^^xsd:dateTime ;
     skos:altLabel 'Litter'^^xsd:string ;
+    skos:prefLabel 'Litter abundance and type'^^xsd:string ;
     skos:definition 'Parameters describing the abundance and nature of material classed as refuse introduced to the environment by activities of man that are not covered by the more specific P02 terms for micro-litter (UMLS and UMLW), beach litter (BLIT) or seafloor litter (SLIT).'^^xsd:string ;
     skos:notation 'SDN:P02::LITT'^^xsd:string .
     
@@ -81,6 +88,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/SLIT/>
     dc:modified '2018-09-06T11:48:34'^^xsd:dateTime ;
     skos:altLabel 'SeaFloorLitter'^^xsd:string ;
+    skos:prefLabel 'Sea-floor litter abundance'^^xsd:string ;
     skos:definition 'Parameters describing the abundance and nature of litter data collected on the seabed.'^^xsd:string ;
     skos:notation 'SDN:P02::SLIT'^^xsd:string .
     
@@ -91,6 +99,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/BLIT/>
     dc:modified '2018-09-06T11:45:25'^^xsd:dateTime ;
     skos:altLabel 'BeachLitter'^^xsd:string ;
+    skos:prefLabel 'Beach litter abundance'^^xsd:string ;
     skos:definition 'Parameters describing the abundance and nature of debris released on coastlines.'^^xsd:string ;
     skos:notation 'SDN:P02::BLIT'^^xsd:string .
     
@@ -101,6 +110,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/D001/>
     dc:modified '2018-04-04T11:42:45'^^xsd:dateTime ;
     skos:altLabel 'Sed_MicroPhytoBiomass'^^xsd:string ;
+    skos:prefLabel 'Microphytobenthos biomass'^^xsd:string ;
     skos:definition 'Any quantification of the mass (e.g. carbon, nitrogen, weight) of microalgae present on hard substrate or soft sediment at the bottom of any body of fresh or salt water.'^^xsd:string ;
     skos:notation 'SDN:P02::D001'^^xsd:string .
     
@@ -111,6 +121,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/FATM/>
     dc:modified '2018-02-12T14:04:58'^^xsd:dateTime ;
     skos:altLabel 'Fish_MorphAgePhys'^^xsd:string ;
+    skos:prefLabel 'Fish morphology, age and physiology'^^xsd:string ;
     skos:definition 'Parameters that quantify the size, shape, age and life processes (including mortality) of fish (Osteichthyes, Agnatha and Chrondrichthyes).'^^xsd:string ;
     skos:notation 'SDN:P02::FATM'^^xsd:string .
     
@@ -121,6 +132,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/FATX/>
     dc:modified '2018-02-12T14:04:58'^^xsd:dateTime ;
     skos:altLabel 'Fish_abund'^^xsd:string ;
+    skos:prefLabel 'Fish abundance in water bodies'^^xsd:string ;
     skos:definition 'Parameters that quantify the numbers of fish (Osteichthyes, Agnatha and Chrondrichthyes) at a given location in any body of salt or fresh water.'^^xsd:string ;
     skos:notation 'SDN:P02::FATX'^^xsd:string .
     
@@ -131,6 +143,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/SABB/>
     dc:modified '2018-02-12T14:04:58'^^xsd:dateTime ;
     skos:altLabel 'Sfish_AbundBiom'^^xsd:string ;
+    skos:prefLabel 'Shellfish abundance and biomass in water bodies'^^xsd:string ;
     skos:definition 'Parameters that quantify the numbers or amount of living material of shellfish (molluscs - including cephalopods - and crustaceans of interest to fisheries research and commercial fisheries) in any body of fresh or salt water.'^^xsd:string ;
     skos:notation 'SDN:P02::SABB'^^xsd:string .
     
@@ -141,6 +154,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/SATM/>
     dc:modified '2018-02-12T14:04:58'^^xsd:dateTime ;
     skos:altLabel 'Sfish_MorphAgePhys'^^xsd:string ;
+    skos:prefLabel 'Shellfish morphology, age and physiology'^^xsd:string ;
     skos:definition 'Parameters that quantify the size, shape, age and life processes (including mortality) of shellfish (molluscs - including cephalopods - and crustaceans of interest to fisheries research and commercial fisheries).'^^xsd:string ;
     skos:notation 'SDN:P02::SATM'^^xsd:string .
     
@@ -151,6 +165,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/SREP/>
     dc:modified '2018-02-12T14:04:58'^^xsd:dateTime ;
     skos:altLabel 'Sfish_Rep'^^xsd:string ;
+    skos:prefLabel 'Shellfish reproduction'^^xsd:string ;
     skos:definition 'Parameters that quantify the fecundity, reproductive rates or nature of reproduction in shellfish (molluscs - including cephalopods - and crustaceans of interest to fisheries research and commercial fisheries).'^^xsd:string ;
     skos:notation 'SDN:P02::SREP'^^xsd:string .
     
@@ -161,6 +176,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/FCMW/>
     dc:modified '2018-01-11T12:13:10'^^xsd:dateTime ;
     skos:altLabel 'FCM_water'^^xsd:string ;
+    skos:prefLabel 'Flow cytometry parameters in water bodies'^^xsd:string ;
     skos:definition 'Parameters derived from flow cytometry data analysis of water samples using in situ or bench-top flow cytometers.'^^xsd:string ;
     skos:notation 'SDN:P02::FCMW'^^xsd:string .
     

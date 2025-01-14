@@ -42,6 +42,11 @@
     [
       sh:datatype xsd:string ;
       sh:minCount 1 ;
+      sh:path skos:prefLabel
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
       sh:path skos:definition
     ],
     [
@@ -61,6 +66,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/FADS/>
     dc:modified '2019-07-26T11:05:38'^^xsd:dateTime ;
     skos:altLabel 'FAD usage statistics'^^xsd:string ;
+    skos:prefLabel 'Fish aggregating device usage statistics'^^xsd:string ;
     skos:definition 'Parameters describing usage of Fish Aggregating Devices (FAD) in fisheries (particularly purse seine tuna fisheries).'^^xsd:string ;
     skos:notation 'SDN:P02::FADS'^^xsd:string .
     
@@ -71,6 +77,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/ATPX/>
     dc:modified '2019-06-13T08:54:58'^^xsd:dateTime ;
     skos:altLabel 'Aden_WC'^^xsd:string ;
+    skos:prefLabel 'Concentration of adenylates in the water column'^^xsd:string ;
     skos:definition 'Concentrations of adenylates (ADP, ATP etc) in all phases of the water column'^^xsd:string ;
     skos:notation 'SDN:P02::ATPX'^^xsd:string .
     
@@ -81,6 +88,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/GP025/>
     dc:modified '2019-05-31T19:13:30'^^xsd:dateTime ;
     skos:altLabel 'SealRepr'^^xsd:string ;
+    skos:prefLabel 'Seal reproduction'^^xsd:string ;
     skos:definition 'Parameters related to the reproduction of true seals (Phocidae), eared seals (Otariidae) and walruses (Odobenidae).'^^xsd:string ;
     skos:notation 'SDN:P02::GP025'^^xsd:string .
     
@@ -91,6 +99,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/SEBH/>
     dc:modified '2019-05-31T19:13:30'^^xsd:dateTime ;
     skos:altLabel 'Seal_Behav'^^xsd:string ;
+    skos:prefLabel 'Seal behaviour'^^xsd:string ;
     skos:definition 'Parameters describing the actions or reactions, usually in response to the environment, of true seals (Phocidae), eared seals (Otariidae) and walruses (Odobenidae).'^^xsd:string ;
     skos:notation 'SDN:P02::SEBH'^^xsd:string .
     
@@ -101,6 +110,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/SEMP/>
     dc:modified '2019-05-31T19:13:30'^^xsd:dateTime ;
     skos:altLabel 'Seal_Morph_Phys'^^xsd:string ;
+    skos:prefLabel 'Seal morphology and physiology'^^xsd:string ;
     skos:definition 'Parameters describing the size, shape or physiological activity including disease and parasite infection status of true seals (Phocidae), eared seals (Otariidae) and walruses (Odobenidae).'^^xsd:string ;
     skos:notation 'SDN:P02::SEMP'^^xsd:string .
     
@@ -111,6 +121,7 @@
 <http://vocab.nerc.ac.uk/collection/P02/current/SEMO/>
     dc:modified '2019-05-31T19:13:30'^^xsd:dateTime ;
     skos:altLabel 'Seal_Mort'^^xsd:string ;
+    skos:prefLabel 'Seal mortality'^^xsd:string ;
     skos:definition 'Parameters describing the causes and rate of mortality of true seals (Phocidae), eared seals (Otariidae) and walruses (Odobenidae).'^^xsd:string ;
     skos:notation 'SDN:P02::SEMO'^^xsd:string .
     
