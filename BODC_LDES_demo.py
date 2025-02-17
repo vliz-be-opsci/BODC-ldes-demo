@@ -148,6 +148,7 @@ def make_pykg2tbl_files(collections, begin_date, end_date):
             vars_dict = {
                 "this_fragment_delta": this_delta_quoted,
                 "next_fragment_delta": next_delta_quoted,
+                "next_fragment_time": end_date_year.replace(" ", "T") + "Z",
                 "retention_period": retention_period,
                 "collection": collection,
             }

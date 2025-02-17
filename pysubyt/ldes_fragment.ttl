@@ -17,7 +17,12 @@ ldes fragment template
 <http://vocab.nerc.ac.uk/ldes/{{collection}}/{{this_fragment_delta}}>
     a tree:Node ;
     {% if next_fragment_delta %}
-    tree:relation [ tree:node <http://vocab.nerc.ac.uk/ldes/{{collection}}/{{next_fragment_delta}}> ] ;
+    tree:relation [
+      a tree:LessThanRelation ;
+      tree:node <http://vocab.nerc.ac.uk/ldes/{{collection}}/{{next_fragment_delta}}> ;
+      tree:path dc:modified ;
+      tree:value "{{next_fragment_time}}"^^xsd:dateTime
+    ] ;
     {% endif %}
     ldes:retentionPolicy [
         a ldes:LatestVersionSubset ;

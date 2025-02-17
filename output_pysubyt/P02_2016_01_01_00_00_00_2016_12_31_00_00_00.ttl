@@ -9,7 +9,12 @@
 <http://vocab.nerc.ac.uk/ldes/P02/2016-01-01%2000%3A00%3A00_2016-12-31%2000%3A00%3A00>
     a tree:Node ;
     
-    tree:relation [ tree:node <http://vocab.nerc.ac.uk/ldes/P02/2015-12-31%2000%3A00%3A00_2016-01-01%2000%3A00%3A00> ] ;
+    tree:relation [
+      a tree:LessThanRelation ;
+      tree:node <http://vocab.nerc.ac.uk/ldes/P02/2015-12-31%2000%3A00%3A00_2016-01-01%2000%3A00%3A00> ;
+      tree:path dc:modified ;
+      tree:value "2016-12-31T00:00:00Z"^^xsd:dateTime
+    ] ;
     
     ldes:retentionPolicy [
         a ldes:LatestVersionSubset ;
