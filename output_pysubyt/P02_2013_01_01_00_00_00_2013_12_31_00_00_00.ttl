@@ -67,7 +67,12 @@
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/PREX/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/PREX/2/>
     a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/PREX/".
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/PREX/";
+    dc:modified '2013-11-15T10:30:47'^^xsd:dateTime ;
+    skos:altLabel 'SeaLvl_Press'^^xsd:string ;
+    skos:prefLabel 'Sea level expressed as pressure'^^xsd:string ;
+    skos:definition 'Measurements of the displacement of the water column surface from a fixed, stable reference expressed as either total pressure or sea pressure'^^xsd:string ;
+    skos:notation 'SDN:P02::PREX'^^xsd:string .
 <http://vocab.nerc.ac.uk/collection/P02/current/PREX/>
     dc:modified '2013-11-15T10:30:47'^^xsd:dateTime ;
     skos:altLabel 'SeaLvl_Press'^^xsd:string ;
@@ -78,7 +83,12 @@
 <http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ZADX/5/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/ZADX/5/>
     a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/ZADX/".
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/ZADX/";
+    dc:modified '2013-08-01T09:07:37'^^xsd:dateTime ;
+    skos:altLabel 'ZoobenthDryBiomass'^^xsd:string ;
+    skos:prefLabel 'Zoobenthos dry weight biomass'^^xsd:string ;
+    skos:definition 'Any quantification of the dry mass of zoobenthos (animals living on, in or near the bed of any water body). Includes animals normally considered planktonic if collected in sediment and data expressed ash-free and in terms of carbon, nitrogen etc..'^^xsd:string ;
+    skos:notation 'SDN:P02::ZADX'^^xsd:string .
 <http://vocab.nerc.ac.uk/collection/P02/current/ZADX/>
     dc:modified '2013-08-01T09:07:37'^^xsd:dateTime ;
     skos:altLabel 'ZoobenthDryBiomass'^^xsd:string ;

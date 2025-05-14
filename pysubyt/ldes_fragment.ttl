@@ -76,7 +76,12 @@ ldes fragment template
 <http://vocab.nerc.ac.uk/ldes/{{collection}}> tree:member <{{result.vid}}> .
 <{{result.vid}}>
     a skos:Concept ;
-    dc:isVersionOf "{{result.conceptid}}".
+    dc:isVersionOf "{{result.conceptid}}";
+    dc:modified {{result.modified | xsd("datetime")}} ;
+    skos:altLabel {{result.altlabel | xsd("string")}} ;
+    skos:prefLabel {{result.preflabel | xsd("string")}} ;
+    skos:definition {{result.definition | xsd("string")}} ;
+    skos:notation {{result.notation | xsd("string")}} .
 <{{result.conceptid}}>
     dc:modified {{result.modified | xsd("datetime")}} ;
     skos:altLabel {{result.altlabel | xsd("string")}} ;
