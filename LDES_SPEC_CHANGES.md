@@ -22,13 +22,14 @@ ldes:retentionPolicy [
 **Updated Implementation:**
 ```turtle
 ldes:retentionPolicy [
-    a ldes:LatestVersionSubset ;
+    a ldes:RetentionPolicy ;
     ldes:versionAmount 100
 ] .
 ```
 
 **Explanation:**
 - Changed `ldes:amount` to `ldes:versionAmount` to align with the LDES specification
+- Changed the type from `ldes:LatestVersionSubset` to `ldes:RetentionPolicy`
 - Removed `ldes:versionKey` as it is no longer part of the retention policy definition in the spec
 - The `ldes:versionAmount` property specifies how many versions of each member should be retained in the LDES
 
@@ -58,14 +59,14 @@ ldes:retentionPolicy [
   a ldes:EventStream ;
   ldes:timestampPath dc:modified ;
   ldes:versionOfPath dc:isVersionOf ;
-  ldes:pollingInterval "PT5M"^^xsd:duration ;
+  ldes:pollingInterval "3600"^^xsd:integer ;
   ...
 ```
 
 **Explanation:**
 - Added support for the `ldes:pollingInterval` property in the EventStream
 - This property indicates the minimum time clients should wait between polling requests
-- The value is specified in ISO 8601 duration format (e.g., "PT5M" for 5 minutes, "PT1H" for 1 hour)
+- The value is specified as an integer representing the seconds between polls
 - This helps optimize client-server interactions and reduce unnecessary polling
 - The property is configurable through the `polling_interval` variable in `BODC_LDES_demo.py`
 
@@ -80,14 +81,14 @@ begin_date = "2012-01-01 00:00:00"
 end_date = "2021-01-02 00:00:00"
 retention_period = 100
 immutable = "true"  # Set to "true" or "false" to enable/disable immutability
-polling_interval = "PT5M"  # ISO 8601 duration format (e.g., "PT5M" for 5 minutes)
+polling_interval = 3600  # Duration in seconds for an LDES client to start polling again for changes in the feed
 ```
 
 ### Configuration Options:
 
 - **retention_period**: Integer value specifying the number of versions to retain
 - **immutable**: String value `"true"` or `"false"` indicating if the stream is immutable
-- **polling_interval**: ISO 8601 duration string (examples: "PT5M" = 5 minutes, "PT1H" = 1 hour, "P1D" = 1 day)
+- **polling_interval**: Integer value representing the duration in seconds for an LDES client to start polling again for changes in the feed
 
 ### Making Properties Optional:
 

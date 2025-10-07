@@ -30,7 +30,7 @@ This document shows an example of what the LDES fragment output will look like a
 <http://vocab.nerc.ac.uk/ldes/P02/2012-01-01%2000%3A00%3A00_2012-12-31%2000%3A00%3A00>
     a tree:Node ;
     ldes:retentionPolicy [
-        a ldes:LatestVersionSubset ;
+        a ldes:RetentionPolicy ;
         ldes:versionAmount 100
     ] .
 
@@ -39,7 +39,7 @@ This document shows an example of what the LDES fragment output will look like a
   ldes:timestampPath dc:modified ;
   ldes:versionOfPath dc:isVersionOf ;
   ldes:immutable true ;
-  ldes:pollingInterval "PT5M"^^xsd:duration ;
+  ldes:pollingInterval "3600"^^xsd:integer ;
   tree:shape [
     ...
   ] ;
@@ -55,12 +55,12 @@ This document shows an example of what the LDES fragment output will look like a
 
 2. **Event Stream**:
    - Added `ldes:immutable true` (new configurable property)
-   - Added `ldes:pollingInterval "PT5M"^^xsd:duration` (new configurable property)
+   - Added `ldes:pollingInterval 3600^^xsd:integer` (new configurable property)
 
 ## Template Variables
 
 The template now accepts these additional variables:
 - `immutable`: Boolean string ("true" or "false") - optional
-- `polling_interval`: ISO 8601 duration string - optional
+- `polling_interval`: Integer value representing the duration in seconds for an LDES client to start polling again for changes in the feed - optional
 
 Both properties are optional and will only be included in the output if the corresponding variable is defined.

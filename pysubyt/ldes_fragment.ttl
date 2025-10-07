@@ -27,7 +27,7 @@ ldes fragment template
     ] ;
     {% endif %}
     ldes:retentionPolicy [
-        a ldes:LatestVersionSubset ;
+        a ldes:RetentionPolicy ;
         ldes:versionAmount {{retention_period}}
     ] .
 
