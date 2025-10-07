@@ -24,8 +24,8 @@ collections = ["P02"]
 begin_date = "2012-01-01 00:00:00"
 end_date = "2021-01-02 00:00:00"
 retention_period = 100
-immutable = "true"  # Set to "true" or "false" to enable/disable immutability
-polling_interval = "PT5M"  # ISO 8601 duration format (e.g., "PT5M" for 5 minutes)
+immutable = "false"  # Set to "true" or "false" to enable/disable immutability
+polling_interval = "3600"  # Duration in seconds for an LDES client to start polling again for changes in the feed
 
 # define constants
 ENDPOINT = "http://vocab.nerc.ac.uk/sparql/sparql"

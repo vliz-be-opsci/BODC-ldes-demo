@@ -13,19 +13,20 @@
       a tree:LessThanRelation ;
       tree:node <http://vocab.nerc.ac.uk/ldes/P02/2018-12-31%2000%3A00%3A00_2019-01-01%2000%3A00%3A00> ;
       tree:path dc:modified ;
-      tree:value "2019-12-31T00:00:00Z"^^xsd:dateTime
+      tree:value '2019-12-31T00:00:00+00:00'^^xsd:dateTime
     ] ;
     
     ldes:retentionPolicy [
         a ldes:LatestVersionSubset ;
-        ldes:amount 100 ;
-        ldes:versionKey ( dc:isVersionOf )
+        ldes:versionAmount 100
     ] .
 
 <http://vocab.nerc.ac.uk/ldes/P02>
   a ldes:EventStream ;
   ldes:timestampPath dc:modified ;
   ldes:versionOfPath dc:isVersionOf ;
+  ldes:immutable false ;
+  ldes:pollingInterval '3600'^^xsd:integer ;
   tree:shape [
     a sh:NodeShape ;
     sh:nodeKind sh:IRI ;

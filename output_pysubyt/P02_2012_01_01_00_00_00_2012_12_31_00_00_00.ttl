@@ -11,14 +11,15 @@
     
     ldes:retentionPolicy [
         a ldes:LatestVersionSubset ;
-        ldes:amount 100 ;
-        ldes:versionKey ( dc:isVersionOf )
+        ldes:versionAmount 100
     ] .
 
 <http://vocab.nerc.ac.uk/ldes/P02>
   a ldes:EventStream ;
   ldes:timestampPath dc:modified ;
   ldes:versionOfPath dc:isVersionOf ;
+  ldes:immutable false ;
+  ldes:pollingInterval '3600'^^xsd:integer ;
   tree:shape [
     a sh:NodeShape ;
     sh:nodeKind sh:IRI ;

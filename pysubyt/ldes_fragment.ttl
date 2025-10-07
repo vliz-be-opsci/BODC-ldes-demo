@@ -6,7 +6,7 @@ ldes fragment template
 | @param collection: The collection name
 | @param retention_period: The retention period of the fragment
 | @param immutable: Whether the event stream is immutable (true/false)
-| @param polling_interval: The polling interval in ISO 8601 duration format (e.g., "PT5M" for 5 minutes)
+| @param polling_interval: Duration in seconds for an LDES client to start polling again for changes in the feed (this does not guarantee that a third party client will comply with this interval)
 | @param set['qres']: The query results
 #}
 @prefix tree: <https://w3id.org/tree#> .
@@ -23,7 +23,7 @@ ldes fragment template
       a tree:LessThanRelation ;
       tree:node <http://vocab.nerc.ac.uk/ldes/{{collection}}/{{next_fragment_delta}}> ;
       tree:path dc:modified ;
-      tree:value "{{next_fragment_time}}"^^xsd:dateTime
+      tree:value {{next_fragment_time | xsd("datetime")}}
     ] ;
     {% endif %}
     ldes:retentionPolicy [
@@ -35,9 +35,8 @@ ldes fragment template
   a ldes:EventStream ;
   ldes:timestampPath dc:modified ;
   ldes:versionOfPath dc:isVersionOf ;
-  {% if immutable is defined %}ldes:immutable {{immutable}} ;
-  {% endif %}{% if polling_interval is defined %}ldes:pollingInterval "{{polling_interval}}"^^xsd:duration ;
-  {% endif %}
+  {% if immutable is defined %}ldes:immutable {{immutable}} ;{% endif %}
+  {% if polling_interval is defined %}ldes:pollingInterval {{polling_interval | xsd("integer")}} ;{% endif %}
   tree:shape [
     a sh:NodeShape ;
     sh:nodeKind sh:IRI ;
