@@ -35,7 +35,7 @@ ldes fragment template
   a ldes:EventStream ;
   ldes:timestampPath dc:modified ;
   ldes:versionOfPath dc:isVersionOf ;
-  {% if immutable is defined %}ldes:immutable {{immutable}} ;{% endif %}
+  {% if immutable is defined %}ldes:immutable {{immutable | xsd("boolean")}} ;{% endif %}
   {% if polling_interval is defined %}ldes:pollingInterval {{polling_interval | xsd("integer")}} ;{% endif %}
   tree:shape [
     a sh:NodeShape ;
