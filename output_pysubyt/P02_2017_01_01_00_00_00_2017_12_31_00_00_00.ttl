@@ -17,7 +17,7 @@
     ] ;
     
     ldes:retentionPolicy [
-        a ldes:LatestVersionSubset ;
+        a ldes:RetentionPolicy ;
         ldes:versionAmount 100
     ] .
 
