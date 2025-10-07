@@ -25,7 +25,7 @@
   a ldes:EventStream ;
   ldes:timestampPath dc:modified ;
   ldes:versionOfPath dc:isVersionOf ;
-  ldes:immutable false ;
+  ldes:immutable 'false'^^xsd:boolean ;
   ldes:pollingInterval '3600'^^xsd:integer ;
   tree:shape [
     a sh:NodeShape ;
