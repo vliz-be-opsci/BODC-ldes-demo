@@ -14,13 +14,15 @@
   a tree:Node ;
   tree:relation [ tree:node <http://marineregions.org/feed?page=2023-11-23T14%3A00%3A00Z%2F2023-11-23T15%3A00%3A00Z> ] ;
   ldes:retentionPolicy [
-    a ldes:LatestVersionSubset ;
-    ldes:amount 1 ;
-    ldes:versionKey ( dc:isVersionOf )
+    a ldes:RetentionPolicy ;
+    ldes:versionAmount 1
   ] .
 
 <http://marineregions.org/feed>
   a ldes:EventStream ;
+  ldes:timestampPath dc:modified ;
+  ldes:versionOfPath dc:isVersionOf ;
+  ldes:pollingInterval 204800 ;
   tree:shape [
     a sh:NodeShape ;
     sh:nodeKind sh:IRI ;
