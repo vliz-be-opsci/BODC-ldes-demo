@@ -24,6 +24,8 @@ collections = ["P02"]
 begin_date = "2012-01-01 00:00:00"
 end_date = "2021-01-02 00:00:00"
 retention_period = 100
+immutable = "false"  # Set to "true" or "false" to enable/disable immutability
+polling_interval = "3600"  # Duration in seconds for an LDES client to start polling again for changes in the feed
 
 # define constants
 ENDPOINT = "http://vocab.nerc.ac.uk/sparql/sparql"
@@ -151,6 +153,8 @@ def make_pykg2tbl_files(collections, begin_date, end_date):
                 "next_fragment_time": end_date_year.replace(" ", "T") + "Z",
                 "retention_period": retention_period,
                 "collection": collection,
+                "immutable": immutable,
+                "polling_interval": polling_interval,
             }
 
             # make service and sink

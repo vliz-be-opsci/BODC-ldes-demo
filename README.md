@@ -2,6 +2,12 @@
 
 This repository contains the documentation for the BODC LDES Demo.
 
+## LDES Specification Compliance
+
+This project has been updated to comply with the official LDES specification. For detailed information about the changes made, see:
+- [LDES_SPEC_CHANGES.md](LDES_SPEC_CHANGES.md) - Detailed explanation of all changes
+- [EXPECTED_OUTPUT_EXAMPLE.md](EXPECTED_OUTPUT_EXAMPLE.md) - Before/after examples
+
 ## Requirements and technologies used
 
 The python script used in this project requires Python 3.X.
