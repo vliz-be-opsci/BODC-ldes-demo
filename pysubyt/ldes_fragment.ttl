@@ -31,7 +31,7 @@ ldes fragment template
         ldes:versionAmount {{retention_period}}
     ] .
 
-<http://vocab.nerc.ac.uk/ldes/{{collection}}>
+<http://vocab.nerc.ac.uk/ldes/{{collection}}/>
   a ldes:EventStream ;
   ldes:timestampPath dc:modified ;
   ldes:versionOfPath dc:isVersionOf ;
@@ -76,7 +76,7 @@ ldes fragment template
   .
 
 {% for result in sets['qres'] -%}
-<http://vocab.nerc.ac.uk/ldes/{{collection}}> tree:member <{{result.vid}}> .
+<http://vocab.nerc.ac.uk/ldes/{{collection}}/> tree:member <{{result.vid}}> .
 <{{result.vid}}>
     a skos:Concept ;
     dc:isVersionOf "{{result.conceptid}}";
