@@ -6,12 +6,14 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://vocab.nerc.ac.uk/ldes/P02/2014-01-01%2000%3A00%3A00_2014-12-31%2000%3A00%3A00>
+@base <https://marine-term-translations.github.io/P02-TEST/P02/2014_01_01_00_00_00_2014_12_31_00_00_00.ttl> .
+
+<>
     a tree:Node ;
     
     tree:relation [
       a tree:LessThanRelation ;
-      tree:node <http://vocab.nerc.ac.uk/ldes/P02/2013-12-31%2000%3A00%3A00_2014-01-01%2000%3A00%3A00> ;
+      tree:node <https://marine-term-translations.github.io/P02-TEST/P02/2013_01_01_00_00_00_2013_12_31_00_00_00.ttl> ;
       tree:path dc:modified ;
       tree:value '2014-12-31T00:00:00+00:00'^^xsd:dateTime
     ] ;
@@ -21,7 +23,7 @@
         ldes:versionAmount 100
     ] .
 
-<http://vocab.nerc.ac.uk/ldes/P02>
+<feed>
   a ldes:EventStream ;
   ldes:timestampPath dc:modified ;
   ldes:versionOfPath dc:isVersionOf ;
@@ -62,10 +64,10 @@
     ];
     sh:targetClass skos:Concept
   ] ;
-  tree:view <http://vocab.nerc.ac.uk/ldes/P02/2014-01-01%2000%3A00%3A00_2014-12-31%2000%3A00%3A00> ;
+  tree:view <> ;
   .
 
-<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/EXSV/1/> .
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/EXSV/1/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/EXSV/1/>
     a skos:Concept ;
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/EXSV/";
@@ -81,7 +83,7 @@
     skos:definition 'Measurements made at a given time of any state variable in a sample that is the subject of an experiment that will change the composition over time, such as the water sample in an incubation experiment.'^^xsd:string ;
     skos:notation 'SDN:P02::EXSV'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ZFIT/2/> .
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ZFIT/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/ZFIT/2/>
     a skos:Concept ;
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/ZFIT/";
@@ -97,7 +99,7 @@
     skos:definition 'Parameters indicating the health of zooplankton and zoobenthos taxa, such as fecundity, egg condition, presence of parasites/diseases etc.'^^xsd:string ;
     skos:notation 'SDN:P02::ZFIT'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/EWSB/3/> .
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/EWSB/3/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/EWSB/3/>
     a skos:Concept ;
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/EWSB/";
@@ -113,7 +115,7 @@
     skos:definition 'Parameters quantifying the extent or direction of atmospheric movement. Obvious examples are wind velocity, windspeed and wind direction, but can also include derived parameters such as force, energy, power and power density.'^^xsd:string ;
     skos:notation 'SDN:P02::EWSB'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/FEFF/1/> .
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/FEFF/1/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/FEFF/1/>
     a skos:Concept ;
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/FEFF/";
@@ -129,7 +131,7 @@
     skos:definition 'Parameters that quantify or classify the physical or financial resources used in fishing activities'^^xsd:string ;
     skos:notation 'SDN:P02::FEFF'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/BRDA/4/> .
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/BRDA/4/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/BRDA/4/>
     a skos:Concept ;
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/BRDA/";
@@ -145,7 +147,7 @@
     skos:definition 'Parameters quantifying the number of birds (Class Aves) in a survey but not expressed per unit area. Includes presence/absence indicators.'^^xsd:string ;
     skos:notation 'SDN:P02::BRDA'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SDNA/2/> .
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SDNA/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/SDNA/2/>
     a skos:Concept ;
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/SDNA/";
@@ -161,7 +163,7 @@
     skos:definition 'Parameters quantifying the amount of naturally-produced organic (molecules containing carbon) compounds that are built from multiple instances of structural units (monomers) that are covalently-bonded to produce larger structures in any sediment (material collected by a corer including fluff). Includes polynucleotides (RNA and DNA), polypeptides and polysaccharides (e.g. cellulose).'^^xsd:string ;
     skos:notation 'SDN:P02::SDNA'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/WDNA/2/> .
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/WDNA/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/WDNA/2/>
     a skos:Concept ;
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/WDNA/";
@@ -177,7 +179,7 @@
     skos:definition 'Parameters quantifying the amount of naturally-produced organic (molecules containing carbon) compounds that are built from multiple instances of structural units (monomers) that are covalently-bonded to produce larger structures in any body of salt or fresh water. Includes polynucleotides (RNA and DNA), polypeptides and polysaccharides (e.g. cellulose).'^^xsd:string ;
     skos:notation 'SDN:P02::WDNA'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/TVLT/4/> .
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/TVLT/4/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/TVLT/4/>
     a skos:Concept ;
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/TVLT/";

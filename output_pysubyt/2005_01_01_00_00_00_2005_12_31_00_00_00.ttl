@@ -1,0 +1,245 @@
+
+@prefix tree: <https://w3id.org/tree#> .
+@prefix ldes: <https://w3id.org/ldes#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+@base <https://marine-term-translations.github.io/P02-TEST/P02/2005_01_01_00_00_00_2005_12_31_00_00_00.ttl> .
+
+<>
+    a tree:Node ;
+    
+    tree:relation [
+      a tree:LessThanRelation ;
+      tree:node <https://marine-term-translations.github.io/P02-TEST/P02/2004_01_01_00_00_00_2004_12_31_00_00_00.ttl> ;
+      tree:path dc:modified ;
+      tree:value '2005-12-31T00:00:00+00:00'^^xsd:dateTime
+    ] ;
+    
+    ldes:retentionPolicy [
+        a ldes:RetentionPolicy ;
+        ldes:versionAmount 100
+    ] .
+
+<feed>
+  a ldes:EventStream ;
+  ldes:timestampPath dc:modified ;
+  ldes:versionOfPath dc:isVersionOf ;
+  ldes:immutable 'false'^^xsd:boolean ;
+  ldes:pollingInterval '3600'^^xsd:integer ;
+  tree:shape [
+    a sh:NodeShape ;
+    sh:nodeKind sh:IRI ;
+    sh:property [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path dc:isVersionOf
+    ],
+    [
+      sh:datatype xsd:dateTime ;
+      sh:minCount 1 ;
+      sh:path dc:modified
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:altLabel
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:prefLabel
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:definition
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:notation
+    ];
+    sh:targetClass skos:Concept
+  ] ;
+  tree:view <> ;
+  .
+
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/FABD/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/FABD/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/FABD/";
+    dc:modified '2005-09-23T10:46:34'^^xsd:dateTime ;
+    skos:altLabel 'Faun_abuns_bed'^^xsd:string ;
+    skos:prefLabel 'Fauna abundance per unit area of the bed'^^xsd:string ;
+    skos:definition 'Any fauna (class Animalia) abundance per unit are of sea, river or lake bed.  Broad group overlapping a number of more specific groups that should be used preferentially, but this group is provided as an alternative to one-to-many mappings.'^^xsd:string ;
+    skos:notation 'SDN:P02::FABD'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/FABD/>
+    dc:modified '2005-09-23T10:46:34'^^xsd:dateTime ;
+    skos:altLabel 'Faun_abuns_bed'^^xsd:string ;
+    skos:prefLabel 'Fauna abundance per unit area of the bed'^^xsd:string ;
+    skos:definition 'Any fauna (class Animalia) abundance per unit are of sea, river or lake bed.  Broad group overlapping a number of more specific groups that should be used preferentially, but this group is provided as an alternative to one-to-many mappings.'^^xsd:string ;
+    skos:notation 'SDN:P02::FABD'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/PHAT/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/PHAT/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/PHAT/";
+    dc:modified '2005-09-23T10:41:38'^^xsd:dateTime ;
+    skos:altLabel 'Phos_At'^^xsd:string ;
+    skos:prefLabel 'Inorganic phosphorus species concentrations in the atmosphere'^^xsd:string ;
+    skos:definition 'Concentration of inorganic phosphorus species (element or compounds) in any phase of the atmosphere'^^xsd:string ;
+    skos:notation 'SDN:P02::PHAT'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/PHAT/>
+    dc:modified '2005-09-23T10:41:38'^^xsd:dateTime ;
+    skos:altLabel 'Phos_At'^^xsd:string ;
+    skos:prefLabel 'Inorganic phosphorus species concentrations in the atmosphere'^^xsd:string ;
+    skos:definition 'Concentration of inorganic phosphorus species (element or compounds) in any phase of the atmosphere'^^xsd:string ;
+    skos:notation 'SDN:P02::PHAT'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SIAT/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/SIAT/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/SIAT/";
+    dc:modified '2005-09-23T10:41:38'^^xsd:dateTime ;
+    skos:altLabel 'Silic_At'^^xsd:string ;
+    skos:prefLabel 'Inorganic silicon species concentrations in the atmosphere'^^xsd:string ;
+    skos:definition 'Concentration of inorganic silicon species (element or compounds) in any phase of the atmosphere'^^xsd:string ;
+    skos:notation 'SDN:P02::SIAT'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/SIAT/>
+    dc:modified '2005-09-23T10:41:38'^^xsd:dateTime ;
+    skos:altLabel 'Silic_At'^^xsd:string ;
+    skos:prefLabel 'Inorganic silicon species concentrations in the atmosphere'^^xsd:string ;
+    skos:definition 'Concentration of inorganic silicon species (element or compounds) in any phase of the atmosphere'^^xsd:string ;
+    skos:notation 'SDN:P02::SIAT'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ENGP/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/ENGP/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/ENGP/";
+    dc:modified '2005-08-31T09:41:37'^^xsd:dateTime ;
+    skos:altLabel 'Engineer'^^xsd:string ;
+    skos:prefLabel 'Engineering parameters'^^xsd:string ;
+    skos:definition 'Technical parameters that provide information on how well an instrument or data acquisition system is working'^^xsd:string ;
+    skos:notation 'SDN:P02::ENGP'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/ENGP/>
+    dc:modified '2005-08-31T09:41:37'^^xsd:dateTime ;
+    skos:altLabel 'Engineer'^^xsd:string ;
+    skos:prefLabel 'Engineering parameters'^^xsd:string ;
+    skos:definition 'Technical parameters that provide information on how well an instrument or data acquisition system is working'^^xsd:string ;
+    skos:notation 'SDN:P02::ENGP'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ZATP/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/ZATP/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/ZATP/";
+    dc:modified '2005-08-18T09:55:05'^^xsd:dateTime ;
+    skos:altLabel 'Zoo_taxa_prot_biom'^^xsd:string ;
+    skos:prefLabel 'Zooplankton taxonomy-related biomass expressed as protein per unit volume of the water column'^^xsd:string ;
+    skos:definition 'Zooplankton (mesozooplankton plus larger pelagic animals excluding fish, reptiles and mammals) protein biomass per unit volume for entities that have been identified by taxonomic name'^^xsd:string ;
+    skos:notation 'SDN:P02::ZATP'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/ZATP/>
+    dc:modified '2005-08-18T09:55:05'^^xsd:dateTime ;
+    skos:altLabel 'Zoo_taxa_prot_biom'^^xsd:string ;
+    skos:prefLabel 'Zooplankton taxonomy-related biomass expressed as protein per unit volume of the water column'^^xsd:string ;
+    skos:definition 'Zooplankton (mesozooplankton plus larger pelagic animals excluding fish, reptiles and mammals) protein biomass per unit volume for entities that have been identified by taxonomic name'^^xsd:string ;
+    skos:notation 'SDN:P02::ZATP'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ZNTP/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/ZNTP/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/ZNTP/";
+    dc:modified '2005-08-18T09:54:26'^^xsd:dateTime ;
+    skos:altLabel 'Zoo_nontaxa_prot_biom'^^xsd:string ;
+    skos:prefLabel 'Zooplankton non taxonomy-related biomass expressed as protein per unit volume of the water column'^^xsd:string ;
+    skos:definition 'Zooplankton (mesozooplankton plus larger pelagic animals excluding fish, reptiles and mammals) protein biomass per unit volume for entities that have not been identified by taxonomic name'^^xsd:string ;
+    skos:notation 'SDN:P02::ZNTP'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/ZNTP/>
+    dc:modified '2005-08-18T09:54:26'^^xsd:dateTime ;
+    skos:altLabel 'Zoo_nontaxa_prot_biom'^^xsd:string ;
+    skos:prefLabel 'Zooplankton non taxonomy-related biomass expressed as protein per unit volume of the water column'^^xsd:string ;
+    skos:definition 'Zooplankton (mesozooplankton plus larger pelagic animals excluding fish, reptiles and mammals) protein biomass per unit volume for entities that have not been identified by taxonomic name'^^xsd:string ;
+    skos:notation 'SDN:P02::ZNTP'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/GRZO/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/GRZO/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/GRZO/";
+    dc:modified '2005-08-02T16:38:53'^^xsd:dateTime ;
+    skos:altLabel 'ZooplGrowthRate'^^xsd:string ;
+    skos:prefLabel 'Zooplankton growth rates'^^xsd:string ;
+    skos:definition 'Parameters pertaining to zooplankton growth rates including biochemical proxies such as AARS activity'^^xsd:string ;
+    skos:notation 'SDN:P02::GRZO'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/GRZO/>
+    dc:modified '2005-08-02T16:38:53'^^xsd:dateTime ;
+    skos:altLabel 'ZooplGrowthRate'^^xsd:string ;
+    skos:prefLabel 'Zooplankton growth rates'^^xsd:string ;
+    skos:definition 'Parameters pertaining to zooplankton growth rates including biochemical proxies such as AARS activity'^^xsd:string ;
+    skos:notation 'SDN:P02::GRZO'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ZCMP/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/ZCMP/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/ZCMP/";
+    dc:modified '2005-08-01T15:41:59'^^xsd:dateTime ;
+    skos:altLabel 'ZooplChemComp'^^xsd:string ;
+    skos:prefLabel 'Zooplankton chemical composition'^^xsd:string ;
+    skos:definition 'Chemical composition of zooplankton expressed in terms of mass (or molar quantity) per specimen or per unit tissue mass'^^xsd:string ;
+    skos:notation 'SDN:P02::ZCMP'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/ZCMP/>
+    dc:modified '2005-08-01T15:41:59'^^xsd:dateTime ;
+    skos:altLabel 'ZooplChemComp'^^xsd:string ;
+    skos:prefLabel 'Zooplankton chemical composition'^^xsd:string ;
+    skos:definition 'Chemical composition of zooplankton expressed in terms of mass (or molar quantity) per specimen or per unit tissue mass'^^xsd:string ;
+    skos:notation 'SDN:P02::ZCMP'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/NUTV/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/NUTV/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/NUTV/";
+    dc:modified '2005-07-08T16:15:08'^^xsd:dateTime ;
+    skos:altLabel 'Raw_Nuts'^^xsd:string ;
+    skos:prefLabel 'Raw in-situ nutrient analyser output'^^xsd:string ;
+    skos:definition 'Direct output parameters from spectophotometric or chemical in-situ nutrient analysers'^^xsd:string ;
+    skos:notation 'SDN:P02::NUTV'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/NUTV/>
+    dc:modified '2005-07-08T16:15:08'^^xsd:dateTime ;
+    skos:altLabel 'Raw_Nuts'^^xsd:string ;
+    skos:prefLabel 'Raw in-situ nutrient analyser output'^^xsd:string ;
+    skos:definition 'Direct output parameters from spectophotometric or chemical in-situ nutrient analysers'^^xsd:string ;
+    skos:notation 'SDN:P02::NUTV'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/UPTH/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/UPTH/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/UPTH/";
+    dc:modified '2005-04-27T12:10:16'^^xsd:dateTime ;
+    skos:altLabel 'WC_BactProd'^^xsd:string ;
+    skos:prefLabel 'Bacterial production in the water column'^^xsd:string ;
+    skos:definition 'Parameters related to bacterial production determination by measurement of dissolved organic molecule (e.g. leucine, thymidine) uptake rates'^^xsd:string ;
+    skos:notation 'SDN:P02::UPTH'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/UPTH/>
+    dc:modified '2005-04-27T12:10:16'^^xsd:dateTime ;
+    skos:altLabel 'WC_BactProd'^^xsd:string ;
+    skos:prefLabel 'Bacterial production in the water column'^^xsd:string ;
+    skos:definition 'Parameters related to bacterial production determination by measurement of dissolved organic molecule (e.g. leucine, thymidine) uptake rates'^^xsd:string ;
+    skos:notation 'SDN:P02::UPTH'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/CMFL/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/CMFL/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/CMFL/";
+    dc:modified '2005-02-03T11:20:50'^^xsd:dateTime ;
+    skos:altLabel 'Var_fluor'^^xsd:string ;
+    skos:prefLabel 'Variable fluorescence parameters'^^xsd:string ;
+    skos:definition 'Parameters measured by variable fluorescence instruments such as pump and probe and fast repetition rate fluorometers'^^xsd:string ;
+    skos:notation 'SDN:P02::CMFL'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/CMFL/>
+    dc:modified '2005-02-03T11:20:50'^^xsd:dateTime ;
+    skos:altLabel 'Var_fluor'^^xsd:string ;
+    skos:prefLabel 'Variable fluorescence parameters'^^xsd:string ;
+    skos:definition 'Parameters measured by variable fluorescence instruments such as pump and probe and fast repetition rate fluorometers'^^xsd:string ;
+    skos:notation 'SDN:P02::CMFL'^^xsd:string .
+    

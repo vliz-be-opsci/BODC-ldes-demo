@@ -1,0 +1,485 @@
+
+@prefix tree: <https://w3id.org/tree#> .
+@prefix ldes: <https://w3id.org/ldes#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+@base <https://marine-term-translations.github.io/P02-TEST/P02/2007_01_01_00_00_00_2007_12_31_00_00_00.ttl> .
+
+<>
+    a tree:Node ;
+    
+    tree:relation [
+      a tree:LessThanRelation ;
+      tree:node <https://marine-term-translations.github.io/P02-TEST/P02/2006_01_01_00_00_00_2006_12_31_00_00_00.ttl> ;
+      tree:path dc:modified ;
+      tree:value '2007-12-31T00:00:00+00:00'^^xsd:dateTime
+    ] ;
+    
+    ldes:retentionPolicy [
+        a ldes:RetentionPolicy ;
+        ldes:versionAmount 100
+    ] .
+
+<feed>
+  a ldes:EventStream ;
+  ldes:timestampPath dc:modified ;
+  ldes:versionOfPath dc:isVersionOf ;
+  ldes:immutable 'false'^^xsd:boolean ;
+  ldes:pollingInterval '3600'^^xsd:integer ;
+  tree:shape [
+    a sh:NodeShape ;
+    sh:nodeKind sh:IRI ;
+    sh:property [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path dc:isVersionOf
+    ],
+    [
+      sh:datatype xsd:dateTime ;
+      sh:minCount 1 ;
+      sh:path dc:modified
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:altLabel
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:prefLabel
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:definition
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:notation
+    ];
+    sh:targetClass skos:Concept
+  ] ;
+  tree:view <> ;
+  .
+
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SRFL/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/SRFL/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/SRFL/";
+    dc:modified '2007-11-22T11:35:40'^^xsd:dateTime ;
+    skos:altLabel 'Reflection'^^xsd:string ;
+    skos:prefLabel 'Seismic reflection'^^xsd:string ;
+    skos:definition 'Parameters relating to the elucidation of geological structure by quantifying the proportion of waves from a high energy source reflected by sub-surface layers.'^^xsd:string ;
+    skos:notation 'SDN:P02::SRFL'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/SRFL/>
+    dc:modified '2007-11-22T11:35:40'^^xsd:dateTime ;
+    skos:altLabel 'Reflection'^^xsd:string ;
+    skos:prefLabel 'Seismic reflection'^^xsd:string ;
+    skos:definition 'Parameters relating to the elucidation of geological structure by quantifying the proportion of waves from a high energy source reflected by sub-surface layers.'^^xsd:string ;
+    skos:notation 'SDN:P02::SRFL'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SRFR/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/SRFR/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/SRFR/";
+    dc:modified '2007-11-22T11:35:40'^^xsd:dateTime ;
+    skos:altLabel 'Refraction'^^xsd:string ;
+    skos:prefLabel 'Seismic refraction'^^xsd:string ;
+    skos:definition 'Parameters relating to the elucidation of geological structure by quantifying the refration of waves from a high energy source by sub-surface layers.'^^xsd:string ;
+    skos:notation 'SDN:P02::SRFR'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/SRFR/>
+    dc:modified '2007-11-22T11:35:40'^^xsd:dateTime ;
+    skos:altLabel 'Refraction'^^xsd:string ;
+    skos:prefLabel 'Seismic refraction'^^xsd:string ;
+    skos:definition 'Parameters relating to the elucidation of geological structure by quantifying the refration of waves from a high energy source by sub-surface layers.'^^xsd:string ;
+    skos:notation 'SDN:P02::SRFR'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SDAC/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/SDAC/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/SDAC/";
+    dc:modified '2007-11-22T11:35:40'^^xsd:dateTime ;
+    skos:altLabel 'Sed_acoustics'^^xsd:string ;
+    skos:prefLabel 'Sediment acoustics'^^xsd:string ;
+    skos:definition 'Parameters relating to the elucidation of sediment structure by quantifying the proportion of waves from a low energy source reflected by sub-surface layers.'^^xsd:string ;
+    skos:notation 'SDN:P02::SDAC'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/SDAC/>
+    dc:modified '2007-11-22T11:35:40'^^xsd:dateTime ;
+    skos:altLabel 'Sed_acoustics'^^xsd:string ;
+    skos:prefLabel 'Sediment acoustics'^^xsd:string ;
+    skos:definition 'Parameters relating to the elucidation of sediment structure by quantifying the proportion of waves from a low energy source reflected by sub-surface layers.'^^xsd:string ;
+    skos:notation 'SDN:P02::SDAC'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/UVRD/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/UVRD/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/UVRD/";
+    dc:modified '2007-11-21T16:30:18'^^xsd:dateTime ;
+    skos:altLabel 'UVRad'^^xsd:string ;
+    skos:prefLabel 'Ultra-violet (UV) radiation'^^xsd:string ;
+    skos:definition 'Parameters relating to the intensity of ultra-violet radiation in either the atmosphere or the water column'^^xsd:string ;
+    skos:notation 'SDN:P02::UVRD'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/UVRD/>
+    dc:modified '2007-11-21T16:30:18'^^xsd:dateTime ;
+    skos:altLabel 'UVRad'^^xsd:string ;
+    skos:prefLabel 'Ultra-violet (UV) radiation'^^xsd:string ;
+    skos:definition 'Parameters relating to the intensity of ultra-violet radiation in either the atmosphere or the water column'^^xsd:string ;
+    skos:notation 'SDN:P02::UVRD'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/EXCO/3/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/EXCO/3/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/EXCO/";
+    dc:modified '2007-11-21T16:27:57'^^xsd:dateTime ;
+    skos:altLabel 'Extco'^^xsd:string ;
+    skos:prefLabel 'Light extinction and diffusion coefficients'^^xsd:string ;
+    skos:definition 'Parameters relating to the extent of light penetration into the water column'^^xsd:string ;
+    skos:notation 'SDN:P02::EXCO'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/EXCO/>
+    dc:modified '2007-11-21T16:27:57'^^xsd:dateTime ;
+    skos:altLabel 'Extco'^^xsd:string ;
+    skos:prefLabel 'Light extinction and diffusion coefficients'^^xsd:string ;
+    skos:definition 'Parameters relating to the extent of light penetration into the water column'^^xsd:string ;
+    skos:notation 'SDN:P02::EXCO'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ATTN/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/ATTN/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/ATTN/";
+    dc:modified '2007-11-21T16:25:20'^^xsd:dateTime ;
+    skos:altLabel 'WC_Trans+Attn'^^xsd:string ;
+    skos:prefLabel 'Transmittance and attenuance of the water column'^^xsd:string ;
+    skos:definition 'Parameters relating to the rate of electromagnetic radiation intensity decrease as it travels through the water column'^^xsd:string ;
+    skos:notation 'SDN:P02::ATTN'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/ATTN/>
+    dc:modified '2007-11-21T16:25:20'^^xsd:dateTime ;
+    skos:altLabel 'WC_Trans+Attn'^^xsd:string ;
+    skos:prefLabel 'Transmittance and attenuance of the water column'^^xsd:string ;
+    skos:definition 'Parameters relating to the rate of electromagnetic radiation intensity decrease as it travels through the water column'^^xsd:string ;
+    skos:notation 'SDN:P02::ATTN'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/GRAV/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/GRAV/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/GRAV/";
+    dc:modified '2007-11-21T16:22:51'^^xsd:dateTime ;
+    skos:altLabel 'Gravity'^^xsd:string ;
+    skos:prefLabel 'Gravity'^^xsd:string ;
+    skos:definition '''Parameters relating to the measurement of the Earth's gravity field'''^^xsd:string ;
+    skos:notation 'SDN:P02::GRAV'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/GRAV/>
+    dc:modified '2007-11-21T16:22:51'^^xsd:dateTime ;
+    skos:altLabel 'Gravity'^^xsd:string ;
+    skos:prefLabel 'Gravity'^^xsd:string ;
+    skos:definition '''Parameters relating to the measurement of the Earth's gravity field'''^^xsd:string ;
+    skos:notation 'SDN:P02::GRAV'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ICEM/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/ICEM/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/ICEM/";
+    dc:modified '2007-09-24T16:19:08'^^xsd:dateTime ;
+    skos:altLabel 'Ice_motion'^^xsd:string ;
+    skos:prefLabel 'Ice motion and related parameters'^^xsd:string ;
+    skos:definition 'Parameters specifying the speed and direction of sea or land ice and the stresses associated with this motion.'^^xsd:string ;
+    skos:notation 'SDN:P02::ICEM'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/ICEM/>
+    dc:modified '2007-09-24T16:19:08'^^xsd:dateTime ;
+    skos:altLabel 'Ice_motion'^^xsd:string ;
+    skos:prefLabel 'Ice motion and related parameters'^^xsd:string ;
+    skos:definition 'Parameters specifying the speed and direction of sea or land ice and the stresses associated with this motion.'^^xsd:string ;
+    skos:notation 'SDN:P02::ICEM'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/BLUM/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/BLUM/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/BLUM/";
+    dc:modified '2007-09-24T16:17:57'^^xsd:dateTime ;
+    skos:altLabel 'Biolum'^^xsd:string ;
+    skos:prefLabel 'Bioluminescence parameters'^^xsd:string ;
+    skos:definition 'Parameters describing the nature and intensity of light generated by biological activity in the water column.'^^xsd:string ;
+    skos:notation 'SDN:P02::BLUM'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/BLUM/>
+    dc:modified '2007-09-24T16:17:57'^^xsd:dateTime ;
+    skos:altLabel 'Biolum'^^xsd:string ;
+    skos:prefLabel 'Bioluminescence parameters'^^xsd:string ;
+    skos:definition 'Parameters describing the nature and intensity of light generated by biological activity in the water column.'^^xsd:string ;
+    skos:notation 'SDN:P02::BLUM'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/MINC/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/MINC/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/MINC/";
+    dc:modified '2007-09-24T16:12:07'^^xsd:dateTime ;
+    skos:altLabel 'Min_chem'^^xsd:string ;
+    skos:prefLabel 'Mineral chemistry'^^xsd:string ;
+    skos:definition 'Chemical analyses of minerals extracted from rocks or sediment or analysed in-situ using techniques like the electron microprobe.'^^xsd:string ;
+    skos:notation 'SDN:P02::MINC'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/MINC/>
+    dc:modified '2007-09-24T16:12:07'^^xsd:dateTime ;
+    skos:altLabel 'Min_chem'^^xsd:string ;
+    skos:prefLabel 'Mineral chemistry'^^xsd:string ;
+    skos:definition 'Chemical analyses of minerals extracted from rocks or sediment or analysed in-situ using techniques like the electron microprobe.'^^xsd:string ;
+    skos:notation 'SDN:P02::MINC'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/RGAS/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/RGAS/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/RGAS/";
+    dc:modified '2007-09-24T11:56:11'^^xsd:dateTime ;
+    skos:altLabel 'Raw_gas'^^xsd:string ;
+    skos:prefLabel 'Raw gas analyser output'^^xsd:string ;
+    skos:definition 'Raw concentration parameters from a gas analyser such as a LiCor'^^xsd:string ;
+    skos:notation 'SDN:P02::RGAS'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/RGAS/>
+    dc:modified '2007-09-24T11:56:11'^^xsd:dateTime ;
+    skos:altLabel 'Raw_gas'^^xsd:string ;
+    skos:prefLabel 'Raw gas analyser output'^^xsd:string ;
+    skos:definition 'Raw concentration parameters from a gas analyser such as a LiCor'^^xsd:string ;
+    skos:notation 'SDN:P02::RGAS'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ASLV/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/ASLV/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/ASLV/";
+    dc:modified '2007-06-19T11:32:16'^^xsd:dateTime ;
+    skos:altLabel 'Sea_Level'^^xsd:string ;
+    skos:prefLabel 'Sea level'^^xsd:string ;
+    skos:definition 'Measurements and predictions of the displacement of the water column surface from a fixed, stable reference'^^xsd:string ;
+    skos:notation 'SDN:P02::ASLV'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/ASLV/>
+    dc:modified '2007-06-19T11:32:16'^^xsd:dateTime ;
+    skos:altLabel 'Sea_Level'^^xsd:string ;
+    skos:prefLabel 'Sea level'^^xsd:string ;
+    skos:definition 'Measurements and predictions of the displacement of the water column surface from a fixed, stable reference'^^xsd:string ;
+    skos:notation 'SDN:P02::ASLV'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/FPRT/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/FPRT/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/FPRT/";
+    dc:modified '2007-03-30T08:16:12'^^xsd:dateTime ;
+    skos:altLabel 'ZooDefRate'^^xsd:string ;
+    skos:prefLabel 'Zooplankton defecation rates in the water column'^^xsd:string ;
+    skos:definition 'Faecal pellet production and gut evacuation rates'^^xsd:string ;
+    skos:notation 'SDN:P02::FPRT'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/FPRT/>
+    dc:modified '2007-03-30T08:16:12'^^xsd:dateTime ;
+    skos:altLabel 'ZooDefRate'^^xsd:string ;
+    skos:prefLabel 'Zooplankton defecation rates in the water column'^^xsd:string ;
+    skos:definition 'Faecal pellet production and gut evacuation rates'^^xsd:string ;
+    skos:notation 'SDN:P02::FPRT'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/CNDC/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/CNDC/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/CNDC/";
+    dc:modified '2007-03-02T11:40:14'^^xsd:dateTime ;
+    skos:altLabel 'WC_Cond'^^xsd:string ;
+    skos:prefLabel 'Electrical conductivity of the water column'^^xsd:string ;
+    skos:definition 'Parameters quantifying the flow of electrical current through or the electrical resistance of a body of water at any point between the bed and the atmosphere'^^xsd:string ;
+    skos:notation 'SDN:P02::CNDC'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/CNDC/>
+    dc:modified '2007-03-02T11:40:14'^^xsd:dateTime ;
+    skos:altLabel 'WC_Cond'^^xsd:string ;
+    skos:prefLabel 'Electrical conductivity of the water column'^^xsd:string ;
+    skos:definition 'Parameters quantifying the flow of electrical current through or the electrical resistance of a body of water at any point between the bed and the atmosphere'^^xsd:string ;
+    skos:notation 'SDN:P02::CNDC'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/PSAL/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/PSAL/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/PSAL/";
+    dc:modified '2007-03-02T11:36:26'^^xsd:dateTime ;
+    skos:altLabel 'WC_Sal'^^xsd:string ;
+    skos:prefLabel 'Salinity of the water column'^^xsd:string ;
+    skos:definition 'Parameters quantifying the concentration of sodium chloride in any body of water at any point between the bed and the atmosphere'^^xsd:string ;
+    skos:notation 'SDN:P02::PSAL'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/PSAL/>
+    dc:modified '2007-03-02T11:36:26'^^xsd:dateTime ;
+    skos:altLabel 'WC_Sal'^^xsd:string ;
+    skos:prefLabel 'Salinity of the water column'^^xsd:string ;
+    skos:definition 'Parameters quantifying the concentration of sodium chloride in any body of water at any point between the bed and the atmosphere'^^xsd:string ;
+    skos:notation 'SDN:P02::PSAL'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/TEMP/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/TEMP/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/TEMP/";
+    dc:modified '2007-03-02T11:33:02'^^xsd:dateTime ;
+    skos:altLabel 'WC_Temp'^^xsd:string ;
+    skos:prefLabel 'Temperature of the water column'^^xsd:string ;
+    skos:definition 'Temperature parameters in any body of water at any point between the bed and the atmosphere excluding the top few microns sampled by radiometers known as the skin'^^xsd:string ;
+    skos:notation 'SDN:P02::TEMP'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/TEMP/>
+    dc:modified '2007-03-02T11:33:02'^^xsd:dateTime ;
+    skos:altLabel 'WC_Temp'^^xsd:string ;
+    skos:prefLabel 'Temperature of the water column'^^xsd:string ;
+    skos:definition 'Temperature parameters in any body of water at any point between the bed and the atmosphere excluding the top few microns sampled by radiometers known as the skin'^^xsd:string ;
+    skos:notation 'SDN:P02::TEMP'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/FCRT/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/FCRT/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/FCRT/";
+    dc:modified '2007-03-02T11:26:48'^^xsd:dateTime ;
+    skos:altLabel 'Zoopl_feeding'^^xsd:string ;
+    skos:prefLabel 'Zooplankton feeding'^^xsd:string ;
+    skos:definition 'Parameters quantifying the ingestion of food by zooplankton (mesozooplankton and larger but excluding fish) in terms of identified biota or chemical species and the effects of nutrition on life processes such as physiology and reproduction.'^^xsd:string ;
+    skos:notation 'SDN:P02::FCRT'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/FCRT/>
+    dc:modified '2007-03-02T11:26:48'^^xsd:dateTime ;
+    skos:altLabel 'Zoopl_feeding'^^xsd:string ;
+    skos:prefLabel 'Zooplankton feeding'^^xsd:string ;
+    skos:definition 'Parameters quantifying the ingestion of food by zooplankton (mesozooplankton and larger but excluding fish) in terms of identified biota or chemical species and the effects of nutrition on life processes such as physiology and reproduction.'^^xsd:string ;
+    skos:notation 'SDN:P02::FCRT'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/COGE/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/COGE/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/COGE/";
+    dc:modified '2007-02-26T08:22:53'^^xsd:dateTime ;
+    skos:altLabel 'Coast_Geomorph'^^xsd:string ;
+    skos:prefLabel 'Coastal geomorphology'^^xsd:string ;
+    skos:definition 'All parameters associated with coastal landforms such as beaches and dunes including morphology, evolution and associated transport phenomena'^^xsd:string ;
+    skos:notation 'SDN:P02::COGE'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/COGE/>
+    dc:modified '2007-02-26T08:22:53'^^xsd:dateTime ;
+    skos:altLabel 'Coast_Geomorph'^^xsd:string ;
+    skos:prefLabel 'Coastal geomorphology'^^xsd:string ;
+    skos:definition 'All parameters associated with coastal landforms such as beaches and dunes including morphology, evolution and associated transport phenomena'^^xsd:string ;
+    skos:notation 'SDN:P02::COGE'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/BRAD/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/BRAD/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/BRAD/";
+    dc:modified '2007-02-26T08:05:24'^^xsd:dateTime ;
+    skos:altLabel 'Biota_RadAct'^^xsd:string ;
+    skos:prefLabel 'Radioactivity in biota'^^xsd:string ;
+    skos:definition 'All parameters associated with radioactivity in either whole organisms or their constituent parts'^^xsd:string ;
+    skos:notation 'SDN:P02::BRAD'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/BRAD/>
+    dc:modified '2007-02-26T08:05:24'^^xsd:dateTime ;
+    skos:altLabel 'Biota_RadAct'^^xsd:string ;
+    skos:prefLabel 'Radioactivity in biota'^^xsd:string ;
+    skos:definition 'All parameters associated with radioactivity in either whole organisms or their constituent parts'^^xsd:string ;
+    skos:notation 'SDN:P02::BRAD'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/CAPH/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/CAPH/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/CAPH/";
+    dc:modified '2007-02-23T15:09:47'^^xsd:dateTime ;
+    skos:altLabel 'Air_Press'^^xsd:string ;
+    skos:prefLabel 'Air pressure'^^xsd:string ;
+    skos:definition 'Measurements of air pressure as the dependent variable (ie excluding air pressure measured to specify the z co-ordinate of a balloon or sonde), including derived parameters such as tendency (rate of change) and related parameters such as air density.'^^xsd:string ;
+    skos:notation 'SDN:P02::CAPH'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/CAPH/>
+    dc:modified '2007-02-23T15:09:47'^^xsd:dateTime ;
+    skos:altLabel 'Air_Press'^^xsd:string ;
+    skos:prefLabel 'Air pressure'^^xsd:string ;
+    skos:definition 'Measurements of air pressure as the dependent variable (ie excluding air pressure measured to specify the z co-ordinate of a balloon or sonde), including derived parameters such as tendency (rate of change) and related parameters such as air density.'^^xsd:string ;
+    skos:notation 'SDN:P02::CAPH'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/WSTR/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/WSTR/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/WSTR/";
+    dc:modified '2007-02-23T14:59:38'^^xsd:dateTime ;
+    skos:altLabel 'WindForces'^^xsd:string ;
+    skos:prefLabel 'Wind stress and shear'^^xsd:string ;
+    skos:definition 'Parameters related to forces due to interactions between atmosphere and the surface of the earth or between atmospheric air masses'^^xsd:string ;
+    skos:notation 'SDN:P02::WSTR'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/WSTR/>
+    dc:modified '2007-02-23T14:59:38'^^xsd:dateTime ;
+    skos:altLabel 'WindForces'^^xsd:string ;
+    skos:prefLabel 'Wind stress and shear'^^xsd:string ;
+    skos:definition 'Parameters related to forces due to interactions between atmosphere and the surface of the earth or between atmospheric air masses'^^xsd:string ;
+    skos:notation 'SDN:P02::WSTR'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/HFLX/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/HFLX/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/HFLX/";
+    dc:modified '2007-02-23T14:49:48'^^xsd:dateTime ;
+    skos:altLabel 'WCAt_HeatFlux'^^xsd:string ;
+    skos:prefLabel 'Heat fluxes between the water column and the atmosphere'^^xsd:string ;
+    skos:definition 'Parameters quantifying heat exchange between any body of water and the atmosphere'^^xsd:string ;
+    skos:notation 'SDN:P02::HFLX'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/HFLX/>
+    dc:modified '2007-02-23T14:49:48'^^xsd:dateTime ;
+    skos:altLabel 'WCAt_HeatFlux'^^xsd:string ;
+    skos:prefLabel 'Heat fluxes between the water column and the atmosphere'^^xsd:string ;
+    skos:definition 'Parameters quantifying heat exchange between any body of water and the atmosphere'^^xsd:string ;
+    skos:notation 'SDN:P02::HFLX'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/NTRA/3/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/NTRA/3/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/NTRA/";
+    dc:modified '2007-02-01T09:10:12'^^xsd:dateTime ;
+    skos:altLabel 'WC_NO3'^^xsd:string ;
+    skos:prefLabel 'Nitrate concentration parameters in the water column'^^xsd:string ;
+    skos:definition 'Nitrate concentration parameters (including statistical parameters such as standard deviation) in the water column. Includes nitrate+nitrite, which is often loosely referred to as nitrate.'^^xsd:string ;
+    skos:notation 'SDN:P02::NTRA'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/NTRA/>
+    dc:modified '2007-02-01T09:10:12'^^xsd:dateTime ;
+    skos:altLabel 'WC_NO3'^^xsd:string ;
+    skos:prefLabel 'Nitrate concentration parameters in the water column'^^xsd:string ;
+    skos:definition 'Nitrate concentration parameters (including statistical parameters such as standard deviation) in the water column. Includes nitrate+nitrite, which is often loosely referred to as nitrate.'^^xsd:string ;
+    skos:notation 'SDN:P02::NTRA'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/RFVL/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/RFVL/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/RFVL/";
+    dc:modified '2007-01-18T16:38:20'^^xsd:dateTime ;
+    skos:altLabel 'Horiz_Currents_WC'^^xsd:string ;
+    skos:prefLabel 'Horizontal velocity of the water column (currents)'^^xsd:string ;
+    skos:definition 'Parameters expressing the velocity (including scalar speeds and directions) of water column horizontal movement, commonly termed Eulerian currents'^^xsd:string ;
+    skos:notation 'SDN:P02::RFVL'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/RFVL/>
+    dc:modified '2007-01-18T16:38:20'^^xsd:dateTime ;
+    skos:altLabel 'Horiz_Currents_WC'^^xsd:string ;
+    skos:prefLabel 'Horizontal velocity of the water column (currents)'^^xsd:string ;
+    skos:definition 'Parameters expressing the velocity (including scalar speeds and directions) of water column horizontal movement, commonly termed Eulerian currents'^^xsd:string ;
+    skos:notation 'SDN:P02::RFVL'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/LGCR/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/LGCR/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/LGCR/";
+    dc:modified '2007-01-18T16:36:09'^^xsd:dateTime ;
+    skos:altLabel 'Lagran_Currents_WC'^^xsd:string ;
+    skos:prefLabel 'Lagrangian currents and transport rates in the water column'^^xsd:string ;
+    skos:definition 'Parameters expressing the mean nett transport rates within the water column like Lagrangian currents. Note this is an unintentional duplicate of VDFC.'^^xsd:string ;
+    skos:notation 'SDN:P02::LGCR'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/LGCR/>
+    dc:modified '2007-01-18T16:36:09'^^xsd:dateTime ;
+    skos:altLabel 'Lagran_Currents_WC'^^xsd:string ;
+    skos:prefLabel 'Lagrangian currents and transport rates in the water column'^^xsd:string ;
+    skos:definition 'Parameters expressing the mean nett transport rates within the water column like Lagrangian currents. Note this is an unintentional duplicate of VDFC.'^^xsd:string ;
+    skos:notation 'SDN:P02::LGCR'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ACNT/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/ACNT/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/ACNT/";
+    dc:modified '2007-01-08T16:45:03'^^xsd:dateTime ;
+    skos:altLabel 'Macroalgae+Seagrass_taxa_count'^^xsd:string ;
+    skos:prefLabel 'Macroalgae and seagrass taxonomy-related counts'^^xsd:string ;
+    skos:definition 'Macroalgae (Rhodophycota, Chromphycota, Chlorophycota) and seagrass (Charophyta, Anthophyta) count parameters presented at the level of taxa at any level from sub-species upwards. Count includes presence/absence indicators.'^^xsd:string ;
+    skos:notation 'SDN:P02::ACNT'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/ACNT/>
+    dc:modified '2007-01-08T16:45:03'^^xsd:dateTime ;
+    skos:altLabel 'Macroalgae+Seagrass_taxa_count'^^xsd:string ;
+    skos:prefLabel 'Macroalgae and seagrass taxonomy-related counts'^^xsd:string ;
+    skos:definition 'Macroalgae (Rhodophycota, Chromphycota, Chlorophycota) and seagrass (Charophyta, Anthophyta) count parameters presented at the level of taxa at any level from sub-species upwards. Count includes presence/absence indicators.'^^xsd:string ;
+    skos:notation 'SDN:P02::ACNT'^^xsd:string .
+    

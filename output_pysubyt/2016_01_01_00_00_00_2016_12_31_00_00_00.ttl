@@ -6,12 +6,14 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://vocab.nerc.ac.uk/ldes/P02/2016-01-01%2000%3A00%3A00_2016-12-31%2000%3A00%3A00>
+@base <https://marine-term-translations.github.io/P02-TEST/P02/2016_01_01_00_00_00_2016_12_31_00_00_00.ttl> .
+
+<>
     a tree:Node ;
     
     tree:relation [
       a tree:LessThanRelation ;
-      tree:node <http://vocab.nerc.ac.uk/ldes/P02/2015-12-31%2000%3A00%3A00_2016-01-01%2000%3A00%3A00> ;
+      tree:node <https://marine-term-translations.github.io/P02-TEST/P02/2015_01_01_00_00_00_2015_12_31_00_00_00.ttl> ;
       tree:path dc:modified ;
       tree:value '2016-12-31T00:00:00+00:00'^^xsd:dateTime
     ] ;
@@ -21,7 +23,7 @@
         ldes:versionAmount 100
     ] .
 
-<http://vocab.nerc.ac.uk/ldes/P02>
+<feed>
   a ldes:EventStream ;
   ldes:timestampPath dc:modified ;
   ldes:versionOfPath dc:isVersionOf ;
@@ -62,10 +64,10 @@
     ];
     sh:targetClass skos:Concept
   ] ;
-  tree:view <http://vocab.nerc.ac.uk/ldes/P02/2016-01-01%2000%3A00%3A00_2016-12-31%2000%3A00%3A00> ;
+  tree:view <> ;
   .
 
-<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/BCMT/5/> .
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/BCMT/5/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/BCMT/5/>
     a skos:Concept ;
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/BCMT/";
@@ -81,7 +83,7 @@
     skos:definition 'Metal concentrations in either whole organisms or their constituent parts.'^^xsd:string ;
     skos:notation 'SDN:P02::BCMT'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/CCPW/3/> .
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/CCPW/3/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/CCPW/3/>
     a skos:Concept ;
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/CCPW/";
@@ -97,7 +99,7 @@
     skos:definition 'Carbonate system parameters (DIC/TCO2, pH, alkalinity, pCO2) in sediment pore waters'^^xsd:string ;
     skos:notation 'SDN:P02::CCPW'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/INVD/1/> .
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/INVD/1/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/INVD/1/>
     a skos:Concept ;
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/INVD/";
@@ -113,7 +115,7 @@
     skos:definition 'Parameters used to characterize and monitor biological invasion by non-native organisms.'^^xsd:string ;
     skos:notation 'SDN:P02::INVD'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/GPIG/3/> .
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/GPIG/3/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/GPIG/3/>
     a skos:Concept ;
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/GPIG/";
@@ -129,7 +131,7 @@
     skos:definition 'Parameters identifying or quantifying zooplankton gut pigments'^^xsd:string ;
     skos:notation 'SDN:P02::GPIG'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/STGC/1/> .
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/STGC/1/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/STGC/1/>
     a skos:Concept ;
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/STGC/";

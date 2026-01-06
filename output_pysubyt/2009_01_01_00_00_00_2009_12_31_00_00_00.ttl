@@ -1,0 +1,261 @@
+
+@prefix tree: <https://w3id.org/tree#> .
+@prefix ldes: <https://w3id.org/ldes#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+@base <https://marine-term-translations.github.io/P02-TEST/P02/2009_01_01_00_00_00_2009_12_31_00_00_00.ttl> .
+
+<>
+    a tree:Node ;
+    
+    tree:relation [
+      a tree:LessThanRelation ;
+      tree:node <https://marine-term-translations.github.io/P02-TEST/P02/2008_01_01_00_00_00_2008_12_31_00_00_00.ttl> ;
+      tree:path dc:modified ;
+      tree:value '2009-12-31T00:00:00+00:00'^^xsd:dateTime
+    ] ;
+    
+    ldes:retentionPolicy [
+        a ldes:RetentionPolicy ;
+        ldes:versionAmount 100
+    ] .
+
+<feed>
+  a ldes:EventStream ;
+  ldes:timestampPath dc:modified ;
+  ldes:versionOfPath dc:isVersionOf ;
+  ldes:immutable 'false'^^xsd:boolean ;
+  ldes:pollingInterval '3600'^^xsd:integer ;
+  tree:shape [
+    a sh:NodeShape ;
+    sh:nodeKind sh:IRI ;
+    sh:property [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path dc:isVersionOf
+    ],
+    [
+      sh:datatype xsd:dateTime ;
+      sh:minCount 1 ;
+      sh:path dc:modified
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:altLabel
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:prefLabel
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:definition
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:notation
+    ];
+    sh:targetClass skos:Concept
+  ] ;
+  tree:view <> ;
+  .
+
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/AMUP/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/AMUP/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/AMUP/";
+    dc:modified '2009-11-15T16:13:39'^^xsd:dateTime ;
+    skos:altLabel 'Reg_prod'^^xsd:string ;
+    skos:prefLabel 'Regenerated production in water bodies'^^xsd:string ;
+    skos:definition 'Parameters quantifying the uptake rate of nitrogen from excretion products (ammonium and urea) by flora and fauna living in any body of salt or fresh water'^^xsd:string ;
+    skos:notation 'SDN:P02::AMUP'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/AMUP/>
+    dc:modified '2009-11-15T16:13:39'^^xsd:dateTime ;
+    skos:altLabel 'Reg_prod'^^xsd:string ;
+    skos:prefLabel 'Regenerated production in water bodies'^^xsd:string ;
+    skos:definition 'Parameters quantifying the uptake rate of nitrogen from excretion products (ammonium and urea) by flora and fauna living in any body of salt or fresh water'^^xsd:string ;
+    skos:notation 'SDN:P02::AMUP'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/NTUP/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/NTUP/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/NTUP/";
+    dc:modified '2009-11-15T16:11:26'^^xsd:dateTime ;
+    skos:altLabel 'New_prod'^^xsd:string ;
+    skos:prefLabel 'New production in water bodies'^^xsd:string ;
+    skos:definition 'Parameters quantifying the uptake rate of nitrate or gaseous nitrogen by flora and fauna living in any body of salt or fresh water'^^xsd:string ;
+    skos:notation 'SDN:P02::NTUP'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/NTUP/>
+    dc:modified '2009-11-15T16:11:26'^^xsd:dateTime ;
+    skos:altLabel 'New_prod'^^xsd:string ;
+    skos:prefLabel 'New production in water bodies'^^xsd:string ;
+    skos:definition 'Parameters quantifying the uptake rate of nitrate or gaseous nitrogen by flora and fauna living in any body of salt or fresh water'^^xsd:string ;
+    skos:notation 'SDN:P02::NTUP'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/CLTY/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/CLTY/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/CLTY/";
+    dc:modified '2009-10-12T15:31:31'^^xsd:dateTime ;
+    skos:altLabel 'Atm_CloudType'^^xsd:string ;
+    skos:prefLabel 'Cloud type'^^xsd:string ;
+    skos:definition 'Parameters that classify cloud cover into types such as cumulus and cirrus.'^^xsd:string ;
+    skos:notation 'SDN:P02::CLTY'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/CLTY/>
+    dc:modified '2009-10-12T15:31:31'^^xsd:dateTime ;
+    skos:altLabel 'Atm_CloudType'^^xsd:string ;
+    skos:prefLabel 'Cloud type'^^xsd:string ;
+    skos:definition 'Parameters that classify cloud cover into types such as cumulus and cirrus.'^^xsd:string ;
+    skos:notation 'SDN:P02::CLTY'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/FR11/3/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/FR11/3/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/FR11/";
+    dc:modified '2009-09-25T14:43:11'^^xsd:dateTime ;
+    skos:altLabel 'WC_Freon'^^xsd:string ;
+    skos:prefLabel 'Chlorofluorocarbon concentrations in the water column'^^xsd:string ;
+    skos:definition 'Concentrations of chlorofluorocarbons (also known as freons or CFCs) in sny body of water'^^xsd:string ;
+    skos:notation 'SDN:P02::FR11'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/FR11/>
+    dc:modified '2009-09-25T14:43:11'^^xsd:dateTime ;
+    skos:altLabel 'WC_Freon'^^xsd:string ;
+    skos:prefLabel 'Chlorofluorocarbon concentrations in the water column'^^xsd:string ;
+    skos:definition 'Concentrations of chlorofluorocarbons (also known as freons or CFCs) in sny body of water'^^xsd:string ;
+    skos:notation 'SDN:P02::FR11'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/DVLP/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/DVLP/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/DVLP/";
+    dc:modified '2009-07-28T12:23:25'^^xsd:dateTime ;
+    skos:altLabel 'Animal_devlopment'^^xsd:string ;
+    skos:prefLabel 'Zooplankton and zoobenthos development stage parameters'^^xsd:string ;
+    skos:definition 'Development stage parameters (such as proportion but excluding abundance or biomass) of zooplankton and zoobenthos. Benthic and planktonic animals have not been seggregated because there is a degree of overlap (eg shrimps).'^^xsd:string ;
+    skos:notation 'SDN:P02::DVLP'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/DVLP/>
+    dc:modified '2009-07-28T12:23:25'^^xsd:dateTime ;
+    skos:altLabel 'Animal_devlopment'^^xsd:string ;
+    skos:prefLabel 'Zooplankton and zoobenthos development stage parameters'^^xsd:string ;
+    skos:definition 'Development stage parameters (such as proportion but excluding abundance or biomass) of zooplankton and zoobenthos. Benthic and planktonic animals have not been seggregated because there is a degree of overlap (eg shrimps).'^^xsd:string ;
+    skos:notation 'SDN:P02::DVLP'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/GWAM/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/GWAM/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/GWAM/";
+    dc:modified '2009-06-01T11:34:47'^^xsd:dateTime ;
+    skos:altLabel 'GwaterAmt'^^xsd:string ;
+    skos:prefLabel 'Groundwater amount'^^xsd:string ;
+    skos:definition 'Parameters quantifying the amount of groundwater in a given system such as aquifer water level and rate of flow of water through rock formations.'^^xsd:string ;
+    skos:notation 'SDN:P02::GWAM'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/GWAM/>
+    dc:modified '2009-06-01T11:34:47'^^xsd:dateTime ;
+    skos:altLabel 'GwaterAmt'^^xsd:string ;
+    skos:prefLabel 'Groundwater amount'^^xsd:string ;
+    skos:definition 'Parameters quantifying the amount of groundwater in a given system such as aquifer water level and rate of flow of water through rock formations.'^^xsd:string ;
+    skos:notation 'SDN:P02::GWAM'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/GWCH/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/GWCH/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/GWCH/";
+    dc:modified '2009-06-01T11:34:00'^^xsd:dateTime ;
+    skos:altLabel 'GwaterChem'^^xsd:string ;
+    skos:prefLabel 'Groundwater chemistry'^^xsd:string ;
+    skos:definition 'Parameters quantifying the chemistry of terrestrial groundwater bodies such as aquifers and waters percolating through rock formations.'^^xsd:string ;
+    skos:notation 'SDN:P02::GWCH'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/GWCH/>
+    dc:modified '2009-06-01T11:34:00'^^xsd:dateTime ;
+    skos:altLabel 'GwaterChem'^^xsd:string ;
+    skos:prefLabel 'Groundwater chemistry'^^xsd:string ;
+    skos:definition 'Parameters quantifying the chemistry of terrestrial groundwater bodies such as aquifers and waters percolating through rock formations.'^^xsd:string ;
+    skos:notation 'SDN:P02::GWCH'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/RBSC/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/RBSC/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/RBSC/";
+    dc:modified '2009-05-20T15:08:16'^^xsd:dateTime ;
+    skos:altLabel 'RadarBScatter'^^xsd:string ;
+    skos:prefLabel 'Radar backscatter'^^xsd:string ;
+    skos:definition 'Includes all parameters covering the strength of emitted microwave radiation return, including absolute measurements of returning signal strength as well as parameters expressed as backscatter (the proportion of transmitted signal returned)'^^xsd:string ;
+    skos:notation 'SDN:P02::RBSC'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/RBSC/>
+    dc:modified '2009-05-20T15:08:16'^^xsd:dateTime ;
+    skos:altLabel 'RadarBScatter'^^xsd:string ;
+    skos:prefLabel 'Radar backscatter'^^xsd:string ;
+    skos:definition 'Includes all parameters covering the strength of emitted microwave radiation return, including absolute measurements of returning signal strength as well as parameters expressed as backscatter (the proportion of transmitted signal returned)'^^xsd:string ;
+    skos:notation 'SDN:P02::RBSC'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/WCPH/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/WCPH/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/WCPH/";
+    dc:modified '2009-04-20T08:34:10'^^xsd:dateTime ;
+    skos:altLabel 'WaterColPhoto'^^xsd:string ;
+    skos:prefLabel 'Water column photography'^^xsd:string ;
+    skos:definition 'Digital images of the water column obtained using either still or video cameras'^^xsd:string ;
+    skos:notation 'SDN:P02::WCPH'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/WCPH/>
+    dc:modified '2009-04-20T08:34:10'^^xsd:dateTime ;
+    skos:altLabel 'WaterColPhoto'^^xsd:string ;
+    skos:prefLabel 'Water column photography'^^xsd:string ;
+    skos:definition 'Digital images of the water column obtained using either still or video cameras'^^xsd:string ;
+    skos:notation 'SDN:P02::WCPH'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SBPH/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/SBPH/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/SBPH/";
+    dc:modified '2009-04-20T08:33:04'^^xsd:dateTime ;
+    skos:altLabel 'BedPhoto'^^xsd:string ;
+    skos:prefLabel 'Seabed photography'^^xsd:string ;
+    skos:definition 'Digital images of the seabed obtained using either still or video cameras'^^xsd:string ;
+    skos:notation 'SDN:P02::SBPH'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/SBPH/>
+    dc:modified '2009-04-20T08:33:04'^^xsd:dateTime ;
+    skos:altLabel 'BedPhoto'^^xsd:string ;
+    skos:prefLabel 'Seabed photography'^^xsd:string ;
+    skos:definition 'Digital images of the seabed obtained using either still or video cameras'^^xsd:string ;
+    skos:notation 'SDN:P02::SBPH'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/HZNV/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/HZNV/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/HZNV/";
+    dc:modified '2009-04-20T08:27:53'^^xsd:dateTime ;
+    skos:altLabel 'HazNav'^^xsd:string ;
+    skos:prefLabel 'Hazards to navigation'^^xsd:string ;
+    skos:definition 'Parameters describing the location, nature and extent of objects that pose a threat to travel on the water column such as wrecks and obstructions'^^xsd:string ;
+    skos:notation 'SDN:P02::HZNV'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/HZNV/>
+    dc:modified '2009-04-20T08:27:53'^^xsd:dateTime ;
+    skos:altLabel 'HazNav'^^xsd:string ;
+    skos:prefLabel 'Hazards to navigation'^^xsd:string ;
+    skos:definition 'Parameters describing the location, nature and extent of objects that pose a threat to travel on the water column such as wrecks and obstructions'^^xsd:string ;
+    skos:notation 'SDN:P02::HZNV'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/WQBI/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/WQBI/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/WQBI/";
+    dc:modified '2009-04-20T08:24:21'^^xsd:dateTime ;
+    skos:altLabel 'WaterQualBioind'^^xsd:string ;
+    skos:prefLabel 'Water quality bioindicators'^^xsd:string ;
+    skos:definition 'Parameters quantifying fauna and flora that indicate physical or chemical conditions in the water column such as colonisation depths and abundance of indicator species.'^^xsd:string ;
+    skos:notation 'SDN:P02::WQBI'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/WQBI/>
+    dc:modified '2009-04-20T08:24:21'^^xsd:dateTime ;
+    skos:altLabel 'WaterQualBioind'^^xsd:string ;
+    skos:prefLabel 'Water quality bioindicators'^^xsd:string ;
+    skos:definition 'Parameters quantifying fauna and flora that indicate physical or chemical conditions in the water column such as colonisation depths and abundance of indicator species.'^^xsd:string ;
+    skos:notation 'SDN:P02::WQBI'^^xsd:string .
+    

@@ -6,12 +6,14 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://vocab.nerc.ac.uk/ldes/P02/2013-01-01%2000%3A00%3A00_2013-12-31%2000%3A00%3A00>
+@base <https://marine-term-translations.github.io/P02-TEST/P02/2013_01_01_00_00_00_2013_12_31_00_00_00.ttl> .
+
+<>
     a tree:Node ;
     
     tree:relation [
       a tree:LessThanRelation ;
-      tree:node <http://vocab.nerc.ac.uk/ldes/P02/2012-12-31%2000%3A00%3A00_2013-01-01%2000%3A00%3A00> ;
+      tree:node <https://marine-term-translations.github.io/P02-TEST/P02/2012_01_01_00_00_00_2012_12_31_00_00_00.ttl> ;
       tree:path dc:modified ;
       tree:value '2013-12-31T00:00:00+00:00'^^xsd:dateTime
     ] ;
@@ -21,7 +23,7 @@
         ldes:versionAmount 100
     ] .
 
-<http://vocab.nerc.ac.uk/ldes/P02>
+<feed>
   a ldes:EventStream ;
   ldes:timestampPath dc:modified ;
   ldes:versionOfPath dc:isVersionOf ;
@@ -62,10 +64,10 @@
     ];
     sh:targetClass skos:Concept
   ] ;
-  tree:view <http://vocab.nerc.ac.uk/ldes/P02/2013-01-01%2000%3A00%3A00_2013-12-31%2000%3A00%3A00> ;
+  tree:view <> ;
   .
 
-<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/PREX/2/> .
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/PREX/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/PREX/2/>
     a skos:Concept ;
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/PREX/";
@@ -81,7 +83,7 @@
     skos:definition 'Measurements of the displacement of the water column surface from a fixed, stable reference expressed as either total pressure or sea pressure'^^xsd:string ;
     skos:notation 'SDN:P02::PREX'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ZADX/5/> .
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ZADX/5/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/ZADX/5/>
     a skos:Concept ;
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/ZADX/";

@@ -8,6 +8,7 @@ ldes fragment template
 | @param immutable: Whether the event stream is immutable (true/false)
 | @param polling_interval: Duration in seconds for an LDES client to start polling again for changes in the feed (this does not guarantee that a third party client will comply with this interval)
 | @param set['qres']: The query results
+| @param prefix_uri: The prefix used to determine where the data is stored
 #}
 @prefix tree: <https://w3id.org/tree#> .
 @prefix ldes: <https://w3id.org/ldes#> .
@@ -16,12 +17,14 @@ ldes fragment template
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://vocab.nerc.ac.uk/ldes/{{collection}}/{{this_fragment_delta}}>
+@base <{{prefix_uri}}/{{collection}}/{{this_fragment_delta}}.ttl> .
+
+<>
     a tree:Node ;
     {% if next_fragment_delta %}
     tree:relation [
       a tree:LessThanRelation ;
-      tree:node <http://vocab.nerc.ac.uk/ldes/{{collection}}/{{next_fragment_delta}}> ;
+      tree:node <{{prefix_uri}}/{{collection}}/{{next_fragment_delta}}.ttl> ;
       tree:path dc:modified ;
       tree:value {{next_fragment_time | xsd("datetime")}}
     ] ;
@@ -31,7 +34,7 @@ ldes fragment template
         ldes:versionAmount {{retention_period}}
     ] .
 
-<http://vocab.nerc.ac.uk/ldes/{{collection}}>
+<feed>
   a ldes:EventStream ;
   ldes:timestampPath dc:modified ;
   ldes:versionOfPath dc:isVersionOf ;
@@ -72,11 +75,11 @@ ldes fragment template
     ];
     sh:targetClass skos:Concept
   ] ;
-  tree:view <http://vocab.nerc.ac.uk/ldes/{{collection}}/{{this_fragment_delta}}> ;
+  tree:view <> ;
   .
 
 {% for result in sets['qres'] -%}
-<http://vocab.nerc.ac.uk/ldes/{{collection}}> tree:member <{{result.vid}}> .
+<feed> tree:member <{{result.vid}}> .
 <{{result.vid}}>
     a skos:Concept ;
     dc:isVersionOf "{{result.conceptid}}";

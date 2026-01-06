@@ -6,12 +6,14 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://vocab.nerc.ac.uk/ldes/P02/2019-01-01%2000%3A00%3A00_2019-12-31%2000%3A00%3A00>
+@base <https://marine-term-translations.github.io/P02-TEST/P02/2019_01_01_00_00_00_2019_12_31_00_00_00.ttl> .
+
+<>
     a tree:Node ;
     
     tree:relation [
       a tree:LessThanRelation ;
-      tree:node <http://vocab.nerc.ac.uk/ldes/P02/2018-12-31%2000%3A00%3A00_2019-01-01%2000%3A00%3A00> ;
+      tree:node <https://marine-term-translations.github.io/P02-TEST/P02/2018_01_01_00_00_00_2018_12_31_00_00_00.ttl> ;
       tree:path dc:modified ;
       tree:value '2019-12-31T00:00:00+00:00'^^xsd:dateTime
     ] ;
@@ -21,7 +23,7 @@
         ldes:versionAmount 100
     ] .
 
-<http://vocab.nerc.ac.uk/ldes/P02>
+<feed>
   a ldes:EventStream ;
   ldes:timestampPath dc:modified ;
   ldes:versionOfPath dc:isVersionOf ;
@@ -62,10 +64,10 @@
     ];
     sh:targetClass skos:Concept
   ] ;
-  tree:view <http://vocab.nerc.ac.uk/ldes/P02/2019-01-01%2000%3A00%3A00_2019-12-31%2000%3A00%3A00> ;
+  tree:view <> ;
   .
 
-<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/FADS/1/> .
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/FADS/1/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/FADS/1/>
     a skos:Concept ;
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/FADS/";
@@ -81,7 +83,7 @@
     skos:definition 'Parameters describing usage of Fish Aggregating Devices (FAD) in fisheries (particularly purse seine tuna fisheries).'^^xsd:string ;
     skos:notation 'SDN:P02::FADS'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ATPX/2/> .
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ATPX/2/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/ATPX/2/>
     a skos:Concept ;
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/ATPX/";
@@ -97,7 +99,7 @@
     skos:definition 'Concentrations of adenylates (ADP, ATP etc) in all phases of the water column'^^xsd:string ;
     skos:notation 'SDN:P02::ATPX'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/GP025/3/> .
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/GP025/3/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/GP025/3/>
     a skos:Concept ;
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/GP025/";
@@ -113,7 +115,7 @@
     skos:definition 'Parameters related to the reproduction of true seals (Phocidae), eared seals (Otariidae) and walruses (Odobenidae).'^^xsd:string ;
     skos:notation 'SDN:P02::GP025'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SEBH/3/> .
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SEBH/3/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/SEBH/3/>
     a skos:Concept ;
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/SEBH/";
@@ -129,7 +131,7 @@
     skos:definition 'Parameters describing the actions or reactions, usually in response to the environment, of true seals (Phocidae), eared seals (Otariidae) and walruses (Odobenidae).'^^xsd:string ;
     skos:notation 'SDN:P02::SEBH'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SEMP/3/> .
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SEMP/3/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/SEMP/3/>
     a skos:Concept ;
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/SEMP/";
@@ -145,7 +147,7 @@
     skos:definition 'Parameters describing the size, shape or physiological activity including disease and parasite infection status of true seals (Phocidae), eared seals (Otariidae) and walruses (Odobenidae).'^^xsd:string ;
     skos:notation 'SDN:P02::SEMP'^^xsd:string .
     
-<http://vocab.nerc.ac.uk/ldes/P02> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SEMO/4/> .
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SEMO/4/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/SEMO/4/>
     a skos:Concept ;
     dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/SEMO/";

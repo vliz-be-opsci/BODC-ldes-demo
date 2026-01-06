@@ -1,0 +1,1253 @@
+
+@prefix tree: <https://w3id.org/tree#> .
+@prefix ldes: <https://w3id.org/ldes#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+@base <https://marine-term-translations.github.io/P02-TEST/P02/2010_01_01_00_00_00_2010_12_31_00_00_00.ttl> .
+
+<>
+    a tree:Node ;
+    
+    tree:relation [
+      a tree:LessThanRelation ;
+      tree:node <https://marine-term-translations.github.io/P02-TEST/P02/2009_01_01_00_00_00_2009_12_31_00_00_00.ttl> ;
+      tree:path dc:modified ;
+      tree:value '2010-12-31T00:00:00+00:00'^^xsd:dateTime
+    ] ;
+    
+    ldes:retentionPolicy [
+        a ldes:RetentionPolicy ;
+        ldes:versionAmount 100
+    ] .
+
+<feed>
+  a ldes:EventStream ;
+  ldes:timestampPath dc:modified ;
+  ldes:versionOfPath dc:isVersionOf ;
+  ldes:immutable 'false'^^xsd:boolean ;
+  ldes:pollingInterval '3600'^^xsd:integer ;
+  tree:shape [
+    a sh:NodeShape ;
+    sh:nodeKind sh:IRI ;
+    sh:property [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path dc:isVersionOf
+    ],
+    [
+      sh:datatype xsd:dateTime ;
+      sh:minCount 1 ;
+      sh:path dc:modified
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:altLabel
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:prefLabel
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:definition
+    ],
+    [
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:path skos:notation
+    ];
+    sh:targetClass skos:Concept
+  ] ;
+  tree:view <> ;
+  .
+
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/XMGS/3/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/XMGS/3/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/XMGS/";
+    dc:modified '2010-12-15T13:11:07'^^xsd:dateTime ;
+    skos:altLabel 'GeoMagElecAcc'^^xsd:string ;
+    skos:prefLabel 'Geological sample magnetic, electrical and acoustic properties'^^xsd:string ;
+    skos:definition 'Any parameters quantifying the magnetic (e.g. magnetic susceptibility), electrical (e.g. resistivity) or acoustic (e.g. P-wave propogation speed) of sediment or rock cores and samples'^^xsd:string ;
+    skos:notation 'SDN:P02::XMGS'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/XMGS/>
+    dc:modified '2010-12-15T13:11:07'^^xsd:dateTime ;
+    skos:altLabel 'GeoMagElecAcc'^^xsd:string ;
+    skos:prefLabel 'Geological sample magnetic, electrical and acoustic properties'^^xsd:string ;
+    skos:definition 'Any parameters quantifying the magnetic (e.g. magnetic susceptibility), electrical (e.g. resistivity) or acoustic (e.g. P-wave propogation speed) of sediment or rock cores and samples'^^xsd:string ;
+    skos:notation 'SDN:P02::XMGS'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/OHAT/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/OHAT/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/OHAT/";
+    dc:modified '2010-11-08T15:08:09'^^xsd:dateTime ;
+    skos:altLabel 'Atm_UnclassHydrocarb'^^xsd:string ;
+    skos:prefLabel 'Concentration of other hydrocarbons in the atmosphere'^^xsd:string ;
+    skos:definition ''''Other' (not alkanes, alkenes, alkynes or PAHs) hydrocarbon concentration parameters (including saturation of gaseous species) in all phases of the atmosphere.'''^^xsd:string ;
+    skos:notation 'SDN:P02::OHAT'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/OHAT/>
+    dc:modified '2010-11-08T15:08:09'^^xsd:dateTime ;
+    skos:altLabel 'Atm_UnclassHydrocarb'^^xsd:string ;
+    skos:prefLabel 'Concentration of other hydrocarbons in the atmosphere'^^xsd:string ;
+    skos:definition ''''Other' (not alkanes, alkenes, alkynes or PAHs) hydrocarbon concentration parameters (including saturation of gaseous species) in all phases of the atmosphere.'''^^xsd:string ;
+    skos:notation 'SDN:P02::OHAT'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/HLDE/3/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/HLDE/3/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/HLDE/";
+    dc:modified '2010-11-08T15:08:09'^^xsd:dateTime ;
+    skos:altLabel 'HalocDynam_WC'^^xsd:string ;
+    skos:prefLabel 'Other halocarbon dynamics in water bodies'^^xsd:string ;
+    skos:definition 'Parameters relating to the rates of creation and consumption of volatile halocarbons (compounds comprising carbon atoms covalently bonded to fluorine, chlorine, bromine or iodine atoms) other than tracers (i.e. freons/chlorofluorocarbons) and contaminants in any body of fresh or salt water.'^^xsd:string ;
+    skos:notation 'SDN:P02::HLDE'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/HLDE/>
+    dc:modified '2010-11-08T15:08:09'^^xsd:dateTime ;
+    skos:altLabel 'HalocDynam_WC'^^xsd:string ;
+    skos:prefLabel 'Other halocarbon dynamics in water bodies'^^xsd:string ;
+    skos:definition 'Parameters relating to the rates of creation and consumption of volatile halocarbons (compounds comprising carbon atoms covalently bonded to fluorine, chlorine, bromine or iodine atoms) other than tracers (i.e. freons/chlorofluorocarbons) and contaminants in any body of fresh or salt water.'^^xsd:string ;
+    skos:notation 'SDN:P02::HLDE'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/DCMX/5/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/DCMX/5/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/DCMX/";
+    dc:modified '2010-11-08T15:08:09'^^xsd:dateTime ;
+    skos:altLabel 'Haloc_WC'^^xsd:string ;
+    skos:prefLabel 'Other halocarbon concentrations in water bodies'^^xsd:string ;
+    skos:definition 'Concentrations of volatile halocarbons (compounds comprising carbon atoms covalently bonded to fluorine, chlorine, bromine or iodine atoms) other than tracers (i.e. freons/chlorofluorocarbons) and contaminants in any body of fresh or salt water.'^^xsd:string ;
+    skos:notation 'SDN:P02::DCMX'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/DCMX/>
+    dc:modified '2010-11-08T15:08:09'^^xsd:dateTime ;
+    skos:altLabel 'Haloc_WC'^^xsd:string ;
+    skos:prefLabel 'Other halocarbon concentrations in water bodies'^^xsd:string ;
+    skos:definition 'Concentrations of volatile halocarbons (compounds comprising carbon atoms covalently bonded to fluorine, chlorine, bromine or iodine atoms) other than tracers (i.e. freons/chlorofluorocarbons) and contaminants in any body of fresh or salt water.'^^xsd:string ;
+    skos:notation 'SDN:P02::DCMX'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SICO/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/SICO/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/SICO/";
+    dc:modified '2010-11-08T15:08:09'^^xsd:dateTime ;
+    skos:altLabel 'OthFlux_WCBed'^^xsd:string ;
+    skos:prefLabel 'Other fluxes between the bed and the water column'^^xsd:string ;
+    skos:definition 'Fluxes of species other than metals and nutrients between the bed (ie the sediment) and the water column sometimes termed benthic fluxes or sediment demand'^^xsd:string ;
+    skos:notation 'SDN:P02::SICO'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/SICO/>
+    dc:modified '2010-11-08T15:08:09'^^xsd:dateTime ;
+    skos:altLabel 'OthFlux_WCBed'^^xsd:string ;
+    skos:prefLabel 'Other fluxes between the bed and the water column'^^xsd:string ;
+    skos:definition 'Fluxes of species other than metals and nutrients between the bed (ie the sediment) and the water column sometimes termed benthic fluxes or sediment demand'^^xsd:string ;
+    skos:notation 'SDN:P02::SICO'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SCOX/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/SCOX/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/SCOX/";
+    dc:modified '2010-11-08T15:08:09'^^xsd:dateTime ;
+    skos:altLabel 'OthGas_WC'^^xsd:string ;
+    skos:prefLabel 'Dissolved concentration parameters for other gases in the water column'^^xsd:string ;
+    skos:definition 'All concentration parameters for inorganic dissolved gases other than oxygen and the noble gases in the water column'^^xsd:string ;
+    skos:notation 'SDN:P02::SCOX'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/SCOX/>
+    dc:modified '2010-11-08T15:08:09'^^xsd:dateTime ;
+    skos:altLabel 'OthGas_WC'^^xsd:string ;
+    skos:prefLabel 'Dissolved concentration parameters for other gases in the water column'^^xsd:string ;
+    skos:definition 'All concentration parameters for inorganic dissolved gases other than oxygen and the noble gases in the water column'^^xsd:string ;
+    skos:notation 'SDN:P02::SCOX'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/PHUP/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/PHUP/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/PHUP/";
+    dc:modified '2010-11-08T15:08:09'^^xsd:dateTime ;
+    skos:altLabel 'OthNut_WCUp'^^xsd:string ;
+    skos:prefLabel 'Uptake of other nutrients in the water column'^^xsd:string ;
+    skos:definition 'Uptake of nutrients other than nitrogen species (ie phosphate and silicate) by the water column'^^xsd:string ;
+    skos:notation 'SDN:P02::PHUP'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/PHUP/>
+    dc:modified '2010-11-08T15:08:09'^^xsd:dateTime ;
+    skos:altLabel 'OthNut_WCUp'^^xsd:string ;
+    skos:prefLabel 'Uptake of other nutrients in the water column'^^xsd:string ;
+    skos:definition 'Uptake of nutrients other than nitrogen species (ie phosphate and silicate) by the water column'^^xsd:string ;
+    skos:notation 'SDN:P02::PHUP'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/KRTS/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/KRTS/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/KRTS/";
+    dc:modified '2010-11-08T15:08:09'^^xsd:dateTime ;
+    skos:altLabel 'Oth_WaveStat'^^xsd:string ;
+    skos:prefLabel 'Other wave statistics'^^xsd:string ;
+    skos:definition 'Statistical parameters derived from wave data expressing wave properties other than height, period and direction'^^xsd:string ;
+    skos:notation 'SDN:P02::KRTS'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/KRTS/>
+    dc:modified '2010-11-08T15:08:09'^^xsd:dateTime ;
+    skos:altLabel 'Oth_WaveStat'^^xsd:string ;
+    skos:prefLabel 'Other wave statistics'^^xsd:string ;
+    skos:definition 'Statistical parameters derived from wave data expressing wave properties other than height, period and direction'^^xsd:string ;
+    skos:notation 'SDN:P02::KRTS'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/OGPW/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/OGPW/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/OGPW/";
+    dc:modified '2010-11-08T15:08:09'^^xsd:dateTime ;
+    skos:altLabel 'SedPoreWater_Gases'^^xsd:string ;
+    skos:prefLabel 'Dissolved concentration parameters for other gases in sediment pore waters'^^xsd:string ;
+    skos:definition 'All concentration parameters for inorganic dissolved gases other than oxygen and the noble gases in sediment pore water samples'^^xsd:string ;
+    skos:notation 'SDN:P02::OGPW'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/OGPW/>
+    dc:modified '2010-11-08T15:08:09'^^xsd:dateTime ;
+    skos:altLabel 'SedPoreWater_Gases'^^xsd:string ;
+    skos:prefLabel 'Dissolved concentration parameters for other gases in sediment pore waters'^^xsd:string ;
+    skos:definition 'All concentration parameters for inorganic dissolved gases other than oxygen and the noble gases in sediment pore water samples'^^xsd:string ;
+    skos:notation 'SDN:P02::OGPW'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/OMET/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/OMET/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/OMET/";
+    dc:modified '2010-11-08T15:08:09'^^xsd:dateTime ;
+    skos:altLabel 'UnclassMet'^^xsd:string ;
+    skos:prefLabel 'Other meteorological measurements'^^xsd:string ;
+    skos:definition 'Bucket group for parameters that cannot be classified elsewhere'^^xsd:string ;
+    skos:notation 'SDN:P02::OMET'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/OMET/>
+    dc:modified '2010-11-08T15:08:09'^^xsd:dateTime ;
+    skos:altLabel 'UnclassMet'^^xsd:string ;
+    skos:prefLabel 'Other meteorological measurements'^^xsd:string ;
+    skos:definition 'Bucket group for parameters that cannot be classified elsewhere'^^xsd:string ;
+    skos:notation 'SDN:P02::OMET'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/OHWC/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/OHWC/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/OHWC/";
+    dc:modified '2010-11-08T15:08:09'^^xsd:dateTime ;
+    skos:altLabel 'WC_UnclassHydrocarb'^^xsd:string ;
+    skos:prefLabel 'Concentration of other hydrocarbons in the water column'^^xsd:string ;
+    skos:definition ''''Other' (not alkanes, alkenes, alkynes or PAHs) hydrocarbon concentration parameters (including saturation of gaseous species) in all phases of the water column.  Does not include parameters expressed per unit weight of SPM.'''^^xsd:string ;
+    skos:notation 'SDN:P02::OHWC'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/OHWC/>
+    dc:modified '2010-11-08T15:08:09'^^xsd:dateTime ;
+    skos:altLabel 'WC_UnclassHydrocarb'^^xsd:string ;
+    skos:prefLabel 'Concentration of other hydrocarbons in the water column'^^xsd:string ;
+    skos:definition ''''Other' (not alkanes, alkenes, alkynes or PAHs) hydrocarbon concentration parameters (including saturation of gaseous species) in all phases of the water column.  Does not include parameters expressed per unit weight of SPM.'''^^xsd:string ;
+    skos:notation 'SDN:P02::OHWC'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/RVDS/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/RVDS/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/RVDS/";
+    dc:modified '2010-11-08T08:56:52'^^xsd:dateTime ;
+    skos:altLabel 'Riv_flow_discharge'^^xsd:string ;
+    skos:prefLabel 'River flow and discharge'^^xsd:string ;
+    skos:definition 'Parameters related to the volume of water passing through a point in a river system per unit time, including the rates of freshwater, dissolved material and particulate load discharge from a river into the sea.'^^xsd:string ;
+    skos:notation 'SDN:P02::RVDS'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/RVDS/>
+    dc:modified '2010-11-08T08:56:52'^^xsd:dateTime ;
+    skos:altLabel 'Riv_flow_discharge'^^xsd:string ;
+    skos:prefLabel 'River flow and discharge'^^xsd:string ;
+    skos:definition 'Parameters related to the volume of water passing through a point in a river system per unit time, including the rates of freshwater, dissolved material and particulate load discharge from a river into the sea.'^^xsd:string ;
+    skos:notation 'SDN:P02::RVDS'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/RTMP/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/RTMP/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/RTMP/";
+    dc:modified '2010-11-05T13:00:34'^^xsd:dateTime ;
+    skos:altLabel 'RockTemp'^^xsd:string ;
+    skos:prefLabel 'Rock temperature'^^xsd:string ;
+    skos:definition 'Parameters that describe the distribution of the degree of hotness within geologic units of lithified sedimentary, igneous of metamorphic rock.'^^xsd:string ;
+    skos:notation 'SDN:P02::RTMP'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/RTMP/>
+    dc:modified '2010-11-05T13:00:34'^^xsd:dateTime ;
+    skos:altLabel 'RockTemp'^^xsd:string ;
+    skos:prefLabel 'Rock temperature'^^xsd:string ;
+    skos:definition 'Parameters that describe the distribution of the degree of hotness within geologic units of lithified sedimentary, igneous of metamorphic rock.'^^xsd:string ;
+    skos:notation 'SDN:P02::RTMP'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/RMAJ/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/RMAJ/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/RMAJ/";
+    dc:modified '2010-11-05T12:53:24'^^xsd:dateTime ;
+    skos:altLabel 'GeoMajors'^^xsd:string ;
+    skos:prefLabel 'Geological sample major element chemistry'^^xsd:string ;
+    skos:definition 'Concentrations of the elements classically regarded as major (>1% by weight as oxide: namely: Si, Ti, Al, Fe3+, Fe2+, Mg, Mn, Ca, Na, and K) plus affiliated parameters such as H2O- (adsorbed water) and H2O+ (or loss on ignition) in rocks or sediments.'^^xsd:string ;
+    skos:notation 'SDN:P02::RMAJ'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/RMAJ/>
+    dc:modified '2010-11-05T12:53:24'^^xsd:dateTime ;
+    skos:altLabel 'GeoMajors'^^xsd:string ;
+    skos:prefLabel 'Geological sample major element chemistry'^^xsd:string ;
+    skos:definition 'Concentrations of the elements classically regarded as major (>1% by weight as oxide: namely: Si, Ti, Al, Fe3+, Fe2+, Mg, Mn, Ca, Na, and K) plus affiliated parameters such as H2O- (adsorbed water) and H2O+ (or loss on ignition) in rocks or sediments.'^^xsd:string ;
+    skos:notation 'SDN:P02::RMAJ'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SICN/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/SICN/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/SICN/";
+    dc:modified '2010-11-05T12:41:29'^^xsd:dateTime ;
+    skos:altLabel 'Sed_SiSpecies'^^xsd:string ;
+    skos:prefLabel 'Concentration of silicon species in sediment'^^xsd:string ;
+    skos:definition 'Concentration parameters for silicon species (including opal) in sediment (anything collected by a corer including fluff)'^^xsd:string ;
+    skos:notation 'SDN:P02::SICN'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/SICN/>
+    dc:modified '2010-11-05T12:41:29'^^xsd:dateTime ;
+    skos:altLabel 'Sed_SiSpecies'^^xsd:string ;
+    skos:prefLabel 'Concentration of silicon species in sediment'^^xsd:string ;
+    skos:definition 'Concentration parameters for silicon species (including opal) in sediment (anything collected by a corer including fluff)'^^xsd:string ;
+    skos:notation 'SDN:P02::SICN'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/XRFC/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/XRFC/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/XRFC/";
+    dc:modified '2010-11-05T12:26:31'^^xsd:dateTime ;
+    skos:altLabel 'XRFCnt'^^xsd:string ;
+    skos:prefLabel 'Raw X-Ray fluorometer (XRF) output from sediment samples'^^xsd:string ;
+    skos:definition ''^^xsd:string ;
+    skos:notation 'SDN:P02::XRFC'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/XRFC/>
+    dc:modified '2010-11-05T12:26:31'^^xsd:dateTime ;
+    skos:altLabel 'XRFCnt'^^xsd:string ;
+    skos:prefLabel 'Raw X-Ray fluorometer (XRF) output from sediment samples'^^xsd:string ;
+    skos:definition ''^^xsd:string ;
+    skos:notation 'SDN:P02::XRFC'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/MDSD/3/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/MDSD/3/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/MDSD/";
+    dc:modified '2010-11-05T12:10:54'^^xsd:dateTime ;
+    skos:altLabel 'Metoid_Sed'^^xsd:string ;
+    skos:prefLabel 'Trace metalloid concentrations in sediment'^^xsd:string ;
+    skos:definition 'Concentration parameters for metalloid elements in sediment.  Sediment is understood to be the solid phase of the bed, including the recently settled material sometimes known as fluff collected from the bed surface. Metalloids are considered as B, Ge, As, Sb, Te and Po (but not Si which is classed separately because of its major role in environmental chemistry)'^^xsd:string ;
+    skos:notation 'SDN:P02::MDSD'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/MDSD/>
+    dc:modified '2010-11-05T12:10:54'^^xsd:dateTime ;
+    skos:altLabel 'Metoid_Sed'^^xsd:string ;
+    skos:prefLabel 'Trace metalloid concentrations in sediment'^^xsd:string ;
+    skos:definition 'Concentration parameters for metalloid elements in sediment.  Sediment is understood to be the solid phase of the bed, including the recently settled material sometimes known as fluff collected from the bed surface. Metalloids are considered as B, Ge, As, Sb, Te and Po (but not Si which is classed separately because of its major role in environmental chemistry)'^^xsd:string ;
+    skos:notation 'SDN:P02::MDSD'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/CLCN/4/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/CLCN/4/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/CLCN/";
+    dc:modified '2010-11-05T11:54:45'^^xsd:dateTime ;
+    skos:altLabel 'Sed_Halogen'^^xsd:string ;
+    skos:prefLabel 'Concentration of inorganic halogens in sediment'^^xsd:string ;
+    skos:definition 'Concentrations of halogens as elements or simple inorganic compounds (eg iodate) in sediments (anything collected by a corer including fluff'^^xsd:string ;
+    skos:notation 'SDN:P02::CLCN'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/CLCN/>
+    dc:modified '2010-11-05T11:54:45'^^xsd:dateTime ;
+    skos:altLabel 'Sed_Halogen'^^xsd:string ;
+    skos:prefLabel 'Concentration of inorganic halogens in sediment'^^xsd:string ;
+    skos:definition 'Concentrations of halogens as elements or simple inorganic compounds (eg iodate) in sediments (anything collected by a corer including fluff'^^xsd:string ;
+    skos:notation 'SDN:P02::CLCN'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/RMIN/3/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/RMIN/3/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/RMIN/";
+    dc:modified '2010-11-05T10:04:18'^^xsd:dateTime ;
+    skos:altLabel 'InorgChemRockSed'^^xsd:string ;
+    skos:prefLabel 'Inorganic chemical composition of sediment or rocks'^^xsd:string ;
+    skos:definition 'Parameters specifying the proportions of inorganic components (major/minor/trace elements, trace metals etc.) in sediment or rock samples.  Major elements includes the H2O+ and H2O- parameters reported by convention in oxide weight per cent geochemical major element analyses.'^^xsd:string ;
+    skos:notation 'SDN:P02::RMIN'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/RMIN/>
+    dc:modified '2010-11-05T10:04:18'^^xsd:dateTime ;
+    skos:altLabel 'InorgChemRockSed'^^xsd:string ;
+    skos:prefLabel 'Inorganic chemical composition of sediment or rocks'^^xsd:string ;
+    skos:definition 'Parameters specifying the proportions of inorganic components (major/minor/trace elements, trace metals etc.) in sediment or rock samples.  Major elements includes the H2O+ and H2O- parameters reported by convention in oxide weight per cent geochemical major element analyses.'^^xsd:string ;
+    skos:notation 'SDN:P02::RMIN'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/DBDX/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/DBDX/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/DBDX/";
+    dc:modified '2010-11-04T11:16:05'^^xsd:dateTime ;
+    skos:altLabel 'GeoSampDens'^^xsd:string ;
+    skos:prefLabel 'Geological sample density'^^xsd:string ;
+    skos:definition 'Parameters that describe the the mass per unit volume of any samples of rock or unlithified sediment.'^^xsd:string ;
+    skos:notation 'SDN:P02::DBDX'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/DBDX/>
+    dc:modified '2010-11-04T11:16:05'^^xsd:dateTime ;
+    skos:altLabel 'GeoSampDens'^^xsd:string ;
+    skos:prefLabel 'Geological sample density'^^xsd:string ;
+    skos:definition 'Parameters that describe the the mass per unit volume of any samples of rock or unlithified sediment.'^^xsd:string ;
+    skos:notation 'SDN:P02::DBDX'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/STMP/3/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/STMP/3/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/STMP/";
+    dc:modified '2010-11-04T11:07:14'^^xsd:dateTime ;
+    skos:altLabel 'GeolTemp'^^xsd:string ;
+    skos:prefLabel 'Temperature of geological units'^^xsd:string ;
+    skos:definition 'Parameters that describe the distribution of the degree of hotness within a body of rock or unlithified sediment.'^^xsd:string ;
+    skos:notation 'SDN:P02::STMP'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/STMP/>
+    dc:modified '2010-11-04T11:07:14'^^xsd:dateTime ;
+    skos:altLabel 'GeolTemp'^^xsd:string ;
+    skos:prefLabel 'Temperature of geological units'^^xsd:string ;
+    skos:definition 'Parameters that describe the distribution of the degree of hotness within a body of rock or unlithified sediment.'^^xsd:string ;
+    skos:notation 'SDN:P02::STMP'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/MMAN/3/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/MMAN/3/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/MMAN/";
+    dc:modified '2010-10-22T13:34:10'^^xsd:dateTime ;
+    skos:altLabel 'Magnetics'^^xsd:string ;
+    skos:prefLabel 'Magnetics'^^xsd:string ;
+    skos:definition '''Parameterisations of the intensity and inclination of Earth's magnetic field'''^^xsd:string ;
+    skos:notation 'SDN:P02::MMAN'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/MMAN/>
+    dc:modified '2010-10-22T13:34:10'^^xsd:dateTime ;
+    skos:altLabel 'Magnetics'^^xsd:string ;
+    skos:prefLabel 'Magnetics'^^xsd:string ;
+    skos:definition '''Parameterisations of the intensity and inclination of Earth's magnetic field'''^^xsd:string ;
+    skos:notation 'SDN:P02::MMAN'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/HFLW/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/HFLW/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/HFLW/";
+    dc:modified '2010-10-22T12:29:12'^^xsd:dateTime ;
+    skos:altLabel 'HeatFlow'^^xsd:string ;
+    skos:prefLabel 'Geothermal heat flow'^^xsd:string ;
+    skos:definition 'Parameters quantifying the  flux of thermal energy within the solid Earth or between the solid Earth and water bodies or atmosphere.'^^xsd:string ;
+    skos:notation 'SDN:P02::HFLW'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/HFLW/>
+    dc:modified '2010-10-22T12:29:12'^^xsd:dateTime ;
+    skos:altLabel 'HeatFlow'^^xsd:string ;
+    skos:prefLabel 'Geothermal heat flow'^^xsd:string ;
+    skos:definition 'Parameters quantifying the  flux of thermal energy within the solid Earth or between the solid Earth and water bodies or atmosphere.'^^xsd:string ;
+    skos:notation 'SDN:P02::HFLW'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/GERA/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/GERA/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/GERA/";
+    dc:modified '2010-10-22T12:26:30'^^xsd:dateTime ;
+    skos:altLabel 'RadGeophys'^^xsd:string ;
+    skos:prefLabel 'Radiation geophysics'^^xsd:string ;
+    skos:definition 'Parameters quantifying the level of radioactive emissions from in-situ geologic units'^^xsd:string ;
+    skos:notation 'SDN:P02::GERA'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/GERA/>
+    dc:modified '2010-10-22T12:26:30'^^xsd:dateTime ;
+    skos:altLabel 'RadGeophys'^^xsd:string ;
+    skos:prefLabel 'Radiation geophysics'^^xsd:string ;
+    skos:definition 'Parameters quantifying the level of radioactive emissions from in-situ geologic units'^^xsd:string ;
+    skos:notation 'SDN:P02::GERA'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SRAD/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/SRAD/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/SRAD/";
+    dc:modified '2010-10-22T10:24:53'^^xsd:dateTime ;
+    skos:altLabel 'GeoRad'^^xsd:string ;
+    skos:prefLabel 'Geological sample radioactivity'^^xsd:string ;
+    skos:definition 'Any parameters quantifying ionising radiation emitted by cores or samples comprising rock, sediment (including surface sediment such as fluff)'^^xsd:string ;
+    skos:notation 'SDN:P02::SRAD'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/SRAD/>
+    dc:modified '2010-10-22T10:24:53'^^xsd:dateTime ;
+    skos:altLabel 'GeoRad'^^xsd:string ;
+    skos:prefLabel 'Geological sample radioactivity'^^xsd:string ;
+    skos:definition 'Any parameters quantifying ionising radiation emitted by cores or samples comprising rock, sediment (including surface sediment such as fluff)'^^xsd:string ;
+    skos:notation 'SDN:P02::SRAD'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/VIRU/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/VIRU/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/VIRU/";
+    dc:modified '2010-10-22T10:10:30'^^xsd:dateTime ;
+    skos:altLabel 'VirAbundWater'^^xsd:string ;
+    skos:prefLabel 'Virus abundance in water bodies'^^xsd:string ;
+    skos:definition 'Any enumeration (e.g. count, number per square metre) of viruses in any body of fresh or salt water.'^^xsd:string ;
+    skos:notation 'SDN:P02::VIRU'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/VIRU/>
+    dc:modified '2010-10-22T10:10:30'^^xsd:dateTime ;
+    skos:altLabel 'VirAbundWater'^^xsd:string ;
+    skos:prefLabel 'Virus abundance in water bodies'^^xsd:string ;
+    skos:definition 'Any enumeration (e.g. count, number per square metre) of viruses in any body of fresh or salt water.'^^xsd:string ;
+    skos:notation 'SDN:P02::VIRU'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/MFAB/5/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/MFAB/5/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/MFAB/";
+    dc:modified '2010-10-22T10:08:34'^^xsd:dateTime ;
+    skos:altLabel 'ZoobenthGenAbund'^^xsd:string ;
+    skos:prefLabel 'Zoobenthos generic abundance'^^xsd:string ;
+    skos:definition 'Any enumeration (e.g. count, number per square metre) of animals living on or near the seabed designated by terms other than taxonomic names (e.g. total).'^^xsd:string ;
+    skos:notation 'SDN:P02::MFAB'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/MFAB/>
+    dc:modified '2010-10-22T10:08:34'^^xsd:dateTime ;
+    skos:altLabel 'ZoobenthGenAbund'^^xsd:string ;
+    skos:prefLabel 'Zoobenthos generic abundance'^^xsd:string ;
+    skos:definition 'Any enumeration (e.g. count, number per square metre) of animals living on or near the seabed designated by terms other than taxonomic names (e.g. total).'^^xsd:string ;
+    skos:notation 'SDN:P02::MFAB'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/BNUC/3/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/BNUC/3/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/BNUC/";
+    dc:modified '2010-10-22T10:06:41'^^xsd:dateTime ;
+    skos:altLabel 'BactGenAbundSed'^^xsd:string ;
+    skos:prefLabel 'Bacteria generic abundance in sediment'^^xsd:string ;
+    skos:definition 'Any enumeration of bacteria (Kingdom Monera so includes cyanobacteria) designated by terms other than taxonomic names (e.g. total) in any soil or sediment.'^^xsd:string ;
+    skos:notation 'SDN:P02::BNUC'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/BNUC/>
+    dc:modified '2010-10-22T10:06:41'^^xsd:dateTime ;
+    skos:altLabel 'BactGenAbundSed'^^xsd:string ;
+    skos:prefLabel 'Bacteria generic abundance in sediment'^^xsd:string ;
+    skos:definition 'Any enumeration of bacteria (Kingdom Monera so includes cyanobacteria) designated by terms other than taxonomic names (e.g. total) in any soil or sediment.'^^xsd:string ;
+    skos:notation 'SDN:P02::BNUC'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/BNTX/3/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/BNTX/3/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/BNTX/";
+    dc:modified '2010-10-22T10:06:41'^^xsd:dateTime ;
+    skos:altLabel 'BactGenAbundWater'^^xsd:string ;
+    skos:prefLabel 'Bacteria generic abundance in water bodies'^^xsd:string ;
+    skos:definition 'Any enumeration of bacteria (Kingdom Monera so includes cyanobacteria) designated by terms other than taxonomic names (e.g. total) in any body of fresh or salt water.'^^xsd:string ;
+    skos:notation 'SDN:P02::BNTX'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/BNTX/>
+    dc:modified '2010-10-22T10:06:41'^^xsd:dateTime ;
+    skos:altLabel 'BactGenAbundWater'^^xsd:string ;
+    skos:prefLabel 'Bacteria generic abundance in water bodies'^^xsd:string ;
+    skos:definition 'Any enumeration of bacteria (Kingdom Monera so includes cyanobacteria) designated by terms other than taxonomic names (e.g. total) in any body of fresh or salt water.'^^xsd:string ;
+    skos:notation 'SDN:P02::BNTX'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/BAUC/4/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/BAUC/4/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/BAUC/";
+    dc:modified '2010-10-22T10:06:41'^^xsd:dateTime ;
+    skos:altLabel 'BactTaxaAbundSed'^^xsd:string ;
+    skos:prefLabel 'Bacteria taxonomic abundance in sediment'^^xsd:string ;
+    skos:definition 'Any enumeration of bacteria (Kingdom Monera so includes cyanobacteria) designated by taxonomic names (e.g. species, genus, family) in any soil or sediment.'^^xsd:string ;
+    skos:notation 'SDN:P02::BAUC'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/BAUC/>
+    dc:modified '2010-10-22T10:06:41'^^xsd:dateTime ;
+    skos:altLabel 'BactTaxaAbundSed'^^xsd:string ;
+    skos:prefLabel 'Bacteria taxonomic abundance in sediment'^^xsd:string ;
+    skos:definition 'Any enumeration of bacteria (Kingdom Monera so includes cyanobacteria) designated by taxonomic names (e.g. species, genus, family) in any soil or sediment.'^^xsd:string ;
+    skos:notation 'SDN:P02::BAUC'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/BATX/3/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/BATX/3/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/BATX/";
+    dc:modified '2010-10-22T10:06:41'^^xsd:dateTime ;
+    skos:altLabel 'BactTaxaAbundWater'^^xsd:string ;
+    skos:prefLabel 'Bacteria taxonomic abundance in water bodies'^^xsd:string ;
+    skos:definition 'Any enumeration of bacteria (Kingdom Monera so includes cyanobacteria) designated by taxonomic names (e.g. species, genus, family) in any body of fresh or salt water.'^^xsd:string ;
+    skos:notation 'SDN:P02::BATX'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/BATX/>
+    dc:modified '2010-10-22T10:06:41'^^xsd:dateTime ;
+    skos:altLabel 'BactTaxaAbundWater'^^xsd:string ;
+    skos:prefLabel 'Bacteria taxonomic abundance in water bodies'^^xsd:string ;
+    skos:definition 'Any enumeration of bacteria (Kingdom Monera so includes cyanobacteria) designated by taxonomic names (e.g. species, genus, family) in any body of fresh or salt water.'^^xsd:string ;
+    skos:notation 'SDN:P02::BATX'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/PU02/3/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/PU02/3/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/PU02/";
+    dc:modified '2010-10-22T10:06:41'^^xsd:dateTime ;
+    skos:altLabel 'MacAlgaeGenAbundWater'^^xsd:string ;
+    skos:prefLabel 'Macroalgae generic abundance in water bodies'^^xsd:string ;
+    skos:definition 'Any enumeration (e.g. count, number per litre) of macroalgae (seaweeds) designated by terms other than taxonomic names (e.g. total) in any fresh or salt water body.'^^xsd:string ;
+    skos:notation 'SDN:P02::PU02'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/PU02/>
+    dc:modified '2010-10-22T10:06:41'^^xsd:dateTime ;
+    skos:altLabel 'MacAlgaeGenAbundWater'^^xsd:string ;
+    skos:prefLabel 'Macroalgae generic abundance in water bodies'^^xsd:string ;
+    skos:definition 'Any enumeration (e.g. count, number per litre) of macroalgae (seaweeds) designated by terms other than taxonomic names (e.g. total) in any fresh or salt water body.'^^xsd:string ;
+    skos:notation 'SDN:P02::PU02'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/MZBN/5/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/MZBN/5/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/MZBN/";
+    dc:modified '2010-10-22T10:06:41'^^xsd:dateTime ;
+    skos:altLabel 'MicrozooGenAbundWater'^^xsd:string ;
+    skos:prefLabel 'Microzooplankton generic abundance in water bodies'^^xsd:string ;
+    skos:definition 'Any enumeration (e.g. count, number per litre) of microzooplankton (free swimming heterotrophic organisms smaller than 200um) designated by terms other than taxonomic names (e.g. total) in any fresh or salt water body.'^^xsd:string ;
+    skos:notation 'SDN:P02::MZBN'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/MZBN/>
+    dc:modified '2010-10-22T10:06:41'^^xsd:dateTime ;
+    skos:altLabel 'MicrozooGenAbundWater'^^xsd:string ;
+    skos:prefLabel 'Microzooplankton generic abundance in water bodies'^^xsd:string ;
+    skos:definition 'Any enumeration (e.g. count, number per litre) of microzooplankton (free swimming heterotrophic organisms smaller than 200um) designated by terms other than taxonomic names (e.g. total) in any fresh or salt water body.'^^xsd:string ;
+    skos:notation 'SDN:P02::MZBN'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/MATX/4/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/MATX/4/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/MATX/";
+    dc:modified '2010-10-22T10:06:41'^^xsd:dateTime ;
+    skos:altLabel 'MicrozooTaxaAbundWater'^^xsd:string ;
+    skos:prefLabel 'Microzooplankton taxonomic abundance in water bodies'^^xsd:string ;
+    skos:definition 'Any enumeration (e.g. count, number per litre) of microzooplankton (free swimming heterotrophic organisms smaller than 200um) designated by taxonomic names (e.g. species, genus or family) in any fresh or salt water body.'^^xsd:string ;
+    skos:notation 'SDN:P02::MATX'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/MATX/>
+    dc:modified '2010-10-22T10:06:41'^^xsd:dateTime ;
+    skos:altLabel 'MicrozooTaxaAbundWater'^^xsd:string ;
+    skos:prefLabel 'Microzooplankton taxonomic abundance in water bodies'^^xsd:string ;
+    skos:definition 'Any enumeration (e.g. count, number per litre) of microzooplankton (free swimming heterotrophic organisms smaller than 200um) designated by taxonomic names (e.g. species, genus or family) in any fresh or salt water body.'^^xsd:string ;
+    skos:notation 'SDN:P02::MATX'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/PNTX/4/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/PNTX/4/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/PNTX/";
+    dc:modified '2010-10-22T10:06:41'^^xsd:dateTime ;
+    skos:altLabel 'PhytoGenAbundWater'^^xsd:string ;
+    skos:prefLabel 'Phytoplankton generic abundance in water bodies'^^xsd:string ;
+    skos:definition 'Any enumeration (e.g. count, abundance) of free-floating autotrophic biological entities designated by terms other than taxonomic names (e.g. microphytoplankton, ciliate, flagellate) in any body of fresh or salt water.'^^xsd:string ;
+    skos:notation 'SDN:P02::PNTX'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/PNTX/>
+    dc:modified '2010-10-22T10:06:41'^^xsd:dateTime ;
+    skos:altLabel 'PhytoGenAbundWater'^^xsd:string ;
+    skos:prefLabel 'Phytoplankton generic abundance in water bodies'^^xsd:string ;
+    skos:definition 'Any enumeration (e.g. count, abundance) of free-floating autotrophic biological entities designated by terms other than taxonomic names (e.g. microphytoplankton, ciliate, flagellate) in any body of fresh or salt water.'^^xsd:string ;
+    skos:notation 'SDN:P02::PNTX'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/PATX/3/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/PATX/3/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/PATX/";
+    dc:modified '2010-10-22T10:06:41'^^xsd:dateTime ;
+    skos:altLabel 'PhytoTaxaAbundWater'^^xsd:string ;
+    skos:prefLabel 'Phytoplankton taxonomic abundance in water bodies'^^xsd:string ;
+    skos:definition 'Any enumeration (e.g. count, abundance) of free-floating autotrophic biological entities designated by taxonomic names (e.g. species, genus, family) in any body of fresh or salt water.'^^xsd:string ;
+    skos:notation 'SDN:P02::PATX'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/PATX/>
+    dc:modified '2010-10-22T10:06:41'^^xsd:dateTime ;
+    skos:altLabel 'PhytoTaxaAbundWater'^^xsd:string ;
+    skos:prefLabel 'Phytoplankton taxonomic abundance in water bodies'^^xsd:string ;
+    skos:definition 'Any enumeration (e.g. count, abundance) of free-floating autotrophic biological entities designated by taxonomic names (e.g. species, genus, family) in any body of fresh or salt water.'^^xsd:string ;
+    skos:notation 'SDN:P02::PATX'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ZBTX/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/ZBTX/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/ZBTX/";
+    dc:modified '2010-10-22T10:03:50'^^xsd:dateTime ;
+    skos:altLabel 'ZoobenthTaxAbund'^^xsd:string ;
+    skos:prefLabel 'Zoobenthos taxonomic abundance'^^xsd:string ;
+    skos:definition 'Any enumeration (e.g. count, number per square metre) of animals living on or near the seabed designated by taxonomic names (e.g. species, genus).'^^xsd:string ;
+    skos:notation 'SDN:P02::ZBTX'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/ZBTX/>
+    dc:modified '2010-10-22T10:03:50'^^xsd:dateTime ;
+    skos:altLabel 'ZoobenthTaxAbund'^^xsd:string ;
+    skos:prefLabel 'Zoobenthos taxonomic abundance'^^xsd:string ;
+    skos:definition 'Any enumeration (e.g. count, number per square metre) of animals living on or near the seabed designated by taxonomic names (e.g. species, genus).'^^xsd:string ;
+    skos:notation 'SDN:P02::ZBTX'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/VATX/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/VATX/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/VATX/";
+    dc:modified '2010-10-21T13:53:17'^^xsd:dateTime ;
+    skos:altLabel 'PhytoTaxaVolWater'^^xsd:string ;
+    skos:prefLabel 'Phytoplankton taxonomic volume in water bodies'^^xsd:string ;
+    skos:definition 'Any parameterisation of cell volume of free-floating autotrophic biological entities designated by taxonomic names (e.g. species, genus, family) in any body of fresh or salt water.'^^xsd:string ;
+    skos:notation 'SDN:P02::VATX'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/VATX/>
+    dc:modified '2010-10-21T13:53:17'^^xsd:dateTime ;
+    skos:altLabel 'PhytoTaxaVolWater'^^xsd:string ;
+    skos:prefLabel 'Phytoplankton taxonomic volume in water bodies'^^xsd:string ;
+    skos:definition 'Any parameterisation of cell volume of free-floating autotrophic biological entities designated by taxonomic names (e.g. species, genus, family) in any body of fresh or salt water.'^^xsd:string ;
+    skos:notation 'SDN:P02::VATX'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/AATX/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/AATX/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/AATX/";
+    dc:modified '2010-10-21T13:52:21'^^xsd:dateTime ;
+    skos:altLabel 'PhytoTaxaAreaWater'^^xsd:string ;
+    skos:prefLabel 'Phytoplankton taxonomic surface area in water bodies'^^xsd:string ;
+    skos:definition 'Any parameterisation of cell surface area of free-floating autotrophic biological entities designated by taxonomic names (e.g. species, genus, family) in any body of fresh or salt water.'^^xsd:string ;
+    skos:notation 'SDN:P02::AATX'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/AATX/>
+    dc:modified '2010-10-21T13:52:21'^^xsd:dateTime ;
+    skos:altLabel 'PhytoTaxaAreaWater'^^xsd:string ;
+    skos:prefLabel 'Phytoplankton taxonomic surface area in water bodies'^^xsd:string ;
+    skos:definition 'Any parameterisation of cell surface area of free-floating autotrophic biological entities designated by taxonomic names (e.g. species, genus, family) in any body of fresh or salt water.'^^xsd:string ;
+    skos:notation 'SDN:P02::AATX'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/CNTX/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/CNTX/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/CNTX/";
+    dc:modified '2010-10-21T13:43:45'^^xsd:dateTime ;
+    skos:altLabel 'PhytoGenBiomWater'^^xsd:string ;
+    skos:prefLabel 'Phytoplankton generic biomass in water bodies'^^xsd:string ;
+    skos:definition 'Any parameterisation of biomass (e.g. wet weight, dry weight, carbon, nitrogen etc.) of free-floating autotrophic biological entities designated by terms other than taxonomic names (e.g. microphytoplankton, ciliate, flagellate) in any body of fresh or salt water.'^^xsd:string ;
+    skos:notation 'SDN:P02::CNTX'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/CNTX/>
+    dc:modified '2010-10-21T13:43:45'^^xsd:dateTime ;
+    skos:altLabel 'PhytoGenBiomWater'^^xsd:string ;
+    skos:prefLabel 'Phytoplankton generic biomass in water bodies'^^xsd:string ;
+    skos:definition 'Any parameterisation of biomass (e.g. wet weight, dry weight, carbon, nitrogen etc.) of free-floating autotrophic biological entities designated by terms other than taxonomic names (e.g. microphytoplankton, ciliate, flagellate) in any body of fresh or salt water.'^^xsd:string ;
+    skos:notation 'SDN:P02::CNTX'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/CATX/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/CATX/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/CATX/";
+    dc:modified '2010-10-21T13:41:28'^^xsd:dateTime ;
+    skos:altLabel 'PhytoTaxaBiomWater'^^xsd:string ;
+    skos:prefLabel 'Phytoplankton taxonomic biomass in water bodies'^^xsd:string ;
+    skos:definition 'Any parameterisation of biomass (e.g. wet weight, dry weight, carbon, nitrogen etc.) of free-floating autotrophic biological entities identified by their taxonomic names (e.g. family, genus, species) in any body of fresh or salt water.'^^xsd:string ;
+    skos:notation 'SDN:P02::CATX'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/CATX/>
+    dc:modified '2010-10-21T13:41:28'^^xsd:dateTime ;
+    skos:altLabel 'PhytoTaxaBiomWater'^^xsd:string ;
+    skos:prefLabel 'Phytoplankton taxonomic biomass in water bodies'^^xsd:string ;
+    skos:definition 'Any parameterisation of biomass (e.g. wet weight, dry weight, carbon, nitrogen etc.) of free-floating autotrophic biological entities identified by their taxonomic names (e.g. family, genus, species) in any body of fresh or salt water.'^^xsd:string ;
+    skos:notation 'SDN:P02::CATX'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/WCTR/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/WCTR/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/WCTR/";
+    dc:modified '2010-10-01T09:50:05'^^xsd:dateTime ;
+    skos:altLabel 'WC_tracer'^^xsd:string ;
+    skos:prefLabel 'Water body released tracers'^^xsd:string ;
+    skos:definition 'Parameters describing the amount in a sample of a tracer (rhodamine, SF6, 3He, etc.) that has been purposely released into  a water body to track water mass movements or quantify exchanges with the atmosphere.'^^xsd:string ;
+    skos:notation 'SDN:P02::WCTR'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/WCTR/>
+    dc:modified '2010-10-01T09:50:05'^^xsd:dateTime ;
+    skos:altLabel 'WC_tracer'^^xsd:string ;
+    skos:prefLabel 'Water body released tracers'^^xsd:string ;
+    skos:definition 'Parameters describing the amount in a sample of a tracer (rhodamine, SF6, 3He, etc.) that has been purposely released into  a water body to track water mass movements or quantify exchanges with the atmosphere.'^^xsd:string ;
+    skos:notation 'SDN:P02::WCTR'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/DPEV/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/DPEV/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/DPEV/";
+    dc:modified '2010-10-01T09:40:24'^^xsd:dateTime ;
+    skos:altLabel 'Dep_env'^^xsd:string ;
+    skos:prefLabel 'Depositional environment'^^xsd:string ;
+    skos:definition 'Parameters characterising the environment in which sediments were deposited either by observation or interpretation of sedimentary rocks and unlithified sediments.'^^xsd:string ;
+    skos:notation 'SDN:P02::DPEV'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/DPEV/>
+    dc:modified '2010-10-01T09:40:24'^^xsd:dateTime ;
+    skos:altLabel 'Dep_env'^^xsd:string ;
+    skos:prefLabel 'Depositional environment'^^xsd:string ;
+    skos:definition 'Parameters characterising the environment in which sediments were deposited either by observation or interpretation of sedimentary rocks and unlithified sediments.'^^xsd:string ;
+    skos:notation 'SDN:P02::DPEV'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SSTR/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/SSTR/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/SSTR/";
+    dc:modified '2010-10-01T09:30:27'^^xsd:dateTime ;
+    skos:altLabel 'Sed_struct'^^xsd:string ;
+    skos:prefLabel 'Sedimentary structure'^^xsd:string ;
+    skos:definition 'Parameters characterising structure in sedimentary rocks and unlithified sediment such as bedding, lamination and bioturbation.'^^xsd:string ;
+    skos:notation 'SDN:P02::SSTR'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/SSTR/>
+    dc:modified '2010-10-01T09:30:27'^^xsd:dateTime ;
+    skos:altLabel 'Sed_struct'^^xsd:string ;
+    skos:prefLabel 'Sedimentary structure'^^xsd:string ;
+    skos:definition 'Parameters characterising structure in sedimentary rocks and unlithified sediment such as bedding, lamination and bioturbation.'^^xsd:string ;
+    skos:notation 'SDN:P02::SSTR'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/CLAY/3/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/CLAY/3/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/CLAY/";
+    dc:modified '2010-10-01T09:16:22'^^xsd:dateTime ;
+    skos:altLabel 'Min_comp'^^xsd:string ;
+    skos:prefLabel 'Mineralogical composition'^^xsd:string ;
+    skos:definition 'Parameters describing or quantifying the mineralogical composition of rocks and unlithified sediments.'^^xsd:string ;
+    skos:notation 'SDN:P02::CLAY'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/CLAY/>
+    dc:modified '2010-10-01T09:16:22'^^xsd:dateTime ;
+    skos:altLabel 'Min_comp'^^xsd:string ;
+    skos:prefLabel 'Mineralogical composition'^^xsd:string ;
+    skos:definition 'Parameters describing or quantifying the mineralogical composition of rocks and unlithified sediments.'^^xsd:string ;
+    skos:notation 'SDN:P02::CLAY'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/FCST/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/FCST/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/FCST/";
+    dc:modified '2010-07-30T11:45:06'^^xsd:dateTime ;
+    skos:altLabel 'FishCatch'^^xsd:string ;
+    skos:prefLabel 'Fish and shellfish catch statistics'^^xsd:string ;
+    skos:definition 'Parameters quantifying and describing biota take by fishing activities'^^xsd:string ;
+    skos:notation 'SDN:P02::FCST'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/FCST/>
+    dc:modified '2010-07-30T11:45:06'^^xsd:dateTime ;
+    skos:altLabel 'FishCatch'^^xsd:string ;
+    skos:prefLabel 'Fish and shellfish catch statistics'^^xsd:string ;
+    skos:definition 'Parameters quantifying and describing biota take by fishing activities'^^xsd:string ;
+    skos:notation 'SDN:P02::FCST'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ZNTN/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/ZNTN/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/ZNTN/";
+    dc:modified '2010-07-19T09:38:40'^^xsd:dateTime ;
+    skos:altLabel 'Zoo_nontaxa_N_biomass'^^xsd:string ;
+    skos:prefLabel 'Zooplankton non taxonomy-related biomass expressed as nitrogen per unit volume of the water column'^^xsd:string ;
+    skos:definition '''Zooplankton (mesozooplankton plus larger pelagic animals excluding fish, reptiles and mammals) nitrogen biomass per unit volume parameters not included in group ZCTC.  Usually used for generic names such as 'mesozooplankton'.'''^^xsd:string ;
+    skos:notation 'SDN:P02::ZNTN'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/ZNTN/>
+    dc:modified '2010-07-19T09:38:40'^^xsd:dateTime ;
+    skos:altLabel 'Zoo_nontaxa_N_biomass'^^xsd:string ;
+    skos:prefLabel 'Zooplankton non taxonomy-related biomass expressed as nitrogen per unit volume of the water column'^^xsd:string ;
+    skos:definition '''Zooplankton (mesozooplankton plus larger pelagic animals excluding fish, reptiles and mammals) nitrogen biomass per unit volume parameters not included in group ZCTC.  Usually used for generic names such as 'mesozooplankton'.'''^^xsd:string ;
+    skos:notation 'SDN:P02::ZNTN'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/GTCH/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/GTCH/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/GTCH/";
+    dc:modified '2010-07-02T10:24:05'^^xsd:dateTime ;
+    skos:altLabel 'GeoTech'^^xsd:string ;
+    skos:prefLabel 'Geotechnics'^^xsd:string ;
+    skos:definition 'Parameters quantifying the properties of rocks and sediments that are relevance to engineering such as physical strength and load-bearing capacity.  Includes the disciplines of rock mechanics and soil mechanics.'^^xsd:string ;
+    skos:notation 'SDN:P02::GTCH'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/GTCH/>
+    dc:modified '2010-07-02T10:24:05'^^xsd:dateTime ;
+    skos:altLabel 'GeoTech'^^xsd:string ;
+    skos:prefLabel 'Geotechnics'^^xsd:string ;
+    skos:definition 'Parameters quantifying the properties of rocks and sediments that are relevance to engineering such as physical strength and load-bearing capacity.  Includes the disciplines of rock mechanics and soil mechanics.'^^xsd:string ;
+    skos:notation 'SDN:P02::GTCH'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/HLWC/6/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/HLWC/6/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/HLWC/";
+    dc:modified '2010-07-02T09:44:29'^^xsd:dateTime ;
+    skos:altLabel 'WC_Halogen'^^xsd:string ;
+    skos:prefLabel 'Concentration of inorganic halogens in water bodies'^^xsd:string ;
+    skos:definition 'Concentrations of halogens as elements or their inorganic compounds in all phases of any body of fresh or salt water'^^xsd:string ;
+    skos:notation 'SDN:P02::HLWC'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/HLWC/>
+    dc:modified '2010-07-02T09:44:29'^^xsd:dateTime ;
+    skos:altLabel 'WC_Halogen'^^xsd:string ;
+    skos:prefLabel 'Concentration of inorganic halogens in water bodies'^^xsd:string ;
+    skos:definition 'Concentrations of halogens as elements or their inorganic compounds in all phases of any body of fresh or salt water'^^xsd:string ;
+    skos:notation 'SDN:P02::HLWC'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/HLAT/5/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/HLAT/5/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/HLAT/";
+    dc:modified '2010-07-02T09:42:02'^^xsd:dateTime ;
+    skos:altLabel 'Amos_Halogen'^^xsd:string ;
+    skos:prefLabel 'Concentration of inorganic halogens in the atmosphere'^^xsd:string ;
+    skos:definition 'Concentrations of halogens as elements or their inorganic compounds in all phases of the atmosphere.'^^xsd:string ;
+    skos:notation 'SDN:P02::HLAT'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/HLAT/>
+    dc:modified '2010-07-02T09:42:02'^^xsd:dateTime ;
+    skos:altLabel 'Amos_Halogen'^^xsd:string ;
+    skos:prefLabel 'Concentration of inorganic halogens in the atmosphere'^^xsd:string ;
+    skos:definition 'Concentrations of halogens as elements or their inorganic compounds in all phases of the atmosphere.'^^xsd:string ;
+    skos:notation 'SDN:P02::HLAT'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/CLXX/4/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/CLXX/4/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/CLXX/";
+    dc:modified '2010-07-02T09:42:02'^^xsd:dateTime ;
+    skos:altLabel 'SedPoreWater_Halogen'^^xsd:string ;
+    skos:prefLabel 'Concentration of inorganic halogens in sediment pore waters'^^xsd:string ;
+    skos:definition 'Concentrations of halogens as elements or their inorganic compounds in all phases of sediment pore water'^^xsd:string ;
+    skos:notation 'SDN:P02::CLXX'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/CLXX/>
+    dc:modified '2010-07-02T09:42:02'^^xsd:dateTime ;
+    skos:altLabel 'SedPoreWater_Halogen'^^xsd:string ;
+    skos:prefLabel 'Concentration of inorganic halogens in sediment pore waters'^^xsd:string ;
+    skos:definition 'Concentrations of halogens as elements or their inorganic compounds in all phases of sediment pore water'^^xsd:string ;
+    skos:notation 'SDN:P02::CLXX'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/CETA/3/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/CETA/3/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/CETA/";
+    dc:modified '2010-06-16T15:28:49'^^xsd:dateTime ;
+    skos:altLabel 'Cetac_abund'^^xsd:string ;
+    skos:prefLabel 'Cetacean abundance'^^xsd:string ;
+    skos:definition 'Parameters that specify the number of specified members of Order Cetacea present at a particular time and location, including presence/absence indicators.'^^xsd:string ;
+    skos:notation 'SDN:P02::CETA'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/CETA/>
+    dc:modified '2010-06-16T15:28:49'^^xsd:dateTime ;
+    skos:altLabel 'Cetac_abund'^^xsd:string ;
+    skos:prefLabel 'Cetacean abundance'^^xsd:string ;
+    skos:definition 'Parameters that specify the number of specified members of Order Cetacea present at a particular time and location, including presence/absence indicators.'^^xsd:string ;
+    skos:notation 'SDN:P02::CETA'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/OMBI/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/OMBI/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/OMBI/";
+    dc:modified '2010-05-19T10:55:30'^^xsd:dateTime ;
+    skos:altLabel 'Biota_OrganoMet'^^xsd:string ;
+    skos:prefLabel 'Organometallic species concentration parameters in biota'^^xsd:string ;
+    skos:definition 'All measurements of the quantity or mass of any organometallic compound in any living organisms or their component parts'^^xsd:string ;
+    skos:notation 'SDN:P02::OMBI'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/OMBI/>
+    dc:modified '2010-05-19T10:55:30'^^xsd:dateTime ;
+    skos:altLabel 'Biota_OrganoMet'^^xsd:string ;
+    skos:prefLabel 'Organometallic species concentration parameters in biota'^^xsd:string ;
+    skos:definition 'All measurements of the quantity or mass of any organometallic compound in any living organisms or their component parts'^^xsd:string ;
+    skos:notation 'SDN:P02::OMBI'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/FIBM/1/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/FIBM/1/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/FIBM/";
+    dc:modified '2010-05-04T08:19:31'^^xsd:dateTime ;
+    skos:altLabel 'FishBiomass'^^xsd:string ;
+    skos:prefLabel 'Fish biomass in water bodies'^^xsd:string ;
+    skos:definition 'Parameters quantifying the mass of fish (Osteichthyes, Agnatha and Chrondrichthyes)in total or by species per unit area or per unit volume in any body of fresh or salt water expressed in any form (e.g. wet weight, dry weight, carbon, nitrogen, etc.).'^^xsd:string ;
+    skos:notation 'SDN:P02::FIBM'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/FIBM/>
+    dc:modified '2010-05-04T08:19:31'^^xsd:dateTime ;
+    skos:altLabel 'FishBiomass'^^xsd:string ;
+    skos:prefLabel 'Fish biomass in water bodies'^^xsd:string ;
+    skos:definition 'Parameters quantifying the mass of fish (Osteichthyes, Agnatha and Chrondrichthyes)in total or by species per unit area or per unit volume in any body of fresh or salt water expressed in any form (e.g. wet weight, dry weight, carbon, nitrogen, etc.).'^^xsd:string ;
+    skos:notation 'SDN:P02::FIBM'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ROGS/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/ROGS/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/ROGS/";
+    dc:modified '2010-02-21T17:28:35'^^xsd:dateTime ;
+    skos:altLabel 'RockGrainSize'^^xsd:string ;
+    skos:prefLabel 'Rock grain size'^^xsd:string ;
+    skos:definition 'Parameters specifying the physical dimensions of the particles comprising lithified sedimentary rocks (including expressions of shape such as aspect ratio) and statistics derived from their variation in a sample (e.g. mean, mode, sorting, skewness).'^^xsd:string ;
+    skos:notation 'SDN:P02::ROGS'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/ROGS/>
+    dc:modified '2010-02-21T17:28:35'^^xsd:dateTime ;
+    skos:altLabel 'RockGrainSize'^^xsd:string ;
+    skos:prefLabel 'Rock grain size'^^xsd:string ;
+    skos:definition 'Parameters specifying the physical dimensions of the particles comprising lithified sedimentary rocks (including expressions of shape such as aspect ratio) and statistics derived from their variation in a sample (e.g. mean, mode, sorting, skewness).'^^xsd:string ;
+    skos:notation 'SDN:P02::ROGS'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/RTCO/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/RTCO/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/RTCO/";
+    dc:modified '2010-02-21T17:28:15'^^xsd:dateTime ;
+    skos:altLabel 'RockThermCond'^^xsd:string ;
+    skos:prefLabel 'Rock thermal conductivity'^^xsd:string ;
+    skos:definition 'Parameters that describe the degree to which sedimentary, igneous or metamorphic rocks are able to conduct heat'^^xsd:string ;
+    skos:notation 'SDN:P02::RTCO'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/RTCO/>
+    dc:modified '2010-02-21T17:28:15'^^xsd:dateTime ;
+    skos:altLabel 'RockThermCond'^^xsd:string ;
+    skos:prefLabel 'Rock thermal conductivity'^^xsd:string ;
+    skos:definition 'Parameters that describe the degree to which sedimentary, igneous or metamorphic rocks are able to conduct heat'^^xsd:string ;
+    skos:notation 'SDN:P02::RTCO'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/STCO/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/STCO/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/STCO/";
+    dc:modified '2010-02-21T17:28:04'^^xsd:dateTime ;
+    skos:altLabel 'SedThermCond'^^xsd:string ;
+    skos:prefLabel 'Sediment thermal conductivity'^^xsd:string ;
+    skos:definition 'Parameters that describe the degree to which unlithified sediment is able to conduct heat'^^xsd:string ;
+    skos:notation 'SDN:P02::STCO'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/STCO/>
+    dc:modified '2010-02-21T17:28:04'^^xsd:dateTime ;
+    skos:altLabel 'SedThermCond'^^xsd:string ;
+    skos:prefLabel 'Sediment thermal conductivity'^^xsd:string ;
+    skos:definition 'Parameters that describe the degree to which unlithified sediment is able to conduct heat'^^xsd:string ;
+    skos:notation 'SDN:P02::STCO'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/RPER/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/RPER/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/RPER/";
+    dc:modified '2010-02-21T17:26:42'^^xsd:dateTime ;
+    skos:altLabel 'RockPoros'^^xsd:string ;
+    skos:prefLabel 'Rock porosity and permeability'^^xsd:string ;
+    skos:definition 'Parmeters describing the space for fluids or gases within a geologic unit comprising lithified sediments, igneous rock or metamorphic rock.'^^xsd:string ;
+    skos:notation 'SDN:P02::RPER'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/RPER/>
+    dc:modified '2010-02-21T17:26:42'^^xsd:dateTime ;
+    skos:altLabel 'RockPoros'^^xsd:string ;
+    skos:prefLabel 'Rock porosity and permeability'^^xsd:string ;
+    skos:definition 'Parmeters describing the space for fluids or gases within a geologic unit comprising lithified sediments, igneous rock or metamorphic rock.'^^xsd:string ;
+    skos:notation 'SDN:P02::RPER'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SR3D/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/SR3D/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/SR3D/";
+    dc:modified '2010-02-21T17:25:54'^^xsd:dateTime ;
+    skos:altLabel '3DSeisReflec'^^xsd:string ;
+    skos:prefLabel 'Three-dimensional seismic reflection'^^xsd:string ;
+    skos:definition 'Parameters relating to structure beneath sea-bed determined by the reflection of seismic energy along multiple parallel tracks.'^^xsd:string ;
+    skos:notation 'SDN:P02::SR3D'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/SR3D/>
+    dc:modified '2010-02-21T17:25:54'^^xsd:dateTime ;
+    skos:altLabel '3DSeisReflec'^^xsd:string ;
+    skos:prefLabel 'Three-dimensional seismic reflection'^^xsd:string ;
+    skos:definition 'Parameters relating to structure beneath sea-bed determined by the reflection of seismic energy along multiple parallel tracks.'^^xsd:string ;
+    skos:notation 'SDN:P02::SR3D'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SR2D/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/SR2D/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/SR2D/";
+    dc:modified '2010-02-21T17:25:39'^^xsd:dateTime ;
+    skos:altLabel '2DSeisReflec'^^xsd:string ;
+    skos:prefLabel 'Two-dimensional seismic reflection'^^xsd:string ;
+    skos:definition 'Parameters relating to structure beneath sea-bed determined by the reflection of seismic energy along a single track.'^^xsd:string ;
+    skos:notation 'SDN:P02::SR2D'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/SR2D/>
+    dc:modified '2010-02-21T17:25:39'^^xsd:dateTime ;
+    skos:altLabel '2DSeisReflec'^^xsd:string ;
+    skos:prefLabel 'Two-dimensional seismic reflection'^^xsd:string ;
+    skos:definition 'Parameters relating to structure beneath sea-bed determined by the reflection of seismic energy along a single track.'^^xsd:string ;
+    skos:notation 'SDN:P02::SR2D'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/PASR/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/PASR/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/PASR/";
+    dc:modified '2010-02-21T17:24:44'^^xsd:dateTime ;
+    skos:altLabel 'PassSeisRefrac'^^xsd:string ;
+    skos:prefLabel 'Passive seismic refraction'^^xsd:string ;
+    skos:definition 'Parameters quantifying the magnitude of naturally occurring low frequency earth movements such as used for earthquake seismology and natural noise studies.'^^xsd:string ;
+    skos:notation 'SDN:P02::PASR'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/PASR/>
+    dc:modified '2010-02-21T17:24:44'^^xsd:dateTime ;
+    skos:altLabel 'PassSeisRefrac'^^xsd:string ;
+    skos:prefLabel 'Passive seismic refraction'^^xsd:string ;
+    skos:definition 'Parameters quantifying the magnitude of naturally occurring low frequency earth movements such as used for earthquake seismology and natural noise studies.'^^xsd:string ;
+    skos:notation 'SDN:P02::PASR'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ACSR/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/ACSR/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/ACSR/";
+    dc:modified '2010-02-21T17:24:30'^^xsd:dateTime ;
+    skos:altLabel 'ActSeisRefrac'^^xsd:string ;
+    skos:prefLabel 'Active seismic refraction'^^xsd:string ;
+    skos:definition 'Parameters quantifying the magnitude of earth movements resulting from artificial sources (such as explosions) far away from the measurement site.'^^xsd:string ;
+    skos:notation 'SDN:P02::ACSR'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/ACSR/>
+    dc:modified '2010-02-21T17:24:30'^^xsd:dateTime ;
+    skos:altLabel 'ActSeisRefrac'^^xsd:string ;
+    skos:prefLabel 'Active seismic refraction'^^xsd:string ;
+    skos:definition 'Parameters quantifying the magnitude of earth movements resulting from artificial sources (such as explosions) far away from the measurement site.'^^xsd:string ;
+    skos:notation 'SDN:P02::ACSR'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/RAGE/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/RAGE/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/RAGE/";
+    dc:modified '2010-02-21T17:23:51'^^xsd:dateTime ;
+    skos:altLabel 'RockAge'^^xsd:string ;
+    skos:prefLabel 'Rock age'^^xsd:string ;
+    skos:definition 'Measured or stratigraphically estimated ages of lithified sediments, igneous rock or metamorphic rock.'^^xsd:string ;
+    skos:notation 'SDN:P02::RAGE'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/RAGE/>
+    dc:modified '2010-02-21T17:23:51'^^xsd:dateTime ;
+    skos:altLabel 'RockAge'^^xsd:string ;
+    skos:prefLabel 'Rock age'^^xsd:string ;
+    skos:definition 'Measured or stratigraphically estimated ages of lithified sediments, igneous rock or metamorphic rock.'^^xsd:string ;
+    skos:notation 'SDN:P02::RAGE'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/MNGS/3/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/MNGS/3/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/MNGS/";
+    dc:modified '2010-02-19T12:03:05'^^xsd:dateTime ;
+    skos:altLabel 'Sed_GrainSize'^^xsd:string ;
+    skos:prefLabel 'Sediment grain size parameters'^^xsd:string ;
+    skos:definition 'Parameters specifying the physical dimensions of the particles comprising unlithified sediment (including expressions of shape such as aspect ratio) and statistics derived from their variation in a sample (e.g. mean, mode, sorting, skewness).'^^xsd:string ;
+    skos:notation 'SDN:P02::MNGS'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/MNGS/>
+    dc:modified '2010-02-19T12:03:05'^^xsd:dateTime ;
+    skos:altLabel 'Sed_GrainSize'^^xsd:string ;
+    skos:prefLabel 'Sediment grain size parameters'^^xsd:string ;
+    skos:definition 'Parameters specifying the physical dimensions of the particles comprising unlithified sediment (including expressions of shape such as aspect ratio) and statistics derived from their variation in a sample (e.g. mean, mode, sorting, skewness).'^^xsd:string ;
+    skos:notation 'SDN:P02::MNGS'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/MTWT/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/MTWT/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/MTWT/";
+    dc:modified '2010-01-27T14:25:50'^^xsd:dateTime ;
+    skos:altLabel 'Met_WC_Tot'^^xsd:string ;
+    skos:prefLabel 'Total metal concentrations in water bodies'^^xsd:string ;
+    skos:definition 'Concentration parameters for metal elements in the combined dissolved and particulate phases of any body of fresh or salt water.'^^xsd:string ;
+    skos:notation 'SDN:P02::MTWT'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/MTWT/>
+    dc:modified '2010-01-27T14:25:50'^^xsd:dateTime ;
+    skos:altLabel 'Met_WC_Tot'^^xsd:string ;
+    skos:prefLabel 'Total metal concentrations in water bodies'^^xsd:string ;
+    skos:definition 'Concentration parameters for metal elements in the combined dissolved and particulate phases of any body of fresh or salt water.'^^xsd:string ;
+    skos:notation 'SDN:P02::MTWT'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/PEBI/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/PEBI/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/PEBI/";
+    dc:modified '2010-01-27T14:18:10'^^xsd:dateTime ;
+    skos:altLabel 'Pesticide_Biota'^^xsd:string ;
+    skos:prefLabel 'Pesticide concentrations in biota'^^xsd:string ;
+    skos:definition 'Concentration parameters for substances synthesised by man to kill other life forms in either whole organisms or their constituent parts.'^^xsd:string ;
+    skos:notation 'SDN:P02::PEBI'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/PEBI/>
+    dc:modified '2010-01-27T14:18:10'^^xsd:dateTime ;
+    skos:altLabel 'Pesticide_Biota'^^xsd:string ;
+    skos:prefLabel 'Pesticide concentrations in biota'^^xsd:string ;
+    skos:definition 'Concentration parameters for substances synthesised by man to kill other life forms in either whole organisms or their constituent parts.'^^xsd:string ;
+    skos:notation 'SDN:P02::PEBI'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/PESD/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/PESD/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/PESD/";
+    dc:modified '2010-01-27T14:18:10'^^xsd:dateTime ;
+    skos:altLabel 'Pesticide_Sediment'^^xsd:string ;
+    skos:prefLabel 'Pesticide concentrations in sediment'^^xsd:string ;
+    skos:definition '''Concentration parameters for substances synthesised by man to kill other life forms in sediment, which is considered to be anything from the bed sampled by a grab or corer, including 'fluff'.'''^^xsd:string ;
+    skos:notation 'SDN:P02::PESD'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/PESD/>
+    dc:modified '2010-01-27T14:18:10'^^xsd:dateTime ;
+    skos:altLabel 'Pesticide_Sediment'^^xsd:string ;
+    skos:prefLabel 'Pesticide concentrations in sediment'^^xsd:string ;
+    skos:definition '''Concentration parameters for substances synthesised by man to kill other life forms in sediment, which is considered to be anything from the bed sampled by a grab or corer, including 'fluff'.'''^^xsd:string ;
+    skos:notation 'SDN:P02::PESD'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/PEWB/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/PEWB/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/PEWB/";
+    dc:modified '2010-01-27T14:18:10'^^xsd:dateTime ;
+    skos:altLabel 'Pesticide_WaterBody'^^xsd:string ;
+    skos:prefLabel 'Pesticide concentrations in water bodies'^^xsd:string ;
+    skos:definition 'Concentration parameters for substances synthesised by man to kill other life forms in either solution or suspension (i.e.includes measurements in both the dissolved and particulate phases) in any body of salt or fresh water.'^^xsd:string ;
+    skos:notation 'SDN:P02::PEWB'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/PEWB/>
+    dc:modified '2010-01-27T14:18:10'^^xsd:dateTime ;
+    skos:altLabel 'Pesticide_WaterBody'^^xsd:string ;
+    skos:prefLabel 'Pesticide concentrations in water bodies'^^xsd:string ;
+    skos:definition 'Concentration parameters for substances synthesised by man to kill other life forms in either solution or suspension (i.e.includes measurements in both the dissolved and particulate phases) in any body of salt or fresh water.'^^xsd:string ;
+    skos:notation 'SDN:P02::PEWB'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/PHBI/3/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/PHBI/3/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/PHBI/";
+    dc:modified '2010-01-27T14:18:10'^^xsd:dateTime ;
+    skos:altLabel 'Pharm_Biota'^^xsd:string ;
+    skos:prefLabel 'Pharmaceutical concentrations in biota'^^xsd:string ;
+    skos:definition 'Concentration parameters for substances synthesised by man to modify bodily function or diagnose, cure, mitigate, treat, or prevent disease in either whole organisms or their constituent parts.'^^xsd:string ;
+    skos:notation 'SDN:P02::PHBI'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/PHBI/>
+    dc:modified '2010-01-27T14:18:10'^^xsd:dateTime ;
+    skos:altLabel 'Pharm_Biota'^^xsd:string ;
+    skos:prefLabel 'Pharmaceutical concentrations in biota'^^xsd:string ;
+    skos:definition 'Concentration parameters for substances synthesised by man to modify bodily function or diagnose, cure, mitigate, treat, or prevent disease in either whole organisms or their constituent parts.'^^xsd:string ;
+    skos:notation 'SDN:P02::PHBI'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/PHSE/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/PHSE/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/PHSE/";
+    dc:modified '2010-01-27T14:18:10'^^xsd:dateTime ;
+    skos:altLabel 'Pharm_Sediment'^^xsd:string ;
+    skos:prefLabel 'Pharmaceutical concentrations in sediments'^^xsd:string ;
+    skos:definition '''Concentration parameters for substances synthesised by man to modify bodily function or diagnose, cure, mitigate, treat, or prevent disease in sediment, which is considered to be anything from the bed sampled by a grab or corer, including 'fluff'.'''^^xsd:string ;
+    skos:notation 'SDN:P02::PHSE'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/PHSE/>
+    dc:modified '2010-01-27T14:18:10'^^xsd:dateTime ;
+    skos:altLabel 'Pharm_Sediment'^^xsd:string ;
+    skos:prefLabel 'Pharmaceutical concentrations in sediments'^^xsd:string ;
+    skos:definition '''Concentration parameters for substances synthesised by man to modify bodily function or diagnose, cure, mitigate, treat, or prevent disease in sediment, which is considered to be anything from the bed sampled by a grab or corer, including 'fluff'.'''^^xsd:string ;
+    skos:notation 'SDN:P02::PHSE'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/PHWB/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/PHWB/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/PHWB/";
+    dc:modified '2010-01-27T14:18:10'^^xsd:dateTime ;
+    skos:altLabel 'Pharm_WaterBody'^^xsd:string ;
+    skos:prefLabel 'Pharmaceutical concentrations in water bodies'^^xsd:string ;
+    skos:definition 'Concentration parameters for substances synthesised by man to modify bodily function or diagnose, cure, mitigate, treat, or prevent disease in either solution or suspension (i.e.includes measurements in both the dissolved and particulate phases) in any body of salt or fresh water.'^^xsd:string ;
+    skos:notation 'SDN:P02::PHWB'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/PHWB/>
+    dc:modified '2010-01-27T14:18:10'^^xsd:dateTime ;
+    skos:altLabel 'Pharm_WaterBody'^^xsd:string ;
+    skos:prefLabel 'Pharmaceutical concentrations in water bodies'^^xsd:string ;
+    skos:definition 'Concentration parameters for substances synthesised by man to modify bodily function or diagnose, cure, mitigate, treat, or prevent disease in either solution or suspension (i.e.includes measurements in both the dissolved and particulate phases) in any body of salt or fresh water.'^^xsd:string ;
+    skos:notation 'SDN:P02::PHWB'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SCOC/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/SCOC/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/SCOC/";
+    dc:modified '2010-01-27T14:00:34'^^xsd:dateTime ;
+    skos:altLabel 'Sed_Orgcontam'^^xsd:string ;
+    skos:prefLabel 'Concentration of other organic contaminants in sediment samples'^^xsd:string ;
+    skos:definition '''Concentration parameters for carbon compounds regarded as environmentally harmful in sediment, which is considered to be anything from the bed sampled by a grab or corer, including 'fluff' that are not included in other specific categories'''^^xsd:string ;
+    skos:notation 'SDN:P02::SCOC'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/SCOC/>
+    dc:modified '2010-01-27T14:00:34'^^xsd:dateTime ;
+    skos:altLabel 'Sed_Orgcontam'^^xsd:string ;
+    skos:prefLabel 'Concentration of other organic contaminants in sediment samples'^^xsd:string ;
+    skos:definition '''Concentration parameters for carbon compounds regarded as environmentally harmful in sediment, which is considered to be anything from the bed sampled by a grab or corer, including 'fluff' that are not included in other specific categories'''^^xsd:string ;
+    skos:notation 'SDN:P02::SCOC'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/WCOC/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/WCOC/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/WCOC/";
+    dc:modified '2010-01-27T12:37:34'^^xsd:dateTime ;
+    skos:altLabel 'WC_Orgcontam'^^xsd:string ;
+    skos:prefLabel 'Concentration of other organic contaminants in the water column'^^xsd:string ;
+    skos:definition 'Concentration parameters for carbon compounds regarded as environmentally harmful in solution or suspension (i.e.includes measurements in both the dissolved and particulate phases) in any body of salt or fresh water that are not included in other specific categories'^^xsd:string ;
+    skos:notation 'SDN:P02::WCOC'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/WCOC/>
+    dc:modified '2010-01-27T12:37:34'^^xsd:dateTime ;
+    skos:altLabel 'WC_Orgcontam'^^xsd:string ;
+    skos:prefLabel 'Concentration of other organic contaminants in the water column'^^xsd:string ;
+    skos:definition 'Concentration parameters for carbon compounds regarded as environmentally harmful in solution or suspension (i.e.includes measurements in both the dissolved and particulate phases) in any body of salt or fresh water that are not included in other specific categories'^^xsd:string ;
+    skos:notation 'SDN:P02::WCOC'^^xsd:string .
+    
+<feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/BCOC/2/> .
+<http://vocab.nerc.ac.uk/collection/P02/current/BCOC/2/>
+    a skos:Concept ;
+    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/BCOC/";
+    dc:modified '2010-01-27T11:43:34'^^xsd:dateTime ;
+    skos:altLabel 'Biota_Orgcontam'^^xsd:string ;
+    skos:prefLabel 'Concentration of other organic contaminants in biota'^^xsd:string ;
+    skos:definition 'Concentration parameters for carbon compounds regarded as environmentally harmful in either whole organisms or their constituent parts that are not included in other categories'^^xsd:string ;
+    skos:notation 'SDN:P02::BCOC'^^xsd:string .
+<http://vocab.nerc.ac.uk/collection/P02/current/BCOC/>
+    dc:modified '2010-01-27T11:43:34'^^xsd:dateTime ;
+    skos:altLabel 'Biota_Orgcontam'^^xsd:string ;
+    skos:prefLabel 'Concentration of other organic contaminants in biota'^^xsd:string ;
+    skos:definition 'Concentration parameters for carbon compounds regarded as environmentally harmful in either whole organisms or their constituent parts that are not included in other categories'^^xsd:string ;
+    skos:notation 'SDN:P02::BCOC'^^xsd:string .
+    

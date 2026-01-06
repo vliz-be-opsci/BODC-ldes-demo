@@ -21,11 +21,12 @@ from sema.subyt import (
 
 # define variables
 collections = ["P02"]
-begin_date = "2012-01-01 00:00:00"
-end_date = "2021-01-02 00:00:00"
+begin_date = "2000-01-01 00:00:00"
+end_date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 retention_period = 100
 immutable = "false"  # Set to "true" or "false" to enable/disable immutability
 polling_interval = "3600"  # Duration in seconds for an LDES client to start polling again for changes in the feed
+prefix_uri = "https://marine-term-translations.github.io/P02-TEST"
 
 # define constants
 ENDPOINT = "http://vocab.nerc.ac.uk/sparql/sparql"
@@ -99,17 +100,26 @@ def make_pykg2tbl_files(collections, begin_date, end_date):
             this_delta = (
                 str(year) + "-01-01 00:00:00" + "_" + str(year) + "-12-31 00:00:00"
             )
-            this_delta_quoted = urllib.parse.quote(this_delta)
+
+            this_delta_quoted = this_delta
+            this_delta_quoted = this_delta_quoted.replace(":", "-")
+            this_delta_quoted = this_delta_quoted.replace("-", "_")
+            this_delta_quoted = this_delta_quoted.replace(" ", "_")
+            this_delta_quoted = urllib.parse.quote(this_delta_quoted)
             next_delta_quoted = ""
             if not first:
                 next_delta = (
                     str(prev_year)
-                    + "-12-31 00:00:00"
-                    + "_"
-                    + str(year)
                     + "-01-01 00:00:00"
+                    + "_"
+                    + str(prev_year)
+                    + "-12-31 00:00:00"
                 )
-                next_delta_quoted = urllib.parse.quote(next_delta)
+                next_delta_quoted = next_delta
+                next_delta_quoted = next_delta_quoted.replace(":", "-")
+                next_delta_quoted = next_delta_quoted.replace("-", "_")
+                next_delta_quoted = next_delta_quoted.replace(" ", "_")
+                next_delta_quoted = urllib.parse.quote(next_delta_quoted)
             if first:
                 first = False
 
@@ -143,7 +153,8 @@ def make_pykg2tbl_files(collections, begin_date, end_date):
             formatted_name = this_delta.replace(":", "-")
             formatted_name = formatted_name.replace("-", "_")
             formatted_name = formatted_name.replace(" ", "_")
-            formatted_name = collection + "_" + formatted_name + ".ttl"
+            formatted_name = formatted_name + ".ttl"
+            begin_date_epoch = int(begin_delta.timestamp())
             output_file = os.path.join(PYSUBYT_OUTPUT_FOLDER, formatted_name)
 
             # make vars dict
@@ -155,6 +166,7 @@ def make_pykg2tbl_files(collections, begin_date, end_date):
                 "collection": collection,
                 "immutable": immutable,
                 "polling_interval": polling_interval,
+                "prefix_uri": prefix_uri,
             }
 
             # make service and sink

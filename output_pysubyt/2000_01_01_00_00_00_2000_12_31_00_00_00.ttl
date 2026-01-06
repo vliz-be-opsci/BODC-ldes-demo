@@ -6,22 +6,17 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://vocab.nerc.ac.uk/ldes/P02/2021-01-01%2000%3A00%3A00_2021-12-31%2000%3A00%3A00>
+@base <https://marine-term-translations.github.io/P02-TEST/P02/2000_01_01_00_00_00_2000_12_31_00_00_00.ttl> .
+
+<>
     a tree:Node ;
-    
-    tree:relation [
-      a tree:LessThanRelation ;
-      tree:node <http://vocab.nerc.ac.uk/ldes/P02/2020-12-31%2000%3A00%3A00_2021-01-01%2000%3A00%3A00> ;
-      tree:path dc:modified ;
-      tree:value '2021-01-02T00:00:00+00:00'^^xsd:dateTime
-    ] ;
     
     ldes:retentionPolicy [
         a ldes:RetentionPolicy ;
         ldes:versionAmount 100
     ] .
 
-<http://vocab.nerc.ac.uk/ldes/P02>
+<feed>
   a ldes:EventStream ;
   ldes:timestampPath dc:modified ;
   ldes:versionOfPath dc:isVersionOf ;
@@ -62,6 +57,6 @@
     ];
     sh:targetClass skos:Concept
   ] ;
-  tree:view <http://vocab.nerc.ac.uk/ldes/P02/2021-01-01%2000%3A00%3A00_2021-12-31%2000%3A00%3A00> ;
+  tree:view <> ;
   .
 
