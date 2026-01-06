@@ -618,13 +618,13 @@
     dc:modified '2008-11-25T15:43:03'^^xsd:dateTime ;
     skos:altLabel 'WC_SedFluxOrgMatter'^^xsd:string ;
     skos:prefLabel 'Sedimentation flux of carbon, nitrogen or organic matter in the water column'^^xsd:string ;
-    skos:definition '''Fluxes of particulate total, organic and inorganic carbon (including as CaCO3) and nitrogen (often measured as 'total' but assumed to be 'organic'). Organic matter is defined as matter lost on ignition.'''^^xsd:string ;
+    skos:definition 'Fluxes of particulate total, organic and inorganic carbon (including as CaCO3) and nitrogen (often measured as \'total\' but assumed to be \'organic\'). Organic matter is defined as matter lost on ignition.'^^xsd:string ;
     skos:notation 'SDN:P02::TCFX'^^xsd:string .
 <http://vocab.nerc.ac.uk/collection/P02/current/TCFX/>
     dc:modified '2008-11-25T15:43:03'^^xsd:dateTime ;
     skos:altLabel 'WC_SedFluxOrgMatter'^^xsd:string ;
     skos:prefLabel 'Sedimentation flux of carbon, nitrogen or organic matter in the water column'^^xsd:string ;
-    skos:definition '''Fluxes of particulate total, organic and inorganic carbon (including as CaCO3) and nitrogen (often measured as 'total' but assumed to be 'organic'). Organic matter is defined as matter lost on ignition.'''^^xsd:string ;
+    skos:definition 'Fluxes of particulate total, organic and inorganic carbon (including as CaCO3) and nitrogen (often measured as \'total\' but assumed to be \'organic\'). Organic matter is defined as matter lost on ignition.'^^xsd:string ;
     skos:notation 'SDN:P02::TCFX'^^xsd:string .
     
 <feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/FNTX/3/> .
@@ -634,13 +634,13 @@
     dc:modified '2008-11-19T15:32:58'^^xsd:dateTime ;
     skos:altLabel 'Fish_nontaxa_abund'^^xsd:string ;
     skos:prefLabel 'Fish non taxonomy-related abundance per unit volume of the water column'^^xsd:string ;
-    skos:definition '''Fish (Osteichthyes, Agnatha and Chrondrichthyes) abundance per unit volume parameters not included under FATX.  Most commonly used for the generic term 'fish' that maps to multiple taxa.'''^^xsd:string ;
+    skos:definition 'Fish (Osteichthyes, Agnatha and Chrondrichthyes) abundance per unit volume parameters not included under FATX.  Most commonly used for the generic term \'fish\' that maps to multiple taxa.'^^xsd:string ;
     skos:notation 'SDN:P02::FNTX'^^xsd:string .
 <http://vocab.nerc.ac.uk/collection/P02/current/FNTX/>
     dc:modified '2008-11-19T15:32:58'^^xsd:dateTime ;
     skos:altLabel 'Fish_nontaxa_abund'^^xsd:string ;
     skos:prefLabel 'Fish non taxonomy-related abundance per unit volume of the water column'^^xsd:string ;
-    skos:definition '''Fish (Osteichthyes, Agnatha and Chrondrichthyes) abundance per unit volume parameters not included under FATX.  Most commonly used for the generic term 'fish' that maps to multiple taxa.'''^^xsd:string ;
+    skos:definition 'Fish (Osteichthyes, Agnatha and Chrondrichthyes) abundance per unit volume parameters not included under FATX.  Most commonly used for the generic term \'fish\' that maps to multiple taxa.'^^xsd:string ;
     skos:notation 'SDN:P02::FNTX'^^xsd:string .
     
 <feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/FNTM/3/> .
@@ -650,13 +650,13 @@
     dc:modified '2008-11-19T15:32:58'^^xsd:dateTime ;
     skos:altLabel 'Fish_nontaxa_morph'^^xsd:string ;
     skos:prefLabel 'Fish non taxonomy-related morphology'^^xsd:string ;
-    skos:definition '''Fish (Osteichthyes, Agnatha and Chrondrichthyes) size and shape parameters not included under FATM.  Most commonly used for the generic term 'fish' that maps to multiple taxa.'''^^xsd:string ;
+    skos:definition 'Fish (Osteichthyes, Agnatha and Chrondrichthyes) size and shape parameters not included under FATM.  Most commonly used for the generic term \'fish\' that maps to multiple taxa.'^^xsd:string ;
     skos:notation 'SDN:P02::FNTM'^^xsd:string .
 <http://vocab.nerc.ac.uk/collection/P02/current/FNTM/>
     dc:modified '2008-11-19T15:32:58'^^xsd:dateTime ;
     skos:altLabel 'Fish_nontaxa_morph'^^xsd:string ;
     skos:prefLabel 'Fish non taxonomy-related morphology'^^xsd:string ;
-    skos:definition '''Fish (Osteichthyes, Agnatha and Chrondrichthyes) size and shape parameters not included under FATM.  Most commonly used for the generic term 'fish' that maps to multiple taxa.'''^^xsd:string ;
+    skos:definition 'Fish (Osteichthyes, Agnatha and Chrondrichthyes) size and shape parameters not included under FATM.  Most commonly used for the generic term \'fish\' that maps to multiple taxa.'^^xsd:string ;
     skos:notation 'SDN:P02::FNTM'^^xsd:string .
     
 <feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/NTRZ/3/> .
@@ -698,13 +698,13 @@
     dc:modified '2008-11-04T13:04:58'^^xsd:dateTime ;
     skos:altLabel 'Sol_Rad'^^xsd:string ;
     skos:prefLabel 'Solar Radiation'^^xsd:string ;
-    skos:definition '''Parameters quantifying the irradiance of the sun impinging on the Earth's surface in the visible and infra-red waveband, generally accepted as wavelengths between 300 and 3000 nm'''^^xsd:string ;
+    skos:definition 'Parameters quantifying the irradiance of the sun impinging on the Earth\'s surface in the visible and infra-red waveband, generally accepted as wavelengths between 300 and 3000 nm'^^xsd:string ;
     skos:notation 'SDN:P02::CSLR'^^xsd:string .
 <http://vocab.nerc.ac.uk/collection/P02/current/CSLR/>
     dc:modified '2008-11-04T13:04:58'^^xsd:dateTime ;
     skos:altLabel 'Sol_Rad'^^xsd:string ;
     skos:prefLabel 'Solar Radiation'^^xsd:string ;
-    skos:definition '''Parameters quantifying the irradiance of the sun impinging on the Earth's surface in the visible and infra-red waveband, generally accepted as wavelengths between 300 and 3000 nm'''^^xsd:string ;
+    skos:definition 'Parameters quantifying the irradiance of the sun impinging on the Earth\'s surface in the visible and infra-red waveband, generally accepted as wavelengths between 300 and 3000 nm'^^xsd:string ;
     skos:notation 'SDN:P02::CSLR'^^xsd:string .
     
 <feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/CDTA/2/> .
@@ -826,13 +826,13 @@
     dc:modified '2008-08-15T10:07:03'^^xsd:dateTime ;
     skos:altLabel 'Amount_dumped'^^xsd:string ;
     skos:prefLabel 'Quantity of material dumped'^^xsd:string ;
-    skos:definition '''Parameters quantifying the amount of liquids (e.g. ship's ballast) or solids (e.g. dredge spoil) deposited into the water column as a result of man's activities'''^^xsd:string ;
+    skos:definition 'Parameters quantifying the amount of liquids (e.g. ship\'s ballast) or solids (e.g. dredge spoil) deposited into the water column as a result of man\'s activities'^^xsd:string ;
     skos:notation 'SDN:P02::QDMD'^^xsd:string .
 <http://vocab.nerc.ac.uk/collection/P02/current/QDMD/>
     dc:modified '2008-08-15T10:07:03'^^xsd:dateTime ;
     skos:altLabel 'Amount_dumped'^^xsd:string ;
     skos:prefLabel 'Quantity of material dumped'^^xsd:string ;
-    skos:definition '''Parameters quantifying the amount of liquids (e.g. ship's ballast) or solids (e.g. dredge spoil) deposited into the water column as a result of man's activities'''^^xsd:string ;
+    skos:definition 'Parameters quantifying the amount of liquids (e.g. ship\'s ballast) or solids (e.g. dredge spoil) deposited into the water column as a result of man\'s activities'^^xsd:string ;
     skos:notation 'SDN:P02::QDMD'^^xsd:string .
     
 <feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/PCLM/2/> .

@@ -170,13 +170,13 @@
     dc:modified '2007-11-21T16:22:51'^^xsd:dateTime ;
     skos:altLabel 'Gravity'^^xsd:string ;
     skos:prefLabel 'Gravity'^^xsd:string ;
-    skos:definition '''Parameters relating to the measurement of the Earth's gravity field'''^^xsd:string ;
+    skos:definition 'Parameters relating to the measurement of the Earth\'s gravity field'^^xsd:string ;
     skos:notation 'SDN:P02::GRAV'^^xsd:string .
 <http://vocab.nerc.ac.uk/collection/P02/current/GRAV/>
     dc:modified '2007-11-21T16:22:51'^^xsd:dateTime ;
     skos:altLabel 'Gravity'^^xsd:string ;
     skos:prefLabel 'Gravity'^^xsd:string ;
-    skos:definition '''Parameters relating to the measurement of the Earth's gravity field'''^^xsd:string ;
+    skos:definition 'Parameters relating to the measurement of the Earth\'s gravity field'^^xsd:string ;
     skos:notation 'SDN:P02::GRAV'^^xsd:string .
     
 <feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ICEM/1/> .

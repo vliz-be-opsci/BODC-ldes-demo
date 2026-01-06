@@ -426,13 +426,13 @@
     dc:modified '2017-07-17T12:08:43'^^xsd:dateTime ;
     skos:altLabel 'Microzoo_taxa_C_biomass'^^xsd:string ;
     skos:prefLabel 'Microzooplankton taxonomy-related biomass expressed as carbon per unit volume of the water column'^^xsd:string ;
-    skos:definition '''Microzooplankton carbon biomass parameters presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS.  These may be at any taxonomic level from sub-species upwards., but exclude morphological classifications such as 'heterotrophic flagellate'.'''^^xsd:string ;
+    skos:definition 'Microzooplankton carbon biomass parameters presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS.  These may be at any taxonomic level from sub-species upwards., but exclude morphological classifications such as \'heterotrophic flagellate\'.'^^xsd:string ;
     skos:notation 'SDN:P02::MATC'^^xsd:string .
 <http://vocab.nerc.ac.uk/collection/P02/current/MATC/>
     dc:modified '2017-07-17T12:08:43'^^xsd:dateTime ;
     skos:altLabel 'Microzoo_taxa_C_biomass'^^xsd:string ;
     skos:prefLabel 'Microzooplankton taxonomy-related biomass expressed as carbon per unit volume of the water column'^^xsd:string ;
-    skos:definition '''Microzooplankton carbon biomass parameters presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS.  These may be at any taxonomic level from sub-species upwards., but exclude morphological classifications such as 'heterotrophic flagellate'.'''^^xsd:string ;
+    skos:definition 'Microzooplankton carbon biomass parameters presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS.  These may be at any taxonomic level from sub-species upwards., but exclude morphological classifications such as \'heterotrophic flagellate\'.'^^xsd:string ;
     skos:notation 'SDN:P02::MATC'^^xsd:string .
     
 <feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/BDWC/3/> .
@@ -458,13 +458,13 @@
     dc:modified '2017-07-17T12:08:43'^^xsd:dateTime ;
     skos:altLabel 'WC_NontaxBacteriaCarbBiomass'^^xsd:string ;
     skos:prefLabel 'Bacteria non taxonomy-related biomass expressed as carbon per unit volume of the water column'^^xsd:string ;
-    skos:definition '''Basically any bacteria carbon biomass parameters that aren't included in parameter group BATC because they cannot be mapped to specific taxa in a standard taxonomy registry such as WoRMS or ITIS.  Bacteria are defined as Kingdom Monera, which includes cyanobacteria.'''^^xsd:string ;
+    skos:definition 'Basically any bacteria carbon biomass parameters that aren\'t included in parameter group BATC because they cannot be mapped to specific taxa in a standard taxonomy registry such as WoRMS or ITIS.  Bacteria are defined as Kingdom Monera, which includes cyanobacteria.'^^xsd:string ;
     skos:notation 'SDN:P02::BNTC'^^xsd:string .
 <http://vocab.nerc.ac.uk/collection/P02/current/BNTC/>
     dc:modified '2017-07-17T12:08:43'^^xsd:dateTime ;
     skos:altLabel 'WC_NontaxBacteriaCarbBiomass'^^xsd:string ;
     skos:prefLabel 'Bacteria non taxonomy-related biomass expressed as carbon per unit volume of the water column'^^xsd:string ;
-    skos:definition '''Basically any bacteria carbon biomass parameters that aren't included in parameter group BATC because they cannot be mapped to specific taxa in a standard taxonomy registry such as WoRMS or ITIS.  Bacteria are defined as Kingdom Monera, which includes cyanobacteria.'''^^xsd:string ;
+    skos:definition 'Basically any bacteria carbon biomass parameters that aren\'t included in parameter group BATC because they cannot be mapped to specific taxa in a standard taxonomy registry such as WoRMS or ITIS.  Bacteria are defined as Kingdom Monera, which includes cyanobacteria.'^^xsd:string ;
     skos:notation 'SDN:P02::BNTC'^^xsd:string .
     
 <feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/BATC/2/> .

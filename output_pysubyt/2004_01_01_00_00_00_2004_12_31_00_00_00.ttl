@@ -1450,13 +1450,13 @@
     dc:modified '2004-05-28T09:21:00'^^xsd:dateTime ;
     skos:altLabel 'Sed_PAH'^^xsd:string ;
     skos:prefLabel 'Concentration of polycyclic aromatic hydrocarbons (PAHs) in sediment samples'^^xsd:string ;
-    skos:definition '''PAH concentrations in sediment, which is considered to be anything from the bed sampled by a grab or corer, including 'fluff''''^^xsd:string ;
+    skos:definition 'PAH concentrations in sediment, which is considered to be anything from the bed sampled by a grab or corer, including \'fluff\''^^xsd:string ;
     skos:notation 'SDN:P02::SCAH'^^xsd:string .
 <http://vocab.nerc.ac.uk/collection/P02/current/SCAH/>
     dc:modified '2004-05-28T09:21:00'^^xsd:dateTime ;
     skos:altLabel 'Sed_PAH'^^xsd:string ;
     skos:prefLabel 'Concentration of polycyclic aromatic hydrocarbons (PAHs) in sediment samples'^^xsd:string ;
-    skos:definition '''PAH concentrations in sediment, which is considered to be anything from the bed sampled by a grab or corer, including 'fluff''''^^xsd:string ;
+    skos:definition 'PAH concentrations in sediment, which is considered to be anything from the bed sampled by a grab or corer, including \'fluff\''^^xsd:string ;
     skos:notation 'SDN:P02::SCAH'^^xsd:string .
     
 <feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/PCOC/1/> .
@@ -1466,13 +1466,13 @@
     dc:modified '2004-05-28T08:15:00'^^xsd:dateTime ;
     skos:altLabel 'SPM_Orgcontam'^^xsd:string ;
     skos:prefLabel 'Concentration of other organic contaminants in suspended particulate material'^^xsd:string ;
-    skos:definition ''''Other' organic contaminant (substances regarded as harmful other than PCBs and PAHs) concentrations in suspended particulate material, regarded as anything sampled by a water bottle, SAP, sediment trap etc.  This group is for SPM composition measurements (concentration per unit weight) and NOT concentrations per unit volume of the water column in the particulate phase.'''^^xsd:string ;
+    skos:definition '\'Other\' organic contaminant (substances regarded as harmful other than PCBs and PAHs) concentrations in suspended particulate material, regarded as anything sampled by a water bottle, SAP, sediment trap etc.  This group is for SPM composition measurements (concentration per unit weight) and NOT concentrations per unit volume of the water column in the particulate phase.'^^xsd:string ;
     skos:notation 'SDN:P02::PCOC'^^xsd:string .
 <http://vocab.nerc.ac.uk/collection/P02/current/PCOC/>
     dc:modified '2004-05-28T08:15:00'^^xsd:dateTime ;
     skos:altLabel 'SPM_Orgcontam'^^xsd:string ;
     skos:prefLabel 'Concentration of other organic contaminants in suspended particulate material'^^xsd:string ;
-    skos:definition ''''Other' organic contaminant (substances regarded as harmful other than PCBs and PAHs) concentrations in suspended particulate material, regarded as anything sampled by a water bottle, SAP, sediment trap etc.  This group is for SPM composition measurements (concentration per unit weight) and NOT concentrations per unit volume of the water column in the particulate phase.'''^^xsd:string ;
+    skos:definition '\'Other\' organic contaminant (substances regarded as harmful other than PCBs and PAHs) concentrations in suspended particulate material, regarded as anything sampled by a water bottle, SAP, sediment trap etc.  This group is for SPM composition measurements (concentration per unit weight) and NOT concentrations per unit volume of the water column in the particulate phase.'^^xsd:string ;
     skos:notation 'SDN:P02::PCOC'^^xsd:string .
     
 <feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SPCB/1/> .
@@ -1482,13 +1482,13 @@
     dc:modified '2004-05-28T08:10:00'^^xsd:dateTime ;
     skos:altLabel 'Sed_PCB'^^xsd:string ;
     skos:prefLabel 'Concentration of polychlorobiphenyls (PCBs) in sediment samples'^^xsd:string ;
-    skos:definition '''PCB concentrations in sediment, which is considered to be anything from the bed sampled by a grab or corer, including 'fluff''''^^xsd:string ;
+    skos:definition 'PCB concentrations in sediment, which is considered to be anything from the bed sampled by a grab or corer, including \'fluff\''^^xsd:string ;
     skos:notation 'SDN:P02::SPCB'^^xsd:string .
 <http://vocab.nerc.ac.uk/collection/P02/current/SPCB/>
     dc:modified '2004-05-28T08:10:00'^^xsd:dateTime ;
     skos:altLabel 'Sed_PCB'^^xsd:string ;
     skos:prefLabel 'Concentration of polychlorobiphenyls (PCBs) in sediment samples'^^xsd:string ;
-    skos:definition '''PCB concentrations in sediment, which is considered to be anything from the bed sampled by a grab or corer, including 'fluff''''^^xsd:string ;
+    skos:definition 'PCB concentrations in sediment, which is considered to be anything from the bed sampled by a grab or corer, including \'fluff\''^^xsd:string ;
     skos:notation 'SDN:P02::SPCB'^^xsd:string .
     
 <feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/MDSV/2/> .
@@ -1738,13 +1738,13 @@
     dc:modified '2004-04-30T09:20:00'^^xsd:dateTime ;
     skos:altLabel 'Biota_Other_Subst'^^xsd:string ;
     skos:prefLabel 'Concentration of other substances in biota'^^xsd:string ;
-    skos:definition ''''Other'  (than metals or organic contaminants) substance concentrations in either whole organisms or their constituent parts.  This is a 'bucket' grouping that may be reclassified as the dictionary developes.'''^^xsd:string ;
+    skos:definition '\'Other\'  (than metals or organic contaminants) substance concentrations in either whole organisms or their constituent parts.  This is a \'bucket\' grouping that may be reclassified as the dictionary developes.'^^xsd:string ;
     skos:notation 'SDN:P02::BCOS'^^xsd:string .
 <http://vocab.nerc.ac.uk/collection/P02/current/BCOS/>
     dc:modified '2004-04-30T09:20:00'^^xsd:dateTime ;
     skos:altLabel 'Biota_Other_Subst'^^xsd:string ;
     skos:prefLabel 'Concentration of other substances in biota'^^xsd:string ;
-    skos:definition ''''Other'  (than metals or organic contaminants) substance concentrations in either whole organisms or their constituent parts.  This is a 'bucket' grouping that may be reclassified as the dictionary developes.'''^^xsd:string ;
+    skos:definition '\'Other\'  (than metals or organic contaminants) substance concentrations in either whole organisms or their constituent parts.  This is a \'bucket\' grouping that may be reclassified as the dictionary developes.'^^xsd:string ;
     skos:notation 'SDN:P02::BCOS'^^xsd:string .
     
 <feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/BCPB/1/> .
@@ -1818,13 +1818,13 @@
     dc:modified '2004-04-20T08:52:00'^^xsd:dateTime ;
     skos:altLabel 'Zoo_nontaxa_C_biomass'^^xsd:string ;
     skos:prefLabel 'Zooplankton non taxonomy-related biomass expressed as carbon per unit volume of the water column'^^xsd:string ;
-    skos:definition '''Zooplankton (mesozooplankton plus larger pelagic animals excluding fish, reptiles and mammals) carbon biomass per unit volume parameters not included in group ZCTC.  Usually used for generic names such as 'mesozooplankton'.'''^^xsd:string ;
+    skos:definition 'Zooplankton (mesozooplankton plus larger pelagic animals excluding fish, reptiles and mammals) carbon biomass per unit volume parameters not included in group ZCTC.  Usually used for generic names such as \'mesozooplankton\'.'^^xsd:string ;
     skos:notation 'SDN:P02::ZNTC'^^xsd:string .
 <http://vocab.nerc.ac.uk/collection/P02/current/ZNTC/>
     dc:modified '2004-04-20T08:52:00'^^xsd:dateTime ;
     skos:altLabel 'Zoo_nontaxa_C_biomass'^^xsd:string ;
     skos:prefLabel 'Zooplankton non taxonomy-related biomass expressed as carbon per unit volume of the water column'^^xsd:string ;
-    skos:definition '''Zooplankton (mesozooplankton plus larger pelagic animals excluding fish, reptiles and mammals) carbon biomass per unit volume parameters not included in group ZCTC.  Usually used for generic names such as 'mesozooplankton'.'''^^xsd:string ;
+    skos:definition 'Zooplankton (mesozooplankton plus larger pelagic animals excluding fish, reptiles and mammals) carbon biomass per unit volume parameters not included in group ZCTC.  Usually used for generic names such as \'mesozooplankton\'.'^^xsd:string ;
     skos:notation 'SDN:P02::ZNTC'^^xsd:string .
     
 <feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ZNTX/1/> .
@@ -1834,13 +1834,13 @@
     dc:modified '2004-04-19T16:35:00'^^xsd:dateTime ;
     skos:altLabel 'Zoo_nontaxa_abund'^^xsd:string ;
     skos:prefLabel 'Zooplankton non taxonomy-related abundance per unit volume of the water column'^^xsd:string ;
-    skos:definition '''Zooplankton (mesozooplankton plus larger pelagic animals excluding fish, reptiles and mammals) abundance per unit volume parameters not included in group ZATX.  Usually used for generic names such as 'mesozooplankton'.'''^^xsd:string ;
+    skos:definition 'Zooplankton (mesozooplankton plus larger pelagic animals excluding fish, reptiles and mammals) abundance per unit volume parameters not included in group ZATX.  Usually used for generic names such as \'mesozooplankton\'.'^^xsd:string ;
     skos:notation 'SDN:P02::ZNTX'^^xsd:string .
 <http://vocab.nerc.ac.uk/collection/P02/current/ZNTX/>
     dc:modified '2004-04-19T16:35:00'^^xsd:dateTime ;
     skos:altLabel 'Zoo_nontaxa_abund'^^xsd:string ;
     skos:prefLabel 'Zooplankton non taxonomy-related abundance per unit volume of the water column'^^xsd:string ;
-    skos:definition '''Zooplankton (mesozooplankton plus larger pelagic animals excluding fish, reptiles and mammals) abundance per unit volume parameters not included in group ZATX.  Usually used for generic names such as 'mesozooplankton'.'''^^xsd:string ;
+    skos:definition 'Zooplankton (mesozooplankton plus larger pelagic animals excluding fish, reptiles and mammals) abundance per unit volume parameters not included in group ZATX.  Usually used for generic names such as \'mesozooplankton\'.'^^xsd:string ;
     skos:notation 'SDN:P02::ZNTX'^^xsd:string .
     
 <feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/MZCT/2/> .
@@ -1866,13 +1866,13 @@
     dc:modified '2004-04-19T15:25:41'^^xsd:dateTime ;
     skos:altLabel 'WC_NontaxMicrozooCarbBiomass'^^xsd:string ;
     skos:prefLabel 'Microzooplankton non taxonomy-related biomass expressed as carbon per unit volume of the water column'^^xsd:string ;
-    skos:definition '''Basically, any microzooplankton carbon biomass measurement that isn't included in parameter group MATC.  May include data integrations such as 'total microzooplankton'.'''^^xsd:string ;
+    skos:definition 'Basically, any microzooplankton carbon biomass measurement that isn\'t included in parameter group MATC.  May include data integrations such as \'total microzooplankton\'.'^^xsd:string ;
     skos:notation 'SDN:P02::MZBC'^^xsd:string .
 <http://vocab.nerc.ac.uk/collection/P02/current/MZBC/>
     dc:modified '2004-04-19T15:25:41'^^xsd:dateTime ;
     skos:altLabel 'WC_NontaxMicrozooCarbBiomass'^^xsd:string ;
     skos:prefLabel 'Microzooplankton non taxonomy-related biomass expressed as carbon per unit volume of the water column'^^xsd:string ;
-    skos:definition '''Basically, any microzooplankton carbon biomass measurement that isn't included in parameter group MATC.  May include data integrations such as 'total microzooplankton'.'''^^xsd:string ;
+    skos:definition 'Basically, any microzooplankton carbon biomass measurement that isn\'t included in parameter group MATC.  May include data integrations such as \'total microzooplankton\'.'^^xsd:string ;
     skos:notation 'SDN:P02::MZBC'^^xsd:string .
     
 <feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/CBCC/2/> .

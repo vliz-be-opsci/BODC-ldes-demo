@@ -15,7 +15,7 @@
       a tree:LessThanRelation ;
       tree:node <https://marine-term-translations.github.io/P02-TEST/P02/2025_01_01_00_00_00_2025_12_31_00_00_00.ttl> ;
       tree:path dc:modified ;
-      tree:value '2026-01-06T14:52:32+00:00'^^xsd:dateTime
+      tree:value '2026-01-06T17:04:23+00:00'^^xsd:dateTime
     ] ;
     
     ldes:retentionPolicy [
