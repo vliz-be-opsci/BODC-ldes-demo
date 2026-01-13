@@ -6,14 +6,14 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-@base <https://marine-term-translations.github.io/P02-TEST/P02/2016_01_01_00_00_00_2016_12_31_00_00_00.ttl> .
+@base <https://marine-term-translations.github.io/P02-TEST/P02-M3/2016_01_01_00_00_00_2016_12_31_00_00_00.ttl> .
 
 <>
     a tree:Node ;
     
     tree:relation [
       a tree:LessThanRelation ;
-      tree:node <https://marine-term-translations.github.io/P02-TEST/P02/2015_01_01_00_00_00_2015_12_31_00_00_00.ttl> ;
+      tree:node <https://marine-term-translations.github.io/P02-TEST/P02-M3/2015_01_01_00_00_00_2015_12_31_00_00_00.ttl> ;
       tree:path dc:modified ;
       tree:value '2016-12-31T00:00:00+00:00'^^xsd:dateTime
     ] ;
@@ -70,80 +70,50 @@
 <feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/BCMT/5/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/BCMT/5/>
     a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/BCMT/";
+    dc:isVersionOf <http://vocab.nerc.ac.uk/collection/P02/current/BCMT/>;
     dc:modified '2016-10-04T14:27:37'^^xsd:dateTime ;
     skos:altLabel 'Met_Biota'^^xsd:string ;
     skos:prefLabel 'Metal concentrations in biota'^^xsd:string ;
     skos:definition 'Metal concentrations in either whole organisms or their constituent parts.'^^xsd:string ;
     skos:notation 'SDN:P02::BCMT'^^xsd:string .
-<http://vocab.nerc.ac.uk/collection/P02/current/BCMT/>
-    dc:modified '2016-10-04T14:27:37'^^xsd:dateTime ;
-    skos:altLabel 'Met_Biota'^^xsd:string ;
-    skos:prefLabel 'Metal concentrations in biota'^^xsd:string ;
-    skos:definition 'Metal concentrations in either whole organisms or their constituent parts.'^^xsd:string ;
-    skos:notation 'SDN:P02::BCMT'^^xsd:string .
-    
+
 <feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/CCPW/3/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/CCPW/3/>
     a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/CCPW/";
+    dc:isVersionOf <http://vocab.nerc.ac.uk/collection/P02/current/CCPW/>;
     dc:modified '2016-06-02T15:14:26'^^xsd:dateTime ;
     skos:altLabel 'SedPoreWat_CarbChem'^^xsd:string ;
     skos:prefLabel 'Carbonate chemistry in sediment pore waters'^^xsd:string ;
     skos:definition 'Carbonate system parameters (DIC/TCO2, pH, alkalinity, pCO2) in sediment pore waters'^^xsd:string ;
     skos:notation 'SDN:P02::CCPW'^^xsd:string .
-<http://vocab.nerc.ac.uk/collection/P02/current/CCPW/>
-    dc:modified '2016-06-02T15:14:26'^^xsd:dateTime ;
-    skos:altLabel 'SedPoreWat_CarbChem'^^xsd:string ;
-    skos:prefLabel 'Carbonate chemistry in sediment pore waters'^^xsd:string ;
-    skos:definition 'Carbonate system parameters (DIC/TCO2, pH, alkalinity, pCO2) in sediment pore waters'^^xsd:string ;
-    skos:notation 'SDN:P02::CCPW'^^xsd:string .
-    
+
 <feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/INVD/1/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/INVD/1/>
     a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/INVD/";
+    dc:isVersionOf <http://vocab.nerc.ac.uk/collection/P02/current/INVD/>;
     dc:modified '2016-05-19T16:45:42'^^xsd:dateTime ;
     skos:altLabel 'InvasiveSpecies'^^xsd:string ;
     skos:prefLabel 'Invasive species monitoring parameters'^^xsd:string ;
     skos:definition 'Parameters used to characterize and monitor biological invasion by non-native organisms.'^^xsd:string ;
     skos:notation 'SDN:P02::INVD'^^xsd:string .
-<http://vocab.nerc.ac.uk/collection/P02/current/INVD/>
-    dc:modified '2016-05-19T16:45:42'^^xsd:dateTime ;
-    skos:altLabel 'InvasiveSpecies'^^xsd:string ;
-    skos:prefLabel 'Invasive species monitoring parameters'^^xsd:string ;
-    skos:definition 'Parameters used to characterize and monitor biological invasion by non-native organisms.'^^xsd:string ;
-    skos:notation 'SDN:P02::INVD'^^xsd:string .
-    
+
 <feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/GPIG/3/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/GPIG/3/>
     a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/GPIG/";
+    dc:isVersionOf <http://vocab.nerc.ac.uk/collection/P02/current/GPIG/>;
     dc:modified '2016-02-16T15:55:29'^^xsd:dateTime ;
     skos:altLabel 'GutPig'^^xsd:string ;
     skos:prefLabel 'Zooplankton gut pigments'^^xsd:string ;
     skos:definition 'Parameters identifying or quantifying zooplankton gut pigments'^^xsd:string ;
     skos:notation 'SDN:P02::GPIG'^^xsd:string .
-<http://vocab.nerc.ac.uk/collection/P02/current/GPIG/>
-    dc:modified '2016-02-16T15:55:29'^^xsd:dateTime ;
-    skos:altLabel 'GutPig'^^xsd:string ;
-    skos:prefLabel 'Zooplankton gut pigments'^^xsd:string ;
-    skos:definition 'Parameters identifying or quantifying zooplankton gut pigments'^^xsd:string ;
-    skos:notation 'SDN:P02::GPIG'^^xsd:string .
-    
+
 <feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/STGC/1/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/STGC/1/>
     a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/STGC/";
+    dc:isVersionOf <http://vocab.nerc.ac.uk/collection/P02/current/STGC/>;
     dc:modified '2016-02-16T15:44:14'^^xsd:dateTime ;
     skos:altLabel 'StomachGutContents'^^xsd:string ;
     skos:prefLabel 'Stomach and gut contents'^^xsd:string ;
     skos:definition 'Parameters that characterize or quantify the contents of the stomach and gut of an animal or group of animals.'^^xsd:string ;
     skos:notation 'SDN:P02::STGC'^^xsd:string .
-<http://vocab.nerc.ac.uk/collection/P02/current/STGC/>
-    dc:modified '2016-02-16T15:44:14'^^xsd:dateTime ;
-    skos:altLabel 'StomachGutContents'^^xsd:string ;
-    skos:prefLabel 'Stomach and gut contents'^^xsd:string ;
-    skos:definition 'Parameters that characterize or quantify the contents of the stomach and gut of an animal or group of animals.'^^xsd:string ;
-    skos:notation 'SDN:P02::STGC'^^xsd:string .
-    
+

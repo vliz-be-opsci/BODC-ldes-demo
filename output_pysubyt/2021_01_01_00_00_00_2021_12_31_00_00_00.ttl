@@ -6,14 +6,14 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-@base <https://marine-term-translations.github.io/P02-TEST/P02/2021_01_01_00_00_00_2021_12_31_00_00_00.ttl> .
+@base <https://marine-term-translations.github.io/P02-TEST/P02-M3/2021_01_01_00_00_00_2021_12_31_00_00_00.ttl> .
 
 <>
     a tree:Node ;
     
     tree:relation [
       a tree:LessThanRelation ;
-      tree:node <https://marine-term-translations.github.io/P02-TEST/P02/2020_01_01_00_00_00_2020_12_31_00_00_00.ttl> ;
+      tree:node <https://marine-term-translations.github.io/P02-TEST/P02-M3/2020_01_01_00_00_00_2020_12_31_00_00_00.ttl> ;
       tree:path dc:modified ;
       tree:value '2021-12-31T00:00:00+00:00'^^xsd:dateTime
     ] ;
@@ -70,16 +70,10 @@
 <feed> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/PESP/1/> .
 <http://vocab.nerc.ac.uk/collection/P02/current/PESP/1/>
     a skos:Concept ;
-    dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/current/PESP/";
+    dc:isVersionOf <http://vocab.nerc.ac.uk/collection/P02/current/PESP/>;
     dc:modified '2021-05-18T16:10:00'^^xsd:dateTime ;
     skos:altLabel 'Pesticide_SPM'^^xsd:string ;
     skos:prefLabel 'Pesticide concentrations in suspended particulate material'^^xsd:string ;
     skos:definition 'Concentration parameters for substances synthesised by man to kill other life forms in suspended particulate material (SPM) collected by water column filtration, centrifugation or sediment trapping. Only includes parameters expressed per unit mass of SPM and not per unit volume of the water column.'^^xsd:string ;
     skos:notation 'SDN:P02::PESP'^^xsd:string .
-<http://vocab.nerc.ac.uk/collection/P02/current/PESP/>
-    dc:modified '2021-05-18T16:10:00'^^xsd:dateTime ;
-    skos:altLabel 'Pesticide_SPM'^^xsd:string ;
-    skos:prefLabel 'Pesticide concentrations in suspended particulate material'^^xsd:string ;
-    skos:definition 'Concentration parameters for substances synthesised by man to kill other life forms in suspended particulate material (SPM) collected by water column filtration, centrifugation or sediment trapping. Only includes parameters expressed per unit mass of SPM and not per unit volume of the water column.'^^xsd:string ;
-    skos:notation 'SDN:P02::PESP'^^xsd:string .
-    
+

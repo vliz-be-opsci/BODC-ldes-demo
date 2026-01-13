@@ -4,6 +4,7 @@ ldes fragment template
 | @param this_fragment_delta: The delta of this fragment
 | @param next_fragment_delta: The delta of the next fragment
 | @param collection: The collection name
+| @param uri_appendix: A url appendix that when given will be appended to the base uri after the collection with -appendix
 | @param retention_period: The retention period of the fragment
 | @param immutable: Whether the event stream is immutable (true/false)
 | @param polling_interval: Duration in seconds for an LDES client to start polling again for changes in the feed (this does not guarantee that a third party client will comply with this interval)
@@ -17,14 +18,14 @@ ldes fragment template
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-@base <{{prefix_uri}}/{{collection}}/{{this_fragment_delta}}.ttl> .
+@base <{{prefix_uri}}/{{collection}}{% if uri_appendix %}-{{uri_appendix}}{% endif %}/{{this_fragment_delta}}.ttl> .
 
 <>
     a tree:Node ;
     {% if next_fragment_delta %}
     tree:relation [
       a tree:LessThanRelation ;
-      tree:node <{{prefix_uri}}/{{collection}}/{{next_fragment_delta}}.ttl> ;
+      tree:node <{{prefix_uri}}/{{collection}}{% if uri_appendix %}-{{uri_appendix}}{% endif %}/{{next_fragment_delta}}.ttl> ;
       tree:path dc:modified ;
       tree:value {{next_fragment_time | xsd("datetime")}}
     ] ;
@@ -82,17 +83,11 @@ ldes fragment template
 <feed> tree:member <{{result.vid}}> .
 <{{result.vid}}>
     a skos:Concept ;
-    dc:isVersionOf "{{result.conceptid}}";
+    dc:isVersionOf {{result.conceptid | uri}};
     dc:modified {{result.modified | xsd("datetime")}} ;
     skos:altLabel {{result.altlabel | xsd("string")}} ;
     skos:prefLabel {{result.preflabel | xsd("string")}} ;
     skos:definition {{result.definition | xsd("string")}} ;
     skos:notation {{result.notation | xsd("string")}} .
-<{{result.conceptid}}>
-    dc:modified {{result.modified | xsd("datetime")}} ;
-    skos:altLabel {{result.altlabel | xsd("string")}} ;
-    skos:prefLabel {{result.preflabel | xsd("string")}} ;
-    skos:definition {{result.definition | xsd("string")}} ;
-    skos:notation {{result.notation | xsd("string")}} .
-    
+
 {% endfor %}

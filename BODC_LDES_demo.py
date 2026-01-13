@@ -21,6 +21,7 @@ from sema.subyt import (
 
 # define variables
 collections = ["P02"]
+# uri_appendix = "M3"
 begin_date = "2000-01-01 00:00:00"
 end_date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 retention_period = 100
@@ -161,6 +162,7 @@ def make_pykg2tbl_files(collections, begin_date, end_date):
             vars_dict = {
                 "this_fragment_delta": this_delta_quoted,
                 "next_fragment_delta": next_delta_quoted,
+                # "uri_appendix": uri_appendix,
                 "next_fragment_time": end_date_year.replace(" ", "T") + "Z",
                 "retention_period": retention_period,
                 "collection": collection,
