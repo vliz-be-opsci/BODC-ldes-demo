@@ -86,8 +86,8 @@ ldes fragment template
     dc:isVersionOf {{result.conceptid | uri}};
     dc:modified {{result.modified | xsd("datetime")}} ;
     skos:altLabel {{result.altlabel | xsd("string")}} ;
-    skos:prefLabel {{result.preflabel | xsd("string")}} ;
-    skos:definition {{result.definition | xsd("string")}} ;
+    skos:prefLabel {{result.preflabel | xsd("@en")}} ;
+    skos:definition {{result.definition | xsd("@en")}} ;
     skos:notation {{result.notation | xsd("string")}} .
 
 {% endfor %}
